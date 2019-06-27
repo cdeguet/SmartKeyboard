@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          android:keyWidth="10%p" android:horizontalGap="0px"
+          android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/small_key_height">
+
+    <Include xml="@xml/numbers_top"/>
+
+    <Row>
+        <Key android:codes="1383" android:keyLabel="&#1383;" altLabel="1" android:popupCharacters="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="1385" android:keyLabel="թ" altLabel="2" android:popupCharacters="2"/>
+        <Key android:codes="1411" android:keyLabel="փ" altLabel="3" android:popupCharacters="3"/>
+        <Key android:codes="1393" android:keyLabel="ձ" altLabel="4" android:popupCharacters="4"/>
+        <Key android:codes="1403" android:keyLabel="ջ" altLabel="5" android:popupCharacters="5"/>
+        <Key android:codes="1408" android:keyLabel="ր" altLabel="6" android:popupCharacters="6"/>
+        <Key android:codes="1401" android:keyLabel="չ" altLabel="7" android:popupCharacters="7"/>
+        <Key android:codes="1395" android:keyLabel="ճ" altLabel="8" android:popupCharacters="8"/>
+        <Key android:codes="1386" android:keyLabel="ժ" altLabel="9" android:popupCharacters="9"/>
+        <Key android:codes="1390" android:keyLabel="ծ" altLabel="0" android:popupCharacters="0" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="1412" android:keyLabel="&#1412;" altLabel="\@" android:popupCharacters="\@" android:keyEdgeFlags="left"/>
+        <Key android:codes="1400" android:keyLabel="ո" altLabel="\#" android:popupCharacters="\#"/>
+        <Key android:codes="1381" android:keyLabel="ե" altLabel="և" android:popupCharacters="և"/>
+        <Key android:codes="1404" android:keyLabel="ռ" altLabel="%" android:popupCharacters="%"/>
+        <Key android:codes="1407" android:keyLabel="տ" altLabel="&amp;" android:popupCharacters="&amp;"/>
+        <Key android:codes="1384" android:keyLabel="ը" altLabel="*" android:popupCharacters="*"/>
+        <Key android:codes="1410" android:keyLabel="ւ" altLabel="-" android:popupCharacters="-"/>
+        <Key android:codes="1387" android:keyLabel="ի" altLabel="+" android:popupCharacters="+"/>
+        <Key android:codes="1413" android:keyLabel="օ" altLabel="(" android:popupCharacters="("/>
+        <Key android:codes="1402" android:keyLabel="պ" altLabel=")" android:popupCharacters=")" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="1377" android:keyLabel="ա" altLabel="!" android:popupCharacters="!" android:keyEdgeFlags="left"/>
+        <Key android:codes="1405" android:keyLabel="ս" altLabel="&quot;" android:popupCharacters="&quot;«»"/>
+        <Key android:codes="1380" android:keyLabel="դ" altLabel="'" android:popupCharacters="'"/>
+        <Key android:codes="1414" android:keyLabel="ֆ" altLabel=":" android:popupCharacters=":"/>
+        <Key android:codes="1379" android:keyLabel="գ" altLabel=";" android:popupCharacters=";"/>
+        <Key android:codes="1392" android:keyLabel="հ" altLabel="/" android:popupCharacters="/"/>
+        <Key android:codes="1397" android:keyLabel="յ" altLabel="\?" android:popupCharacters="\?"/>
+        <Key android:codes="1391" android:keyLabel="կ" altLabel="[" android:popupCharacters="["/>
+        <Key android:codes="1388" android:keyLabel="լ" altLabel="]" android:popupCharacters="]"/>
+        <Key android:codes="1389" android:keyLabel="խ" altLabel="&#1423;" android:popupCharacters="&#1423;" android:keyEdgeFlags="right"/>
+    </Row>
+
+
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+            android:iconPreview="@drawable/sym_keyboard_feedback_shift" iconID="@+id/shift_key"
+            android:isModifier="true" android:isSticky="true"
+            android:keyEdgeFlags="left" />
+        <Key android:codes="1382" android:keyLabel="զ" altLabel="&#1369;" android:popupCharacters="&#1369;"/>
+        <Key android:codes="1394" android:keyLabel="ղ" altLabel="&#1370;" android:popupCharacters="&#1370;"/>
+        <Key android:codes="1409" android:keyLabel="ց" altLabel="&#1371;" android:popupCharacters="&#1371;"/>
+        <Key android:codes="1406" android:keyLabel="վ" altLabel="&#1372;" android:popupCharacters="&#1372;"/>
+        <Key android:codes="1378" android:keyLabel="բ" altLabel="&#1418;" android:popupCharacters="&#1418;"/>
+        <Key android:codes="1398" android:keyLabel="ն" altLabel="&#1375;" android:popupCharacters="&#1375;"/>
+        <Key android:codes="1396" android:keyLabel="մ" altLabel="&#1373;" android:popupCharacters="&#1373;"/>
+        <Key android:codes="1399" android:keyLabel="շ" altLabel="&#1374;" android:popupCharacters="&#1374;"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"  android:horizontalGap="1.4%"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            iconID="@+id/delete_key" android:keyEdgeFlags="right" android:isRepeatable="true" />
+    </Row>
+
+    <Include xml="@xml/bottom_armenian"/>
+
+</Keyboard>

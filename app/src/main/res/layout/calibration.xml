@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1.0">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:padding="8dip" android:layout_height="fill_parent"
+			android:orientation="vertical">
+
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/calibration_instructions"
+				android:textSize="18dip" android:paddingBottom="5dip"
+				android:textColor="#FFE0E0E0" />
+
+			<TextView android:layout_width="fill_parent"
+				android:bufferType="spannable" android:layout_height="wrap_content"
+				android:text="@string/calibration_text" android:textSize="20dip"
+				android:textColor="#FF000000" android:id="@+id/text"
+				android:background="#FFF0F0F0" android:padding="4dip" />
+
+			<Button android:layout_height="wrap_content" android:id="@+id/button"
+				android:layout_width="wrap_content" android:text="@string/reset"
+				android:layout_marginTop="24dip" />
+		</LinearLayout>
+
+	</ScrollView>
+
+	<com.dexilog.smartkeyboard.CalibrationKeyboard
+		android:id="@+id/keyboard" android:layout_alignParentBottom="true"
+		android:layout_gravity="bottom" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

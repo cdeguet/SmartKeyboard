@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setup_welcome_title" msgid="6112821709832031715">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> এ স্বাগতম"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"অঙ্গভঙ্গি টাইপিং এর মাধ্যমে"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"শুরু করুন"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"পরবর্তী পদক্ষেপ"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> সেট আপ হচ্ছে"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> সক্ষম করুন"</string>
+    <string name="setup_step1_instruction" msgid="2578631936624637241">"দয়া করে আপনার ভাষা ও কিবোর্ড সেটিংস <xliff:g id="APPLICATION_NAME">%s</xliff:g> পরীক্ষা করুন। এর ফলে এটি আপনার ডিভাইসে চলার জন্য অনুমোদন পাবে।"</string>
+    <string name="setup_step1_finished_instruction" msgid="10761482004957994">"আপনার ভাষা ও কিবোর্ড সেটিংসে ইতোমধ্যে <xliff:g id="APPLICATION_NAME">%s</xliff:g> সক্ষম করা হয়েছে, তাই এই পদক্ষেপটি সমাপ্ত। পরবর্তীটিতে এগোন!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"সেটিংসে সক্ষম করুন"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> এ স্যুইচ করুন"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"এখন, সক্রিয় পাঠ্য-ইনপুট পদ্ধতি হিসেবে \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" নির্বাচন করুন।"</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"ইনপুট পদ্ধতি স্যুইচ করুন"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"অভিনন্দন, আপনি পুরোপুরি প্রস্তুত!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"এখন <xliff:g id="APPLICATION_NAME">%s</xliff:g> এর সাহায্যে আপনার সব পছন্দসই অ্যাপ্লিকেশানে লিখতে পারবেন।"</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"অতিরিক্ত ভাষাগুলি কনফিগার করুন"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"শেষ হয়েছে"</string>
+</resources>

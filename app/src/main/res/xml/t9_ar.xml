@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="28%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+	<Row>
+		<Key android:codes="46,1548,1567,33" android:keyLabel=".&#1548;&#1567;!" altLabel="1" android:popupCharacters="1" 
+			android:keyEdgeFlags="left" forceMultitap="true" />
+		<Key android:codes="1576,1578,1577,1579" 
+			android:keyLabel="&#1576;\u200B&#1578;\u200B&#1577;\u200B&#1579;" altLabel="2" 
+			android:popupCharacters="2&#1662;" android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="1575,1571,1573,1570,1572,1569" android:keyLabel="\u0627\uFE80" altLabel="3" 
+			android:popupCharacters="&#1571;&#1573;&#1570;3" android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="1567" android:keyLabel="&#1567;" altLabel="!" android:popupCharacters="!" 
+			android:horizontalGap="1%p" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="1587,1588,1589,1590" 
+			android:keyLabel="&#1587;\u200B&#1588;\u200B&#1589;\u200B&#1590;" altLabel="4" android:popupCharacters="4" 
+			verySmallText="true" android:keyEdgeFlags="left"/>
+		<Key android:codes="1583,1584,1585,1586" android:keyLabel="&#1583;\u200B&#1584;\u200B&#1585;\u200B&#1586;" altLabel="5" 
+			android:popupCharacters="5&#1688;" android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="1580,1581,1582" android:keyLabel="&#1580;\u200B&#1581;\u200B&#1582;" altLabel="6" 
+			android:popupCharacters="&#1670;6" android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="-109" android:keyLabel="T9" android:isModifier="true"
+		 	android:horizontalGap="1%p" android:isSticky="true" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="1606,1607,1608,1610" 
+			android:keyLabel="&#1606;\u200B&#1607;\u200B&#1608;\u200B&#1610;" altLabel="7" 
+			android:popupCharacters="7&#1609;&#1574;&#1572;" verySmallText="true" android:keyEdgeFlags="left"/>
+		<Key android:codes="1601,1602,1603,1604,1605" 
+			android:keyLabel="&#1601;\u200B&#1602;\u200B&#1603;\u200B&#1604;\u200B&#1605;" 
+			altLabel="8" android:popupCharacters="8&#1711;&#1700;" android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="1591,1592,1593,1594" 
+			android:keyLabel="&#1591;\u200B&#1592;\u200B&#1593;\u200B&#1594;" altLabel="9" android:popupCharacters="9"
+			android:horizontalGap="1%p" verySmallText="true"/>
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:horizontalGap="1%p"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" 
+			iconID="@+id/delete_key" android:keyWidth="13%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_normal">
+		<Key android:codes="-2" android:keyLabel="\?123" android:keyWidth="15%p" android:keyEdgeFlags="left" />
+		<Key android:codes="1548" android:keyLabel="&#1548;" android:keyWidth="13%p"/>
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+			android:keyWidth="34%p" android:isRepeatable="false" altLabel="0" android:popupCharacters="0" />
+		<Key android:codes="-110" android:keyIcon="@drawable/right_arrow" iconID="@+id/right_arrow"
+			android:isRepeatable="true" android:iconPreview="@drawable/right_arrow" android:keyWidth="20%p" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:keyWidth="18%p" android:keyEdgeFlags="right" />
+	</Row>
+		<Row android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_lang">
+		<Key android:codes="-2" android:keyLabel="123" android:keyWidth="12%p" android:keyEdgeFlags="left" />
+		<Key android:codes="-101" android:keyLabel="" android:keyWidth="12%p"/>
+		<Key android:codes="1548" android:keyLabel="&#1548;" android:keyWidth="12%p"/>
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+			android:keyWidth="26%p" android:isRepeatable="false" altLabel="0" android:popupCharacters="0" />
+		<Key android:codes="-110" android:keyIcon="@drawable/right_arrow" iconID="@+id/right_arrow"
+			android:isRepeatable="true" android:iconPreview="@drawable/right_arrow" android:keyWidth="20%p" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:keyWidth="18%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_url">
+		<Key android:codes="-2" android:keyLabel="123" android:keyWidth="12%p" android:keyEdgeFlags="left" />
+		<Key android:keyLabel="%domain_00" android:keyOutputText="%domain_00"
+ 			android:popupKeyboard="@xml/popup_domains" android:keyWidth="15%p" />
+		<Key android:codes="47" android:keyLabel="/" android:keyWidth="13%p" />
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+			android:keyWidth="27%p" android:isRepeatable="false" altLabel="0" android:popupCharacters="0" />
+		<Key android:codes="-110" android:keyIcon="@drawable/right_arrow" iconID="@+id/right_arrow"
+			android:isRepeatable="true" android:iconPreview="@drawable/right_arrow" android:keyWidth="15%p" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:keyWidth="18%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom" android:keyboardMode="@+id/mode_lang_url">
+		<Key android:codes="-2" android:keyLabel="123" android:keyWidth="12%p" android:keyEdgeFlags="left" />
+		<Key android:codes="-101" android:keyLabel="" android:keyWidth="12%p"/>
+		<Key android:keyLabel="%domain_00" android:keyOutputText="%domain_00"
+ 			android:popupKeyboard="@xml/popup_domains" android:keyWidth="15%p" />
+		<Key android:codes="47" android:keyLabel="/" android:keyWidth="13%p" />
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+			android:keyWidth="30%p" android:isRepeatable="false" altLabel="0" android:popupCharacters="0" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:keyWidth="18%p" android:keyEdgeFlags="right" />
+	</Row>
+</Keyboard>

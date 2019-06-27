@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <style name="AppTheme">
+    </style>
+    <style name="Gray">
+        <item name="android:keyBackground">@drawable/btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/btn_keyboard_key</item>
+        <item name="android:keyTextColor">#FF000000</item>
+        <item name="pressedTextColor">#FF000000</item>
+        <item name="altLabelColor">#FF202020</item>
+        <item name="colorBackgroundTop">#FF6A6C6E</item>
+        <item name="colorBackgroundBottom">#FF6A6C6E</item>
+        <item name="deleteKey">@drawable/sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/sym_keyboard_return</item>       
+        <item name="searchKey">@drawable/sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_black</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow</item>
+        <item name="rightArrow">@drawable/right_arrow</item>
+        <item name="upArrow">@drawable/up_arrow</item>
+        <item name="downArrow">@drawable/down_arrow</item>
+        <item name="padding">60</item>
+    </style>
+    <style name="Android">
+        <item name="android:keyBackground">@drawable/android_btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/android_btn_keyboard_key</item>
+        <item name="android:keyTextColor">#FFFFFFFF</item>
+        <item name="pressedTextColor">#FFFFFFFF</item>
+        <item name="altLabelColor">#FFD0D0D0</item>
+        <item name="colorBackgroundTop">#FF272727</item>
+        <item name="colorBackgroundBottom">#FF272727</item>
+        <item name="deleteKey">@drawable/android_sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/android_sym_keyboard_return</item>
+        <item name="searchKey">@drawable/android_sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/android_sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/android_sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_white</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow_white</item>
+        <item name="rightArrow">@drawable/right_arrow_white</item>
+        <item name="upArrow">@drawable/up_arrow_white</item>
+        <item name="downArrow">@drawable/down_arrow_white</item>
+        <item name="padding">60</item>
+    </style>
+    <style name="iPhone">
+        <item name="android:keyBackground">@drawable/iphone_btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/iphone_btn_keyboard_key</item>
+        <item name="android:keyTextColor">#FF000000</item>
+        <item name="pressedTextColor">#FF000000</item>
+        <item name="altLabelColor">#FF303030</item>
+        <item name="colorBackgroundTop">#FF9199A3</item>
+        <item name="colorBackgroundBottom">#FF444E5C</item>
+        <item name="deleteKey">@drawable/sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/sym_keyboard_return</item>
+        <item name="searchKey">@drawable/sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_black</item>
+        <item name="boldLabel">true</item>
+        <item name="smallKeys">true</item>
+        <item name="leftArrow">@drawable/left_arrow</item>
+        <item name="rightArrow">@drawable/right_arrow</item>
+        <item name="upArrow">@drawable/up_arrow</item>
+        <item name="downArrow">@drawable/down_arrow</item>
+        <item name="padding">60</item>
+    </style>
+    <style name="White">
+        <item name="android:keyBackground">@drawable/transparent_btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/transparent_btn_keyboard_key</item>
+        <item name="android:keyTextColor">#FF000000</item>
+        <item name="pressedTextColor">#FF000000</item>
+        <item name="altLabelColor">#FF202020</item>
+        <item name="colorBackgroundTop">#FFFFFFFF</item>
+        <item name="colorBackgroundBottom">#FFFFFFFF</item>
+        <item name="deleteKey">@drawable/sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/sym_keyboard_return</item>       
+        <item name="searchKey">@drawable/sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_black</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow</item>
+        <item name="rightArrow">@drawable/right_arrow</item>
+        <item name="upArrow">@drawable/up_arrow</item>
+        <item name="downArrow">@drawable/down_arrow</item>
+        <item name="padding">60</item>
+    </style>
+    <style name="Black">
+        <item name="android:keyBackground">@drawable/transparent_btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/transparent_btn_keyboard_key</item>
+        <item name="android:keyTextColor">#FFFFFFFF</item>
+        <item name="pressedTextColor">#FFFFFFFF</item>
+        <item name="altLabelColor">#FFC0C0C0</item>
+        <item name="colorBackgroundTop">#FF000000</item>
+        <item name="colorBackgroundBottom">#FF000000</item>
+        <item name="deleteKey">@drawable/android_sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/android_sym_keyboard_return</item>       
+        <item name="searchKey">@drawable/android_sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/android_sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/android_sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_white</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow_white</item>
+        <item name="rightArrow">@drawable/right_arrow_white</item>
+        <item name="upArrow">@drawable/up_arrow_white</item>
+        <item name="downArrow">@drawable/down_arrow_white</item>
+        <item name="padding">60</item>
+        <item name="suggestBackground">@drawable/gb_suggest_strip</item>
+        <item name="suggestDivider">@drawable/gb_suggest_strip_divider</item>
+        <item name="candidateNormalColor">#FFFFFFFF</item>
+        <item name="candidateOtherColor">#FFE0E0E0</item>
+    </style>
+    <style name="HTC">
+        <item name="android:keyBackground">@drawable/htc_btn_key</item>
+        <item name="modKeyBackground">@drawable/htc_btn_alt</item>
+        <item name="android:keyTextColor">#FF000000</item>
+        <item name="modTextColor">#FFFFFFFF</item>
+        <item name="pressedTextColor">#FF000000</item>
+        <item name="altLabelColor">#FF202020</item>
+        <item name="colorBackgroundTop">#FFA5A2A5</item>
+        <item name="colorBackgroundBottom">#FF6C6A6C</item>
+        <item name="deleteKey">@drawable/htc_sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/htc_sym_keyboard_return</item>       
+        <item name="searchKey">@drawable/htc_sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/htc_sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_white</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow_white</item>
+        <item name="rightArrow">@drawable/right_arrow_white</item>
+        <item name="upArrow">@drawable/up_arrow_white</item>
+        <item name="downArrow">@drawable/down_arrow_white</item>
+        <item name="padding">@integer/htc_padding</item>
+    </style>
+    <style name="Galaxy">
+        <item name="android:keyBackground">@drawable/galaxy_btn_key</item>
+        <item name="modKeyBackground">@drawable/galaxy_btn_mod_key</item>
+        <item name="android:keyTextColor">#FFFFFFFF</item>
+        <item name="pressedTextColor">#FFFFFFFF</item>
+        <item name="altLabelColor">#FFFFFFFF</item>
+        <item name="shadowColor">#7F000000</item>
+        <item name="altShadowColor">#7F000000</item>
+        <item name="modShadowColor">#7F000000</item>
+        <item name="keyboardBackground">@drawable/galaxy_bg</item>
+        <item name="deleteKey">@drawable/galaxy_backspace</item>
+        <item name="returnKey">@drawable/galaxy_return</item>
+        <item name="searchKey">@drawable/galaxy_search</item>
+        <item name="shiftKey">@drawable/galaxy_caps</item>
+        <item name="shiftLockedKey">@drawable/galaxy_caps_active</item>    
+        <item name="spaceKey">@drawable/galaxy_spacebar</item>
+        <item name="micKey">@drawable/galaxy_mic_white</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow_white</item>
+        <item name="rightArrow">@drawable/right_arrow_white</item>
+        <item name="upArrow">@drawable/up_arrow_white</item>
+        <item name="downArrow">@drawable/down_arrow_white</item>
+        <item name="padding">60</item>
+    </style>
+     <style name="Gingerbread">
+        <item name="android:keyBackground">@drawable/gb_btn_keyboard_key</item>
+        <item name="modKeyBackground">@drawable/gb_btn_keyboard_mod_key</item>
+        <item name="android:keyTextColor">#FFFFFFFF</item>
+        <item name="pressedTextColor">#FFFFFFFF</item>
+        <item name="shadowColor">#BB000000</item>
+        <item name="altShadowColor">#7F505050</item>
+        <item name="modShadowColor">#BB000000</item>
+        <item name="altLabelColor">#8F000000</item>
+        <item name="colorBackgroundTop">#FF000000</item>
+        <item name="colorBackgroundBottom">#FF000000</item>
+        <item name="deleteKey">@drawable/galaxy_backspace</item>
+        <item name="returnKey">@drawable/gb_return</item>
+        <item name="searchKey">@drawable/galaxy_search</item>
+        <item name="shiftKey">@drawable/gb_shift</item>
+        <item name="shiftLockedKey">@drawable/gb_shift_locked</item>
+        <item name="spaceKey">@drawable/android_sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_white</item>
+        <item name="boldLabel">true</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow_white</item>
+        <item name="rightArrow">@drawable/right_arrow_white</item>
+        <item name="upArrow">@drawable/up_arrow_white</item>
+        <item name="downArrow">@drawable/down_arrow_white</item>
+        <item name="padding">60</item>
+        <item name="suggestBackground">@drawable/gb_suggest_strip</item>
+        <item name="suggestDivider">@drawable/gb_suggest_strip_divider</item>
+        <item name="candidateNormalColor">#FFFFFFFF</item>
+        <item name="candidateRecommendedColor">#FFFCAE00</item>
+        <item name="candidateOtherColor">#FFFCAE00</item>
+    </style>
+    <style name="popup">
+        <item name="android:keyBackground">@drawable/popup_bg</item>
+        <item name="modKeyBackground">@drawable/popup_bg</item>
+        <item name="android:keyTextColor">#FF000000</item>
+        <item name="pressedTextColor">#FFFFFFFF</item>
+        <item name="altLabelColor">#FF202020</item>
+        <item name="colorBackgroundTop">#00FFFFFF</item>
+        <item name="colorBackgroundBottom">#00FFFFFF</item>
+        <item name="deleteKey">@drawable/sym_keyboard_delete</item>
+        <item name="returnKey">@drawable/sym_keyboard_return</item>       
+        <item name="searchKey">@drawable/sym_keyboard_search</item>
+        <item name="shiftKey">@drawable/sym_keyboard_shift</item>    
+        <item name="spaceKey">@drawable/sym_keyboard_space</item>
+        <item name="micKey">@drawable/mic_black</item>
+        <item name="boldLabel">false</item>
+        <item name="smallKeys">false</item>
+        <item name="leftArrow">@drawable/left_arrow</item>
+        <item name="rightArrow">@drawable/right_arrow</item>
+        <item name="upArrow">@drawable/up_arrow</item>
+        <item name="downArrow">@drawable/down_arrow</item>
+        <item name="padding">60</item>
+    </style>
+</resources>

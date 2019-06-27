@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Nápověda</string>
+  <string name="about">O aplikaci…</string>
+  <string name="auto_cap">Velká písmena automaticky</string>
+  <string name="auto_cap_summary">Velká písmena na začátku věty</string>
+  <string name="keyboard_settings">Nastavení Smart Keyboard Pro</string>
+  <string name="settings">Nastavení</string>
+  <string name="general_settings">Obecná nastavení</string>
+  <string name="text_prediction">Predikce textu</string>
+  <string name="sound_vibrate">Zvuk a vibrace</string>
+  <string name="language">Jazyk</string>
+  <string name="language_summary">Změna jazyka a rozložení klávesnice</string>
+  <string name="lang_key">Klávesa pro výběr jazyka</string>
+  <string name="lang_key_summary">Vyberte dostupné jazyky</string>
+  <string name="english">Angličtina</string>
+  <string name="english_intl">Angličtina (mezinárodní)</string>
+  <string name="english_dvorak">Angličtina (Dvorak)</string>
+  <string name="english_azerty">Angličtina (AZERTY)</string>
+  <string name="french">Francouzština</string>
+  <string name="romanian">Rumunština</string>
+  <string name="bulgarian">Bulharština</string>
+  <string name="russian">Ruština</string>
+  <string name="russian_phonetic">Ruština (fonetická)</string>
+  <string name="spanish">Španělština</string>
+  <string name="italian">Italština</string>
+  <string name="german">Němčina</string>
+  <string name="portuguese">Portugalština</string>
+  <string name="danish">Dánština</string>
+  <string name="finnish">Finština</string>
+  <string name="hebrew">Hebrejština</string>
+  <string name="norwegian">Norština</string>
+  <string name="swedish">Švédština</string>
+  <string name="georgian">Gruzínština</string>
+  <string name="czech_qwerty">Čeština (QWERTY)</string>
+  <string name="czech_qwertz">Čeština (QWERTZ)</string>
+  <string name="greek">Řečtina</string>
+  <string name="dutch">Holandština</string>
+  <string name="polish">Polština</string>
+  <string name="ukrainian">Ukrajinština</string>
+  <string name="vibrate">Vibrace</string>
+  <string name="vibrate_summary">Vibrace při stisku klávesy</string>
+  <string name="vibrate_duration">Délka vibrace</string>
+  <string name="label_go_key">Jdi</string>
+  <string name="label_next_key">Další</string>
+  <string name="label_done_key">Hotovo</string>
+  <string name="label_send_key">Odeslat</string>
+  <string name="advanced_settings">Pokročilá nastavení</string>
+  <string name="sound_on_keypress">Zvuk při stisku tlačítka</string>
+  <string name="gestures">Gesta</string>
+  <string name="swipe_left">Přejetí doleva</string>
+  <string name="swipe_right">Přejetí doprava</string>
+  <string name="swipe_up">Přejetí nahoru</string>
+  <string name="swipe_down">Přejetí dolů</string>
+  <string name="saved">Uloženo</string>
+  <string name="quick_fixes">Rychlé opravy</string>
+  <string name="quick_fixes_summary">Opravovat běžně psané chyby</string>
+  <string name="show_suggestions">Zobrazovat návrhy</string>
+  <string name="show_suggestions_summary">Zobrazení navrhovaných slov během psaní</string>
+  <string name="auto_complete">Automatické dokončování</string>
+  <string name="auto_complete_summary">Zvýrazněné slovo je automaticky vloženo po stisku mezerníku nebo interpunkčního znaménka</string>
+  <string name="contact_dic">Adresář</string>
+  <string name="contact_dic_summary">Zahrnout jména kontaktů do návrhů slov (nutný Android 2.1+)</string>
+  <string name="show_preview">Zobrazovat překryvný náhled</string>
+  <string name="show_preview_summary">Při stisku zobrazovat náhled klávesy</string>
+  <string name="skin_selection">Vybrat vzhled</string>
+  <string name="skin_summary">Změnit vzhled klávesnice</string>
+  <string name="transparency">Průhlednost</string>
+  <string name="opacity">Nastavit neprůhlednost</string>
+  <string name="transparency_summary">Nastavení průhlednosti klávesnice</string>
+  <string name="volume">Hlasitost</string>
+  <string name="volume_summary">Nastavení hlasitosti zvuku kláves</string>
+  <string name="debug_logs">Povolit protokoly ladění</string>
+  <string name="always_suggest">Vždy navrhovat</string>
+  <string name="always_suggest_summary">Zobrazovat návrhy i při vyhledávání</string>
+  <string name="custom_autotext">Vlastní automatický text</string>
+  <string name="custom_autotext_summary">Nastavte si vlastní klávesové zkratky automatického textu</string>
+  <string name="add_autotext">Vložit automatický text…</string>
+  <string name="edit_autotext">Upravit automatický text</string>
+  <string name="autotext_key">Následující slovo:</string>
+  <string name="autotext_value">bude nahrazeno tímto:</string>
+  <string name="autotext_context_edit">Upravit</string>
+  <string name="autotext_context_delete">Odstranit</string>
+  <string name="enable_arrows">Povolit klávesnici se šipkami</string>
+  <string name="enable_arrows_summary">Přístupná tlačítkem 123</string>
+  <string name="always_caps">Vždy velká písmena</string>
+  <string name="always_caps_summary">Vždy zobrazovat popisky kláves velkými písmeny</string>
+  <string name="display_alt_labels">Zobrazit alt popisky</string>
+  <string name="display_alt_labels_summary">Zobrazovat alternativní popisek nad popiskem klávesy</string>
+  <string name="user_dictionary">Uživatelský slovník</string>
+  <string name="user_dictionary_summary">Upravit slova v uživatelském slovníku</string>
+  <string name="add_word">Přidat slovo</string>
+  <string name="edit_word">Upravit slovo</string>
+  <string name="delete_word">Odstranit slovo</string>
+  <string name="word">Slovo</string>
+  <string name="forum">Fórum</string>
+  <string name="download_dic">Stáhnout slovník</string>
+  <string name="download_dic_summary">Stáhnout slovníky z Google Play</string>
+  <string name="mic_button">Tlačítko mikrofonu</string>
+  <string name="mic_button_summary">Zobrazovat klávesu hlasového vstupu, je-li to možné</string>
+  <string name="voice_input">Hlasový vstup</string>
+  <string name="cancel">Zrušit</string>
+  <string name="retry">Opakovat</string>
+  <string name="restart_voice">Restartovat hlasový vstup</string>
+  <string name="restart_voice_summary">Vždy restartovat hlasový vstup, dokud není zrušen</string>
+  <string name="voice_best">Volba hlasového vstupu</string>
+  <string name="voice_best_summary">Automaticky vybrat nejlepší volbu</string>
+  <string name="touch_points">Zobrazovat body dotyku</string>
+  <string name="portrait_mode">Režim Na výšku</string>
+  <string name="portrait_mode_summary">Vyberte normální, T9 nebo kompaktní rozložení na výšku</string>
+  <string name="candidate_color">Barva návrhu</string>
+  <string name="candidate_color_summary">Barva navrhovaného slova</string>
+  <string name="welcome">Děkujeme za instalaci \@!\n\nPro aktivaci této klávesnice přejděte nejprve do nastavení „Jazyka a klávesnice“ a zatrhněte políčko „\@“. Poté, pro přepnutí na \@, bude nutné klepnout do libovolného textového pole, z oznamovací lišty vybrat „Výběr metody zadávání dat“ a ze seznamu zvolit \@. Pro vstup do nastavení klávesnice dlouze přidržte klávesu „123“.\n\nNyní, prosím, přejděte do Nastavení pomocí následujícího tlačítka.\n\nPoznámka: Ikonu v launcheru lze odebrat v nastavení klávesnice.</string>
+  <string name="disable_launcher">Skrýt ikonu aplikace</string>
+  <string name="disable_launcher_warning">Varování! Ikona Smart Keybord bude v launcheru skryta a dojde také k deaktivaci tlačítka „Otevřít“ v obchodě s aplikacemi.\nMožná bude také třeba restartovat zařízení/launcher, aby ikona zmizela.</string>
+  <string name="space_when_pick">Mezera po vybrání</string>
+  <string name="space_when_pick_summary">Vložit mezeru po ručním vybrání slova z panelu návrhů</string>
+  <string name="swap_punctuation_space">Prohodit interpunkci</string>
+  <string name="swap_punctuation_space_summary">Automaticky prohazovat znaky interpunkce a mezeru za slovem</string>
+  <string name="smiley_key">Smajlíci</string>
+  <string name="smiley_key_summary">Klávesa pro smajlíky nahradí Enter</string>
+  <string name="toggle_smiley_key">Přepínač smajlíků</string>
+  <string name="select_sound">Výběr audio stylu</string>
+  <string name="smiley_editor">Editor smajlíků</string>
+  <string name="smiley_editor_summary">Přizpůsobení klávesy pro smajlíky</string>
+  <string name="smiley_editor_title">Klepněte pro úpravu smajlíků</string>
+  <string name="edit_smiley">Upravte emotikonu</string>
+  <string name="smart_dictionary">Inteligentní slovník</string>
+  <string name="smart_dictionary_summary">Slovník, který zlepšuje návrhy slov na základě četnosti jejich používání</string>
+  <string name="backup">Záloha nastavení</string>
+  <string name="backup_to_sd">Zálohovat na SD kartu</string>
+  <string name="restore">Obnovit z SD karty</string>
+  <string name="no_sd_card">Chyba: Vaše SD karta není připojena, zálohování/obnova není možná!</string>
+  <string name="backup_warning">Upozornění! Chystáte se zálohovat nastavení klávesnice a slovníky. Tato akce přepíše /sdcard/smartkeyboardpro/backup.zip. Chcete pokračovat?</string>
+  <string name="restore_warning">Upozornění! Chystáte se obnovit nastavení klávesnice a slovníky. Tato akce přepíše stávající nastavení. Klávesnice bude restartována, aby se změny projevily. Chcete pokračovat?</string>
+  <string name="backup_complete">Zálohování bylo dokončeno</string>
+  <string name="slide_popup">Výběr znaků přejetím</string>
+  <string name="slide_popup_summary">Umožní výběr alternativních znaků klávesy přejetím prstu</string>
+  <string name="space_preview">Náhled mezerníku</string>
+  <string name="space_preview_summary">Zobrazovat náhled mezerníku</string>
+  <string name="turkish">Turečtina</string>
+  <string name="hungarian">Maďarština</string>
+  <string name="icelandic">Islandština</string>
+  <string name="bosnian">Bosenština</string>
+  <string name="croatian">Chorvatština</string>
+  <string name="serbian">Srbština</string>
+  <string name="slovene">Slovinština</string>
+  <string name="close">Zavřít</string>
+  <string name="arabic">Arabština</string>
+  <string name="layout">Rozložení</string>
+  <string name="force_latin">Vynutit rozložení latinky</string>
+  <string name="force_latin_summary">Rozložení klávesnice bude použito se všemi románskými jazyky</string>
+  <string name="default_latin_lang">&lt;Výchozí&gt;</string>
+  <string name="korean">Korejština</string>
+  <string name="rtl_suggestions">RTL návrhy</string>
+  <string name="rtl_suggestions_summary">Slova v panelu návrhů budou obrácena (pro arabštinu/hebrejštinu)</string>
+  <string name="clean_userdic">Vyčistit uživatelský slovník</string>
+  <string name="warn_clean_userdic">Upozornění! Tímto odstraníte VŠECHNA slova v uživatelském slovníku. Chcete pokračovat?</string>
+  <string name="suggest_punctuation">Navrhovat interpunkci</string>
+  <string name="key_height">Výška kláves</string>
+  <string name="thai">Thajština</string>
+  <string name="longpress_duration">Doba trvání dlouhého stisku tlačítka</string>
+  <string name="longpress_duration_summary">Upravení doby trvání dlouhého stisku kláves pro alternativní symboly</string>
+  <string name="learn_new_words">Učit se nová slova</string>
+  <string name="learn_new_words_summary">Automaticky přidávat nová slova do uživatelského slovníku (vyžaduje inteligentní slovník)</string>
+  <string name="enter_sends_sms">Enter odešle zprávu</string>
+  <string name="enter_sends_sms_summary">Klávesa Enter odešle zprávu namísto vložení nového řádku. Varování: Nefunguje ve všech aplikacích! (viz nápověda)</string>
+  <string name="slovak">Slovenština</string>
+  <string name="bk_warning">Upozornění! Toto je vzhled pro Better Keyboard. Kompatibilita se Smart Keyboard může být kdykoliv zrušena, používejte na vlastní nebezpečí!</string>
+  <string name="domain_editor">Editor domén</string>
+  <string name="domain_editor_summary">Přizpůsobení klávesy .com</string>
+  <string name="domain_editor_title">Klepnutím upravte doménu</string>
+  <string name="edit_domain">Upravte doménu</string>
+  <string name="persistent_domain_key">Trvalá klávesa domény</string>
+  <string name="persistent_domain_key_summary">Vždy zobrazovat klávesu pro domény (.com)</string>
+  <string name="no_alt_preview">Žádný náhled ALT</string>
+  <string name="no_alt_preview_summary">Nezobrazovat náhled alternativních znaků, pokud existuje pouze jeden</string>
+  <string name="dynamic_resizing">Dynamická změna velikosti</string>
+  <string name="dynamic_resizing_summary">Zvětšit virtuální velikost kláves na základě pravděpodobnosti výskytu dalšího písmene</string>
+  <string name="japanese">Japonština</string>
+  <string name="double_space_period">Tečka po dvojitém mezerníku</string>
+  <string name="double_space_period_summary">Po dvojitém stisku mezerníku vložit tečku</string>
+  <string name="arrows_style">Styl šipek</string>
+  <string name="arrows_style_summary">Zvolte styl šipky klávesnice</string>
+  <string name="disable_mt">Zakázat mutitouch</string>
+  <string name="compound_suggestions">Návrhy složených slov</string>
+  <string name="compound_suggestions_summary">Povolit návrhy složených slov (hlavně pro němčinu)</string>
+  <string name="current_language">Aktuální jazyk</string>
+  <string name="language_specific_options">Možnosti konkrétního jazyka</string>
+  <string name="no_lansdcape_fullscreen">Nepřepínat na celou obrazovka na šířku</string>
+  <string name="no_lansdcape_fullscreen_summary">Nepřepínat na celou obrazovku při orientaci na šířku</string>
+  <string name="t9_length_priority">Upřednostnit délku T9</string>
+  <string name="t9_length_priority_summary">Při zobrazování návrhů T9 upřednostňovat slova podobné délky</string>
+  <string name="t9_next_key">T9 Klávesa další</string>
+  <string name="t9_next_key_summary">Zobrazovat tlačítko Další v režimu T9 na výšku</string>
+  <string name="suggest_numbers">Navrhovat čísla</string>
+  <string name="suggest_numbers_summary">Povolit návrhy pro slova začínající ne-abecedním znakem</string>
+  <string name="trial_popup">Toto je zkušební verze. Koupí „Smart Keyboard PRO“ podpoříte vývoj a už nikdy neuvidíte toto obtěžující vyskakovací okno :)</string>
+  <string name="buy">Koupit</string>
+  <string name="no_thanks">Ne, děkuji</string>
+  <string name="chinese_simplified">Čínština (zjednodušená)</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
+  <string name="english_dic">Je třeba stáhnout doplněk „English for Smart Keyboard“ z Google Play pro zpřístupnění anglických návrhů slov a automatické opravy. Chcete jej stáhnout nyní?</string>
+  <string name="physical_kbd">Fyzická klávesnice</string>
+  <string name="physical_kbd_summary">Povolit návrhy a překlad kláves pomocí fyzické klávesnice. Pro přepnutí jazyka použijte shift + mezerník.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Hlasový vstup</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Hlasový vstup není ve vašem jazyce podporován, ale funguje v angličtině.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Hlasový vstup je experimentální funkcí, používá hlasové rozeznávání společnosti Google</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Pro vypnutí hlasového vstupu přejděte do nastavení klávesnice.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Nyní mluvte</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Zpracovávání</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Chyba. Opakujte akci.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Nelze navázat spojení</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Chyba: příliš mnoho řeči.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Audio problém</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Chyba serveru</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Nezaregistrován žádný zvuk</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Nenalezena žádná shoda</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Hlasové vyhledávání není nainstalováno</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estonština</string>
+  <string name="lithuanian">Litevština</string>
+  <string name="latvian">Lotyština</string>
+  <string name="only_one_language">Upozornění! Vybrali jste pouze jeden jazyk pro klávesu jazyka, takže tato klávesa bude skryta. Nicméně aktuální jazyk byl přenastaven na tento vybraný.</string>
+  <string name="different_language">Upozornění! Jazyk, který jste právě vybrali není ten, který jste určili v „Klávesa pro výběr jazyka“!</string>
+  <string name="hebrew_alt">Alt rozložení pro hebrejštinu</string>
+  <string name="hebrew_alt_summary">Umístit klávesu Backspace vlevo - rozložení pro hebrejštinu</string>
+  <string name="portrait_fullscreen">Celá obrazovka na výšku</string>
+  <string name="portrait_fullscreen_summary">Používat celoobrazovkové zobrazení v režimu na výšku (užitečné pro malé displeje)</string>
+  <string name="czech_full">Plné rozvržení pro češtinu/slovenštinu</string>
+  <string name="czech_full_summary">Přidá horní řádek s diakritikou v Českém a Slovenském rozložení</string>
+  <string name="swipe_sensitivity">Citlivost přejetí</string>
+  <string name="swipe_sensitivity_summary">Nastavení citlivosti gest. Varování: Pokud příliš zvýšíte citlivost, vícedotykové psaní může být považováno za gesto.</string>
+  <string name="catalan">Katalánština</string>
+  <string name="multitap_interval">Interval vícenásobného dotyku</string>
+  <string name="multitap_interval_summary">Nastavení maximálního zpoždění pro vícedotykový režim, např. v T9 nebo pro rozložení korejských „krátkých samohlásek“.</string>
+  <string name="persian">Perština</string>
+  <string name="calibration">Kalibrace</string>
+  <string name="calibration_summary">Kalibrovat klávesnici pro zvýšení přesnosti</string>
+  <string name="calibration_instructions">Pro kalibraci klávesnice opište následující text:</string>
+  <string name="calibration_done">Kalibrace dokončena! Klepněte na „Uložit“ pro použití nového nastavení a nebo na „Zrušit“ pro nový pokus. Pro lepší výsledek doporučujeme spustit kalibraci v režimu na výšku i na šířku.</string>
+  <string name="calibration_profile_is">Váš kalibrační profil je:</string>
+  <string name="calibration_reset">Chystáte se obnovit kalibrační nastavení na výchozí hodnoty. Přejete si pokračovat?</string>
+  <string name="reset">Obnovit</string>
+  <string name="save">Uložit</string>
+  <string name="get_skins">Získat další vzhledy…</string>
+  <string name="sms_mode">SMS režim</string>
+  <string name="sms_mode_summary">Odstranit diakritiku z navrhovaných slov při psaní SMS</string>
+  <string name="key_height_summary">Přizpůsobit výšku kláves</string>
+  <string name="alt_symbols">Alt symboly</string>
+  <string name="alt_symbols_summary">Zobrazovat alt popisky na panelu symbolů (123)</string>
+  <string name="hide_period">Skrýt tečku</string>
+  <string name="hide_period_summary">Skrýt klávesu s tečkou a zvětšit mezerník</string>
+  <string name="hide_comma">Skrýt čárku</string>
+  <string name="hide_comma_summary">Skrýt klávesu s čárkou (nebo mikrofonem) a zvětšit mezerník</string>
+  <string name="bottom_padding">Dolní odsazení</string>
+  <string name="bottom_padding_summary">Přidá více místa ve spodní části klávesnice v režimu na výšku</string>
+  <string name="apostrophe_separator">Oddělování apostrofem</string>
+  <string name="apostrophe_separator_summary">Považovat apostrof jako oddělovač slov (užitečné např. pro italštinu)</string>
+  <string name="ignore_hard_kbd">Ignorovat HW klávesnici</string>
+  <string name="ignore_hard_kbd_summary">Zobrazovat softwarovou klávesnici v režimu na šířku i v případě dostupné hardwarové klávesnice (použitelné s Droid Pro)</string>
+  <string name="tatar">Tatarština</string>
+  <string name="custom_punctuation">Vlastní interpunkce</string>
+  <string name="custom_punctuation_summary">Přizpůsobení interpunkčních znamének zobrazovaných v panelu návrhů</string>
+  <string name="kazakh">Kazaština</string>
+  <string name="azerbaijani">Ázerbájdžánština</string>
+  <string name="armenian">Arménština</string>
+  <string name="vietnamese">Vietnamština</string>
+  <string name="no_landscape_suggestions">Žádné návrhy v režimu na šířku</string>
+  <string name="no_landscape_suggestions_summary">Nezobrazovat panel návrhů v orientaci na šířku</string>
+  <string name="arrows_main">Zobrazovat šipky</string>
+  <string name="arrows_main_summary">Výběr, kdy budou na hlavní klávesnici zobrazovány klávesy šipek</string>
+  <string name="cursor_volume">Kurzor s hlasitostí</string>
+  <string name="cursor_volume_summary">Posouvání kurzoru pomocí tlačítek hlasitosti</string>
+  <string name="export_user_dic">Export uživatelského slovníku</string>
+  <string name="export_user_dic_summary">Export uživatelského slovníku ve formátu CSV</string>
+  <string name="export_autotext">Exportovat automatický text</string>
+  <string name="export_autotext_summary">Exportovat zkratky automatického textu ve formátu CSV</string>
+  <string name="import_user_dic">Importovat uživatelský slovník</string>
+  <string name="import_autotext">Import automatického textu</string>
+  <string name="export_complete">CVS export dokončen</string>
+  <string name="import_complete">CVS import dokončen</string>
+  <string name="export_user_dic_warning">Upozornění! Chystáte se exportovat uživatelský slovník do souboru ve formátu CSV. Tato akce přepíše /sdcard/smartkeyboardpro/userdic.csv. Chcete pokračovat?</string>
+  <string name="import_user_dic_warning">Upozornění! Chystáte se importovat uživatelský slovník z CSV souboru /sdcard/smartkeyboardpro/userdic.csv. Tato akce přepíše se celý obsah vašeho uživatelského slovníku. Chcete pokračovat?   </string>
+  <string name="export_autotext_warning">Upozornění! Chystáte se exportovat slovník automatického doplňování textu do souboru ve formátu CSV. Tato akce přepíše /sdcard/smartkeyboardpro/autotext.csv. Chcete pokračovat?</string>
+  <string name="import_autotext_warning">Upozornění! Chystáte se importovat slovník automatického doplňování textu z CSV souboru /sdcard/smartkeyboardpro/autotext.csv. Tato akce přepíše se celý obsah slovníku. Chcete pokračovat?   </string>
+  <string name="accents_priority">Upřednostnit diakritiku</string>
+  <string name="accents_priority_summary">Přednostně zobrazovat písmena s diakritikou (nebo dvouhlásky) před symboly, při dlouhém stisku kláves. Funguje jen pro některé jazyky.</string>
+  <string name="afrikaans">Afrikánština</string>
+  <string name="mongolian">Mongolština</string>
+  <string name="prefs_enable_recorrection">Dotykem opravovat slova</string>
+  <string name="prefs_enable_recorrection_summary">Dotykem opravovat napsaná slova</string>
+  <string name="macedonian">Makedonština</string>
+  <string name="luxembourgish">Lucemburština</string>
+  <string name="albanian">Albánština</string>
+  <string name="belarusian">Běloruština</string>
+  <string name="indonesian">Indonéština</string>
+  <string name="alt_compact">Rozšířený kompaktní/T9</string>
+  <string name="alt_compact_summary">Dlouhý stisk v kompaktním/T9 režimu zobrazí všechna možná písmena (jen anglické rozložení)</string>
+  <string name="backup_failed">Zálohování selhalo!</string>
+  <string name="restore_failed">Obnovení se nezdařilo! Záložní soubor byl pravděpodobně poškozen.</string>
+  <string name="hide_in_portrait">Skrýt v režimu na výšku</string>
+  <string name="hide_in_portrait_summary">Vždy skrýt klávesnici v režimu na výšku (užitečné v Droid Pro)</string>
+  <string name="space_alert">Vibrující mezerník</string>
+  <string name="space_alert_summary">Vibrovat pouze pro mezerník</string>
+  <string name="hide_lang_key">Skrýt tlačítko jazyka</string>
+  <string name="hide_lang_key_summary">Skrýt tlačítko pro přepnutí jazyka, pokud je povoleno více jazyků</string>
+  <string name="show_language_icon">Zobrazovat ikonu jazyka</string>
+  <string name="show_language_icon_summary">Zobrazovat ikonu jazyka ve stavovém řádku</string>
+  <string name="domain_key">Klávesa domény</string>
+  <string name="domain_key_summary">Zobrazovat klávesu domény (.com)</string>
+  <string name="numbers_top">Číslice v horní části</string>
+  <string name="numbers_top_summary">Výběr, kdy bude na hlavní klávesnici zobrazován řádek s číslicemi</string>
+  <string name="kurdish">Kurdština</string>
+  <string name="hindi">Hindština</string>
+  <string name="marathi">Maráthština</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Vítá vás <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">s psaním pomocí gest</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">Začněme</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">Další krok</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Nastavení aplikace <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Povolení aplikace <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"V nastavení „Jazyk a zadávání“ povolte aplikaci <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>. Tím umožníte její spuštění na vašem zařízení."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Aplikace <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g> je již v nastaveních jazyka a vstupu zapnuta. Tento krok tedy můžete přeskočit. Pokračujme dalším."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">Povolit v nastavení</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Přepnutí na aplikaci <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Poté vyberte jako aktivní metodu zadávání textu možnost <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">Přepnout metody zadávání</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Gratulujeme, vše je připraveno."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">Nyní můžete ve všech svých oblíbených aplikacích psát pomocí aplikace <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>.</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">Nastavit další jazyky</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">Dokončit</string>
+  <string name="legacy_voice">Starší verze hlasového vstupu</string>
+  <string name="legacy_voice_details">Používat starší verzi hlasového vstupu namísto Google Voice</string>
+  <string name="disable_launch_settings">Zakázat zkratku nastavení</string>
+  <string name="disable_launch_settings_details">Neotevírat obrazovku nastavení přidržením klávesy 123</string>
+  <string name="more_symbols">Více symbolů</string>
+  <string name="more_symbols_summary">Zobrazovat více alternativních symbolů na panelu symbolů (123)</string>
+  <string name="galician">Galicijština</string>
+  <string name="mic_above_comma">Zachovat čárku</string>
+  <string name="mic_above_comma_summary">Neskrývat klávesu „čárka“</string>
+  <string name="custom_smileys">Vlastní smajlíci</string>
+  <string name="custom_smileys_summary">Namísto emoji, přístup dlouhým přidržení enteru</string>
+</resources>

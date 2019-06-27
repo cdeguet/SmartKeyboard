@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="24.25%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+	<Row>
+		<Key android:codes="3585,3586,3588" android:keyLabel="\u0e01\u0e02\u0e04" altLabel="1" android:popupCharacters="1" 
+			android:keyEdgeFlags="left"/>
+		<Key android:codes="3590,3591,3592,3593" android:keyLabel="\u0e06\u0e07\u0e08" altLabel="2" android:popupCharacters="2"
+			android:horizontalGap="1%p" />
+		<Key android:codes="3594,3595,3596,3597" android:keyLabel="\u0e0a\u0e0b\u0e0c" altLabel="3" android:popupCharacters="3"
+			android:horizontalGap="1%p" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:horizontalGap="1%p"
+			iconID="@+id/delete_key" android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Row>
+		<Key android:codes="3598,3599,3600,3601,3602,3603" android:keyLabel="\u0e0e\u0e0f\u0e10" altLabel="4" android:popupCharacters="4" 
+			android:keyEdgeFlags="left" />
+		<Key android:codes="3604,3605,3606,3607,3608" android:keyLabel="\u0e14\u0e15\u0e16" altLabel="5" android:popupCharacters="5"
+			android:horizontalGap="1%p" />
+		<Key android:codes="3609,3610,3611,3612,3613" android:keyLabel="\u0e19\u0e1a\u0e1b" altLabel="6" android:popupCharacters="6"
+			android:horizontalGap="1%p" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:horizontalGap="1%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="3614,3615,3616,3617,3618" android:keyLabel="\u0e1e\u0e1f\u0e20" altLabel="7" android:popupCharacters="7" 
+			android:keyEdgeFlags="left" />
+		<Key android:codes="3619,3620,3621,3623,3624,3625" android:keyLabel="\u0e23\u0e24\u0e25" altLabel="8" android:popupCharacters="8"
+			android:horizontalGap="1%p" />
+		<Key android:codes="3626,3627,3628,3629,3630" android:keyLabel="\u0e2a\u0e2b\u0e2c" altLabel="9" android:popupCharacters="9"
+			android:horizontalGap="1%p" />
+		<Key android:codes="-2" android:keyLabel="\?123" android:horizontalGap="1%p" android:keyEdgeFlags="right" />
+
+	</Row>
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:codes="3640,3641,3656,3633,3657,3636,3637,3639,3638,3655,3658,3660,3654,3631" 
+			android:keyLabel=" \u0e31 \u200B \u0e34 \u200B \u0e35" android:keyEdgeFlags="left" 
+			android:popupKeyboard="@xml/popup_thai" />
+		<Key android:codes="3648,3649,3650,3652,3651,3632,3634,3635" android:keyLabel="\u0e40\u0e41\u0e42" altLabel="0" 
+			android:popupCharacters="0" android:horizontalGap="1%p" />
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+		    android:isRepeatable="false" android:horizontalGap="1%p" />
+		<Key android:keyWidth="12.15%p" android:codes="-101" android:keyLabel="" android:horizontalGap="1%p" />
+		<Key android:codes="-108" android:iconPreview="@drawable/mic_black" android:keyWidth="12.10%p" android:keyEdgeFlags="right"/>
+	</Row>
+</Keyboard>

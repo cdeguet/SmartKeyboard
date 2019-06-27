@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Palīdzība</string>
+  <string name="about">Par...</string>
+  <string name="auto_cap">Automātiska lielo burtu lietošana</string>
+  <string name="auto_cap_summary">Sākt teikumus ar lielo burtu</string>
+  <string name="keyboard_settings">Smart Keyboard Pro iestatījumi</string>
+  <string name="settings">Iestatījumi</string>
+  <string name="general_settings">Vispārīgie iestatījumi</string>
+  <string name="text_prediction">Teksta paredzēšana</string>
+  <string name="sound_vibrate">Skaņa un vibrācija</string>
+  <string name="language">Valoda</string>
+  <string name="language_summary">Mainīt tastatūras valodu un izkārtojumu</string>
+  <string name="lang_key">Valodas izvēles taustiņš</string>
+  <string name="lang_key_summary">Atlasīt pieejamās valodas</string>
+  <string name="english">Angļu</string>
+  <string name="english_intl">Angļu (International)</string>
+  <string name="english_dvorak">Angļu (Dvorak)</string>
+  <string name="english_azerty">Angļu (AZERTY)</string>
+  <string name="french">Franču</string>
+  <string name="romanian">Rumāņu</string>
+  <string name="bulgarian">Bulgāru</string>
+  <string name="russian">Krievu</string>
+  <string name="russian_phonetic">Krievu (fonētiskajā transkripcijā)</string>
+  <string name="spanish">Spāņu</string>
+  <string name="italian">Itāliešu</string>
+  <string name="german">Vācu</string>
+  <string name="portuguese">Portugāļu</string>
+  <string name="danish">Dāņu</string>
+  <string name="finnish">Somu</string>
+  <string name="hebrew">Ebreju</string>
+  <string name="norwegian">Norvēģu</string>
+  <string name="swedish">Zviedru</string>
+  <string name="georgian">Gruzīnu</string>
+  <string name="czech_qwerty">Čehu (QWERTY)</string>
+  <string name="czech_qwertz">Čehu (QWERTZ)</string>
+  <string name="greek">Grieķu</string>
+  <string name="dutch">Holandiešu</string>
+  <string name="polish">Poļu</string>
+  <string name="ukrainian">Ukraiņu</string>
+  <string name="vibrate">Vibrēt</string>
+  <string name="vibrate_summary">Vibrēt nospiežot</string>
+  <string name="vibrate_duration">Vibrēšanas ilgums</string>
+  <string name="label_go_key">Iet</string>
+  <string name="label_next_key">Nākamais</string>
+  <string name="label_done_key">Pabeigts</string>
+  <string name="label_send_key">Sūtīt</string>
+  <string name="advanced_settings">Papildus uzstādījumi</string>
+  <string name="sound_on_keypress">Skaņa nospiežot taustiņu</string>
+  <string name="gestures">Žesti</string>
+  <string name="swipe_left">Vilkt pa kreisi</string>
+  <string name="swipe_right">Vilkt pa labi</string>
+  <string name="swipe_up">Vilkt uz augšu</string>
+  <string name="swipe_down">Vilkt uz leju</string>
+  <string name="saved">Saglabāts</string>
+  <string name="quick_fixes">Ātrie labojumi</string>
+  <string name="quick_fixes_summary">Izlabo visbiežāk pieļautās kļūdas</string>
+  <string name="show_suggestions">Pārādīt ieteikumus</string>
+  <string name="show_suggestions_summary">Parādīt ietektos vārdus rakstot</string>
+  <string name="auto_complete">Auto-pabeigšana</string>
+  <string name="auto_complete_summary">Atstarpe un punktācija automātiski pievieno iezīmēto vārdu</string>
+  <string name="contact_dic">Kontaktu saraksts</string>
+  <string name="contact_dic_summary">Pievienot kontaktu vārdus ieteikumos (nepieciešams Android 2.0)</string>
+  <string name="show_preview">Parādīt uznirstošo priekšskatu</string>
+  <string name="show_preview_summary">Parādīt priekšskatu kad taustiņš tiek nospiests</string>
+  <string name="skin_selection">Izvēlēties ādiņu</string>
+  <string name="skin_summary">Nomainīt klaviatūras ādiņu</string>
+  <string name="transparency">Caurredzamība</string>
+  <string name="opacity">Uzstādīt caurredzamību</string>
+  <string name="transparency_summary">Uzstādīt klaviatūras caurredzamību</string>
+  <string name="volume">Skaļums</string>
+  <string name="volume_summary">Uzstādīt skaļumu taustiņu skaņai</string>
+  <string name="debug_logs">Ieslēgt atkļūdošanas pierakstu</string>
+  <string name="always_suggest">Vienmēr ieteikt</string>
+  <string name="always_suggest_summary">Parādīt arī ieteikumus meklēšanai</string>
+  <string name="custom_autotext">Konkrēts AutoTeksts</string>
+  <string name="custom_autotext_summary">Redīģēt jūsu pašu AutoTeksta īsceļus</string>
+  <string name="add_autotext">Pievienot AutoTekstu...</string>
+  <string name="edit_autotext">Rediģēt AutoTekstu</string>
+  <string name="autotext_key">Sekojošais vārds:</string>
+  <string name="autotext_value">tiks nomainīts pret:</string>
+  <string name="autotext_context_edit">Rediģēt</string>
+  <string name="autotext_context_delete">Nodzēst</string>
+  <string name="enable_arrows">Ieslēgt bultiņu tastatūru</string>
+  <string name="enable_arrows_summary">Pieejama ar 123 taustiņu</string>
+  <string name="always_caps">Vienmēr lielie burti</string>
+  <string name="always_caps_summary">Vienmēr parādīt taustiņu apzīmējumus ar lielajiem burtiem</string>
+  <string name="display_alt_labels">Rādīt alt apzīmējumus</string>
+  <string name="display_alt_labels_summary">Rādīt alternatīvos apzīmējumus virs taustiņa apzīmejuma</string>
+  <string name="user_dictionary">Lietotāja vārdnīca</string>
+  <string name="user_dictionary_summary">Redigēt vārdus lietotāja vārdnīcā</string>
+  <string name="add_word">Pievienot vārdu</string>
+  <string name="edit_word">Rediģēt vārdu</string>
+  <string name="delete_word">Izdzēst vārdu</string>
+  <string name="word">Vārds</string>
+  <string name="forum">Forums</string>
+  <string name="download_dic">Lejupielādēt vārdnīcu</string>
+  <string name="download_dic_summary">Lejupielādēt vārdnīcas no tirgus</string>
+  <string name="mic_button">Mikrafona poga</string>
+  <string name="mic_button_summary">Rādīt, ja iespējams balss ievades taustiņu</string>
+  <string name="voice_input">Balss ievade</string>
+  <string name="cancel">Atcelt</string>
+  <string name="retry">Atkārtot</string>
+  <string name="restart_voice">Pārstartēt balss ievadi</string>
+  <string name="restart_voice_summary">Vienmēr pārstartēt balss ievadi kamēr tā tiek atslēgta</string>
+  <string name="voice_best">Balss ievada piemērotakā izvēle</string>
+  <string name="voice_best_summary">Automātiski izvēlēties piemērotāko izvēli</string>
+  <string name="touch_points">Rādīt pieskāriena punktus</string>
+  <string name="portrait_mode">Portreta skats</string>
+  <string name="portrait_mode_summary">Izvēlēties normālo, T9 vai kompakto izvietojumu portretam</string>
+  <string name="candidate_color">Kandidāta krāsa</string>
+  <string name="candidate_color_summary">Krāsa piemērotākajam vārdam ieteikuma ailē</string>
+  <string name="disable_launcher">Atslēgt palaidēja ikonu</string>
+  <string name="space_when_pick">Atstarpe pēc izvēlēšanās</string>
+  <string name="space_when_pick_summary">Pievienot atstarpi kad izvēlamies vārdu manuāli no ieteikuma ailes</string>
+  <string name="swap_punctuation_space">Samainīt punktāciju</string>
+  <string name="swap_punctuation_space_summary">Automatiski samainīt punktāciju un atstarpi pēc vārda</string>
+  <string name="smiley_key">Smaidiņa taustiņš</string>
+  <string name="smiley_key_summary">Rādīt smaidiņa taustiņu enter vietā</string>
+  <string name="toggle_smiley_key">Ies/Izs smaidiņa taustiņu</string>
+  <string name="select_sound">Izvēlēties skaņas stilu</string>
+  <string name="smiley_editor">Smaidiņu redaktors</string>
+  <string name="smiley_editor_summary">Pielāgot jūsu smaidiņa pogu</string>
+  <string name="smiley_editor_title">Pieskarties, lai rediģētu smaidiņu</string>
+  <string name="edit_smiley">Rediģēt smaidiņu</string>
+  <string name="smart_dictionary_summary">Vārdnīca, kura iemācās visbiežāk rakstītos vārdus, lai uzlabotu ieteikumus</string>
+  <string name="backup">Dublēšanas iestatījumi</string>
+  <string name="backup_to_sd">Dublēšana uz SD karti</string>
+  <string name="restore">Atjaunot no SD kartes</string>
+  <string name="no_sd_card">Uzmanību: Jūsu SD karte nav ievietota, dublēšana/atjaunošana nav iespējama!</string>
+  <string name="backup_warning">Uzmanību! Jūs tulīt dublēsiet Smart Keyboard PRO uzstādījumus un vārdnīcas. Šis solis pārakstīs pāri jūsu /sdcard/smartkeyboardpro/backup.zip failu. Vai velaties turpināt?</string>
+  <string name="restore_warning">Uzmanību! Jūs tulīt atjaunosiet Smart Keyboard PRO uzstādījumus un vārdnīcas. Šis solis pārakstīs pāri jūsu tagadējos uzstādījumus. Klaviatūra tiks pārstartēta, lai notiktu izmaiņas jūsu kontā. Vai turpināt?</string>
+  <string name="backup_complete">Dublēšana pabeigta</string>
+  <string name="slide_popup">Izvilkt uznirstošo klaviatūru</string>
+  <string name="slide_popup_summary">Vilkt pirkstu, lai izvēlētos akcentus uz uznirstošās klaviatūras</string>
+  <string name="space_preview">Atstarpes prieksskats</string>
+  <string name="space_preview_summary">Parādīt priekšskatu atstarpes taustiņam</string>
+  <string name="turkish">Turku</string>
+  <string name="hungarian">Ungāru</string>
+  <string name="icelandic">Islandiešu</string>
+  <string name="bosnian">Bosniešu</string>
+  <string name="croatian">Horvātu</string>
+  <string name="serbian">Serbu</string>
+  <string name="slovene">Slovēņu</string>
+  <string name="close">Aizvērt</string>
+  <string name="arabic">Arābu</string>
+  <string name="layout">Izvietojums</string>
+  <string name="force_latin">Uzspiest latīņu izvietojumu</string>
+  <string name="force_latin_summary">Uzspiest, lai izvietojums tiktu izmantots visās latīņu valodās</string>
+  <string name="korean">Korejiešu</string>
+  <string name="rtl_suggestions">RTL ieteikumi</string>
+  <string name="rtl_suggestions_summary">Mainīt virzienu vārdiem ieteikumu ailē (priekš arābu/ēbreju valodas)</string>
+  <string name="clean_userdic">Iztīrīt lietotāja vārdnīcu</string>
+  <string name="warn_clean_userdic">Uzmanību! Šis izdzēsīs VISUS vārdus jūsu lietotāja vārdnīcā. Vai vēlaties turpināt?</string>
+  <string name="suggest_punctuation">Ieteikt punktāciju</string>
+  <string name="key_height">Taustiņu garums</string>
+  <string name="thai">Taizemiešu</string>
+  <string name="longpress_duration">Ilās nospiešanas laiks</string>
+  <string name="longpress_duration_summary">Pielāgot laiku ilgajai taustiņu nospiešanai priekš speciālajiem simboliem</string>
+  <string name="learn_new_words">Iemācīties jaunus vārdus</string>
+  <string name="learn_new_words_summary">Automātiski pievienot jaunus vārdus lietotāja vārdnīcā(nepieciešama gudrā vārdnīca)</string>
+  <string name="enter_sends_sms">Enter sūta ziņu</string>
+  <string name="slovak">Slovāku</string>
+  <string name="bk_warning">Uzmanību! Šī ir ādiņa priekš Better Keyboard. Savienojamība ar Smart Ketboard var tikt sabojāta jebkurā laikā, jūs uzņemietes risku!</string>
+  <string name="domain_editor">Domēna redaktors</string>
+  <string name="domain_editor_summary">Pielāgot .com taustiņu</string>
+  <string name="domain_editor_title">Pieskarties, lai rediģētu domēnu</string>
+  <string name="edit_domain">Rediģēt domēnu</string>
+  <string name="persistent_domain_key">Patstāvīgais domēna taustiņš</string>
+  <string name="persistent_domain_key_summary">Vienmēr rādīt domēna (.com) taustiņu</string>
+  <string name="no_alt_preview">Nav alt prieksskata</string>
+  <string name="dynamic_resizing">Dinamiskā taustiņu izmēra izmaiņa</string>
+  <string name="dynamic_resizing_summary">Izmainīt virtuālo taustiņu izmēru balstoties uz nākamā burta iespējamību</string>
+  <string name="japanese">Japāņu</string>
+  <string name="double_space_period">Punkts uz dubulto atstarpi</string>
+  <string name="double_space_period_summary">Ievietot punktu, kad atstarpēšanas taustiņš nospiests divreiz</string>
+  <string name="arrows_style">Bultiņu stils</string>
+  <string name="arrows_style_summary">Izvēlēties stilu bultiņu tastatūrai</string>
+  <string name="disable_mt">Atslēgt Multipieskārienu</string>
+  <string name="compound_suggestions">Salikti ieteikumi</string>
+  <string name="compound_suggestions_summary">Piedāvāt ieteikumus saliktiem vārdiem (pamatā vācu valodai)</string>
+  <string name="current_language">Pašreizējā valoda</string>
+  <string name="language_specific_options">Valodas specifiski uzstādījumi</string>
+  <string name="no_lansdcape_fullscreen">Nav horizontālais pilnekrāns</string>
+  <string name="t9_length_priority">T9 garuma prioritāte</string>
+  <string name="t9_length_priority_summary">Dot prioritāti vārdiem ar tādu pašu garumu kad parādās T9 ieteikumi</string>
+  <string name="t9_next_key">T9 nākošais taustiņš</string>
+  <string name="t9_next_key_summary">Rādīt Tālāk taustiņu T9 portreta režīmā</string>
+  <string name="suggest_numbers">Ieteikt numurus</string>
+  <string name="suggest_numbers_summary">Ieslēgt ieteikumus priekš vārdiem, kuri sākās ar ne-alfabētiskiām zīmēm</string>
+  <string name="trial_popup">Šī ir izmēģinājuma versija. Dabū "Smart Keyboard PRO" tagad, lai atbalstītu aplikāciju un nekad vairs neredzētu šo kaitinošo, uznirstošo logu :)</string>
+  <string name="buy">Pirkt</string>
+  <string name="no_thanks">Nē, paldies</string>
+  <string name="chinese_simplified">Ķīniešu (Vienkāršotā)"</string>
+  <string name="yes">Jā</string>
+  <string name="no">Nē</string>
+  <string name="physical_kbd">Fiziskā klaviatūra</string>
+  <string name="physical_kbd_summary">Ieslēgt fiziskajā klaviatūrā ieteikumus un taustiņu tulkošanu. Izmantot shift+space, lai nomainītu valodu.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Balss ievade</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Balss ievade priekš jūsu valodas pašlaik nav atbalstīta, bet tā strādā Angļu valodā.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Lai izslēgtu balss ievadi, ejiet uz klaviatūras uzstādījumiem.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Runājiet tagad</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Strādā</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Kļuda. Lūdzu mēģiniet vēlreiz.</string>
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Kļūta, pārāk daudz runas.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Audio problēma</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Servera kļūda</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Runa netiek sadzirdēta</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Nav atrasts neviens ieteikums</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Balss meklēšana nav ieinstalēta</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Labi</string>
+  <string name="estonian">Igauņu</string>
+  <string name="lithuanian">Lietuviešu</string>
+  <string name="latvian">Latviešu</string>
+  <string name="only_one_language">Uzmanību! Par cik jūs izvēlējāties tikai vienu valodu priekš valodas taustiņa, šis taustiņš netiks parādīts, bet pašreizējā valoda nav vel uzstādīta.</string>
+  <string name="hebrew_alt">Ebreju alt izkārtojums</string>
+  <string name="hebrew_alt_summary">Ielikt backspace taustiņu pa kreisi Ebreju izkārtojumā</string>
+  <string name="portrait_fullscreen">Portreta pilnekrāns</string>
+  <string name="portrait_fullscreen_summary">Uzstādīt klaviatūru pilnekrāna režīmā portreta orientācijā (var būt noderīgi priekš ļoti maziem ekrāniem)</string>
+  <string name="czech_full">Čehu/Slovāku pilnais izskārtojums</string>
+  <string name="czech_full_summary">Iekļaut augšējo rindu ar akcenta burtiem Čehu un Slovāku izkārtojumā</string>
+  <string name="swipe_sensitivity">Vilkšanas jūtība</string>
+  <string name="swipe_sensitivity_summary">Iestatīt žestu jūtību. Uzmanību: ja jūs pa daudz palielināsiet jūtību, tad multipeiskāriena rakstīšana var tikt sajaukta ar žestu.</string>
+  <string name="catalan">Kataloniešu</string>
+  <string name="multitap_interval">Multipieskārienu intervāls</string>
+  <string name="persian">Persiešu</string>
+  <string name="calibration">Kalibrācija</string>
+  <string name="calibration_summary">Kalibrējiet klaviatūru, lai uzlabotu precizitāti</string>
+  <string name="calibration_instructions">Lai kalibrētu jūsu klaviatūru, rakstiet sekojošo tekstu:</string>
+  <string name="calibration_profile_is">Jūsu kalibrācijas profils ir:</string>
+  <string name="calibration_reset">Jūs gatavojaties atiestatīt kalibrēšanas iestatījumus uz noklusējuma vērtībām. Vai vēlaties turpināt?</string>
+  <string name="reset">Atiestatīt</string>
+  <string name="save">Saglabāt</string>
+  <string name="get_skins">Iegūt vairāk ādiņas...</string>
+  <string name="sms_mode">SMS režīms</string>
+  <string name="key_height_summary">Pielāgot taustiņu garumu</string>
+  <string name="alt_symbols">Alt simboli</string>
+  <string name="tatar">Tatāru</string>
+  <string name="custom_punctuation">Pielāgotu pieturzīmes</string>
+  <string name="arrows_main">Rādīt bultiņas</string>
+  <string name="macedonian">Maķedoniešu</string>
+  <string name="luxembourgish">Luksemburgiešu</string>
+  <string name="albanian">Albāņu</string>
+  <string name="belarusian">Baltkrievu</string>
+  <string name="indonesian">Indonēziešu</string>
+  <string name="alt_compact">Paplašinātais kompaktais/T9</string>
+  <string name="backup_failed">Dublēšana neizdevās!</string>
+  <string name="restore_failed">Atjaunošana neizdevās! Dublējamais fails, iespējams, bija bojāts.</string>
+  <string name="hide_in_portrait">Paslēpt portretā</string>
+  <string name="twitter">Twitters</string>
+  <string name="space_alert">Atstarpes brīdinājums</string>
+  <string name="space_alert_summary">Vibrēt tikai no space bar</string>
+  <string name="unicode">Unikods</string>
+  <string name="hide_lang_key">Paslēpt valodas taustiņu</string>
+  <string name="show_language_icon">Rādīt valodas ikonu</string>
+  <string name="show_language_icon_summary">Parādīt valodas ikonu statusa ailē</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Laipni lūdzam pakalpojumā <xliff:g id="APPLICATION_NAME">%s</xliff:g>,"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"kurā varat izmantot ievadi ar žestiem"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Sākt darbu"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Nākamā darbība"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Lietojumprogrammas <xliff:g id="APPLICATION_NAME">%s</xliff:g> iestatīšana"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Lietojumprogrammas <xliff:g id="APPLICATION_NAME">%s</xliff:g> iespējošana"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Valodas un ievades iestatījumos atzīmējiet “<xliff:g id="APPLICATION_NAME">%s</xliff:g>”, autorizējot tās palaišanu ierīcē."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Tā kā lietojumprogramma <xliff:g id="APPLICATION_NAME">%s</xliff:g> jau ir iespējota valodas un iesūtnes iestatījumos, šī darbība ir pabeigta. Veiciet nākamo darbību!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Iespējot iestatījumos"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Pārslēgšanās uz lietojumprogrammu <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Pēc tam atlasiet “<xliff:g id="APPLICATION_NAME">%s</xliff:g>” kā aktīvo ievades metodi."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Pārslēgt ievades metodes"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Gatavs!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Izmantojot lietojumprogrammu <xliff:g id="APPLICATION_NAME">%s</xliff:g>, varat rakstīt visās iecienītākajās lietotnēs."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfigurēt papildu valodas"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Pabeigts"</string>
+  </resources>

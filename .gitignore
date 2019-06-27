@@ -1,0 +1,15 @@
+*.apk
+app/src/main/libs/
+app/src/main/obj/
+.gradle
+local.properties
+.DS_Store
+app/build
+/build
+.idea/libraries
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/misc.xml
+*.iml

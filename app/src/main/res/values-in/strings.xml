@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Bantuan</string>
+  <string name="about">Tentang...</string>
+  <string name="auto_cap">Kapital Otomatis</string>
+  <string name="auto_cap_summary">Kapitalkan awal kalimat</string>
+  <string name="keyboard_settings">Pengaturan Smart Keyboard Pro</string>
+  <string name="settings">Pengaturan</string>
+  <string name="general_settings">Pengaturan umum</string>
+  <string name="text_prediction">Prediksi teks</string>
+  <string name="sound_vibrate">Suara dan bergetar</string>
+  <string name="language">Bahasa</string>
+  <string name="language_summary">Mengubah bahasa papan tombol dan tata letak</string>
+  <string name="lang_key">Tombol pemilihan bahasa</string>
+  <string name="lang_key_summary">Pilih bahasa yang tersedia</string>
+  <string name="english">Inggris</string>
+  <string name="english_intl">Inggris (Internasional)</string>
+  <string name="english_dvorak">Inggris (Dvorak)</string>
+  <string name="english_azerty">Inggris (AZERTY)</string>
+  <string name="french">Prancis</string>
+  <string name="romanian">Rumania</string>
+  <string name="bulgarian">Bulgaria</string>
+  <string name="russian">Rusia</string>
+  <string name="russian_phonetic">Rusia (fonetik)</string>
+  <string name="spanish">Spanyol</string>
+  <string name="italian">Italia</string>
+  <string name="german">Jerman</string>
+  <string name="portuguese">Portugal</string>
+  <string name="danish">Denmark</string>
+  <string name="finnish">Finlandia</string>
+  <string name="hebrew">Ibrani</string>
+  <string name="norwegian">Norwegia</string>
+  <string name="swedish">Swedia</string>
+  <string name="georgian">Georgia</string>
+  <string name="czech_qwerty">Ceko (QWERTY)</string>
+  <string name="czech_qwertz">Ceko (QWERTZ)</string>
+  <string name="greek">Yunani</string>
+  <string name="dutch">Belanda</string>
+  <string name="polish">Polandia</string>
+  <string name="ukrainian">Ukraina</string>
+  <string name="vibrate">Bergetar</string>
+  <string name="vibrate_summary">Bergetar ketika tombol ditekan</string>
+  <string name="vibrate_duration">Durasi getaran</string>
+  <string name="label_go_key">Pergi</string>
+  <string name="label_next_key">Berikutnya</string>
+  <string name="label_done_key">Selesai</string>
+  <string name="label_send_key">Kirim</string>
+  <string name="advanced_settings">Pengaturan lanjutan</string>
+  <string name="sound_on_keypress">Suara ketika tombol ditekan</string>
+  <string name="gestures">Gerakan</string>
+  <string name="swipe_left">Geser kiri</string>
+  <string name="swipe_right">Geser kanan</string>
+  <string name="swipe_up">Geser atas</string>
+  <string name="swipe_down">Geser bawah</string>
+  <string name="saved">Tersimpan</string>
+  <string name="quick_fixes">Perbaikan cepat</string>
+  <string name="quick_fixes_summary">Mengoreksi kesalahan umum dalam pengetikkan</string>
+  <string name="show_suggestions">Tunjukkan saran</string>
+  <string name="show_suggestions_summary">Menampilkan kata-kata yang disarankan saat mengetik</string>
+  <string name="auto_complete">Lengkapkan secara otomatis</string>
+  <string name="auto_complete_summary">Spasi dan tanda baca secara otomatis menyisip ke dalam kata yang disorot</string>
+  <string name="contact_dic">Kamus kontak</string>
+  <string name="contact_dic_summary">Masukkan nama kontak ke dalam saran (memerlukan Android 2.0)</string>
+  <string name="show_preview">Tunjukkan popup tinjauan</string>
+  <string name="show_preview_summary">Tampilkan popup bila tombol ditekan</string>
+  <string name="skin_selection">Pilih skin</string>
+  <string name="skin_summary">Ubah skin keyboard</string>
+  <string name="transparency">Transparansi</string>
+  <string name="opacity">Atur keburaman</string>
+  <string name="transparency_summary">Atur transparansi keyboard</string>
+  <string name="volume_summary">Atur volume suara tekanan tombol</string>
+  <string name="debug_logs">Aktifkan log debug</string>
+  <string name="always_suggest">Selalu sarankan</string>
+  <string name="always_suggest_summary">Juga menampilkan saran untuk pencarian</string>
+  <string name="custom_autotext">AutoText kustom</string>
+  <string name="custom_autotext_summary">Edit sendiri shortcut AutoText Anda</string>
+  <string name="add_autotext">Tambahkan AutoText...</string>
+  <string name="autotext_key">Kata berikut:</string>
+  <string name="autotext_value">akan digantikan oleh:</string>
+  <string name="autotext_context_delete">Hapus</string>
+  <string name="enable_arrows">Mengaktifkan tombol panah</string>
+  <string name="enable_arrows_summary">Dapat diakses dengan tombol 123</string>
+  <string name="always_caps">Selalu huruf kapital</string>
+  <string name="always_caps_summary">Selalu tampilkan label tombol dalam huruf besar</string>
+  <string name="display_alt_labels">Tampilkan label alt</string>
+  <string name="display_alt_labels_summary">Tampilkan label alternatif di atas label tombol</string>
+  <string name="user_dictionary">kamus pengguna</string>
+  <string name="user_dictionary_summary">Edit kata-kata dalam kamus pengguna</string>
+  <string name="add_word">menambahkan kata</string>
+  <string name="edit_word">mengubah kata</string>
+  <string name="delete_word">Menghapus kata</string>
+  <string name="word">Kata</string>
+  <string name="download_dic">mengunduh kamus</string>
+  <string name="download_dic_summary">Download kamus dari market</string>
+  <string name="mic_button">tombol mic</string>
+  <string name="mic_button_summary">Tampilkan tombol input suara apabila mungkin</string>
+  <string name="voice_input">Input suara</string>
+  <string name="cancel">Batal</string>
+  <string name="retry">Coba lagi</string>
+  <string name="restart_voice">Ulang kembali input suara</string>
+  <string name="restart_voice_summary">Selalu ulang kembali input suara sampai dibatalkan</string>
+  <string name="voice_best">Input suara pilihan terbaik</string>
+  <string name="voice_best_summary">Otomatis memilih pilihan terbaik</string>
+  <string name="touch_points">Tampilkan titik sentuh</string>
+  <string name="portrait_mode">Mode portrait</string>
+  <string name="portrait_mode_summary">Pilih tata letak normal, T9 atau kompak untuk portrait</string>
+  <string name="candidate_color">Calon warna</string>
+  <string name="candidate_color_summary">Warna dari kata rekomendasi di bar saran</string>
+  <string name="welcome">Terima kasih telah memasang \@!\n\nUntuk mengaktifkan keyboard ini, pergi ke pengaturan \"Language &amp; keyboards\" 
+	(or \"Locale &amp; text\"), lalu centang kotak \"\@\". Lalu, untuk menukar ke \@, Anda perlu menekan lama ke kotak
+	input teks manapun, pilih \"Input method\", lalu pilih \@ dalam daftar. Anda dapat menekan lama tombol \"123\" untuk memasuki
+	pengaturan keyboard. \n\nSekarang, pergi ke menu Pengaturan (dapat Anda klik di bawah ini), dan nikmati!\n\nCatatan: Anda dapat menghapus
+	ikon launcher dari pengaturan keyboard</string>
+  <string name="disable_launcher">Hilangkan ikon launcher</string>
+  <string name="disable_launcher_warning">Peringatan! Hal ini akan menghilangkan ikon Smart Keyboard dalam launcher, tetapi juga akan menghilangkan tombol \"Open\" di app Market!\nAnda mungkin butuh menyalakan kembali ponsel Anda untuk mendapatkan ikon
+launcher benar-benar hilang.</string>
+  <string name="space_when_pick">Spasi setelah memilih</string>
+  <string name="space_when_pick_summary">Sisipkan spasi ketika memilih sebuah kata secara manual dari bar saran</string>
+  <string name="swap_punctuation_space">Tukar tanda baca</string>
+  <string name="swap_punctuation_space_summary">Otomatis tukar tanda baca dan spasi setelah kata</string>
+  <string name="smiley_key">Tombol smiley</string>
+  <string name="smiley_key_summary">Tampilkan tombol smiley daripada enter</string>
+  <string name="toggle_smiley_key">Ubah tombol smiley</string>
+  <string name="select_sound">Pilih gaya suara</string>
+  <string name="smiley_editor_summary">Kustomisasi tombol smiley</string>
+  <string name="smiley_editor_title">Sentuh untuk mengedit smiley</string>
+  <string name="smart_dictionary_summary">Kamus yang mempelajari frekuensi kata-kata yang Anda ketik untuk meningkatkan saran</string>
+  <string name="backup">Pengaturan cadangan</string>
+  <string name="backup_to_sd">Cadangkan ke kartu SD</string>
+  <string name="restore">Memulihkan dari kartu SD</string>
+  <string name="no_sd_card">Error: Kartu SD tidak terpasang, pencadangan/pemulihan tidak dapat dilakukan!</string>
+  <string name="backup_warning">Peringatan! Anda akan mencadangkan pengaturan dan kamus Smart Keyboard PRO.  Hal ini akan menimpa /sdcard/smartkeyboardpro/backup.zip. Apakah Anda ingin melanjutkan?</string>
+  <string name="restore_warning">Peringatan! Anda akan memulihkan pengaturan dan kamus Smart Keyboard PRO. Hal ini akan menimpa semua pengaturan Anda saat ini. Keyboard akan di-restart untuk mengambil perubahan ke dalam akun. Apakah Anda ingin melanjutkan?</string>
+  <string name="backup_complete">Pencadangan lengkap</string>
+  <string name="slide_popup">Geser keyboard popup</string>
+  <string name="slide_popup_summary">Geser jari untuk memilih aksen pada keyboard popup</string>
+  <string name="space_preview">Pratinjau spasi</string>
+  <string name="space_preview_summary">Tunjukkan pratinjau untuk tombol spasi</string>
+  <string name="turkish">Turki</string>
+  <string name="hungarian">Hongaria</string>
+  <string name="icelandic">Islandia</string>
+  <string name="bosnian">Bosnia</string>
+  <string name="croatian">Kroasia</string>
+  <string name="serbian">Serbia</string>
+  <string name="slovene">Slovenia</string>
+  <string name="close">Tutup</string>
+  <string name="arabic">Arab</string>
+  <string name="layout">Tata letak</string>
+  <string name="force_latin">Paksakan tata letak latin</string>
+  <string name="force_latin_summary">Paksakan tata letak untuk digunakan dengan semua bahasa latin</string>
+  <string name="default_latin_lang">&lt; default &gt;</string>
+  <string name="korean">Korea</string>
+  <string name="rtl_suggestions">saran RTL</string>
+  <string name="rtl_suggestions_summary">Balik kata-kata di bar prediksi (untuk bahasa Arab/Ibrani)</string>
+  <string name="clean_userdic">Bersihkan kamus pengguna</string>
+  <string name="warn_clean_userdic">Peringatan! Ini akan menghapus SEMUA kata dalam kamus pengguna Anda. Apakah Anda ingin melanjutkan?</string>
+  <string name="suggest_punctuation">Sarankan tanda baca</string>
+  <string name="key_height">Tinggi tombol</string>
+  <string name="longpress_duration">Durasi tekan lama</string>
+  <string name="longpress_duration_summary">Sesuaikan durasi tekan lama untuk simbol alternatif</string>
+  <string name="learn_new_words">Pelajari kata-kata baru</string>
+  <string name="learn_new_words_summary">Secara otomatis menambahkan kata-kata baru ke dalam kamus pengguna (membutuhkan kamus pintar)</string>
+  <string name="enter_sends_sms">Tombol Enter mengirim pesan</string>
+  <string name="enter_sends_sms_summary">Tombol Enter akan mengirim pesan daripada meletakkan baris baru. Peringatan: tidak bekerja di semua aplikasi! (lihat panduan pengguna)</string>
+  <string name="slovak">Slovakia</string>
+  <string name="bk_warning">Peringatan! Ini adalah skin untuk Better Keyboard. Kompatibilitas dengan Smart Keyboard mungkin dapat bentrok kapan saja, risiko Anda tanggung sendiri!</string>
+  <string name="domain_editor_summary">Sesuaikan tombol .com</string>
+  <string name="domain_editor_title">Sentuh untuk mengubah domain</string>
+  <string name="persistent_domain_key">Tombol domain tetap</string>
+  <string name="persistent_domain_key_summary">Selalu tampilkan tombol domain (.com)</string>
+  <string name="no_alt_preview">Tidak ada pratinjau alt</string>
+  <string name="no_alt_preview_summary">Jangan tunjukkan popup pratinjau untuk karakter alternatif jika hanya ada satu</string>
+  <string name="dynamic_resizing">Ubah ukuran kunci dinamis</string>
+  <string name="dynamic_resizing_summary">Ubah ukuran kunci virtual berdasarkan probabilitas huruf berikutnya</string>
+  <string name="japanese">Jepang</string>
+  <string name="double_space_period">Titik pada spasi ganda</string>
+  <string name="double_space_period_summary">Sisipkan tanda titik ketika spasi diketik dua kali</string>
+  <string name="arrows_style">Bentuk panah</string>
+  <string name="arrows_style_summary">Memilih bentuk tombol panah</string>
+  <string name="disable_mt">Menonaktifkan mutitouch</string>
+  <string name="compound_suggestions">Gabungkan saran</string>
+  <string name="compound_suggestions_summary">Aktifkan saran dari kata majemuk (terutama untuk Jerman)</string>
+  <string name="current_language">Bahasa saat ini</string>
+  <string name="language_specific_options">Pilihan bahasa tertentu</string>
+  <string name="no_lansdcape_fullscreen">Tidak ada landscape fullscreen</string>
+  <string name="no_lansdcape_fullscreen_summary">Jangan beralih ke modus fullscreen dalam orientasi landscape</string>
+  <string name="t9_length_priority">prioritas panjang T9</string>
+  <string name="t9_length_priority_summary">Berikan prioritas kepada kata-kata dengan panjang yang sama ketika menampilkan saran T9</string>
+  <string name="t9_next_key">Tombol Next T9</string>
+  <string name="t9_next_key_summary">Tampilkan tombol Next di mode potrait T9</string>
+  <string name="suggest_numbers">Sarankan nomor</string>
+  <string name="suggest_numbers_summary">Aktifkan saran untuk kata-kata yang dimulai dengan karakter non-alfabetik</string>
+  <string name="trial_popup">Ini adalah versi percobaan. Dapatkan "Smart Keyboard PRO" sekarang untuk mendukung aplikasi ini dan Anda tidak perlu melihat popup yang menjengkelkan ini lagi :)</string>
+  <string name="buy">Beli</string>
+  <string name="no_thanks">Tidak, terima kasih</string>
+  <string name="chinese_simplified">Chinese (Disederhanakan)"</string>
+  <string name="yes">Ya</string>
+  <string name="no">Tidak</string>
+  <string name="english_dic">Anda PERLU men-download \"English for Smart Keyboard\" dari Android Market untuk mengaktifkan saran dan auto-koreksi dalam bahasa Inggris. Apakah Anda ingin men-download sekarang?</string>
+  <string name="physical_kbd">Keyboard fisik</string>
+  <string name="physical_kbd_summary">Aktifkan saran dan terjemahan tombol dengan keyboard fisik. Gunakan shift+spasi untuk menukar bahasa.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Input suara</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Input suara saat ini tidak memadai untuk bahasa Anda, tetapi bekerja dalam bahasa Inggris.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Input suara adalah fitur percobaan menggunakan Google\'s networked speech recognition.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Untuk menonaktifkan suara input, pergi ke pengaturan keyboard.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Bicara sekarang</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Bekerja</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Error. Silakan coba lagi.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Tidak dapat terhubung</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Error, terlalu banyak pembicaraan.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Masalah audio</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Tidak ada suara terdengar</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Tidak ada kecocokan ditemukan</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Penelusuran suara tidak terpasang</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estonia</string>
+  <string name="lithuanian">Lithuania</string>
+  <string name="latvian">Latvia</string>
+  <string name="only_one_language">Peringatan! Karena Anda memilih hanya satu bahasa untuk tombol bahasa, tombol ini tidak akan ditampilkan, tetapi bahasa saat ini telah ditetapkan menjadi bahasa ini.</string>
+  <string name="different_language">Peringatan! Bahasa yang Anda pilih bukanlah yang Anda tetapkan dalam opsi \"tombol pilihan bahasa\"!</string>
+  <string name="hebrew_alt">Tata letak alt Ibrani</string>
+  <string name="hebrew_alt_summary">Tempatkan tombol backspace di sebelah kiri dalam tata letak Ibrani</string>
+  <string name="portrait_fullscreen_summary">Atur keyboard dalam mode fullscreen dalam orientasi portrait (dapat berguna untuk layar yang sangat kecil)</string>
+  <string name="czech_full">Tata letak penuh Ceko Slovakia</string>
+  <string name="czech_full_summary">Sertakan baris atas dengan huruf beraksen dalam tata letak Ceko dan Slowakia</string>
+  <string name="swipe_sensitivity">Sensitivitas geseran</string>
+  <string name="swipe_sensitivity_summary">Atur kepekaan dari gerakan. Peringatan: jika Anda meningkatkan sensitivitas terlalu banyak,  mengetik dengan multitouch bisa ditafsirkan sebagai gerakan.</string>
+  <string name="multitap_interval">Interval multi-tap</string>
+  <string name="multitap_interval_summary">Atur penundaan maksimum untuk sentuhan multi, misalnya untuk layout \"short vowels\" T9 atau Korea.</string>
+  <string name="persian">Farsi</string>
+  <string name="calibration">Kalibrasi</string>
+  <string name="calibration_summary">Kalibrasi keyboard untuk meningkatkan akurasi</string>
+  <string name="calibration_instructions">Untuk mengkalibrasi keyboard Anda, ketik teks berikut:</string>
+  <string name="calibration_done">Kalibrasi selesai! Klik \"Simpan\" untuk menggunakan pengaturan baru, atau \"Batal\" untuk mencoba lagi. Perhatikan bahwa Anda harus menjalankan kalibrasi dalam modus portrait dan landscape untuk hasil yang lebih baik.</string>
+  <string name="calibration_profile_is">Profil kalibrasi Anda:</string>
+  <string name="calibration_reset">Anda akan mengembalikan pengaturan kalibrasi ke pengaturan awal. Apakah Anda ingin melanjutkan?</string>
+  <string name="save">Simpan</string>
+  <string name="get_skins">Dapatkan skin lainnya...</string>
+  <string name="sms_mode">Mode SMS</string>
+  <string name="sms_mode_summary">Hilangkan aksen diperpanjang dari kata-kata yang disarankan saat menulis SMS</string>
+  <string name="key_height_summary">Atur tinggi tombol</string>
+  <string name="alt_symbols">Simbol Alt</string>
+  <string name="alt_symbols_summary">Tampilkan label alt di panel simbol (123)</string>
+  <string name="hide_period">Sembunyikan titik</string>
+  <string name="hide_period_summary">Sembunyikan tombol titik untuk memperbesar spasi</string>
+  <string name="hide_comma">Sembunyikan koma</string>
+  <string name="hide_comma_summary">Sembunyikan tombol koma (atau mic) untuk memperbesar spasi</string>
+  <string name="bottom_padding">Celah Bawah</string>
+  <string name="bottom_padding_summary">Menambahkan celah ekstra di bagian bawah keyboard dalam modus portrait</string>
+  <string name="apostrophe_separator">Pemisah tanda kutip</string>
+  <string name="apostrophe_separator_summary">Menganggap tanda kutip sebagai pemisah kata (berguna untuk Italia misalnya)</string>
+  <string name="ignore_hard_kbd">Abaikan keyboard keras</string>
+  <string name="ignore_hard_kbd_summary">Tampilkan keyboard lunak dalam mode landscape meskipun terdapat keyboard keras (dapat digunakan dengan Droid Pro)</string>
+  <string name="custom_punctuation">Tanda baca kustom</string>
+  <string name="custom_punctuation_summary">Kustomisasi tanda baca yang ditampilkan di bar saran</string>
+  <string name="kazakh">Kazakhstan</string>
+  <string name="azerbaijani">Azerbaijan</string>
+  <string name="armenian">Armenia</string>
+  <string name="vietnamese">Vietnam</string>
+  <string name="no_landscape_suggestions">Tidak ada saran landscape</string>
+  <string name="no_landscape_suggestions_summary">Jangan tampilkan bar saran dalam orientasi landscape</string>
+  <string name="arrows_main">Tampilkan panah</string>
+  <string name="arrows_main_summary">Memilih ketika panah ditampilkan pada keyboard utama</string>
+  <string name="cursor_volume">Kursor dengan volume</string>
+  <string name="cursor_volume_summary">Pindahkan kursor dengan tombol volume</string>
+  <string name="export_user_dic">Ekspor kamus pengguna</string>
+  <string name="export_user_dic_summary">Ekspor kamus pengguna dalam format CSV</string>
+  <string name="export_autotext">Ekspor AutoText</string>
+  <string name="export_autotext_summary">Ekspor shortcut AutoText dalam format CSV</string>
+  <string name="import_user_dic">Impor kamus pengguna</string>
+  <string name="import_autotext">Impor AutoText</string>
+  <string name="export_complete">ekspor CVS selesai</string>
+  <string name="import_complete">impor CVS selesai</string>
+  <string name="export_user_dic_warning">Peringatan! Anda akan mengekspor kamus pengguna ke file dalam format CSV.  Hal ini akan menimpa /sdcard/smartkeyboardpro/userdic.csv. Apakah Anda ingin melanjutkan?</string>
+  <string name="import_user_dic_warning">Peringatan! Anda akan mengimpor pengguna kamus dari CSV file /sdcard/smartkeyboardpro/userdic.csv.
+Ini akan menimpa seluruh isi Kamus pengguna Anda. Apakah Anda ingin melanjutkan?   </string>
+  <string name="export_autotext_warning">Peringatan! Anda akan mengekspor kamus AutoText ke file dalam format CSV.  Hal ini akan menimpa /sdcard/smartkeyboardpro/autotext.csv. Apakah Anda ingin melanjutkan?</string>
+  <string name="import_autotext_warning">Peringatan! Anda akan mengimpor kamus AutoText dari CSV file /sdcard/smartkeyboardpro/autotext.csv.
+Ini akan menimpa seluruh isi kamus AutoText Anda. Apakah Anda ingin melanjutkan?</string>
+  <string name="accents_priority">Prioritas aksen</string>
+  <string name="accents_priority_summary">Berikan prioritas kepada huruf beraksen (atau konsonan ganda), bukan simbol ketika menekan tombol dengan lama. Hanya bekerja untuk beberapa bahasa.</string>
+  <string name="afrikaans">Afrika</string>
+  <string name="mongolian">Mongolia</string>
+  <string name="prefs_enable_recorrection">Sentuh untuk memperbaiki kata-kata</string>
+  <string name="prefs_enable_recorrection_summary">Sentuh kata-kata yang dimasukkan untuk memperbaikinya</string>
+  <string name="macedonian">Makedonia</string>
+  <string name="luxembourgish">Luksemburg</string>
+  <string name="albanian">Albania</string>
+  <string name="belarusian">Belarusia</string>
+  <string name="indonesian">Indonesia</string>
+  <string name="alt_compact">Kompak/T9 diperpanjang</string>
+  <string name="alt_compact_summary">Tekan lama dalam mode kompak/T9 menampilkan semua huruf yang mungkin (hanya layout bahasa Inggris)</string>
+  <string name="backup_failed">Pencadangan gagal!</string>
+  <string name="restore_failed">Pemulihan gagal! File cadangan mungkin rusak.</string>
+  <string name="hide_in_portrait">Sembunyikan di portrait</string>
+  <string name="hide_in_portrait_summary">Selalu sembunyikan keyboard dalam portrait (berguna pada Droid Pro)</string>
+  <string name="space_alert">Peringatan spasi</string>
+  <string name="space_alert_summary">Bergetar hanya untuk space bar</string>
+  <string name="hide_lang_key">Sembunyikan tombol bahasa</string>
+  <string name="hide_lang_key_summary">Sembunyikan tombol pilihan bahasa ketika beberapa bahasa diaktifkan</string>
+  <string name="show_language_icon">Tampilkan ikon bahasa</string>
+  <string name="show_language_icon_summary">Tampilkan ikon bahasa di bar status</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Selamat datang di <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"dengan Ketikan Isyarat"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Memulai"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Langkah berikutnya"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Menyiapkan <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Aktifkan <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Centang \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" di setelan Bahasa &amp; masukan Anda. Tindakan ini akan mengizinkannya berjalan di perangkat Anda."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Aktifkan dalam Setelan"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Beralih ke <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Lalu, pilih \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" sebagai metode masukan teks aktif Anda."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Alihkan metode masukan"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Selamat, Anda sudah siap!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Sekarang Anda dapat mengetik di semua aplikasi favorit Anda dengan <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfigurasikan bahasa tambahan"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Selesai"</string>
+  </resources>

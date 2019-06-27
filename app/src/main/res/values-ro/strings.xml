@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Ajutor</string>
+  <string name="about">Despre ...</string>
+  <string name="auto_cap">Auto-capitalizare</string>
+  <string name="auto_cap_summary">Capitalizare la început de propoziţie</string>
+  <string name="keyboard_settings">Setări Smart Keyboard Pro</string>
+  <string name="settings">Setări</string>
+  <string name="general_settings">Setări generale</string>
+  <string name="text_prediction">Predicţie text</string>
+  <string name="sound_vibrate">Sună şi vibrează</string>
+  <string name="language">Limbă</string>
+  <string name="language_summary">Schimbaţi limba şi layoutul tastaturii</string>
+  <string name="lang_key">Tasta de selecţie a limbii</string>
+  <string name="lang_key_summary">Selectaţi limbile disponibile</string>
+  <string name="english">Engleză</string>
+  <string name="english_intl">Engleză (International)</string>
+  <string name="english_dvorak">Engleză (Dvorak)</string>
+  <string name="english_azerty">Engleză (AZERTY)</string>
+  <string name="french">Franceză</string>
+  <string name="romanian">Română</string>
+  <string name="bulgarian">Bulgară</string>
+  <string name="russian">Rusă</string>
+  <string name="russian_phonetic">Rusă (fonetic)</string>
+  <string name="spanish">Spaniolă</string>
+  <string name="italian">Italiană</string>
+  <string name="german">Germană</string>
+  <string name="portuguese">Portugheză</string>
+  <string name="danish">Daneză</string>
+  <string name="finnish">Finlandeză</string>
+  <string name="hebrew">Ebraică</string>
+  <string name="norwegian">Norvegiană</string>
+  <string name="swedish">Suedeză</string>
+  <string name="georgian">Georgiană</string>
+  <string name="czech_qwerty">Cehă (QWERTY)</string>
+  <string name="czech_qwertz">Cehă (QWERTZ)</string>
+  <string name="greek">Greacă</string>
+  <string name="dutch">Olandeză</string>
+  <string name="polish">Poloneză</string>
+  <string name="ukrainian">Ucraineană</string>
+  <string name="vibrate">Vibrează</string>
+  <string name="vibrate_summary">Vibrare la apăsarea tastelor</string>
+  <string name="vibrate_duration">Durata vibraţiei</string>
+  <string name="label_go_key">Du-te</string>
+  <string name="label_next_key">Următorul</string>
+  <string name="label_done_key">Gata</string>
+  <string name="label_send_key">Trimite</string>
+  <string name="advanced_settings">Setări avansate</string>
+  <string name="sound_on_keypress">Sunet la apăsarea tastelor</string>
+  <string name="gestures">Gesturi</string>
+  <string name="swipe_left">Swipe stânga</string>
+  <string name="swipe_right">Swipe dreapta</string>
+  <string name="swipe_up">Swipe sus</string>
+  <string name="swipe_down">Swipe jos</string>
+  <string name="saved">Salvat</string>
+  <string name="quick_fixes">Remedieri rapide</string>
+  <string name="quick_fixes_summary">Corectează greşelile frecvente tastate</string>
+  <string name="show_suggestions">Arată sugestiile</string>
+  <string name="show_suggestions_summary">Afişare cuvinte sugerate în timp ce tastaţi</string>
+  <string name="auto_complete">Completare automată</string>
+  <string name="auto_complete_summary">Bara de spaţiu şi semne de punctuaţie inserează automat cuvântul subliniat</string>
+  <string name="contact_dic">Dicţionar contacte</string>
+  <string name="contact_dic_summary">Include numele persoanelor din lista de contacte în sugestii (este necesar Android 2.0)</string>
+  <string name="show_preview">Afişare previzualizare tip pop-up</string>
+  <string name="show_preview_summary">Afişază un pop-up atunci când o tastă este apăsată</string>
+  <string name="skin_selection">Selectaţi tema dorită</string>
+  <string name="skin_summary">Modificaţi tema tastaturii</string>
+  <string name="transparency">Transparenţă</string>
+  <string name="opacity">Setaţi opacitatea</string>
+  <string name="transparency_summary">Setaţi transparența tastaturii</string>
+  <string name="volume">Volum</string>
+  <string name="volume_summary">Setaţi volumul sunetului tastaturii</string>
+  <string name="debug_logs">Activează jurnalele de depanare</string>
+  <string name="always_suggest">Sugerează întotdeauna</string>
+  <string name="always_suggest_summary">De asemenea, afişază sugestii pentru căutări</string>
+  <string name="custom_autotext">AutoText uzual</string>
+  <string name="custom_autotext_summary">Editaţi propriile comenzi rapide de AutoText</string>
+  <string name="add_autotext">Adaugă AutoText ...</string>
+  <string name="edit_autotext">Editaţi AutoText</string>
+  <string name="autotext_key">Cuvântul următor:</string>
+  <string name="autotext_value">va fi înlocuit cu:</string>
+  <string name="autotext_context_edit">Editare</string>
+  <string name="autotext_context_delete">Ştergeţi</string>
+  <string name="enable_arrows">Activare tastatura cu săgeți</string>
+  <string name="enable_arrows_summary">Accesibil cu tasta 123</string>
+  <string name="always_caps">Întotdeauna majuscule</string>
+  <string name="always_caps_summary">Întotdeauna afişază etichetele tastelor în modul majuscule</string>
+  <string name="display_alt_labels">Arată etichete alternative</string>
+  <string name="display_alt_labels_summary">Afişază etichetă alternativă deasupra etichetei tastei</string>
+  <string name="user_dictionary">Dicţionarul utilizatorului</string>
+  <string name="user_dictionary_summary">Editare cuvinte în dicţionarul utilizatorului</string>
+  <string name="add_word">Adăugaţi cuvânt</string>
+  <string name="edit_word">Editare cuvânt</string>
+  <string name="delete_word">Ştergeţi cuvânt</string>
+  <string name="word">Cuvânt</string>
+  <string name="download_dic">Descarcă dicţionar</string>
+  <string name="download_dic_summary">Descărcare dicționare din PlayStore</string>
+  <string name="mic_button">Buton microfon</string>
+  <string name="mic_button_summary">Afişază tasta pentru intrare voce atunci când este posibil</string>
+  <string name="voice_input">Intrare voce</string>
+  <string name="cancel">Anulează</string>
+  <string name="retry">Reîncercaţi</string>
+  <string name="restart_voice">Reporniţi intrarea voce</string>
+  <string name="restart_voice_summary">Întotdeauna reporneşte introducerea vocii până când este anulată</string>
+  <string name="voice_best">Alege cea mai bună intrare de voce</string>
+  <string name="voice_best_summary">Selectează automat cea mai bună alegere</string>
+  <string name="touch_points">Arată punctele de contact</string>
+  <string name="portrait_mode">Modul portret</string>
+  <string name="portrait_mode_summary">Selectaţi modul normal, T9 sau aspectul compact pentru modul portret</string>
+  <string name="candidate_color">Culoare selectată</string>
+  <string name="candidate_color_summary">Culoarea cuvântului recomandat în bara de sugestii</string>
+  <string name="welcome">Vă mulţumim pentru instalarea \@!\n\nPentru a activa această tastatură, du-te la setări în \"Limbă&amp; tastaturi\" sau (\"Local&amp; text\") setări şi bifează \"\@\". Apoi, pentru a comuta la \@, trebuie să țineți apăsat în orice casetă de introducere text și să selectaţi \"Metodă de introducere\", apoi selectaţi \@ din listă. Puteți ține apăsat mai mult pe tasta  \"123\" pentru a intra în setările de tastatură. \n\nAcum, du-te la meniul de setări (puteţi să faceţi clic de mai jos), şi bucuraţi-vă de!\n\nNotă: eliminaţi pictograma lansator în setările de tastatură</string>
+  <string name="disable_launcher">Dezactivaţi lansatorul pictograma</string>
+  <string name="disable_launcher_warning">Avertisment! Acest lucru va dezactiva pictograma Smart Keyboard din lansator, dar va dezactiva și \"Open\" buton din PlayStore! \nSe poate să fie necesar să reporniţi telefonul pentru ca pictograma să dispară.</string>
+  <string name="space_when_pick">Spaţiu după alegerea cuvântului</string>
+  <string name="space_when_pick_summary">Introducere spaţiu atunci când se alege manual cuvântul din bara de sugestie</string>
+  <string name="swap_punctuation_space">Comutare punctuație</string>
+  <string name="swap_punctuation_space_summary">Schimbă automat semnele de punctuaţie şi spaţiu după un cuvânt</string>
+  <string name="smiley_key">Tasta Smiley</string>
+  <string name="smiley_key_summary">Arată tasta smiley în loc de tasta Enter</string>
+  <string name="toggle_smiley_key">Comutare tastă smiley</string>
+  <string name="select_sound">Selectaţi stilul sunetului</string>
+  <string name="smiley_editor">Editor smiley</string>
+  <string name="smiley_editor_summary">Personalizează-ţi tasta smiley</string>
+  <string name="smiley_editor_title">Apăsaţi pentru a edita un smiley</string>
+  <string name="edit_smiley">Editare smiley</string>
+  <string name="smart_dictionary">Dicţionar inteligent</string>
+  <string name="smart_dictionary_summary">Dicţionar care învaţă frecvența cuvintelor tastate pentru a îmbunătăţi sugestile</string>
+  <string name="backup">Copie de rezervă a setărilor</string>
+  <string name="backup_to_sd">Copie de rezevă pe cardul SD</string>
+  <string name="restore">Restaurarea de pe cardul SD</string>
+  <string name="no_sd_card">Eroare: Cardul SD nu este montat, copierea de rezerva/restaurarea nu este posibil!</string>
+  <string name="backup_warning">Atenţie! Sunteţi pe cale să faceţi backup la setările şi dicţionarele Smart Keyboard PRO. Aceasta va suprascrie fișierele din locația /sdcard/smartkeyboardpro/backup.zip. Doriţi să continuaţi?</string>
+  <string name="restore_warning">Atenţie! Sunteti pe cale de a restaura setările şi dicţionarele SmartKeyboard PRO. Aceasta va suprascrie toate setările curente. Tastatura va fi repornită pentru a activa modificările. Doriţi să continuaţi?</string>
+  <string name="backup_complete">Copierea de rezervă a datelor completă</string>
+  <string name="slide_popup">Glisaţi tastatura pop-up</string>
+  <string name="slide_popup_summary">Glisaţi degetul pentru a selecta accente pe tastatura pop-up</string>
+  <string name="space_preview">Previzualizare spaţiu</string>
+  <string name="space_preview_summary">Arată previzualizare pentru tasta spaţiu</string>
+  <string name="turkish">Turcă</string>
+  <string name="hungarian">Maghiară</string>
+  <string name="icelandic">Islandeză</string>
+  <string name="bosnian">Bosniacă</string>
+  <string name="croatian">Croată</string>
+  <string name="serbian">Sârbă</string>
+  <string name="slovene">Slovenă</string>
+  <string name="close">Închide</string>
+  <string name="arabic">Arabă</string>
+  <string name="layout">Aspect</string>
+  <string name="force_latin">Aplică forțat aspectul latin</string>
+  <string name="force_latin_summary">Aplică forțat ca aspectul să fie utilizat cu toate limbile latine</string>
+  <string name="default_latin_lang">&lt;Implicit&gt;</string>
+  <string name="korean">Coreeană</string>
+  <string name="rtl_suggestions">Sugestii RTL</string>
+  <string name="rtl_suggestions_summary">Inversează cuvintele în bara de predicție (pentru arabă/ebraică)</string>
+  <string name="clean_userdic">Golește dicționarul utilizatorului</string>
+  <string name="warn_clean_userdic">Atenţie! Aceasta va şterge TOATE cuvintele dvs. din dicționarul utilizatorului. Doriţi să continuaţi?</string>
+  <string name="suggest_punctuation">Sugerează punctuaţie</string>
+  <string name="key_height">Înălţimea tastei</string>
+  <string name="thai">Tailandeză</string>
+  <string name="longpress_duration">Durată pentru apăsarea lungă a tastei</string>
+  <string name="longpress_duration_summary">Particularizează durata de apăsare lungă pentru simboluri alternative</string>
+  <string name="learn_new_words">Învaţă cuvinte noi</string>
+  <string name="learn_new_words_summary">Adăugă automat cuvintele noi în dicţionarul utilizatorului (necesită dicţionarul inteligent)</string>
+  <string name="enter_sends_sms">Tasta Enter trimite mesajul</string>
+  <string name="enter_sends_sms_summary">Tasta Enter trimite mesajul în loc să introducă o nouă linie de text. Avertisment: nu funcționează în toate aplicațile (vezi ghidul\'s utilizatorului)</string>
+  <string name="slovak">Slovacă</string>
+  <string name="bk_warning">Atenţie! Aceasta este o temă pentru Better Keyboard. Compatibilitatea cu Smart Keyboard poate fi întreruptă în orice moment, utilizaţi această temă pe propriul dvs. risc!</string>
+  <string name="domain_editor">Editor de domeniu</string>
+  <string name="domain_editor_summary">Personalizați tasta .com</string>
+  <string name="domain_editor_title">Apăsaţi pentru a edita un domeniu</string>
+  <string name="edit_domain">Editaţi domeniu</string>
+  <string name="persistent_domain_key">Tastă domeniu persistentă</string>
+  <string name="persistent_domain_key_summary">Afişează întotdeauna tasta domeniu (.com)</string>
+  <string name="no_alt_preview">Nu există previzualizare alternativă</string>
+  <string name="no_alt_preview_summary">Nu arata popup de previzualizare pentru caracterul alternativ dacă există doar unul</string>
+  <string name="dynamic_resizing">Redimensionarea dinamică a tastei</string>
+  <string name="dynamic_resizing_summary">Modificaţi dimensiunea virtuală a tastelor în baza probabilităţii următoarei litere</string>
+  <string name="japanese">Japoneză</string>
+  <string name="double_space_period">Punct când tasta spațiu este apăsată de două ori</string>
+  <string name="double_space_period_summary">Inseraţi un punct când bara de spaţiu este apăsată de două ori</string>
+  <string name="arrows_style">Stilul săgeţilor</string>
+  <string name="arrows_style_summary">Alege stilul pentru tastatura cu săgeți</string>
+  <string name="disable_mt">Dezactivare mutitouch</string>
+  <string name="compound_suggestions">Sugestii combinaţii</string>
+  <string name="compound_suggestions_summary">Activează sugestii pentru cuvinte compuse (în principal pentru germană)</string>
+  <string name="current_language">Limba curentă</string>
+  <string name="language_specific_options">Opţiuni specifice pentru limbă</string>
+  <string name="no_lansdcape_fullscreen">Dezactivaţi modul portret în ecran complet</string>
+  <string name="no_lansdcape_fullscreen_summary">Nu comutați la modul ecran complet în orientarea tip vedere</string>
+  <string name="t9_length_priority">Prioritate lungime pentru T9</string>
+  <string name="t9_length_priority_summary">Acorda prioritate cuvintelor cu aceeași lungime la afişarea sugestilor cu T9</string>
+  <string name="t9_next_key">T9 Următoarea tastă</string>
+  <string name="t9_next_key_summary">Afişază butonul Următor (Next) în modul portret pentru T9</string>
+  <string name="suggest_numbers">Sugerează numere</string>
+  <string name="suggest_numbers_summary">Activează sugestii pentru cuvintele care încep cu un caracter non-alfabetic</string>
+  <string name="trial_popup">Aceasta este o versiune de probă. Cumpără "Smart Keyboard PRO" acum pentru a sprijini aplicaţia şi pentru a nu mai vedea acest pop-up enervant din nou:)</string>
+  <string name="buy">Cumpăra</string>
+  <string name="no_thanks">Nu, mulţumesc</string>
+  <string name="chinese_simplified">Chineză (simplificată)</string>
+  <string name="yes">Da</string>
+  <string name="no">Nu</string>
+  <string name="english_dic">Aveţi nevoie să descărcați \"English pentru Smart Keyboard\" din PlayStore pentru a permite sugestii şi auto-corecţie în limba engleză. Doriți să descărcaţi acum?</string>
+  <string name="physical_kbd">Tastatură fizică</string>
+  <string name="physical_kbd_summary">Activaţi sugestii şi traducere tastei cu tastatura fizică. Utilizaţi shift+spaţiu pentru a comuta limba.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Intrare voce</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Introducerea vocii nu este acceptată în prezent pentru limba ta, dar funcţionează în limba engleză.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Intrare voce este o funcţie experimentală care utilizează recunoasterea vocală prin internet de la  Google\'s.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Pentru a dezactiva introducerea vocii, mergeţi la setările tastaturii.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Vorbiţi acum</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Procesare</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Eroare. Vă rugăm să încercaţi din nou.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Nu a fost posibilă conectarea</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Eroare, discurs prea mare.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Problemă audio</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Eroare de server</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Nu se aude discursul</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Nu s-a găsit niciun rezultat asemănător</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Căutarea cu ajutorul vocii nu este instalată</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estonă</string>
+  <string name="lithuanian">Lituaniană</string>
+  <string name="latvian">Letonă</string>
+  <string name="only_one_language">Atenţie! Deoarece aţi selectat numai o singură limbă pentru limba tastei, aceasta tastă nu va fi afişată, dar limba curentă a fost stabilită pentru această limbă.</string>
+  <string name="different_language">Avertisment! Limba selectată nu este cea pe care aţi definit-o în \"language selecţia key\" opţiune!</string>
+  <string name="hebrew_alt">Ebraică aspect alternativ</string>
+  <string name="hebrew_alt_summary">Pune tasta backspace pe stânga pentru ebraică</string>
+  <string name="portrait_fullscreen">Mod portret pe tot ecranul</string>
+  <string name="portrait_fullscreen_summary">Setaţi tastatura în modul ecran complet în orientare portret (poate fi utilă pe ecranele foarte mici)</string>
+  <string name="czech_full">Cehă/Slovacă aspect complet</string>
+  <string name="czech_full_summary">Include un rând superior cu litere accentuate pentru cehă şi slovacă</string>
+  <string name="swipe_sensitivity">Sensitivitatea pentru swipe</string>
+  <string name="swipe_sensitivity_summary">Setaţi sensibilitatea pentru gesturi. Atenţie: dacă se măreşte sensibilitatea prea mult, tastarea multitouch ar putea fi interpretată ca un gest.</string>
+  <string name="catalan">Catalană</string>
+  <string name="multitap_interval">Interval multitap</string>
+  <string name="multitap_interval_summary">Seta întârzierea maxima pentru multitap, de exemplu în \"short vowels\ T9 sau coreeană" machete.</string>
+  <string name="persian">Persană</string>
+  <string name="calibration">Calibrare</string>
+  <string name="calibration_summary">Calibraţi tastatura pentru a îmbunătăţi precizia</string>
+  <string name="calibration_instructions">Pentru a calibra tastatura, tastaţi următorul text:</string>
+  <string name="calibration_done">Calibrarea este terminată! Faceţi clic pe \"Save\" pentru a utiliza noi setări, sau \"Cancel\" pentru a încerca din nou. Reţineţi că trebuie să executaţi calibrare în ambele moduri portret şi peisaj pentru rezultate mai bune.</string>
+  <string name="calibration_profile_is">Profilul dvs. de calibrare este:</string>
+  <string name="calibration_reset">Sunteţi pe cale să resetaţi setările de calibrare la valorile implicite. Doriţi să continuaţi?</string>
+  <string name="reset">Resetare</string>
+  <string name="save">Salvaţi</string>
+  <string name="get_skins">Obţineţi mai multe teme...</string>
+  <string name="sms_mode">Modul SMS</string>
+  <string name="sms_mode_summary">Îndepărtează accentele pentru cuvintele sugerate atunci când scrieţi un SMS</string>
+  <string name="key_height_summary">Personalizare pentru înălţimea tastelor</string>
+  <string name="alt_symbols">Simboluri alternative</string>
+  <string name="alt_symbols_summary">Afişaţi etichetele alternative în panoul Simboluri (123)</string>
+  <string name="hide_period">Ascunde punctul</string>
+  <string name="hide_period_summary">Ascunde tasta punct pentru a mări bara spațiu</string>
+  <string name="hide_comma">Ascunde virgula</string>
+  <string name="hide_comma_summary">Ascunde tasta virgulă (sau microfon) pentru a mări bara spațiu</string>
+  <string name="bottom_padding">Spațiere în partea de jos</string>
+  <string name="bottom_padding_summary">Adăuga spaţiu suplimentar în partea de jos a tastaturii în modul portret</string>
+  <string name="apostrophe_separator">Separator de apostrof</string>
+  <string name="apostrophe_separator_summary">Consideră apostroful ca un cuvânt separator (util pentru Italiana, de exemplu)</string>
+  <string name="ignore_hard_kbd">Ignorare tastatură fizică</string>
+  <string name="ignore_hard_kbd_summary">Afișați tastaura programului în modul peisaj chiar daca este prezentă o tastatură fizică (poate fi utilizat cu DroidPro)</string>
+  <string name="tatar">Tătară</string>
+  <string name="custom_punctuation">Punctuaţie particularizată</string>
+  <string name="custom_punctuation_summary">Personalizaţi semnele de punctuaţie afişate în bara de sugestie</string>
+  <string name="kazakh">Kazahă</string>
+  <string name="azerbaijani">Azerbaijan</string>
+  <string name="armenian">Armeană</string>
+  <string name="vietnamese">Vietnameză</string>
+  <string name="no_landscape_suggestions">Fără sugestii în modul peisaj</string>
+  <string name="no_landscape_suggestions_summary">Nu afişează bara de sugestie în orientarea peisaj</string>
+  <string name="arrows_main">Arată săgeţi</string>
+  <string name="arrows_main_summary">Alege atunci când tastele săgeată să fie afișate pe tastatură principală</string>
+  <string name="cursor_volume">Cursorul cu volum</string>
+  <string name="cursor_volume_summary">Muta cursorul cu tastele de volum</string>
+  <string name="export_user_dic">Exportă dicționarul utilizatorului</string>
+  <string name="export_user_dic_summary">Exportă dicționarul utilizatorului în format CSV</string>
+  <string name="export_autotext_summary">Exportă comenzile rapide din AutoText în format CSV</string>
+  <string name="import_user_dic">Importă dicționarul utilizatorului</string>
+  <string name="import_autotext">Importă AutoText</string>
+  <string name="export_complete">Exportul CSV complet</string>
+  <string name="import_complete">Importul CSV complet</string>
+  <string name="export_user_dic_warning">Avertisment! Intenţionaţi să exportați dicționarul utilizatorului într-un fişier CSV.  Acest lucru va suprascrie /sdcard/smartkeyboardpro/userdic.csv. Doriţi să continuaţi?</string>
+  <string name="import_user_dic_warning">Avertisment! Urmează să importaţi dicționarul utilizatorului din fișierul CSV localizat in /sdcard/smartkeyboardpro/userdic.csv. Acest lucru va suprascrie conţinutul întregului dicţionar al utilizatorului. Doriţi să continuaţi?   </string>
+  <string name="export_autotext_warning">Avertisment! Veți exporta dicționarul utilizatorului într-un fişier CSV.  Acest lucru va suprascrie dicționarul utilizatorului din locația /sdcard/smartkeyboardpro/userdic.csv. Doriţi să continuaţi?</string>
+  <string name="import_autotext_warning">Avertisment! Intenţionaţi să importați dicţionarul AutoText din fișierul CSV situat în /sdcard/smartkeyboardpro/autotext.csv.   Acest lucru va suprascrie conţinutul întregului dvs Dictionar AutoText. Doriţi să continuaţi?   </string>
+  <string name="accents_priority">Prioritatea accentelor</string>
+  <string name="accents_priority_summary">Acordă prioritate literelor accent (sau consoanelor duble) în loc de simboluri, atunci când se apasă lung o tastă. Funcționează numai pentru unele limbi.</string>
+  <string name="mongolian">Mongolă</string>
+  <string name="prefs_enable_recorrection">Atinge pentru a corecta cuvinte</string>
+  <string name="prefs_enable_recorrection_summary">Atinge cuvintele scrise pentru a le corecta</string>
+  <string name="macedonian">Macedoneană</string>
+  <string name="luxembourgish">Luxemburgheză</string>
+  <string name="albanian">Albaneză</string>
+  <string name="belarusian">Belarusă</string>
+  <string name="indonesian">Indonezia</string>
+  <string name="alt_compact">Extins compacte/T9</string>
+  <string name="alt_compact_summary">Apăsaţi lung în modul compact/T9 afişează toate scrisorile posibil (doar aspect engleză)</string>
+  <string name="backup_failed">Copie de rezervă a eşuat!</string>
+  <string name="restore_failed">Restaurare nu a reușit! Fișierul copie de rezervă, probabil, a fost corupt.</string>
+  <string name="hide_in_portrait">Ascunde în portret</string>
+  <string name="hide_in_portrait_summary">Întotdeauna ascunde tastatură în portret (util pe Droid Pro)</string>
+  <string name="space_alert">Spaţiu de alertă</string>
+  <string name="space_alert_summary">Vibreaza numai pentru bara de spaţiu</string>
+  <string name="hide_lang_key">Ascunde limba cheie</string>
+  <string name="hide_lang_key_summary">Ascunde tasta de selecţie din limba atunci când sunt activate mai multe limbi</string>
+  <string name="show_language_icon">Afişa pictograma de limba</string>
+  <string name="show_language_icon_summary">Afişează o pictogramă de limba în bara de stare</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Bun venit la <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"cu Tastarea gestuală"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Începeți"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Pasul următor"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Configurarea <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Activați <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Bifați „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” din setările Limbă și introducere de text. Astfel, o autorizați să ruleze pe dispozitiv."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Activați în Setări"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Comutați la <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Apoi, selectați „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” ca metodă de introducere a textului activă."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Comutați între metodele de introducere a textului"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Felicitări, sunteți gata!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Acum, puteți introduce text în toate aplicațiile preferate, utilizând <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Configurați limbi suplimentare"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Finalizat"</string>
+  </resources>

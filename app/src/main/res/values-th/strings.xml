@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">วิธีใช้</string>
+  <string name="about">เกี่ยวกับ...</string>
+  <string name="auto_cap">ตัวพิมพ์ใหญ่อัตโนมัติ</string>
+  <string name="auto_cap_summary">ตัวพิมพ์ใหญ่เมื่อเริ่มต้นประโยค</string>
+  <string name="keyboard_settings">การตั้งค่า Smart Keyboard Pro</string>
+  <string name="settings">การตั้งค่า</string>
+  <string name="general_settings">การตั้งค่าทั่วไป</string>
+  <string name="text_prediction">การทำนายคำศัพท์</string>
+  <string name="sound_vibrate">เสียง และ สั่น</string>
+  <string name="language">ภาษา</string>
+  <string name="language_summary">เปลี่ยนภาษา และ ผังปุ่มแป้นพิมพ์</string>
+  <string name="lang_key">ปุ่มเลือกภาษา</string>
+  <string name="lang_key_summary">เลือกภาษาที่มี</string>
+  <string name="english">อังกฤษ</string>
+  <string name="english_intl">อังกฤษ (International)</string>
+  <string name="english_dvorak">อังกฤษ (Dvorak)</string>
+  <string name="english_azerty">อังกฤษ (AZERTY)</string>
+  <string name="french">ภาษาฝรั่งเศส</string>
+  <string name="romanian">โรมาเนีย</string>
+  <string name="bulgarian">บัลแกเรีย</string>
+  <string name="russian">รัสเซีย</string>
+  <string name="russian_phonetic">รัสเซีย (ตามการออกเสียง)</string>
+  <string name="spanish">สเปน</string>
+  <string name="italian">ภาษาอิตาลี</string>
+  <string name="german">ภาษาเยอรมัน</string>
+  <string name="portuguese">ภาษาโปรตุเกส</string>
+  <string name="danish">ภาษาเดนมาร์ก</string>
+  <string name="finnish">ฟินแลนด์</string>
+  <string name="hebrew">ภาษาฮิบรู</string>
+  <string name="norwegian">นอร์เวย์</string>
+  <string name="swedish">สวีเดน</string>
+  <string name="georgian">จอร์เจีย</string>
+  <string name="czech_qwerty">เช็ก (QWERTY)</string>
+  <string name="czech_qwertz">เช็ก (QWERTY)</string>
+  <string name="greek">กรีก</string>
+  <string name="dutch">ดัทช์</string>
+  <string name="polish">โปแลนด์</string>
+  <string name="ukrainian">ยูเครน</string>
+  <string name="vibrate">สั่น</string>
+  <string name="vibrate_summary">สั่นเมื่อกดปุ่ม</string>
+  <string name="vibrate_duration">ระยะเวลาสั่น</string>
+  <string name="label_go_key">ไป</string>
+  <string name="label_next_key">ถัดไป</string>
+  <string name="label_done_key">เสร็จแล้ว</string>
+  <string name="label_send_key">ส่ง</string>
+  <string name="advanced_settings">การตั้งค่าขั้นสูง</string>
+  <string name="sound_on_keypress">เสียงเมื่อกดปุ่ม</string>
+  <string name="gestures">รูปแบบลายเส้น</string>
+  <string name="swipe_left">รูดซ้าย</string>
+  <string name="swipe_right">รูดขวา</string>
+  <string name="swipe_up">รูดขึ้น</string>
+  <string name="swipe_down">รูดลง</string>
+  <string name="saved">บันทึกแล้ว</string>
+  <string name="quick_fixes">การแก้ไขอย่างรวดเร็ว</string>
+  <string name="quick_fixes_summary">แก้ไขข้อความที่พิมพ์ผิดบ่อย</string>
+  <string name="show_suggestions">แสดงคำแนะนำ</string>
+  <string name="show_suggestions_summary">แสดงคำแนะนำในขณะที่พิมพ์</string>
+  <string name="auto_complete">ทำให้สมบูรณ์อัตโนมัติ</string>
+  <string name="auto_complete_summary">ใส่การเว้นว่างและเครื่องหมายวรรคตอนอัตโนมัติ</string>
+  <string name="contact_dic">พจนานุกรมจากสมุดโทรศัพท์</string>
+  <string name="contact_dic_summary">รวมชื่อคนจากสมุดโทรศัพท์เข้ามาในคำที่แนะนำ (ต้องการ Android 2.0)</string>
+  <string name="show_preview">แสดงตัวอย่างป๊อปอัพ</string>
+  <string name="show_preview_summary">แสดงป๊อปอัพเมื่อคีย์ถูกกด</string>
+  <string name="skin_selection">เลือกสกิน</string>
+  <string name="skin_summary">เปลี่ยนสกินแป้นพิมพ์</string>
+  <string name="transparency">ความโปร่งใส</string>
+  <string name="opacity">ตั้งค่าความทึบ</string>
+  <string name="transparency_summary">ตั้งค่าความโปร่งใสของแป้นพิมพ์</string>
+  <string name="volume">ระดับเสียง</string>
+  <string name="volume_summary">ตั้งความดังของเสียงเมื่อกดปุ่ม</string>
+  <string name="debug_logs">เปิดบันทึกการดีบั๊ก</string>
+  <string name="always_suggest">แนะนำเสมอ</string>
+  <string name="always_suggest_summary">แสดงคำแนะนำสำหรับการค้นหาด้วย</string>
+  <string name="custom_autotext">ข้อความอัตโนมัติที่กำหนดเอง</string>
+  <string name="custom_autotext_summary">แก้ไขทางลัดให้ข้อความอัตโนมัติของคุณ</string>
+  <string name="add_autotext">เพิ่มข้อความอัตโนมัติ...</string>
+  <string name="edit_autotext">แก้ไขข้อความอัตโนมัติ</string>
+  <string name="autotext_key">คำต่อไปนี้:</string>
+  <string name="autotext_value">จะถูกแทนที่โดย:</string>
+  <string name="autotext_context_edit">แก้ไข</string>
+  <string name="autotext_context_delete">ลบ</string>
+  <string name="enable_arrows">ใช้งานแป้นลูกศร</string>
+  <string name="enable_arrows_summary">เข้าถึงด้วยปุ่ม 123</string>
+  <string name="always_caps">ตัวพิมพ์ใหญ่เสมอ</string>
+  <string name="always_caps_summary">แสดงอักษรของปุ่มแบบตัวพิมพ์ใหญ่เสมอ</string>
+  <string name="display_alt_labels">แสดงอักษรทางเลือก</string>
+  <string name="display_alt_labels_summary">แสดงอักษรทางเลือกเหนืออักษรหลักของปุ่ม</string>
+  <string name="user_dictionary">พจนานุกรมผู้ใช้</string>
+  <string name="user_dictionary_summary">แก้ไขคำในพจนานุกรมผู้ใช้</string>
+  <string name="add_word">เพิ่มคำ</string>
+  <string name="edit_word">แก้ไขคำ</string>
+  <string name="delete_word">ลบคำ</string>
+  <string name="word">คำ</string>
+  <string name="download_dic">ดาวน์โหลดพจนานุกรม</string>
+  <string name="mic_button">ปุ่มไมค์</string>
+  <string name="mic_button_summary">แสดงปุ่มการป้อนด้วยเสียงเมื่อใช้งานได้</string>
+  <string name="voice_input">ป้อนข้อมูลเสียง</string>
+  <string name="cancel">ยกเลิก</string>
+  <string name="retry">ลองอีกครั้ง</string>
+  <string name="restart_voice">เริ่มป้อนข้อมูลเสียงใหม่</string>
+  <string name="portrait_mode">โหมดแนวตั้ง</string>
+  <string name="smart_dictionary">พจนานุกรม อัจฉริยะ</string>
+  <string name="smart_dictionary_summary">พจนานุกรมที่เรียนรู้ความถี่ของคำศัพท์ที่คุณพิมพ์เพื่อการปรับปรุง</string>
+  <string name="backup">สำรองข้อมูลการตั้งค่า</string>
+  <string name="backup_to_sd">สำรองข้อมูลไปที่ SD card</string>
+  <string name="restore">เรียกคืนจากการ์ด SD</string>
+  <string name="no_sd_card">ข้อผิดพลาด : สำรอง, SD การ์ดของคุณไม่ได้ติดตั้ง / เรียกคืนเป็นไปไม่ได้!</string>
+  <string name="backup_warning">คำเตือน! คุณกำลังจะสำรองข้อมูลการตั้งค่าแป้นพิมพ์สมาร์ทโปรและพจนานุกรม นี้จะเขียนทับ / sdcard smartkeyboardpro​​ / / backup.zip คุณต้องการทำต่อหรือไม่</string>
+  <string name="backup_complete">สำรองข้อมูลสมบูรณ์</string>
+  <string name="japanese">ภาษาญี่ปุ่น</string>
+  <string name="double_space_period">เว้นระยะ โดยการกด space bar สองครั้ง</string>
+  <string name="double_space_period_summary">ใส่ช่องว่างเมื่อกด space bar สองครั้ง</string>
+  <string name="arrows_style">ปุ่มลูกศร</string>
+  <string name="arrows_style_summary">เลือกรูปแบบของแป้นพิมพ์ลูกศร</string>
+  <string name="disable_mt">ปิดการใช้งาน mutitouch</string>
+  <string name="compound_suggestions">ผสมคำแนะนำ</string>
+  <string name="current_language">ภาษาปัจจุบัน</string>
+  <string name="language_specific_options">ตัวเลือกเฉพาะของแต่ละภาษา</string>
+  <string name="no_lansdcape_fullscreen">ไม่แสดงผลแนวนอนในโหมดเต็มจอ</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <!-- Short message shown after the user finishes speaking. -->
+  <!-- Short message shown when a generic error occurs. -->
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <!-- Short message shown for an audio error. -->
+  <!-- Short message shown for an error with the voice server. -->
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <!-- Label on button when an error occurs -->
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"ยินดีต้อนรับสู่ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"พร้อมการป้อนข้อมูลด้วยท่าทาง"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"เริ่มต้นใช้งาน"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"ขั้นตอนถัดไป"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"การตั้งค่า <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"เปิดใช้งาน <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"โปรดตรวจสอบ \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" ในการตั้งค่าภาษาและการป้อนข้อมูลของคุณ ซึ่งจะอนุญาตให้แอปทำงานบนอุปกรณ์ของคุณ"</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"เปิดใช้งานในการตั้งค่า"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"สลับไปใช้ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"ถัดไป เลือก \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" เป็นวิธีการป้อนข้อความที่ใช้งานของคุณ"</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"สลับวิธีการป้อนข้อมูล"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"ยินดีด้วย คุณพร้อมใช้งานแล้ว!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"ตอนนี้คุณสามารถพิมพ์ข้อมูลลงในแอปที่ชื่นชอบทั้งหมดด้วย <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"กำหนดค่าภาษาเพิ่มเติม"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"เสร็จสิ้น"</string>
+  </resources>

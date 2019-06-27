@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <!-- Short message shown after the user finishes speaking. -->
+  <!-- Short message shown when a generic error occurs. -->
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <!-- Short message shown for an audio error. -->
+  <!-- Short message shown for an error with the voice server. -->
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <!-- Label on button when an error occurs -->
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> میں خوش آمدید"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"اشارہ ٹائپنگ کے ساتھ"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"شروع کریں"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"اگلا مرحلہ"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ترتیب دینا"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> کو فعال کریں"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"براہ کرم \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" کو اپنی زبان اور ان پٹ ترتیبات میں چیک کریں۔ اس سے اس کو آپ کے آلہ پر چلانے کی اجازت مل جائے گی۔"</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"‏<xliff:g id="APPLICATION_NAME">%s</xliff:g> پہلے ہی آپ کی زبان ‎اور‎ ان پٹ ترتیبات میں فعال ہے، لہذا یہ مرحلہ مکمل ہو گیا ہے۔ اگلے پر!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"ترتیبات میں فعال کریں"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> پر سوئچ کریں"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"آگے، \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" کو اپنے فعال متنی اندراج کے طریقہ کے بطور منتخب کریں۔"</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"اندراج کے طریقے سوئچ کریں"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"مبارک ہو، آپ بالکل تیار ہیں!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"اب آپ <xliff:g id="APPLICATION_NAME">%s</xliff:g> کے ساتھ اپنی سبھی پسندیدہ ایپس میں ٹائپ کر سکتے ہیں۔"</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"اضافی زبانیں کنفیگر کریں"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"مکمل ہو گیا"</string>
+  </resources>

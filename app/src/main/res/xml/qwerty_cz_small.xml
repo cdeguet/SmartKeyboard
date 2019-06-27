@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="10%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+    <Include xml="@xml/numbers_top"/>
+	<Row>
+		<Key android:codes="113" android:keyLabel="q" altLabel="1" android:popupCharacters="1" android:keyEdgeFlags="left" />
+		<Key android:codes="119" android:keyLabel="w" altLabel="2" android:popupCharacters="2" />
+		<Key android:codes="101" android:keyLabel="e" altLabel="3" android:popupCharacters="3éě" popupAccents="éě3" />
+		<Key android:codes="114" android:keyLabel="r" altLabel="4" android:popupCharacters="4řŕ" popupAccents="řŕ4" />
+		<Key android:codes="116" android:keyLabel="t" altLabel="5" android:popupCharacters="5ť" popupAccents="ť5" />
+		<Key android:codes="121" android:keyLabel="y" altLabel="6" android:popupCharacters="ý6" popupAccents="6ý" />
+		<Key android:codes="117" android:keyLabel="u" altLabel="7" android:popupCharacters="üůú7" popupAccents="7üůú" />
+		<Key android:codes="105" android:keyLabel="i" altLabel="8" android:popupCharacters="í8" popupAccents="8í" />
+		<Key android:codes="111" android:keyLabel="o" altLabel="9" android:popupCharacters="öôó9" popupAccents="9öôó" />
+		<Key android:codes="112" android:keyLabel="p" altLabel="0" android:popupCharacters="0" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.2%p">
+		<Key android:codes="97" android:keyLabel="a" altLabel="\@" android:popupCharacters="\@áä" popupAccents="áä\@"
+			android:horizontalGap="3.55%p" android:keyEdgeFlags="left" />
+		<Key android:codes="115" android:keyLabel="s" altLabel="\#" android:popupCharacters="\#šß" popupAccents="šß\#" />
+		<Key android:codes="100" android:keyLabel="d" altLabel="$" android:popupCharacters="$ď" popupAccents="ď$" />
+		<Key android:codes="102" android:keyLabel="f" altLabel="&amp;" android:popupCharacters="&amp;"/>
+		<Key android:codes="103" android:keyLabel="g" altLabel="*" android:popupCharacters="*"/>
+		<Key android:codes="104" android:keyLabel="h" altLabel="-" android:popupCharacters="-"/>
+		<Key android:codes="106" android:keyLabel="j" altLabel="+" android:popupCharacters="+"/>
+		<Key android:codes="107" android:keyLabel="k" altLabel="(" android:popupCharacters="("/>
+		<Key android:codes="108" android:keyLabel="l" altLabel=")" android:popupCharacters="ĺľ)" popupAccents=")ĺľ"  
+			android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.2%p">
+		<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_shift" iconID="@+id/shift_key"
+			android:keyWidth="12.6%p" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" />
+		<Key android:codes="122" android:keyLabel="z" android:horizontalGap="1.4%" altLabel="!" android:popupCharacters="!ž" 
+			popupAccents="ž!" />
+		<Key android:codes="120" android:keyLabel="x" altLabel="&quot;" android:popupCharacters="&quot;"/>
+		<Key android:codes="99" android:keyLabel="c" altLabel="'" android:popupCharacters="'č" popupAccents="č'"  />
+		<Key android:codes="118" android:keyLabel="v" altLabel=":" android:popupCharacters=":"/>
+		<Key android:codes="98" android:keyLabel="b" altLabel=";" android:popupCharacters=";"/>
+		<Key android:codes="110" android:keyLabel="n" altLabel="/" android:popupCharacters="ň/" popupAccents="/ň" />
+		<Key android:codes="109" android:keyLabel="m" altLabel="\?" android:popupCharacters="\?"/>
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"  android:horizontalGap="1.4%"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" android:keyWidth="12.7%p"
+			iconID="@+id/delete_key" android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

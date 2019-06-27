@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="9.1%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/small_key_height">
+	<Row android:keyWidth="8.3%p">
+		<Key android:codes="3613" android:keyLabel="&#xE1D;" android:keyEdgeFlags="left" />
+		<Key android:codes="3664" android:keyLabel="&#xE50;"  />
+		<Key android:codes="3654" android:keyLabel="&#xE46;" />
+		<Key android:codes="3616" android:keyLabel="&#xE20;" />
+		<Key android:codes="3606" android:keyLabel="&#xE16;" />
+		<Key android:codes="3640" android:keyLabel="&#xE38;" />
+		<Key android:codes="3638" android:keyLabel="&#xE36;" />
+		<Key android:codes="3588" android:keyLabel="&#xE04;" />
+		<Key android:codes="3605" android:keyLabel="&#xE15;" />
+		<Key android:codes="3592" android:keyLabel="&#xE08;" />
+		<Key android:codes="3586" android:keyLabel="&#xE02;" />
+		<Key android:codes="3594" android:keyLabel="&#xE0A;" android:keyWidth="8.4%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="3652" android:keyLabel="&#xE44;" android:keyEdgeFlags="left" />
+		<Key android:codes="3635" android:keyLabel="&#xE33;" />
+		<Key android:codes="3614" android:keyLabel="&#xE1E;" />
+		<Key android:codes="3632" android:keyLabel="&#xE30;" />
+		<Key android:codes="3633" android:keyLabel="&#xE31;" />
+		<Key android:codes="3637" android:keyLabel="&#xE35;" />
+		<Key android:codes="3619" android:keyLabel="&#xE23;" />
+		<Key android:codes="3609" android:keyLabel="&#xE19;" />
+		<Key android:codes="3618" android:keyLabel="&#xE22;" />
+		<Key android:codes="3610" android:keyLabel="&#xE1A;" />
+		<Key android:codes="3621" android:keyLabel="&#xE25;" android:keyWidth="8.8%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="3615" android:keyLabel="&#xE1F;" android:keyEdgeFlags="left" />
+		<Key android:codes="3627" android:keyLabel="&#xE2B;" />
+		<Key android:codes="3585" android:keyLabel="&#xE01;" />
+		<Key android:codes="3604" android:keyLabel="&#xE14;" />
+		<Key android:codes="3648" android:keyLabel="&#xE40;" />
+		<Key android:codes="3657" android:keyLabel="&#xE49;" />
+		<Key android:codes="3656" android:keyLabel="&#xE48;" />
+		<Key android:codes="3634" android:keyLabel="&#xE32;" />
+		<Key android:codes="3626" android:keyLabel="&#xE2A;" />
+		<Key android:codes="3623" android:keyLabel="&#xE27;" />
+		<Key android:codes="3591" android:keyLabel="&#xE07;" android:keyWidth="8.8%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="8.7%p">
+		<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_shift" iconID="@+id/shift_key"
+			android:isModifier="true" android:isSticky="true"
+			android:keyWidth="10.5%p" android:keyEdgeFlags="left" />
+		<Key android:codes="3612" android:keyLabel="&#xE1C;" android:horizontalGap="0.3%p" />
+		<Key android:codes="3611" android:keyLabel="&#xE1B;" />
+		<Key android:codes="3649" android:keyLabel="&#xE41;" />
+		<Key android:codes="3629" android:keyLabel="&#xE2D;" />
+		<Key android:codes="3636" android:keyLabel="&#xE34;" />
+		<Key android:codes="3639" android:keyLabel="&#xE37;" />
+		<Key android:codes="3607" android:keyLabel="&#xE17;" />
+		<Key android:codes="3617" android:keyLabel="&#xE21;" />
+		<Key android:codes="3651" android:keyLabel="&#xE43;" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" 
+			iconID="@+id/delete_key" android:keyWidth="10.5%p" android:horizontalGap="0.3%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

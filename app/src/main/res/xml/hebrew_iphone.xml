@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="10%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+    
+    <Include xml="@xml/numbers_top"/>
+    <Row>
+        <Key android:horizontalGap="5%p" android:codes="1511" android:keyLabel="ק"
+        	altLabel="!" android:popupCharacters="!" android:keyEdgeFlags="left" />
+        <Key android:codes="1512" android:keyLabel="ר" altLabel="\u05F4" android:popupCharacters="\u05F4&quot;"/>
+        <Key android:codes="1488" android:keyLabel="א" altLabel="\u05F3" android:popupCharacters="\u05F3'"/>
+        <Key android:codes="1496" android:keyLabel="ט" altLabel=":" android:popupCharacters=":"/>
+        <Key android:codes="1493" android:keyLabel="ו" altLabel=";" android:popupCharacters=";"/>
+        <Key android:codes="1503" android:keyLabel="ן" altLabel="/" android:popupCharacters="/"/>
+        <Key android:codes="1501" android:keyLabel="ם" altLabel="\?" android:popupCharacters="\?"/>
+        <Key android:codes="1508" android:keyLabel="פ" altLabel="=" android:popupCharacters="="/>
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+			android:horizontalGap="1.4%" android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+			iconID="@+id/delete_key" android:keyWidth="12.7%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+    </Row>    
+    <Row>
+        <Key android:codes="1513" android:popupCharacters="1" android:keyLabel="ש"
+        	altLabel="1" android:keyEdgeFlags="left"/>
+        <Key android:codes="1491" android:keyLabel="ד" altLabel="2" android:popupCharacters="2"/>
+        <Key android:codes="1490" android:keyLabel="ג" altLabel="3" android:popupCharacters="3"/>
+        <Key android:codes="1499" android:keyLabel="כ" altLabel="4" android:popupCharacters="4"/>
+        <Key android:codes="1506" android:keyLabel="ע" altLabel="5" android:popupCharacters="5"/>
+        <Key android:codes="1497" android:keyLabel="י" altLabel="6" android:popupCharacters="6"/>
+        <Key android:codes="1495" android:keyLabel="ח" altLabel="7" android:popupCharacters="7"/>
+        <Key android:codes="1500" android:keyLabel="ל" altLabel="8" android:popupCharacters="8"/>
+        <Key android:codes="1498" android:keyLabel="ך" altLabel="9" android:popupCharacters="9"/>
+        <Key android:codes="1507" android:keyLabel="ף" altLabel="0" android:popupCharacters="0" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:horizontalGap="5%p" android:codes="1494" android:keyLabel="ז" 
+        	altLabel="\@" android:popupCharacters="\@" android:keyEdgeFlags="left"/>
+        <Key android:codes="1505" android:keyLabel="ס" altLabel="\#" android:popupCharacters="\#"/>
+        <Key android:codes="1489" android:keyLabel="ב" altLabel="$" android:popupCharacters="$"/>
+        <Key android:codes="1492" android:keyLabel="ה" altLabel="&amp;" android:popupCharacters="&amp;"/>
+        <Key android:codes="1504" android:keyLabel="נ" altLabel="*" android:popupCharacters="*"/>
+        <Key android:codes="1502" android:keyLabel="מ" altLabel="-" android:popupCharacters="\u05BE-"/>
+        <Key android:codes="1510" android:keyLabel="צ" altLabel="+" android:popupCharacters="+"/>
+        <Key android:codes="1514" android:keyLabel="ת" altLabel="(" android:popupCharacters="("/>
+        <Key android:codes="1509" android:keyLabel="ץ" altLabel=")" android:popupCharacters=")" android:keyEdgeFlags="right"/>
+    </Row>    
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

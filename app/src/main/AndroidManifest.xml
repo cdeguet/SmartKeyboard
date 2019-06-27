@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="5300" android:versionName="4.21.0-beta1"
+	package="com.dexilog.smartkeyboard">
+
+	<supports-screens android:anyDensity="true" />
+
+	<uses-permission android:name="android.permission.READ_USER_DICTIONARY"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+	<uses-feature android:name="android.hardware.microphone" android:required="false" />
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+		<service android:name="com.dexilog.smartkeyboard.SmartKeyboard" android:permission="android.permission.BIND_INPUT_METHOD">
+			<intent-filter>
+				<action android:name="android.view.InputMethod" />
+			</intent-filter>
+			<meta-data android:name="android.view.im" android:resource="@xml/method" />
+		</service>
+		<activity android:name="com.dexilog.smartkeyboard.Settings" android:label="@string/keyboard_settings">
+            <intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.SetupActivity"
+			android:label="@string/app_name"
+			android:launchMode="singleTask"
+			android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.SetupWizardActivity"
+			android:label="@string/app_name"
+			android:clearTaskOnLaunch="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.AutoTextEditor" android:label="@string/custom_autotext">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.UserDictionaryEditor" android:label="@string/user_dictionary">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.SmileyEditor" android:label="@string/smiley_editor_title">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ui.DomainEditor" android:label="@string/domain_editor_title">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.Calibration" android:label="@string/calibration">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.dexilog.smartkeyboard.SkinList" android:label="@string/skin_selection">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".settings.PermissionActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+		<provider android:name="com.dexilog.smartkeyboard.AutoTextProvider"
+			android:authorities="${applicationId}.autotextprovider" />
+		<provider android:name="com.dexilog.smartkeyboard.UserDictionaryProvider"
+			android:authorities="${applicationId}.userdicprovider" />
+		<provider android:name="com.dexilog.smartkeyboard.MyBackupPro"
+			android:authorities="${applicationId}.MyBackupPro" />
+
+		<!-- for voice -->
+		<service android:name="com.google.android.voiceime.ServiceHelper"/>
+		<activity
+			android:name="com.google.android.voiceime.ActivityHelper"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar"
+			android:excludeFromRecents="true"
+			android:windowSoftInputMode="stateAlwaysHidden"
+			android:finishOnTaskLaunch="true"
+			android:documentLaunchMode="never"
+			android:clearTaskOnLaunch="true"
+			android:launchMode="singleInstance"
+			android:configChanges="keyboard|keyboardHidden|navigation|orientation"/>
+	</application>
+
+</manifest> 

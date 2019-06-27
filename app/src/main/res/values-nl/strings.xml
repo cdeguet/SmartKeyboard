@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="about">Over...</string>
+  <string name="auto_cap">Automatische hoofdletters</string>
+  <string name="auto_cap_summary">Hoofdletter aan het begin van een zin</string>
+  <string name="keyboard_settings">Smart Keyboard Pro Instellingen</string>
+  <string name="settings">Instellingen</string>
+  <string name="general_settings">Algemene instellingen</string>
+  <string name="text_prediction">Tekst voorspelling</string>
+  <string name="sound_vibrate">Geluid en trillen</string>
+  <string name="language">Taal</string>
+  <string name="language_summary">Wijzig taal en toetsenbord indeling</string>
+  <string name="lang_key">Taal selectie-toets</string>
+  <string name="lang_key_summary">Selecteer beschikbare talen</string>
+  <string name="english">Engels</string>
+  <string name="english_intl">Engels (International)</string>
+  <string name="english_dvorak">Engels (Dvorak)</string>
+  <string name="english_azerty">Engels (AZERTY)</string>
+  <string name="french">Frans</string>
+  <string name="romanian">Roemeens</string>
+  <string name="bulgarian">Bulgaars</string>
+  <string name="russian">Russisch</string>
+  <string name="russian_phonetic">Russisch (fonetisch)</string>
+  <string name="spanish">Spaans</string>
+  <string name="italian">Italiaans</string>
+  <string name="german">Duits</string>
+  <string name="portuguese">Portugees</string>
+  <string name="danish">Deens</string>
+  <string name="finnish">Fins</string>
+  <string name="hebrew">Hebreeuws</string>
+  <string name="norwegian">Noors</string>
+  <string name="swedish">Zweeds</string>
+  <string name="georgian">Georgisch</string>
+  <string name="czech_qwerty">Tsjechisch (QWERTY)</string>
+  <string name="czech_qwertz">Tsjechisch (QWERTZ)</string>
+  <string name="greek">Grieks</string>
+  <string name="dutch">Nederlands</string>
+  <string name="polish">Pools</string>
+  <string name="ukrainian">Oekraïens</string>
+  <string name="vibrate">Trillen</string>
+  <string name="vibrate_summary">Trillen bij toets-aanraking</string>
+  <string name="vibrate_duration">Tril duur</string>
+  <string name="label_go_key">Ga</string>
+  <string name="label_next_key">Volgende</string>
+  <string name="label_done_key">Gereed</string>
+  <string name="label_send_key">Verzenden</string>
+  <string name="advanced_settings">Geavanceerde instellingen</string>
+  <string name="sound_on_keypress">Geluid bij toets-aanraking</string>
+  <string name="gestures">Gebaren</string>
+  <string name="swipe_left">Naar links vegen</string>
+  <string name="swipe_right">Naar rechts vegen</string>
+  <string name="swipe_up">Omhoog vegen</string>
+  <string name="swipe_down">Omlaag vegen</string>
+  <string name="saved">Opgeslagen</string>
+  <string name="quick_fixes">Autocorrectie</string>
+  <string name="quick_fixes_summary">Verbetert vaak gemaakte fouten</string>
+  <string name="show_suggestions">Suggesties tonen</string>
+  <string name="show_suggestions_summary">Voorgestelde woorden weergeven terwijl u typt</string>
+  <string name="auto_complete">Automatisch aanvullen</string>
+  <string name="auto_complete_summary">Spatiebalk en leestekens voegen automatisch het gemarkeerde woord in</string>
+  <string name="contact_dic">Contactenlijst</string>
+  <string name="contact_dic_summary">Namen van contactpersonen opnemen in suggesties (vereist Android 2.0)</string>
+  <string name="show_preview">Voorbeeld pop-up tonen</string>
+  <string name="show_preview_summary">Uen pop-up tonen wanneer een toets wordt ingedrukt</string>
+  <string name="skin_selection">Uiterlijk selecteren</string>
+  <string name="skin_summary">Het toetsenbord uiterlijk wijzigen</string>
+  <string name="transparency">Transparantie</string>
+  <string name="opacity">Ondoorzichtigheid instellen</string>
+  <string name="transparency_summary">Transparantie van het toetsenbord instellen</string>
+  <string name="volume_summary">Het volume van toetsaanslagen instellen</string>
+  <string name="debug_logs">Logboeken voor foutopsporing inschakelen</string>
+  <string name="always_suggest">Altijd suggesties tonen</string>
+  <string name="always_suggest_summary">Suggesties ook tonen voor zoekopdrachten</string>
+  <string name="custom_autotext">Eigen AutoTekst</string>
+  <string name="custom_autotext_summary">Uw eigen AutoTekst snelkoppelingen wijzigen</string>
+  <string name="add_autotext">AutoTekst toevoegen...</string>
+  <string name="edit_autotext">AutoTekst wijzigen</string>
+  <string name="autotext_key">Het volgende woord:</string>
+  <string name="autotext_value">wordt vervangen door:</string>
+  <string name="autotext_context_edit">Bewerken</string>
+  <string name="autotext_context_delete">Verwijderen</string>
+  <string name="enable_arrows">Pijltjestoetsen inschakelen</string>
+  <string name="enable_arrows_summary">Toegankelijk met de 123-toets</string>
+  <string name="always_caps">Altijd hoofdletters</string>
+  <string name="always_caps_summary">Toets labels altijd weergeven in hoofdletters</string>
+  <string name="display_alt_labels">Toon alt. labels</string>
+  <string name="display_alt_labels_summary">Alternatief label boven toetslabel weer geven</string>
+  <string name="user_dictionary">Gebruikers woordenboek</string>
+  <string name="user_dictionary_summary">Woorden in het gebruikers woordenboek bewerken</string>
+  <string name="add_word">Woord toevoegen</string>
+  <string name="edit_word">Woord bewerken</string>
+  <string name="delete_word">Verwijder woord</string>
+  <string name="word">Woord</string>
+  <string name="download_dic">Woordenboek downloaden</string>
+  <string name="download_dic_summary">Download woordenboeken van de Google Play Store</string>
+  <string name="mic_button">Microfoon knop</string>
+  <string name="mic_button_summary">De spraak-invoer toets indien mogelijk weergeven</string>
+  <string name="voice_input">Spraak invoer</string>
+  <string name="cancel">Annuleren</string>
+  <string name="retry">Opnieuw proberen</string>
+  <string name="restart_voice">Spraak invoer herstarten</string>
+  <string name="restart_voice_summary">Spraak invoer altijd herstarten, totdat het word geannuleerd</string>
+  <string name="voice_best">Spraak invoer beste keuze</string>
+  <string name="voice_best_summary">Selecteer automatisch de beste keuze</string>
+  <string name="touch_points">aanraak punten weergeven</string>
+  <string name="portrait_mode">Portret-modus</string>
+  <string name="portrait_mode_summary">Selecteer normaal, T9 of een compacte indeling voor portret-modus</string>
+  <string name="candidate_color">Kandidaat-kleur</string>
+  <string name="candidate_color_summary">Kleur van het aanbevolen woord in de suggestiebalk</string>
+  <string name="welcome">Thanks for installing \@!\n\nTo enable this keyboard, go to \"Language &amp; keyboards\"
+	(or \"Locale &amp; text\") settings, and check the \"\@\" box. Then, to switch to \@, you need to long press in any text
+	input box, choose \"Input method\", and select \@ in the list. You can long press on the \"123\" key to enter the
+	keyboard settings. \n\nNow, go to Settings menu (you can click below), and enjoy!\n\nNote: you can remove the launcher
+	icon in the keyboard settings</string>
+  <string name="disable_launcher">Uitschakelen launcher pictogram</string>
+  <string name="space_when_pick">Spatie na kiezen</string>
+  <string name="space_when_pick_summary">Zet een spatie achter het gekozen woord uit de suggestiebalk</string>
+  <string name="swap_punctuation_space">Leestekens vervangen</string>
+  <string name="swap_punctuation_space_summary">Automatisch interpunctie en spatie na een woord wisselen</string>
+  <string name="smiley_key">Smiley-toets</string>
+  <string name="smiley_key_summary">Toon smiley toets in plaats van enter</string>
+  <string name="toggle_smiley_key">Toggle smiley-toets</string>
+  <string name="select_sound">Selecteer geluids stijl</string>
+  <string name="smiley_editor_summary">Pas uw smiley toets aan</string>
+  <string name="smiley_editor_title">Tik om een smiley te bewerken</string>
+  <string name="edit_smiley">Smiley bewerken</string>
+  <string name="smart_dictionary">Slim woordenboek</string>
+  <string name="smart_dictionary_summary">Woordenboek dat de frequentie van de woorden leert die u typt om suggesties te verbeteren</string>
+  <string name="backup">Backup instellingen</string>
+  <string name="backup_to_sd">Backup naar SD-kaart</string>
+  <string name="restore">Restore vanaf SD-kaart</string>
+  <string name="no_sd_card">Fout: Uw SD-kaart is niet gemount, backup / restore is niet mogelijk!</string>
+  <string name="backup_warning">Let op! U staat op het punt een backup te maken van Smart Keyboard PRO instellingen en woordenboeken. Dit zal /sdcard/smartkeyboardpro/backup.zip overschrijven. Wilt u doorgaan?</string>
+  <string name="restore_warning">Let op! U staat op het Smart Keyboard PRO instellingen en woordenboeken te herstellen. Dit overschrijft alle huidige instellingen. Het toetsenbord zal worden herstart om de wijzigingen door te voeren. Wilt u doorgaan?</string>
+  <string name="backup_complete">Backup voltooid</string>
+  <string name="turkish">Turks</string>
+  <string name="hungarian">Hongaars</string>
+  <string name="icelandic">Ijslands</string>
+  <string name="bosnian">Bosnisch</string>
+  <string name="croatian">Kroatisch</string>
+  <string name="serbian">Servisch</string>
+  <string name="slovene">Sloveens</string>
+  <string name="close">Sluit</string>
+  <string name="arabic">Arabisch</string>
+  <string name="layout">Indeling</string>
+  <string name="korean">Koreaans</string>
+  <string name="rtl_suggestions_summary">Omgekeerde woorden in de voorspellingsbalk (voor het Arabisch/Hebreeuws)</string>
+  <string name="clean_userdic">Gebruikerswoordenboek legen</string>
+  <string name="warn_clean_userdic">Let op! Hiermee verwijdert u ALLE woorden in uw gebruikerswoordenboek. Wilt u doorgaan?</string>
+  <string name="suggest_punctuation">Leestekensuggesties tonen</string>
+  <string name="key_height">Toetshoogte</string>
+  <string name="thai">Thais</string>
+  <string name="longpress_duration">Duur lange toetsaanslag</string>
+  <string name="longpress_duration_summary">De duur van lang drukken aanpassen voor alternatieve symbolen</string>
+  <string name="learn_new_words">Nieuwe woorden leren</string>
+  <string name="learn_new_words_summary">Automatisch nieuwe woorden toevoegen aan het woordenboek (vereist slim woordenboek)</string>
+  <string name="enter_sends_sms">Enter verstuurt bericht</string>
+  <string name="slovak">Slowaaks</string>
+  <string name="bk_warning">Waarschuwing! Dit is een uiterlijk voor Better Keyboard. Compatibiliteit met Smart Keyboard kan op elk moment worden beëindigd. Gebruiken op eigen risico!</string>
+  <string name="domain_editor">Domeinnaam-editor</string>
+  <string name="domain_editor_summary">Pas de .com-toets aan</string>
+  <string name="domain_editor_title">Tik om een domeinnaam te bewerken</string>
+  <string name="edit_domain">Domeinnaam bewerken</string>
+  <string name="persistent_domain_key">Permanente domeinnaam toets</string>
+  <string name="persistent_domain_key_summary">Altijd de domeinnaam (.com) toets tonen</string>
+  <string name="no_alt_preview">Geen alt preview</string>
+  <string name="dynamic_resizing">Dynamische toetsgrootte</string>
+  <string name="dynamic_resizing_summary">Grootte van virtuele toetsen aanpassen op basis van waarschijnlijkheid van de volgende letter</string>
+  <string name="japanese">Japans</string>
+  <string name="double_space_period">Punt bij dubbele spatie</string>
+  <string name="double_space_period_summary">Een punt plaatsen wanneer de spatiebalk twee keer wordt aangeraakt</string>
+  <string name="arrows_style">Stijl pijltjestoetsen</string>
+  <string name="arrows_style_summary">Stijl van de pijltjestoetsen kiezen</string>
+  <string name="disable_mt">Mutitouch uitschakelen</string>
+  <string name="compound_suggestions">Samengestelde suggesties</string>
+  <string name="compound_suggestions_summary">Suggesties van samengestelde woorden (vooral voor Duits) inschakelen</string>
+  <string name="current_language">Huidige taal</string>
+  <string name="language_specific_options">Taalspecifieke opties</string>
+  <string name="no_lansdcape_fullscreen">Geen fullscreen in liggende stand</string>
+  <string name="no_lansdcape_fullscreen_summary">Zet het toetsenbord niet in fullscreen-modus in liggende stand</string>
+  <string name="t9_length_priority">T9 lengte prioriteit</string>
+  <string name="t9_length_priority_summary">Voorrang geven aan woorden met dezelfde lengte bij het weergeven van T9 suggesties</string>
+  <string name="t9_next_key">T9 Volgende knop</string>
+  <string name="t9_next_key_summary">Toon een knop Volgende in de T9 portrait-modus</string>
+  <string name="suggest_numbers">Voorstellen nummers</string>
+  <string name="suggest_numbers_summary">Suggesties voor woorden die beginnen met een niet-alfabetisch teken inschakelen</string>
+  <string name="trial_popup">Dit is een testversie. Koop nu "Smart Keyboard PRO" om deze applicatie te ondersteunen en nooit meer de vervelende popup te zien :)</string>
+  <string name="buy">Koop</string>
+  <string name="no_thanks">Nee, bedankt</string>
+  <string name="chinese_simplified">Chinees (vereenvoudigd)</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nee</string>
+  <string name="physical_kbd">Fysiek toetsenbord</string>
+  <string name="physical_kbd_summary">Suggesties en vertaling met het fysieke toetsenbord inschakelen. Gebruik shift+spatie om te schakelen tussen taal.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Spraak invoer</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Spraak invoer wordt momenteel niet ondersteund voor uw taal, maar werkt wel in het Engels.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Voor het uitschakelen van spraakinvoer, gaat u naar de toetsenbordinstellingen.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Nu spreken</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Bezig…</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Fout. Probeer het opnieuw.</string>
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Fout, te veel spraak.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Audioprobleem</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Serverfout</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Geen spraak gehoord</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Geen overeenkomsten gevonden</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Voice Search niet geïnstalleerd</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estlands</string>
+  <string name="lithuanian">Litouws</string>
+  <string name="latvian">Lets</string>
+  <string name="only_one_language">Let op! Als u slechts één taal voor de taalknop hebt geselecteerd wordt deze knop niet weergegeven, maar de huidige taal is ingesteld op deze taal.</string>
+  <string name="hebrew_alt">Hebreeuwse alt. weergave</string>
+  <string name="hebrew_alt_summary">Zet backspace-toets aan de linkerkant in Hebreeuwse lay-out</string>
+  <string name="portrait_fullscreen">Portret volledig scherm</string>
+  <string name="portrait_fullscreen_summary">Zet het toetsenbord in fullscreen-modus in portret stand (kan nuttig zijn op zeer kleine schermen)</string>
+  <string name="czech_full">Tsjechisch / Slowaakse volledige lay-out</string>
+  <string name="czech_full_summary">Opnemen van een bovenste rij met letters met accenten in de Tsjechische en Slowaakse lay-out</string>
+  <string name="swipe_sensitivity">Swipe gevoeligheid</string>
+  <string name="swipe_sensitivity_summary">De gevoeligheid van gebaren instellen. Waarschuwing: als u de gevoeligheid te veel verhoogt, kan multitouch typen worden geïnterpreteerd als een gebaar.</string>
+  <string name="catalan">Catalaans</string>
+  <string name="multitap_interval">Multitap-interval</string>
+  <string name="persian">Perzisch</string>
+  <string name="calibration">Kalibratie</string>
+  <string name="calibration_summary">Kalibreer het toetsenbord om de nauwkeurigheid te verbeteren</string>
+  <string name="calibration_instructions">Om uw toetsenbord te kalibreren, type de volgende tekst:</string>
+  <string name="calibration_profile_is">Uw kalibratie profiel is:</string>
+  <string name="calibration_reset">U staat op het punt kalibratieinstellingen terug te zetten naar de standaardwaarden. Wilt u doorgaan?</string>
+  <string name="save">Opslaan</string>
+  <string name="get_skins">Meer skins ...</string>
+  <string name="sms_mode">SMS-modus</string>
+  <string name="key_height_summary">Pas de toetshoogte aan</string>
+  <string name="alt_symbols">Alt. symbolen</string>
+  <string name="alt_symbols_summary">Geef alt. labels weer in het symbolen (123) venster</string>
+  <string name="hide_period">Punt verbergen</string>
+  <string name="hide_period_summary">Komma verbergen om spatiebalk te vergroten</string>
+  <string name="hide_comma">Komma verbergen</string>
+  <string name="custom_punctuation">Eigen interpunctie</string>
+  <string name="custom_punctuation_summary">Pas de interpunctie-tekens aan die getoond worden in de suggestiebalk</string>
+  <string name="kazakh">Kazachstaans</string>
+  <string name="azerbaijani">Azerbeidzjaans</string>
+  <string name="armenian">Armeens</string>
+  <string name="vietnamese">Vietnamees</string>
+  <string name="no_landscape_suggestions">Geen suggesties in liggende stand</string>
+  <string name="no_landscape_suggestions_summary">De suggestiebalk niet weergeven in de liggende stand</string>
+  <string name="arrows_main">Pijlen weergeven</string>
+  <string name="arrows_main_summary">Geef aan wanneer de pijltjestoetsen getoond worden op het hoofdtoetsenbord</string>
+  <string name="import_user_dic_warning">Warning! You are about to import the user dictionary from the CSV file /sdcard/smartkeyboardpro/userdic.csv.
+	This will overwrite the whole contents of your user dictionary. Do you want to continue?
+	</string>
+  <string name="import_autotext_warning">Warning! You are about to import the AutoText dictionary from the CSV file /sdcard/smartkeyboardpro/autotext.csv.
+	This will overwrite the whole contents of your AutoText dictionary. Do you want to continue?
+	</string>
+  <string name="mongolian">Mongools</string>
+  <string name="macedonian">Macedonisch</string>
+  <string name="luxembourgish">Luxemburgs</string>
+  <string name="albanian">Albanees</string>
+  <string name="belarusian">Wit-Russisch</string>
+  <string name="indonesian">Indonesisch</string>
+  <string name="alt_compact_summary">Lang indrukken in de compact/T9 modus toont alle mogelijke letters (alleen in Engelse layout)</string>
+  <string name="numbers_top">Getallen boven</string>
+  <string name="numbers_top_summary">Kies wanneer een extra rij met getallen wordt weergegeven aan de bovenkant van het hoofdtoetsenbord</string>
+  <string name="kurdish">Koerdisch</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Welkom bij <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"met Invoer met bewegingen"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Aan de slag"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Volgende stap"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> instellen"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> inschakelen"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Vink \'<xliff:g id="APPLICATION_NAME">%s</xliff:g>\' aan in \'Instellingen voor taal en invoer\'. De app kan dan worden uitgevoerd op je apparaat."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Inschakelen in \'Instellingen\'"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Overschakelen naar <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Selecteer vervolgens \'<xliff:g id="APPLICATION_NAME">%s</xliff:g>\' als actieve tekstinvoermethode."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Schakelen tussen invoermethoden"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Gefeliciteerd, je kunt nu aan de slag."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Je kunt nu in al je favoriete apps typen met <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Extra talen configureren"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Voltooid"</string>
+  <string name="legacy_voice">Legacy spraakherkenning</string>
+  <string name="legacy_voice_details">Gebruik de oude spraakherkenning in plaats van Google Voice</string>
+  <string name="disable_launch_settings">Geen snelkoppeling naar instellingen</string>
+  <string name="disable_launch_settings_details">Open niet de instellingen bij lang indrukken van de "123" toets</string>
+  </resources>

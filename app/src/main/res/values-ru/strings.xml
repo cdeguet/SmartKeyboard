@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Справка</string>
+  <string name="about">О программе</string>
+  <string name="auto_cap">Автоматический регистр</string>
+  <string name="auto_cap_summary">Предложения нужно начинать с большой буквы</string>
+  <string name="keyboard_settings">Настройки Smart Keyboard Pro</string>
+  <string name="settings">Настройки</string>
+  <string name="general_settings">Общие настройки</string>
+  <string name="text_prediction">Предугадывание текста</string>
+  <string name="sound_vibrate">Звук и вибрация</string>
+  <string name="language">Язык</string>
+  <string name="language_summary">Изменить язык клавиатуры и раскладку</string>
+  <string name="lang_key">Клавиша выбора языка</string>
+  <string name="lang_key_summary">Выбрать доступные языки</string>
+  <string name="english">Английский</string>
+  <string name="english_intl">Английский (Международный)</string>
+  <string name="english_dvorak">Английский (Дворак)</string>
+  <string name="english_azerty">Английский (AZERTY)</string>
+  <string name="french">Французский</string>
+  <string name="romanian">Румынский</string>
+  <string name="bulgarian">Болгарский</string>
+  <string name="russian">Русский</string>
+  <string name="russian_phonetic">Русский (фонетический)</string>
+  <string name="spanish">Испанский</string>
+  <string name="italian">Итальянский</string>
+  <string name="german">Немецкий</string>
+  <string name="portuguese">Португальский</string>
+  <string name="danish">Датский</string>
+  <string name="finnish">Финский</string>
+  <string name="hebrew">Иврит</string>
+  <string name="norwegian">Норвежский</string>
+  <string name="swedish">Шведский</string>
+  <string name="georgian">Грузинский</string>
+  <string name="czech_qwerty">Чешский (QWERTY)</string>
+  <string name="czech_qwertz">Чешский (QWERTZ)</string>
+  <string name="greek">Греческий</string>
+  <string name="dutch">Голландский</string>
+  <string name="polish">Польский</string>
+  <string name="ukrainian">Украинский</string>
+  <string name="vibrate">Вибрация</string>
+  <string name="vibrate_summary">Вибрация при нажатии</string>
+  <string name="vibrate_duration">Продолжительность вибрации</string>
+  <string name="label_go_key">OK</string>
+  <string name="label_next_key">Далее</string>
+  <string name="label_done_key">Готово</string>
+  <string name="label_send_key">Отправить</string>
+  <string name="advanced_settings">Дополнительные настройки</string>
+  <string name="sound_on_keypress">Звук при нажатии</string>
+  <string name="gestures">Жесты</string>
+  <string name="swipe_left">Жест влево</string>
+  <string name="swipe_right">Жест вправо</string>
+  <string name="swipe_up">Жест вверх</string>
+  <string name="swipe_down">Жест вниз</string>
+  <string name="saved">Сохранено</string>
+  <string name="quick_fixes">Быстрое исправление</string>
+  <string name="quick_fixes_summary">Исправлять типичные ошибки</string>
+  <string name="show_suggestions">Показывать предположения</string>
+  <string name="show_suggestions_summary">Показывать предлагаемые слова во время ввода </string>
+  <string name="auto_complete">Автозавершение</string>
+  <string name="auto_complete_summary">Автоматически вставлять выделенное слово по пробелу или знаку препинания</string>
+  <string name="contact_dic">Словарь контактов</string>
+  <string name="contact_dic_summary">Включать имена контактов в предположения (требуется Android 2.0)</string>
+  <string name="show_preview">Окно предпросмотра</string>
+  <string name="show_preview_summary">Показывать всплывающее окно при нажатии клавиши</string>
+  <string name="skin_selection">Выбрать стиль оформления</string>
+  <string name="skin_summary">Изменить стиль оформления клавиатуры</string>
+  <string name="transparency">Прозрачность</string>
+  <string name="opacity">Установить прозрачность</string>
+  <string name="transparency_summary">Установить прозрачность клавиатуры</string>
+  <string name="volume">Громкость</string>
+  <string name="volume_summary">Установка громкости звука нажатия клавиш</string>
+  <string name="debug_logs">Включить отладочные журналы</string>
+  <string name="always_suggest">Всегда предугадывать слова</string>
+  <string name="always_suggest_summary">Отображать предугадываемые слова в полях поиска</string>
+  <string name="custom_autotext">Пользовательский автотекст</string>
+  <string name="custom_autotext_summary">Редактировать свои сокращения автотекста</string>
+  <string name="add_autotext">Добавить автотекст...</string>
+  <string name="edit_autotext">Правка автотекста</string>
+  <string name="autotext_key">Заменять слово:</string>
+  <string name="autotext_value">на:</string>
+  <string name="autotext_context_edit">Изменить</string>
+  <string name="autotext_context_delete">Удалить</string>
+  <string name="enable_arrows">Включить стрелки</string>
+  <string name="enable_arrows_summary">Доступны по кнопке 123</string>
+  <string name="always_caps">Всегда большие буквы</string>
+  <string name="always_caps_summary">Всегда показывать метки клавиш в верхнем регистре</string>
+  <string name="display_alt_labels">Показать альтернативные метки</string>
+  <string name="display_alt_labels_summary">Показывать альтернативную метку</string>
+  <string name="user_dictionary">Пользовательский словарь</string>
+  <string name="user_dictionary_summary">Редактировать слова в пользовательском словаре</string>
+  <string name="add_word">Добавить слово</string>
+  <string name="edit_word">Редактировать слово</string>
+  <string name="delete_word">Удалить слово</string>
+  <string name="word">Слово</string>
+  <string name="forum">Форум</string>
+  <string name="download_dic">Скачать словарь</string>
+  <string name="download_dic_summary">Скачать словари для других языков в Android Market</string>
+  <string name="mic_button">Кнопка голосового ввода</string>
+  <string name="mic_button_summary">Отображать кнопку голосового ввода, когда возможно</string>
+  <string name="voice_input">Голосовой ввод</string>
+  <string name="cancel">Отмена</string>
+  <string name="retry">Повторить</string>
+  <string name="restart_voice">Начать голосовой ввод заново</string>
+  <string name="restart_voice_summary">Снова запускать речевой ввод, пока он не будет отменен</string>
+  <string name="voice_best">Автовыбор голосового ввода</string>
+  <string name="voice_best_summary">Автоматический выбор самого лучшего варианта</string>
+  <string name="touch_points">Показать точки касаний</string>
+  <string name="portrait_mode">Портретный режим</string>
+  <string name="portrait_mode_summary">Выберите раскладку портретного режима: обычный, T9 или компактный</string>
+  <string name="candidate_color">Цвет претендента</string>
+  <string name="candidate_color_summary">Цвет рекомендованного слова</string>
+  <string name="welcome">Спасибо за установку \@!\n\nДля того чтобы включить клавиатуру, перейдите в настройках в \"Язык и клавиатура\" (или \"Локаль и текстt\"), и отметьте флажок \"\@\". Затем, чтобы включить \@, вызовите контекстное меню любого поля ввода, выберите \"Метод ввода\", и выберите \@ в списке. Вы можете попасть в настройки клавиатуры нажав и держа кнопку \"123\". \n\nТеперь, перейдите в меню настроек (можете кликнуть ниже), и наслаждайтесь!\n\nПримечание: вы можете убрать иконку из ланчера в настройках</string>
+  <string name="disable_launcher">Отключить значок запуска</string>
+  <string name="disable_launcher_warning">Внимание! Это отключит иконку Smart Keyboard в ланчере, но также отключает кнопку открыть в приложении маркет!\nВам нужно перезагрузиь свой телефон, чтобы иконка запуска окончательно исчезла.</string>
+  <string name="space_when_pick">Пробел после выбора слова</string>
+  <string name="space_when_pick_summary">Вставлять пробел после выбранного из списка слова</string>
+  <string name="swap_punctuation_space">Менять местами знаки препинания</string>
+  <string name="swap_punctuation_space_summary">Автоматически менять местами знаки препинания и пробел после слова</string>
+  <string name="smiley_key">Кнопка смайлов</string>
+  <string name="smiley_key_summary">Показывать кнопку выбора смайлов вместо кнопки Enter</string>
+  <string name="toggle_smiley_key">Кнопка смайликов: Вкл./Выкл.</string>
+  <string name="select_sound">Выбрать стиль звука</string>
+  <string name="smiley_editor">Редактор смайлов</string>
+  <string name="smiley_editor_summary">Редактировать доступные по кнопке смайлы</string>
+  <string name="smiley_editor_title">Нажмите для редактирования смайла</string>
+  <string name="edit_smiley">Редактировать смайл</string>
+  <string name="smart_dictionary">Умный Словарь</string>
+  <string name="smart_dictionary_summary">Словарь, который выясняет частоту набираемых слов, чтобы улучшить предугадывание</string>
+  <string name="backup">Настройки резервного копирования</string>
+  <string name="backup_to_sd">Резервное копирование на карту памяти</string>
+  <string name="restore">Восстановление с карты памяти</string>
+  <string name="no_sd_card">Ошибка: карта памяти не подключена, резервное копирование и восстановление невозможно!</string>
+  <string name="backup_warning">Внимание! Вы собираетесь сделать резервную копию настроек и словарей Smart Keyboard PRO.
+Это перезапишет файл /sdcard/smartkeyboardpro/backup.zip. Продолжить?</string>
+  <string name="restore_warning">Внимание! Вы собираетесь восстановить настройки и словари Smart Keyboard PRO.
+Это перезапишет все текущие настройки. Клавиатура будет перезапущена для того что бы применить настройки.
+Продолжить?</string>
+  <string name="backup_complete">Резервное копирование завершено</string>
+  <string name="slide_popup">Скольжение по всплывающим символам</string>
+  <string name="slide_popup_summary">Позволяет выбрать всплывающий символ без отрыва пальца от клавиатуры</string>
+  <string name="space_preview">Предпросмотр пробела</string>
+  <string name="space_preview_summary">Показывать предпросмотр для клавиши пробел</string>
+  <string name="turkish">Турецкий</string>
+  <string name="hungarian">Венгерский</string>
+  <string name="icelandic">Исландский</string>
+  <string name="bosnian">босниец</string>
+  <string name="croatian">Хорватский</string>
+  <string name="serbian">Сербский</string>
+  <string name="slovene">Словенский</string>
+  <string name="close">Закрыть</string>
+  <string name="arabic">Арабский</string>
+  <string name="layout">Раскладка</string>
+  <string name="force_latin">Принудительная латинская раскладка</string>
+  <string name="force_latin_summary">Раскладка, принудительно используемая для всех латинских языков</string>
+  <string name="default_latin_lang">&lt;По умолчанию&gt;</string>
+  <string name="korean">Корейский</string>
+  <string name="rtl_suggestions">Предугадывания справа-налево</string>
+  <string name="rtl_suggestions_summary">Слова в обратном порядке в предварительной строке (для арабского/иврита).</string>
+  <string name="clean_userdic">Очистить пользовательский словарь</string>
+  <string name="warn_clean_userdic">Внимание! Это приведет к удалению всех слов в пользовательском словаре. Продолжить?</string>
+  <string name="suggest_punctuation">Предлагать знаки препинания</string>
+  <string name="key_height">Высота клавиш</string>
+  <string name="thai">Тайский</string>
+  <string name="longpress_duration">Продолжительность длинного нажатия</string>
+  <string name="longpress_duration_summary">Настроить продолжительность длинного нажатия для альтернативных символов</string>
+  <string name="learn_new_words">Выучить новые слова</string>
+  <string name="learn_new_words_summary">Автоматически добавлять новые слова в пользовательский словарь (требуется Умный Словарь)</string>
+  <string name="enter_sends_sms">Кнопка Enter отправляет сообщения</string>
+  <string name="enter_sends_sms_summary">Кнопка ввод посылает сообщение вместо того, чтобы начинать новую строку. Предупреждение: это работает не во всех приложениях! (см. Руководство полбзователя)</string>
+  <string name="slovak">Словацкий</string>
+  <string name="bk_warning">Внимание! Это скин для Better Keyboard. Совместимость со Smart Keyboard может исчезнуть в любое время, так что используйте его на свой страх и риск!</string>
+  <string name="domain_editor">Редактор доменов</string>
+  <string name="domain_editor_summary">Настройки клавиши .com</string>
+  <string name="domain_editor_title">Нажмите, чтобы изменить домен</string>
+  <string name="edit_domain">Измените домен</string>
+  <string name="persistent_domain_key">Постоянная кнопка доменов</string>
+  <string name="persistent_domain_key_summary">Всегда отображать кнопку .com</string>
+  <string name="no_alt_preview">Без предосмотра альтернативных символов</string>
+  <string name="no_alt_preview_summary">Не показывать предпросмотр для альтернативных символов, если он только один</string>
+  <string name="dynamic_resizing">Динамическое изменение размера кнопок</string>
+  <string name="dynamic_resizing_summary">Изменять виртуальный размер кнопок в зависимости от вероятности следующей буквы</string>
+  <string name="esperanto">Эсперанто</string>
+  <string name="japanese">Японский</string>
+  <string name="double_space_period">Точка вместо двойного пробела</string>
+  <string name="double_space_period_summary">Ставить точку если пробел нажат дважды</string>
+  <string name="arrows_style">Стиль стрелок</string>
+  <string name="arrows_style_summary">Выберите стиль стрелок клавиатуры</string>
+  <string name="disable_mt">Отключить mutitouch</string>
+  <string name="compound_suggestions">Составные предложения</string>
+  <string name="compound_suggestions_summary">Включить предложения для составных слов (для Немецкого языка)</string>
+  <string name="current_language">Текущий язык</string>
+  <string name="language_specific_options">Специфичные настройки языка</string>
+  <string name="no_lansdcape_fullscreen">Не полный экран в альбомном режиме</string>
+  <string name="no_lansdcape_fullscreen_summary">Не переключатся в полноэкранный режим в альбомной ориентации</string>
+  <string name="t9_length_priority">Приоритет длины слов T9</string>
+  <string name="t9_length_priority_summary">Отдавать предпочтение словам с одинаковой длиной при отображении предположения</string>
+  <string name="t9_next_key">Клавиша следующего слова T9</string>
+  <string name="t9_next_key_summary">Отображать кнопку "Далее" в портретном режиме T9</string>
+  <string name="suggest_numbers">Предлагать числа</string>
+  <string name="suggest_numbers_summary">Включить предположения для слов, начинающихся не с буквы</string>
+  <string name="trial_popup">Это пробная версия. Купите "Smart Keyboard Pro" сейчас для поддержки приложения и вы никогда не увидите этого раздражающего сообщения :)</string>
+  <string name="buy">Купить</string>
+  <string name="no_thanks">Нет, спасибо</string>
+  <string name="chinese_simplified">Китайский (упрощённый)</string>
+  <string name="yes">Да</string>
+  <string name="no">Нет</string>
+  <string name="english_dic">Вам необходимо загрузить приложение \"English for Smart Keyboard\" из магазина приложений  Google Play , чтобы активировать функции предугадывания и автокоррекции на английском языке. Загрузить прямо сейчас?</string>
+  <string name="physical_kbd">Аппаратная клавиатура</string>
+  <string name="physical_kbd_summary">Включить вариант переключения языка с физической клавиатурой. Использовать Shift + пробел для переключения языка.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Голосовой ввод</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Голосовой ввод не поддерживается на вашем языке, но работает на английском языке.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Голосовой ввод — это экспериментальная функция с использованием системы распознавания речи от Google.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Для отключения голосового ввода, перейдите в настройки клавиатуры.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Говорите</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Обработка</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Ошибка. Пожалуйста, попробуйте снова.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Невозможно подключится</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Ошибка, слишком много текста.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Проблемы со звуком</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Ошибка сервера</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Не слышно речи</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Совпадения не найдены</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Голосовой поиск не установлен</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">ОК</string>
+  <string name="estonian">Эстонский</string>
+  <string name="lithuanian">Литовский</string>
+  <string name="latvian">Латвийский</string>
+  <string name="only_one_language">Внимание! Так как вы выбрали только один язык ввода, кнопка переключения языков не будет отображаться, но выбранный язык будет установлен в качестве текущего.</string>
+  <string name="different_language">Внимание! Язык,который вы только что выбрали не определяется кнопкой выбора языка!</string>
+  <string name="hebrew_alt">Еврейская альтернативная раскладка</string>
+  <string name="hebrew_alt_summary">Поместить клавишу backspace слева в еврейской раскладке</string>
+  <string name="portrait_fullscreen">Полноэкранный портретный режим</string>
+  <string name="portrait_fullscreen_summary">Переключать клавиатуру в полноэкранный режим в портретном режиме (полезно при очень маленьком экране)</string>
+  <string name="czech_full">Чешская/Словацкая раскладка</string>
+  <string name="czech_full_summary">Включите верхнюю строку с буквы со знаком ударения в Чешской и Словацкой раскладок</string>
+  <string name="swipe_sensitivity">Чуствительность жестов</string>
+  <string name="swipe_sensitivity_summary">Установите чувствительность жестов. Внимание: если вы слишком увеличиваете чувствительность, мультитач может понять это как жест.</string>
+  <string name="catalan">Каталонский</string>
+  <string name="multitap_interval">Обычный интервал</string>
+  <string name="multitap_interval_summary">Задать максимальную задержку для нескольких нажатий, например в T9 или корейских \"short vowels\" разкладках.</string>
+  <string name="persian">Персидский</string>
+  <string name="calibration">Калибровка</string>
+  <string name="calibration_summary">Калибровка клавиатуры для повышения точности</string>
+  <string name="calibration_instructions">Для калибровки клавиатуры, введите следующий текст:</string>
+  <string name="calibration_done">Калибровка закончена! Нажмите на \"Сохранить\" для использования новых параметров, или \"Отмена\" для повторения попытки. Обратите внимание, что калибровку следует запускать в  портретном и альбомном режиме для лучших результатов.</string>
+  <string name="calibration_profile_is">Ваш профиль калибровки:</string>
+  <string name="calibration_reset">Вы собираетесь сбросить настройки калибровки по умолчанию. Продолжить?</string>
+  <string name="reset">Сброс</string>
+  <string name="save">Сохранить</string>
+  <string name="get_skins">Получить больше вариантов оформления ...</string>
+  <string name="sms_mode">SMS-режим</string>
+  <string name="sms_mode_summary">Удалять расширенные символы при написании SMS</string>
+  <string name="key_height_summary">Настройка высоты клавиш</string>
+  <string name="alt_symbols">Альтернативные символы</string>
+  <string name="alt_symbols_summary">Показывать альтернативные метки в символьной (123) панели</string>
+  <string name="hide_period">Скрыть точку</string>
+  <string name="hide_period_summary">Скрыть кнопку точки для увеличения пробела</string>
+  <string name="hide_comma">Скрыть запятую</string>
+  <string name="hide_comma_summary">Скрыть кнопку запятой (или микрофона) для увеличения пробела</string>
+  <string name="bottom_padding">Нижнее поле</string>
+  <string name="bottom_padding_summary">Добавить дополнительное пространство в нижней части клавиатуры, в портретном режиме</string>
+  <string name="apostrophe_separator">Апостроф-разделитель</string>
+  <string name="apostrophe_separator_summary">Апостроф как разделитель слов (полезно для итальянского, например)</string>
+  <string name="ignore_hard_kbd">Игнорировать аппаратн. клавиатуру</string>
+  <string name="ignore_hard_kbd_summary">Отображение экранной клавиатуры в альбомном режиме, даже если аппаратная  клавиатура открыта (может использоваться с Droid Pro)</string>
+  <string name="tatar">Татарский</string>
+  <string name="custom_punctuation">Настроить знаки пунктуации</string>
+  <string name="custom_punctuation_summary">Настройка знаков пунктуации, отображаемых в строке предлагаемых слов</string>
+  <string name="kazakh">Казахский</string>
+  <string name="azerbaijani">Азербайджанский</string>
+  <string name="armenian">Армянский</string>
+  <string name="vietnamese">Вьетнамский</string>
+  <string name="no_landscape_suggestions">Не подскзывать слова в альбомном режиме</string>
+  <string name="no_landscape_suggestions_summary">Не отображать панель подсказок в альбомной ориентации</string>
+  <string name="arrows_main">Показывать стрелки</string>
+  <string name="arrows_main_summary">Выбрать при отображении на основной клавиатуре клавиши со стрелками</string>
+  <string name="cursor_volume">Курсор кнопкой громкости</string>
+  <string name="cursor_volume_summary">Перемещать курсор клавишами громкости</string>
+  <string name="export_user_dic">Экспорт пользовательского словаря</string>
+  <string name="export_user_dic_summary">Экспорт пользовательского словаря в CSV-формате</string>
+  <string name="export_autotext">Экспортировать AutoText</string>
+  <string name="export_autotext_summary">Экспортировать ярлыки AutoText в формате CSV</string>
+  <string name="import_user_dic">Импорт пользовательских словарей</string>
+  <string name="import_autotext">Импортировать AutoText</string>
+  <string name="export_complete">Экспорт CSV завершен</string>
+  <string name="import_complete">Импорт CSV завершен</string>
+  <string name="export_user_dic_warning">Предупреждение! Вы собираетесь экспортировать пользовательский словарь в файл формата CSV.  Это заменит /sdcard/smartkeyboardpro/userdic.csv. Вы хотите продолжить?</string>
+  <string name="import_user_dic_warning">Предупреждение! Вы собираетесь импортировать пользовательский словарь из CSV файла /sdcard/smartkeyboardpro/userdic.csv.   Это перезапишет все содержимое вашего пользовательского словаря. Вы хотите продолжить?   </string>
+  <string name="export_autotext_warning">Предупреждение! Вы собираетесь экспортировать словарь AutoText в файл формата CSV.  Это заменит /sdcard/smartkeyboardpro/autotext.csv. Вы хотите продолжить?</string>
+  <string name="import_autotext_warning">Предупреждение! Вы собираетесь импортировать словарь AutoText из CSV файла /sdcard/smartkeyboardpro/autotext.csv.   Это перезапишет все содержимое вашего словаря AutoText. Вы хотите продолжить?   </string>
+  <string name="accents_priority">Акцент приоритетов</string>
+  <string name="accents_priority_summary">Уделять приоритетное внимание акцентированным буквам (или двойным согласным) вместо символов, во время долгого нажатия на клавиши. Работает не для всех языков.</string>
+  <string name="afrikaans">Африкаанс</string>
+  <string name="mongolian">Монгольский</string>
+  <string name="prefs_enable_recorrection">Исправление нажатием</string>
+  <string name="prefs_enable_recorrection_summary">Нажмите на слово, чтобы исправить его</string>
+  <string name="macedonian">Македонский</string>
+  <string name="luxembourgish">Люксембургский</string>
+  <string name="albanian">Албанский</string>
+  <string name="belarusian">Белорусский</string>
+  <string name="indonesian">Индонезийский</string>
+  <string name="alt_compact">Расширенная компактная/T9</string>
+  <string name="alt_compact_summary">Длительное нажатие в компактном/T9 режиме отображает все возможные буквы (только в английской разкладке)</string>
+  <string name="backup_failed">Ошибка резервного копирования!</string>
+  <string name="restore_failed">Восстановление не удалось! Возможно, поврежден файл резервной копии.</string>
+  <string name="hide_in_portrait">Скрыть в портретном режиме</string>
+  <string name="hide_in_portrait_summary">Всегда скрывать клавиатуру в портретном режиме (полезно на Droid Pro)</string>
+  <string name="twitter">Твиттер</string>
+  <string name="space_alert">Реакция пробела</string>
+  <string name="space_alert_summary">Вибрировать только для пробела</string>
+  <string name="hide_lang_key">Скрыть кнопку языка</string>
+  <string name="hide_lang_key_summary">Скрыть клавиши выбора языка при включении нескольких языков</string>
+  <string name="show_language_icon">Показать значок языка</string>
+  <string name="show_language_icon_summary">Отображать значок языка в строке состояния</string>
+  <string name="domain_key">Ключ домена</string>
+  <string name="domain_key_summary">Показать ключ домена (.com)</string>
+  <string name="numbers_top">Номера на верхнем этаже</string>
+  <string name="numbers_top_summary">Выберите, когда дополнительный ряд с числами будет показан в верхней части клавиатуры</string>
+  <string name="kurdish">Курдский язык</string>
+  <string name="hindi">Хинди</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Представляем приложение \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\""</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"с непрерывным вводом"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Начать работу"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Далее"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>: настройка"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>: включение"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Установите флажок <xliff:g id="APPLICATION_NAME">%s</xliff:g> в меню \"Язык и ввод\", чтобы использовать этот способ ввода на устройстве."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Приложение <xliff:g id="APPLICATION_NAME">%s</xliff:g> уже включено в настройках языка и ввода, поэтому можно перейти к следующему шагу."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Включить в настройках"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>: активация"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Выберите приложение \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" как текущий способ ввода."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Другой способ ввода"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Настройте дополнительные языки."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Теперь вы можете использовать приложение \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" для набора текста."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Настроить дополнительные языки"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Готово"</string>
+  <string name="legacy_voice">Наследие Голосовой ввод</string>
+  <string name="legacy_voice_details">Использовать старый метод голосового ввода вместо Google Voice</string>
+  <string name="disable_launch_settings">Отключить настройки клавиш быстрого вызова</string>
+  <string name="disable_launch_settings_details">Не запускать экран настроек с длительным нажатием на 123</string>
+  </resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Pomoc</string>
+  <string name="about">O programie...</string>
+  <string name="auto_cap">Auto. Wielkie litery</string>
+  <string name="auto_cap_summary">Początek zdania z wielkiej litery</string>
+  <string name="keyboard_settings">Smart Keyboard Pro ustawienia</string>
+  <string name="settings">Ustawienia</string>
+  <string name="general_settings">Ustawienia główne</string>
+  <string name="text_prediction">Przewidywanie tekstu</string>
+  <string name="sound_vibrate">Dźwięk i wibracje</string>
+  <string name="language">Język</string>
+  <string name="language_summary">Zmień język i układ klawiatury</string>
+  <string name="lang_key">Klawisz wyboru języka</string>
+  <string name="lang_key_summary">Wybierz dostępne języki</string>
+  <string name="english">Angielski</string>
+  <string name="english_intl">Angielski (międzynarodowy)</string>
+  <string name="english_dvorak">Angielski (Dvorak)</string>
+  <string name="english_azerty">Angielski (AZERTY)</string>
+  <string name="french">Francuski</string>
+  <string name="romanian">Rumuński</string>
+  <string name="bulgarian">Bułgarski</string>
+  <string name="russian">Rosyjski</string>
+  <string name="russian_phonetic">Rosyjski (fonetyczny)</string>
+  <string name="spanish">Hiszpański</string>
+  <string name="italian">Włoski</string>
+  <string name="german">Niemiecki</string>
+  <string name="portuguese">Portugalski</string>
+  <string name="danish">Duński</string>
+  <string name="finnish">Fiński</string>
+  <string name="hebrew">Hebrajski</string>
+  <string name="norwegian">Norweski</string>
+  <string name="swedish">Szwedzki</string>
+  <string name="georgian">Gruziński</string>
+  <string name="czech_qwerty">Czeski (QWERTY)</string>
+  <string name="czech_qwertz">Czeski (QWERTZ)</string>
+  <string name="greek">Grecki</string>
+  <string name="dutch">Holenderski</string>
+  <string name="polish">Polski</string>
+  <string name="ukrainian">Ukraiński</string>
+  <string name="vibrate">Wibracje</string>
+  <string name="vibrate_summary">Wibracje na naciśnięcie</string>
+  <string name="vibrate_duration">Czas trwania wibracji</string>
+  <string name="label_go_key">Przejdź</string>
+  <string name="label_next_key">Dalej</string>
+  <string name="label_done_key">Gotowe</string>
+  <string name="label_send_key">Wyślij</string>
+  <string name="advanced_settings">Ustawienia zaawansowane</string>
+  <string name="sound_on_keypress">Dźwięk klawiszy</string>
+  <string name="gestures">Gesty</string>
+  <string name="swipe_left">Przesuń w lewo</string>
+  <string name="swipe_right">Przesuń w prawo</string>
+  <string name="swipe_up">Przesuń w górę</string>
+  <string name="swipe_down">Przesuń w dół</string>
+  <string name="saved">Zapisano</string>
+  <string name="quick_fixes">Szybkie poprawki</string>
+  <string name="quick_fixes_summary">Koryguj najczęściej wpisywane błędy</string>
+  <string name="show_suggestions">Pokaż sugestie</string>
+  <string name="show_suggestions_summary">Wyświetl sugerowanego słowa podczas pisania</string>
+  <string name="auto_complete">Autouzupełnianie</string>
+  <string name="auto_complete_summary">Automatyczna spacja i kropka</string>
+  <string name="contact_dic">Słownik kontaktów</string>
+  <string name="contact_dic_summary">Dołącz nazwy kontaktów do sugestii (wymaga Android 2.0)</string>
+  <string name="show_preview">Pokaż okienko podglądu</string>
+  <string name="show_preview_summary">Pokaż okienko kiedy klawisz jest wciśnięty</string>
+  <string name="skin_selection">Skórki</string>
+  <string name="skin_summary">Zmień skórkę</string>
+  <string name="transparency">Przezroczystość</string>
+  <string name="opacity">Ustaw przezroczystość</string>
+  <string name="transparency_summary">Ustaw przezroczystość klawiatury</string>
+  <string name="volume">Głośność</string>
+  <string name="volume_summary">Ustaw głośności dźwięku klawiszy</string>
+  <string name="debug_logs">Włącz dziennik błędów</string>
+  <string name="always_suggest">Zawsze sugeruj</string>
+  <string name="always_suggest_summary">Wyświetlaj sugestie wyszukiwania</string>
+  <string name="custom_autotext">Własny Autotekst</string>
+  <string name="custom_autotext_summary">Edytuj skróty autotesktu</string>
+  <string name="add_autotext">Dodaj...</string>
+  <string name="edit_autotext">Edytuj...</string>
+  <string name="autotext_key">Słowa następujące:</string>
+  <string name="autotext_value">Zostanie zastąpione przez:</string>
+  <string name="autotext_context_edit">Edytuj</string>
+  <string name="autotext_context_delete">Usuń</string>
+  <string name="enable_arrows">Włącz klawisze kierunkowe</string>
+  <string name="enable_arrows_summary">Dostępne przy użyciu klawisza 123</string>
+  <string name="always_caps">Zawsze wielkie litery</string>
+  <string name="always_caps_summary">Wyświetlaj etykiety przy wielkich literach</string>
+  <string name="display_alt_labels">Pokaż etykiety alternatywne</string>
+  <string name="display_alt_labels_summary">Wyświetlić alternatywne etykiety nad klawiszami</string>
+  <string name="user_dictionary">Słownika użytkownika</string>
+  <string name="user_dictionary_summary">Edytuj słowa w słowniku użytkownika</string>
+  <string name="add_word">Dodać słowo</string>
+  <string name="edit_word">Edytuj słowo</string>
+  <string name="delete_word">Usuń słowo</string>
+  <string name="word">Słowo</string>
+  <string name="download_dic">Pobierz słownik</string>
+  <string name="download_dic_summary">Pobierz słowniki inne niż angielski Marketu</string>
+  <string name="mic_button">Przycisk MIC</string>
+  <string name="mic_button_summary">Pokaż klawisz wprowadzania głosowego kiedy możliwe</string>
+  <string name="voice_input">Wprowadzanie głosowe</string>
+  <string name="cancel">Anuluj</string>
+  <string name="retry">Ponów</string>
+  <string name="restart_voice">Uruchom ponownie wprowadzanie głosowe</string>
+  <string name="restart_voice_summary">Zawsze restartuj wprowadzanie głosowe aż do wyłączenia</string>
+  <string name="voice_best">najlepszy wybór wprowadzania głosowego</string>
+  <string name="voice_best_summary">Automatycznie wybieraj najlepszy</string>
+  <string name="touch_points">Pokaż punkty dotyku</string>
+  <string name="portrait_mode">Orientacja pionowa</string>
+  <string name="portrait_mode_summary">Wybierz normalny, T9 lub układ kompaktowy dla orientacji pionowej</string>
+  <string name="candidate_color_summary">Kolor zalecanego słowa</string>
+  <string name="disable_launcher">Wyłącz ikonę programu</string>
+  <string name="space_when_pick">Spacja po wyborze</string>
+  <string name="space_when_pick_summary">Wstaw spację kiedy ręcznie wybiorę słowo z paska sugestii</string>
+  <string name="swap_punctuation_space">Zamień znaki interpunkcyjne</string>
+  <string name="swap_punctuation_space_summary">Automatycznie wstawiaj znaki int. i spację po słowach</string>
+  <string name="smiley_key">Smiley Key</string>
+  <string name="smiley_key_summary">Pokaż Smiley Key zamiast Enter</string>
+  <string name="toggle_smiley_key">Przełącz Smiley Key</string>
+  <string name="select_sound">Wybierz styl dźwięków</string>
+  <string name="smiley_editor">Edytor Emotek</string>
+  <string name="smiley_editor_summary">Dostosuj Smiley Key</string>
+  <string name="smiley_editor_title">Dotknij, aby edytować emotkę</string>
+  <string name="edit_smiley">Edytuj emotki</string>
+  <string name="smart_dictionary">Inteligentny słownik</string>
+  <string name="smart_dictionary_summary">Słownik uczący się częstotliwości słów które wpiszesz dla poprawy sugestii</string>
+  <string name="backup">Backup ustawień</string>
+  <string name="backup_to_sd">Backup na kartę SD</string>
+  <string name="restore">Przywróć z karty SD</string>
+  <string name="no_sd_card">Błąd: Karta SD nie jest zainstalowana, backup/przywrócenie niemożliwe!</string>
+  <string name="backup_warning">Uwaga! Chcesz wykonać backup ustawień i słowników Smart Keyboard PRO.
+Nadpiszesz /sdcard/smartkeyboardpro/backup.zip. Kontynuować?</string>
+  <string name="restore_warning">Uwaga! Czy na pewno chcesz wykonać przywrócenie ustawień i słowników Smart Keyboard PRO? Nadpisze to wszystkie aktualne ustawienia. Klawiatura zostanie uruchomiona ponownie. Kontynuować?</string>
+  <string name="backup_complete">Backup zakończony</string>
+  <string name="slide_popup_summary">Przesuń palcem, aby wybrać akcenty na klawiaturze popup</string>
+  <string name="space_preview">Obszar podglądu</string>
+  <string name="space_preview_summary">Pokaż podgląd dla klawisza spacji</string>
+  <string name="turkish">Turecki</string>
+  <string name="hungarian">Węgierski</string>
+  <string name="icelandic">Islandzki</string>
+  <string name="bosnian">Bośniacki</string>
+  <string name="croatian">Chorwacki</string>
+  <string name="serbian">Serbski</string>
+  <string name="close">Zamknij</string>
+  <string name="arabic">Arabski</string>
+  <string name="layout">Układ</string>
+  <string name="force_latin">Wymuś układ łaciński</string>
+  <string name="force_latin_summary">Wymuś układ dla wszystkich języków łacińskich</string>
+  <string name="default_latin_lang">&lt;Domyślny&gt;</string>
+  <string name="korean">Koreański</string>
+  <string name="rtl_suggestions">Sugestie RTL</string>
+  <string name="rtl_suggestions_summary">Odwrócić wyrazy w pasku przewidywania (dla arabskiego/hebrajskiego)</string>
+  <string name="clean_userdic">Wyczyść słownik użytkownika</string>
+  <string name="warn_clean_userdic">UWAGA! Usuniesz WSZYSTKIE słowa z twojego słownika. Kontynuować?</string>
+  <string name="suggest_punctuation">Sugestie interpunkcji</string>
+  <string name="key_height">Wysokość klawiszy</string>
+  <string name="thai">Tajski</string>
+  <string name="longpress_duration">Czas trwania długiego przyciśnięcia</string>
+  <string name="longpress_duration_summary">Ustaw czas długiego przyciśnięcia dla symboli alternatywnych</string>
+  <string name="domain_editor">Edytor domeny</string>
+  <string name="japanese">Japoński</string>
+  <string name="double_space_period">Wstaw kropkę gdy spacja wciśnięta 2x</string>
+  <string name="double_space_period_summary">Wstaw kropkę gdy spacja wciśnięta dwa razy</string>
+  <string name="arrows_style">Styl strzałek</string>
+  <string name="arrows_style_summary">Wybierz styl klawiatury ze strzałkami</string>
+  <string name="disable_mt">Wyłącz mutitouch</string>
+  <string name="compound_suggestions">Sugeruj słowa złożone</string>
+  <string name="compound_suggestions_summary">Sugestie dla słów złożonych (głównie j.niemiecki)</string>
+  <string name="current_language">Bieżący język</string>
+  <string name="language_specific_options">Specyficzne opcje języka</string>
+  <string name="no_lansdcape_fullscreen">Tryb landscape nie na całym ekranie</string>
+  <string name="buy">Kup</string>
+  <string name="no_thanks">Nie, dziękuję</string>
+  <string name="chinese_simplified">Chiński (uproszczony) "</string>
+  <string name="yes">Tak</string>
+  <string name="no">Nie</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <!-- Short message shown after the user finishes speaking. -->
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Błąd. Spróbuj ponownie.</string>
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <!-- Short message shown for an audio error. -->
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Błąd serwera</string>
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <!-- Label on button when an error occurs -->
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Witamy w aplikacji <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"z pisaniem gestami"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Rozpocznij"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Następny krok"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Konfigurowanie aplikacji <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Włącz aplikację <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Zaznacz aplikację „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” w ustawieniach Język i wprowadzanie tekstu. Umożliwi to jej uruchamianie na urządzeniu."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Aplikacja <xliff:g id="APPLICATION_NAME">%s</xliff:g> jest już włączona w Ustawieniach języka i wprowadzania danych. Przejdź do następnego kroku."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Włącz w Ustawieniach"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Przełącz się na aplikację <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Następnie wybierz „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” jako aktywną metodę wprowadzania tekstu."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Przełącz metody wprowadzania"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Gratulacje! Wszystko gotowe."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Teraz możesz pisać we wszystkich swoich ulubionych aplikacjach, używając aplikacji <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Skonfiguruj dodatkowe języki"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Zakończone"</string>
+  </resources>

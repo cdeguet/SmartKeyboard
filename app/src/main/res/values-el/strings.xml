@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Βοήθεια</string>
+  <string name="about">Πληροφορίες...</string>
+  <string name="auto_cap">Ανίχνευση πρότασης</string>
+  <string name="auto_cap_summary">Μετατροπή σε κεφαλαίου την αρχή μιας πρότασης </string>
+  <string name="keyboard_settings">Ρυθμίσεις Smart Keyboard Pro</string>
+  <string name="settings">Ρυθμίσεις</string>
+  <string name="general_settings">Γενικές ρυθμίσεις</string>
+  <string name="text_prediction">Πρόβλεψη κειμένου</string>
+  <string name="sound_vibrate">Ήχος και δόνηση</string>
+  <string name="language">Γλώσσα</string>
+  <string name="language_summary">Αλλαγή γλώσσας και διάταξης πληκτρολογίου</string>
+  <string name="lang_key">Πλήκτρο επιλογής γλώσσας </string>
+  <string name="lang_key_summary">Επιλογή διαθέσιμων γλωσσών </string>
+  <string name="english">Αγγλικά</string>
+  <string name="english_intl">Αγγλικά (Διεθνή)</string>
+  <string name="english_dvorak">Αγγλικά (Dvorak) </string>
+  <string name="english_azerty">Αγγλικά (AZERTY)</string>
+  <string name="french">Γαλλικά</string>
+  <string name="romanian">Ρουμάνικα</string>
+  <string name="bulgarian">Βουλγάρικα</string>
+  <string name="russian">Ρωσικά</string>
+  <string name="russian_phonetic">Ρωσικά (φωνητικά)</string>
+  <string name="spanish">Ισπανικά</string>
+  <string name="italian">Ιταλικά</string>
+  <string name="german">Γερμανικά</string>
+  <string name="portuguese">Πορτογαλικά</string>
+  <string name="danish">Δανέζικα</string>
+  <string name="finnish">Φινλανδικά</string>
+  <string name="hebrew">Εβραϊκά</string>
+  <string name="norwegian">Νορβηγικά </string>
+  <string name="swedish">Σουηδικά</string>
+  <string name="georgian">Γεωργιανά </string>
+  <string name="czech_qwerty">Τσέχικα (QWERTY)</string>
+  <string name="czech_qwertz">Τσέχικα (QWERTZ)</string>
+  <string name="greek">Ελληνικά</string>
+  <string name="dutch">Ολλανδικά</string>
+  <string name="polish">Πολωνικά</string>
+  <string name="ukrainian">Ουκρανικά</string>
+  <string name="vibrate">Δόνηση</string>
+  <string name="vibrate_summary">Δόνηση κατά το πάτημα</string>
+  <string name="vibrate_duration">Διάρκεια Δόνησης</string>
+  <string name="label_go_key">Μετάβαση</string>
+  <string name="label_next_key">Επόμενο</string>
+  <string name="label_done_key">Έγινε</string>
+  <string name="label_send_key">Αποστολή</string>
+  <string name="advanced_settings">Ρυθμίσεις για προχωρημένους</string>
+  <string name="sound_on_keypress">Ήχος κατά το πάτημα</string>
+  <string name="gestures">Χειρονομίες</string>
+  <string name="swipe_left">Κύλιση αριστερά </string>
+  <string name="swipe_right">Κύλιση δεξιά</string>
+  <string name="swipe_up">Κύλιση πάνω</string>
+  <string name="swipe_down">Κύλιση κάτω</string>
+  <string name="saved">Αποθηκεύτηκε</string>
+  <string name="quick_fixes">Γρήγορες διωρθώσεις</string>
+  <string name="quick_fixes_summary">Διορθώνει κοινά δακτυλογραφημένα λάθη</string>
+  <string name="show_suggestions">Προβολή προτάσεων</string>
+  <string name="show_suggestions_summary">Προβολή υποδεικνυόμενων λέξεων κατά την πληκτρολόγηση</string>
+  <string name="auto_complete">Αυτόματη συμπλήρωση</string>
+  <string name="auto_complete_summary">Το κενό και τα σημεία στίξης εισάγουν αυτόματα την επισημασμένη λέξη</string>
+  <string name="contact_dic">Λεξικό Επαφών</string>
+  <string name="contact_dic_summary">Συμπεριλάβετε τα ονόματα των επαφών στις υποδείξεις (χρειάζεται Android 2.0)</string>
+  <string name="show_preview">Εμφάνιση αναδυόμενου παραθύρου προεπισκόπησης</string>
+  <string name="show_preview_summary">Εμφάνιση ενός αναδυόμενου παραθύρου όταν πιεστεί ένα πλήκτρο</string>
+  <string name="skin_selection">Επιλογή εμφάνισης</string>
+  <string name="skin_summary">Επιλογή εμφάνισης πληκτρολογίου</string>
+  <string name="transparency">Διαφάνεια</string>
+  <string name="opacity">Ορισμός αδιαφάνειας</string>
+  <string name="transparency_summary">Ορίστε τη διαφάνεια πληκτρολογίου </string>
+  <string name="volume">Ένταση</string>
+  <string name="volume_summary">Ρυθμίστε την ένταση ήχου για τα πλήκτρα</string>
+  <string name="debug_logs">Ενεργοποιήσετε τα αρχεία καταγραφής εντοπισμού σφαλμάτων </string>
+  <string name="always_suggest">Υπόδειξη πάντα</string>
+  <string name="always_suggest_summary">Να εμφανίζονται υποδείξεις και για τις αναζητήσεις</string>
+  <string name="popular_domain_0">.Com</string>
+  <string name="popular_domain_1">.Net</string>
+  <string name="custom_autotext">Προσαρμοσμένο αυτόματο κείμενο</string>
+  <string name="custom_autotext_summary">Επεξεργαστείτε τις επιλογές Αυτόματου Κειμένου </string>
+  <string name="add_autotext">Προσθήκη Αυτόματου Κειμένου ...</string>
+  <string name="edit_autotext">Επεξεργασία Αυτόματου Κειμένου</string>
+  <string name="autotext_key">Η ακόλουθη λέξη:</string>
+  <string name="autotext_value">θα αντικατασταθεί από:</string>
+  <string name="autotext_context_edit">Επεξεργασία</string>
+  <string name="autotext_context_delete">Διαγραφή</string>
+  <string name="enable_arrows">Ενεργοποίηση αριθμητικού πληκτρολογίου</string>
+  <string name="enable_arrows_summary">Προσβάσιμο με το πλήκτρο 123</string>
+  <string name="always_caps">Πάντα κεφαλαία </string>
+  <string name="always_caps_summary">Οι ετικέτες των πλήκτρων να γράφονται πάντα με κεφαλαία</string>
+  <string name="display_alt_labels">Εμφάνιση εναλλακτικών ετικετών</string>
+  <string name="display_alt_labels_summary">Εμφάνιση εναλλακτικής ετικέτας πάνω απο την ετικέτα του πλήκτρου</string>
+  <string name="user_dictionary">Λεξικό χρήστη</string>
+  <string name="user_dictionary_summary">Επεξεργαστείτε τις λέξεις στο λεξικό χρήστη </string>
+  <string name="add_word">Προσθήκη λέξης</string>
+  <string name="edit_word">Επεξεργασία λέξης</string>
+  <string name="delete_word">Διαγραφή λέξης</string>
+  <string name="word">Λέξη</string>
+  <string name="forum">Φόρουμ</string>
+  <string name="download_dic">Λήψη λεξικού </string>
+  <string name="download_dic_summary">Λήψη λεξικών από το Play Store</string>
+  <string name="mic_button">Κουμπί μικροφώνου </string>
+  <string name="mic_button_summary">Εμφάνιση του πλήκτρου φωνητικών εντολών όταν είναι δυνατό</string>
+  <string name="voice_input">Εισαγωγή φωνητικών εντολών</string>
+  <string name="cancel">Ακύρωση</string>
+  <string name="retry">Προσπαθήστε ξανά</string>
+  <string name="restart_voice">Επανεκκίνηση φωνητικής εισαγωγής εντολών</string>
+  <string name="restart_voice_summary">Πάντα να γίνεται επανεκκίνηση φωνητικών εντολών έως ότου ακυρωθεί</string>
+  <string name="voice_best">Επιλογή του καλύτερου αποτελέσματος</string>
+  <string name="voice_best_summary">Αυτόματη επιλογή του καλύτερου αποτελέσματος</string>
+  <string name="touch_points">Εμφάνιση σημείων αφής </string>
+  <string name="portrait_mode">Οριζόντια προβολή</string>
+  <string name="portrait_mode_summary">Επιλέξτε κανονικό, T9 ή συμπαγή διάταξη για κατακόρυφη προβολή</string>
+  <string name="candidate_color">Υποψήφιο χρώμα</string>
+  <string name="candidate_color_summary">Χρώμα της συνιστώμενης λέξης στη μπάρα υποδείξεων</string>
+  <string name="welcome">Ευχαριστούμε που εγκαταστήσατε το Smart Keyboard!\n\n Για να χρησιμοποιήσετε αυτό το πληκτρολόγιο, πηγαίνετε στις ρυθμίσεις γλώσσας, και επιλέξτε το Smart Keyboard. Έπειτα, για να το ενεργοποιήσετε, πρέπει να πιέσετε παρατεταμένα σε ένα πλαίσιο εισαγωγής κειμένου, να επιλέξετε Μέθοδο εισαγωγής και έπειτα Smart Keyboard από τη λίστα. Πιέζοντας παρατεταμένα στο "123" μπορείτε να μεταβείτε στις ρυθμίσεις του πληκτρολογίου.</string>
+  <string name="disable_launcher">Απενεργοποίηση εικονίδιου εφαρμογής</string>
+  <string name="disable_launcher_warning">Προσοχή! Αυτό θα απενεργοποιήσει το εικονίδιο του Smart Keyboard από τον launcher, αλλά θα απενεργοποιήσει επίσης το κουμπί \"Άνοιγμα\" από το Play Store!\nΜπορεί να χρειαστεί να κάνετε επανεκκίνηση του κινητού.</string>
+  <string name="space_when_pick">Διάστημα μετά από επιλογή</string>
+  <string name="space_when_pick_summary">Εισαγωγή κενού διαστήματος κατά την μη αυτόματη επιλογή λέξης από τη μπάρα των υποδείξεων</string>
+  <string name="swap_punctuation_space">Εναλλαγή στίξης</string>
+  <string name="swap_punctuation_space_summary">Εφαρμογή στίξης και διαστήματος μετά από μια λέξη</string>
+  <string name="smiley_key">Πλήκτρο Smiley</string>
+  <string name="smiley_key_summary">Εμφάνιση πλήκτρου smiley αντί του enter</string>
+  <string name="toggle_smiley_key">Εναλλαγή πλήκτρου smiley</string>
+  <string name="select_sound">Επιλέξτε στυλ ήχου</string>
+  <string name="smiley_editor">Επεξεργαστής Smiley</string>
+  <string name="smiley_editor_summary">Προσαρμογή πλήκτου Smiley</string>
+  <string name="smiley_editor_title">Επιλέξτε για να επεξεργαστείτε ένα smiley</string>
+  <string name="edit_smiley">Επεξεργασία smiley</string>
+  <string name="smart_dictionary">Έξυπνο Λεξικό</string>
+  <string name="smart_dictionary_summary">Λεξικό που μαθαίνει την συχνότητα των λέξεων που πληκτρολογείτε για τη βελτίωση των υποδείξεων</string>
+  <string name="backup">Ρυθμίσεις αντιγράφων ασφαλείας</string>
+  <string name="backup_to_sd">Δημιουργία αντίγραφου ασφαλείας στην SD κάρτα</string>
+  <string name="restore">Επαναφορά αντιγράφου από την κάρτα SD</string>
+  <string name="no_sd_card">Σφάλμα: Η SD κάρτα σας δεν έχει τοποθετηθεί, η Αποθήκευση / Επαναφορά, δεν είναι δυνατή!</string>
+  <string name="backup_warning">Προσοχή! Είστε έτοιμοι να δημιουργείσετε αντίγραφο των ρυθμίσεων του Smart Keyboard PRO και των λεξικών. Αυτό θα αντικαταστήσει το αρχείο / sdcard / smartkeyboardpro / backup.zip. Θέλετε να συνεχίσετε;</string>
+  <string name="restore_warning">Προσοχή! Είστε έτοιμος να επαναφέρετε τις ρυθμίσεις του Smart Keyboard PRO και τα λεξικά. Αυτό θα αντικαταστήσει όλες τις τρέχουσες ρυθμίσεις σας. Το πληκτρολόγιο θα επανεκκινήσει για να λάβει υπόψη τις μεταβολές. Θέλετε να συνεχίσετε;</string>
+  <string name="backup_complete">Το αντίγραφο των ρυθμίσεων ολοκληρώθηκε</string>
+  <string name="slide_popup">Oλίσθηση για επιλογή</string>
+  <string name="slide_popup_summary">Σύρετε το δάχτυλο σας για να επιλέξετε τονισμένους χαρακτήρες στο αναδυόμενο παράθυρο του πληκτρολογίου</string>
+  <string name="space_preview">Προεπισκόπηση κενού</string>
+  <string name="space_preview_summary">Εμφάνιση προεπισκόπησης για το κενό διάστημα</string>
+  <string name="turkish">Τουρκικά</string>
+  <string name="hungarian">Ουγγρικά</string>
+  <string name="icelandic">Ισλανδικά</string>
+  <string name="bosnian">Βοσνιακά</string>
+  <string name="croatian">Κροατικά</string>
+  <string name="serbian">Σέρβικα</string>
+  <string name="slovene">Σλοβενικά</string>
+  <string name="close">Κλείσιμο</string>
+  <string name="arabic">Αραβικά</string>
+  <string name="layout">Διάταξη</string>
+  <string name="force_latin">Επιβολή λατινικής διάταξης</string>
+  <string name="force_latin_summary">Επιβολή χρήσης της διάταξης με όλες τις Λατινικές γλώσσες</string>
+  <string name="default_latin_lang">&lt;Προεπιλεγμένο&gt;</string>
+  <string name="korean">Κορεάτικα</string>
+  <string name="rtl_suggestions">Δεξιά-προς-Αριστερά υποδείξεις</string>
+  <string name="rtl_suggestions_summary">Αντίστροφη των λέξεων στη μπάρα προτάσεων (για αραβικά/εβραϊκά)</string>
+  <string name="clean_userdic">Καθαρισμός του λεξικού χρήστη</string>
+  <string name="warn_clean_userdic">Προσοχή! Αυτό θα διαγράψει όλες τις λέξεις στο λεξικό σας . Θέλετε να συνεχίσετε;</string>
+  <string name="suggest_punctuation">Πρόταση σημείων στίξης</string>
+  <string name="key_height">Ύψος πλήκτρου</string>
+  <string name="thai">Ταϊλανδέζικα</string>
+  <string name="longpress_duration">Διάρκεια μακράς πίεσης</string>
+  <string name="longpress_duration_summary">Προσαρμόστε την διάρκεια της μακράς πίεσης πλήκτρου για τα εναλλακτικά σύμβολα</string>
+  <string name="learn_new_words">Εκμάθηση νέων λέξεων</string>
+  <string name="learn_new_words_summary">Αυτόματη προσθήκη νέων λέξεων στο λεξικό χρήστη (απαιτείται το έξυπνο λεξικό)</string>
+  <string name="enter_sends_sms">Το enter στέλνει το μήνυμα</string>
+  <string name="enter_sends_sms_summary">Το πλήκτρο αλλαγής γραμμής κάνει αποστολή αντί για αλλαγή γραμμής. Προσοχή:δεν λειτουργεί σε όλες τις εφαρμογές!</string>
+  <string name="slovak">Σλοβακικά</string>
+  <string name="bk_warning">Προσοχή! Αυτό είναι ένα skin για το Better Keyboard. Η συμβατότητα με το Smart Keyboard μπορεί να χαλάσει ανά πάσα στιγμή, χρησιμοποιήστε το με δική σας ευθύνη!</string>
+  <string name="domain_editor">Επεξεργαστής domain</string>
+  <string name="domain_editor_summary">Προσαρμογή του πλήκτρου .com</string>
+  <string name="domain_editor_title">Ακουμπήστε για να επεξεργαστείτε το domain</string>
+  <string name="edit_domain">Επεξεργαστείτε το domain</string>
+  <string name="persistent_domain_key">Μόνιμο domain</string>
+  <string name="persistent_domain_key_summary">Πάντα εμφάνιση του πλήκτρου domain(.com)</string>
+  <string name="no_alt_preview">Χωρίς προεπισκόπηση εναλλακτικών</string>
+  <string name="no_alt_preview_summary">Να μην προβάλλεται η προεπισκόπηση εναλλακτικών χαρακτήρων αν δεν υπάρχουν εναλλακτικοί </string>
+  <string name="dynamic_resizing">Δυναμική αλλαγή μεγέθους πλήκτρων</string>
+  <string name="dynamic_resizing_summary">Αλλάγή του εικονικού μεγέθους των πλήκτρων, βάσει της πιθανότητας επιλογής του επόμενου γράμματος</string>
+  <string name="esperanto">Εσπεράντο</string>
+  <string name="japanese">Ιαπωνικά</string>
+  <string name="double_space_period">Τελεία με διπλό χτύπημα του κενού διαστήματος</string>
+  <string name="double_space_period_summary">Εισαγωγή τελείας με διπλό χτύπημα του κενού διαστήματος</string>
+  <string name="arrows_style">Τύπος βελών</string>
+  <string name="arrows_style_summary">Επιλέξτε το στυλ των βελών</string>
+  <string name="disable_mt">Απενεργοποίηση multitouch</string>
+  <string name="compound_suggestions">Σύνθετες υποδείξεις</string>
+  <string name="compound_suggestions_summary">Ενεργοποίηση υποδείξεων για τις σύνθετες λέξεις (κυρίως για τα γερμανικά)</string>
+  <string name="current_language">Τρέχουσα γλώσσα</string>
+  <string name="language_specific_options">Ειδικές επιλογές γλώσσας </string>
+  <string name="no_lansdcape_fullscreen">Απενεργοποίηση λειτουργίας οριζόντιας προβολής σε πλήρη οθόνη</string>
+  <string name="no_lansdcape_fullscreen_summary">Να μην γίνεται προβολή σε πλήρη οθόνη στην οριζόντια προβολή</string>
+  <string name="t9_length_priority">T9 προτεραιότητα μήκους</string>
+  <string name="t9_length_priority_summary">Προτεραιότητα σε λέξεις με το ίδιο μήκος κατά την εμφάνιση υποδείξεων T9</string>
+  <string name="t9_next_key">Πλήκτρο Επόμενο για Τ9</string>
+  <string name="t9_next_key_summary">Εμφάνιση του κουμπίου Επόμενο με κατακόρυφο προσανατολισμό του T9</string>
+  <string name="suggest_numbers">Πρόταση Αριθμών</string>
+  <string name="suggest_numbers_summary">Ενεργοποίηση προτάσεων για λέξεις που αρχίζουν με ένα μη αλφαβητικό χαρακτήρα</string>
+  <string name="trial_popup">Αυτή είναι μια δοκιμαστική έκδοση. Πάρτε "Smart Keyboard PRO" τώρα για την υποστήριξη της εφαρμογής και να μην ξαναδείτε αυτό το ενοχλητικό popup :)</string>
+  <string name="buy">Αγορά</string>
+  <string name="no_thanks">Οχι, ευχαριστώ</string>
+  <string name="chinese_simplified">Κινέζικα (απλουστευμένα)</string>
+  <string name="yes">Ναι</string>
+  <string name="no">Όχι</string>
+  <string name="english_dic">Πρέπει να κατεβάσετε το \"English for Smart Keyboard\" από το Play Store για να ενεργοποιήσετε τις προτάσεις και τις διορθώσεις στην Αγγλική γλώσσα. Θέλετε να το κατεβάσετε τώρα;</string>
+  <string name="physical_kbd">Φυσικό πληκτρολόγιο</string>
+  <string name="physical_kbd_summary">Ενεργοποίηση προτάσεων και μετάφραση πλήκτρων με φυσικό  πληκτρολογίου. Χρησιμοποιήστε shift + space για να αλλάξετε γλώσσα.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Εισαγωγή Φωνητικών Εντολών</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Οι φωνητικές εντολές δεν υποστηρίζονται προς το παρόν για τη γλώσσα σας, αλλά λειτουργούν στα αγγλικά.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Η φωνητική εισαγωγή είναι σε δοκιμαστικό στάδιο και χρησιμοποιεί την αντίστοιχη υπηρεσία της Google</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Για να απενεργοποιήσετε φωνητικών εντολών, μεταβείτε στις ρυθμίσεις του πληκτρολογίου.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Μιλήστε τώρα</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Επεξεργασία</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Σφάλμα. Παρακαλώ δοκιμάστε ξανά.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Αποτυχία σύνδεσης</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Σφάλμα, πάρα πολύ ομιλία.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Πρόβλημα ήχου</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Σφάλμα διακομιστή</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Δεν ακούστηκε ομιλία</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Δεν βρέθηκαν αποτελέσματα</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Η φωνητική αναζήτηση δεν είναι εγκατεστημένη</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Εντάξει</string>
+  <string name="estonian">Εσθονικά</string>
+  <string name="lithuanian">Λιθουανικά</string>
+  <string name="latvian">Λεττονικά</string>
+  <string name="only_one_language">Προσοχή! Εφόσον έχετε επιλέξει μόνο μία γλώσσα για το πλήκτρο γλώσσας, αυτό το πλήκτρο δεν θα εμφανιστεί και η τρέχουσα γλώσσα έχει οριστεί σε αυτήν που επιλέξατε.</string>
+  <string name="different_language">Προσοχή! Η γλώσσα που επιλέξατε δεν είναι αυτή που ορίσατε από τις ρυθμίσεις!</string>
+  <string name="hebrew_alt">Εναλλακτική διάταξη Εβραϊκών</string>
+  <string name="hebrew_alt_summary">Πλήκτρο διαγραφής από αριστερά στα Εβραϊκά</string>
+  <string name="portrait_fullscreen">Πλήρης οθόνη σε κατακόρυφη προβολή</string>
+  <string name="portrait_fullscreen_summary">Ρυθμίσετε το πληκτρολόγιο σε λειτουργία πλήρους οθόνης σε κατακόρυφη προβολή (μπορεί να είναι χρήσιμο σε πολύ μικρές οθόνες)</string>
+  <string name="czech_full">Τσέχικα / Σλοβάκικα πλήρης διάταξη</string>
+  <string name="czech_full_summary">Συμπεριλάβετε μια γραμμή με τονισμένα γράμματα στην Τσεχική και Σλοβακική διάταξη</string>
+  <string name="swipe_sensitivity">Ευαισθησία κύλισης</string>
+  <string name="swipe_sensitivity_summary">Ρυθμίστε την ευαισθησία των χειρονομιών. Προσοχή: αν αυξηθεί η ευαισθησία πάρα πολύ, η πληκτρολόγηση με πολλαπλή αφή(multitouch) θα μπορούσε να ερμηνευθεί ως χειρονομία.</string>
+  <string name="catalan">Καταλανικά</string>
+  <string name="multitap_interval">Διάστημα πολλαπλής πίεσης(Multitap)</string>
+  <string name="multitap_interval_summary">Ορισμός της μέγιστης καθυστέρησης κατά το πολλαπλό πάτημα</string>
+  <string name="persian">Περσικά</string>
+  <string name="calibration">Βαθμονόμηση</string>
+  <string name="calibration_summary">Βαθμονόμηση του πληκτρολογίου για να βελτιωθεί η ακρίβεια</string>
+  <string name="calibration_instructions">Για να κάνετε βαθμονόμιση στο πληκτρολόγιό σας, εισάγετε το ακόλουθο κείμενο:</string>
+  <string name="calibration_done">Η βαθμονόμηση ολοκληρώθηκε! Πατήστε "Αποθήκευση" για να χρησιμοποιήσετε τις καινούριες ρυθμίσεις ή "Ακύρωση" για να επαναλάβετε. Είθισται να πραγματοποιήσετε βαθμονόμηση σε κατακόρυφη και σε οριζόντια προβολή για βέλτιστα αποτελέσματα </string>
+  <string name="calibration_profile_is">Το προφίλ βαθμονόμηση σας είναι:</string>
+  <string name="calibration_reset">Είστε έτοιμος να επαναφέρετε τις ρυθμίσεις βαθμονόμησης στις προεπιλεγμένες τιμές. Θέλετε να συνεχίσετε;</string>
+  <string name="reset">Επαναφορά</string>
+  <string name="save">Αποθήκευση</string>
+  <string name="get_skins">Αποκτήστε περισσότερα skins ...</string>
+  <string name="sms_mode">Λειτουργία μηνυμάτων</string>
+  <string name="sms_mode_summary">Κατάργηση επιπλέον εκφορών για τις υποδεικνυόμενες λέξεις όταν συντάσσεται ένα μήνυμα</string>
+  <string name="key_height_summary">Προσαρμογή ύψους πλήκτρων</string>
+  <string name="alt_symbols">Εναλλακτικά σύμβολα</string>
+  <string name="alt_symbols_summary">Εμφάνιση εναλλακτικών ετικετών στον πίνακα συμβόλων (123)</string>
+  <string name="hide_period">Απόκρυψη τελείας</string>
+  <string name="hide_period_summary">Απόκρυψη τελείας για να μεγαλώσει το κουμπί του κενού</string>
+  <string name="hide_comma">Απόκρυψη κόμματος</string>
+  <string name="hide_comma_summary">Απόκρυψη κόμματος (ή μικροφώνου) για να μεγαλώσει το κουμπί του κενού</string>
+  <string name="bottom_padding">Κάτω περιθώριο</string>
+  <string name="bottom_padding_summary">Αύξηση του κάτω περιθωρίου στην κατακόρυφη προβολή</string>
+  <string name="apostrophe_separator">Απόστροφος ως διαχωριστικό</string>
+  <string name="apostrophe_separator_summary">Η απόστροφος θα λειτουργεί ως διαχωριστικό λέξεων</string>
+  <string name="ignore_hard_kbd">Παράβλεψη φυσικού πληκτρολογίου</string>
+  <string name="ignore_hard_kbd_summary">Προβολή πληκτρολογίου αφής στην οριζόντια προβολή πάντοτε</string>
+  <string name="tatar">Ταταρικά</string>
+  <string name="custom_punctuation">Προσαρμογή σημείων στίξης</string>
+  <string name="custom_punctuation_summary">Προσαρμογή των σημείων στίξης που προτείνονται</string>
+  <string name="kazakh">Καζακστανικά</string>
+  <string name="azerbaijani">Αζερμπαϊτζανικά</string>
+  <string name="armenian">Αρμενικά</string>
+  <string name="vietnamese">Βιετναμέζικα</string>
+  <string name="no_landscape_suggestions">Οριζόντια προβολή χωρίς εισοποιήσεις</string>
+  <string name="no_landscape_suggestions_summary">Να μην προβάλλονται προτάσεις στην οριζόντια προβολή</string>
+  <string name="arrows_main">Εμφάνιση βελών</string>
+  <string name="arrows_main_summary">Επιλέξτε αν τα πλήκτρα με τα βέλη θα εμφανίζονται στο κύριο πληκτρολόγιο</string>
+  <string name="cursor_volume">Κέρσορας και πλήκτρα ήχου</string>
+  <string name="cursor_volume_summary">Μετακίνηση του κέρσορα με τα πλήκτρα ήχου</string>
+  <string name="export_user_dic">Εξαγωγή λεξικού χρήστη</string>
+  <string name="export_user_dic_summary">Εξαγωγή λεξικού χρήστη σε αρχείο μορφής CSV</string>
+  <string name="export_autotext">Εξαγωγή αυτόματου κειμένου</string>
+  <string name="export_autotext_summary">Εξαγωγή συντομεύσεων αυτόματου κειμένου σε αρχείο μορφής CSV</string>
+  <string name="import_user_dic">Εισαγωγή λεξικού χρήστη</string>
+  <string name="import_autotext">Εισαγωγή αυτόματου κειμένου</string>
+  <string name="export_complete">Η εξαγωγή CVS ολοκληρώθηκε</string>
+  <string name="import_complete">Η εισαγωγή CVS ολοκληρώθηκε</string>
+  <string name="export_user_dic_warning">Προειδοποίηση! Πρόκειται να εξαγάγετε το λεξικό χρήστη σε ένα αρχείο μορφής CSV.  Αυτό θα αντικαταστήσει το αρχείο /sdcard/smartkeyboardpro/userdic.csv. Θέλετε να συνεχίσετε;</string>
+  <string name="import_user_dic_warning">Προειδοποίηση! Πρόκειται να εισάγετε το λεξικό χρήστη από το αρχείο /sdcard/smartkeyboardpro/userdic.csv . Αυτό θα αντικαταστήσει το σύνολο των περιεχομένων του τρέχοντος λεξικού χρήστη. Θέλετε να συνεχίσετε;   </string>
+  <string name="export_autotext_warning">Προειδοποίηση! Πρόκειται να εξάγετε το λεξικό αυτόματου κειμένου σε ένα αρχείο μορφής CSV.  Αυτό θα αντικαταστήσει το αρχείο /sdcard/smartkeyboardpro/autotext.csv. Θέλετε να συνεχίσετε;</string>
+  <string name="import_autotext_warning">Προειδοποίηση! Πρόκειται να εισάγετε το λεξικό αυτόματου κειμένου από το αρχείο /sdcard/smartkeyboardpro/autotext.csv . Αυτό θα αντικαταστήσει το σύνολο των περιεχομένων του τρέχοντος λεξικού αυτόματου κειμένου. Θέλετε να συνεχίσετε;   </string>
+  <string name="accents_priority">Προτεραιότητα τονισμένων</string>
+  <string name="accents_priority_summary">Δίνει προτεραιότητα στους τονισμένους χαρακτήρες αντί στα σύμβολα όταν πατάτε παρατεταμένα κάποιο πλήκτρο. Δουλεύει μόνο σε συγκεκριμένες γλώσσες.</string>
+  <string name="afrikaans">Αφρικανικά</string>
+  <string name="mongolian">Μογγολικά</string>
+  <string name="prefs_enable_recorrection">Επιλογή λέξεων για διόρθωση</string>
+  <string name="prefs_enable_recorrection_summary">Επιλέξτε τις λέξεις για τη διόρθωσή τους</string>
+  <string name="macedonian">Σκοπιανά</string>
+  <string name="luxembourgish">Λουξεμβουργιανά</string>
+  <string name="albanian">Αλβανικά</string>
+  <string name="belarusian">Λευκορωσικά</string>
+  <string name="indonesian">Ινδονησιακά</string>
+  <string name="alt_compact">Εκτεταμένη συμπαγής μορφή/T9</string>
+  <string name="alt_compact_summary">Παρατεταμένο πάτημα στη λειτουργία T9 προβάλλει όλους τους διαθέσιμους χαρακτήρες</string>
+  <string name="backup_failed">Αποτυχία δημιουργίας αντιγράφου ασφαλείας!</string>
+  <string name="restore_failed">Η επαναφορά απέτυχε! Πιθανόν το αντίγραφο ασφαλείας να ήταν κατεστραμμένο </string>
+  <string name="hide_in_portrait">Απόκρυψη σε κατακόρυφη προβολή</string>
+  <string name="hide_in_portrait_summary">Απόκρυψη του πληκτρολογίου όταν είσαι σε κατακόρυφη προβολή (χρήσιμο στο Droid Pro)</string>
+  <string name="space_alert">Ειδοποίηση κενού</string>
+  <string name="space_alert_summary">Δόνηση μόνο για το πλήκτρο κενού διαστήματος</string>
+  <string name="hide_lang_key">Απόκρυψη πλήκτρου γλώσσας</string>
+  <string name="hide_lang_key_summary">Απόκρυψη πλήκτρου γλώσσας παρόλο που έχουν ενεργοποιηθεί πολλές γλώσσες</string>
+  <string name="show_language_icon">Εικονίδιο γλώσσας</string>
+  <string name="show_language_icon_summary">Εμφάνιση εικονιδίου γλώσσας στη γραμμή κατάστασης</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Καλώς ορίσατε στο <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"με Πληκτρολόγηση με κίνηση"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Έναρξη"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Επόμενο βήμα"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Ρύθμιση της εφαρμογής <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Ενεργοποιήστε την εφαρμογή <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Επιλέξτε \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" στις ρυθμίσεις Γλώσσα και εισαγωγή, για να εκτελεστεί στη συσκευή."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Η εφαρμογή <xliff:g id="APPLICATION_NAME">%s</xliff:g> έχει ενεργοποιηθεί στις Ρυθμίσεις γλώσσας και εισαγωγής, συνεπώς το βήμα έχει ολοκληρωθεί. Πάμε στο επόμενο!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Ενεργοποίηση στις Ρυθμίσεις"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Μετάβαση στην εφαρμογή <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Στη συνέχεια, επιλέξτε \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" ως την ενεργή μέθοδο εισαγωγής κειμένου."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Εναλλαγή μεθόδων εισαγωγής"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Συγχαρητήρια, είστε έτοιμοι!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Πλέον μπορείτε να πληκτρολογήσετε όλες τις αγαπημένες σας εφαρμογές με το <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Διαμόρφωση πρόσθετων γλωσσών"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Ολοκληρώθηκε"</string>
+  </resources>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Pomoč</string>
+  <string name="about">O programu...</string>
+  <string name="auto_cap">Samodejna velika začetnica</string>
+  <string name="auto_cap_summary">Začni stavek z veliko začetnico</string>
+  <string name="keyboard_settings">Nastavitve Smart Keyboard Pro </string>
+  <string name="settings">Nastavitve</string>
+  <string name="general_settings">Splošne nastavitve</string>
+  <string name="text_prediction">Predvidevanje besedila</string>
+  <string name="sound_vibrate">Zvok in vibriranje</string>
+  <string name="language">Jezik</string>
+  <string name="language_summary">Spremeni jezik tipkovnice in razporeditev tipk</string>
+  <string name="lang_key">Tipka za izbiro jezika</string>
+  <string name="lang_key_summary">Izberite jezike ki bodo na voljo</string>
+  <string name="english">Angleščina</string>
+  <string name="english_intl">Angleščina (mednarodno)</string>
+  <string name="english_dvorak">Angleščina (Dvorak)</string>
+  <string name="english_azerty">Angleščina (AZERTY)</string>
+  <string name="french">Francoščina</string>
+  <string name="romanian">Romunščina</string>
+  <string name="bulgarian">Bolgarščina</string>
+  <string name="russian">Ruščina</string>
+  <string name="russian_phonetic">Ruščina (fonetično)</string>
+  <string name="spanish">Španščina</string>
+  <string name="italian">Italijanščina</string>
+  <string name="german">Nemščina</string>
+  <string name="portuguese">Portugalščina</string>
+  <string name="danish">Danščina</string>
+  <string name="finnish">Finščina</string>
+  <string name="hebrew">Hebrejščina</string>
+  <string name="norwegian">Norveščina</string>
+  <string name="swedish">Švedščina</string>
+  <string name="georgian">Gruzijščina</string>
+  <string name="czech_qwerty">Češčina (QWERTY)</string>
+  <string name="czech_qwertz">Češčina (QWERTY)</string>
+  <string name="greek">Grščina</string>
+  <string name="dutch">Nizozemščina</string>
+  <string name="polish">Poljščina</string>
+  <string name="ukrainian">Ukrajinščina</string>
+  <string name="vibrate">Vibriranje</string>
+  <string name="vibrate_summary">Vibriranje ob pritisku tipke</string>
+  <string name="vibrate_duration">Trajanje vibriranja</string>
+  <string name="label_go_key">Pojdi</string>
+  <string name="label_next_key">Naprej</string>
+  <string name="label_done_key">Konec</string>
+  <string name="label_send_key">Pošlji</string>
+  <string name="advanced_settings">Napredne nastavitve</string>
+  <string name="sound_on_keypress">Zvok ob pritisku tipke</string>
+  <string name="gestures">Kretnje </string>
+  <string name="swipe_left">Podrsaj levo</string>
+  <string name="swipe_right">Podrsaj desno</string>
+  <string name="swipe_up">Podrsaj navzgor</string>
+  <string name="swipe_down">Podrsaj navzdol</string>
+  <string name="saved">Shranjeno</string>
+  <string name="quick_fixes">Hitri popravki</string>
+  <string name="quick_fixes_summary">Popravi pogoste napake pri tipkanju</string>
+  <string name="show_suggestions">Prikaži predloge</string>
+  <string name="show_suggestions_summary">Prikaži predlagane besede med tipkanjem</string>
+  <string name="auto_complete">Samodokončaj</string>
+  <string name="auto_complete_summary">Samodejno vstavljanje presledka in ločil</string>
+  <string name="contact_dic">Slovar stikov</string>
+  <string name="contact_dic_summary">Vključi imena stikov v predloge (potrebuje Android 2.0)</string>
+  <string name="show_preview">Pokaži pojavno okence predogleda</string>
+  <string name="show_preview_summary">Prikaz pojavnega okenca ob pritisku tipke</string>
+  <string name="skin_selection">Izberi preobleko</string>
+  <string name="skin_summary">Spremeni preobleko tipkovnice</string>
+  <string name="transparency">Prosojnost</string>
+  <string name="opacity">Nastavi neprosojnost</string>
+  <string name="transparency_summary">Nastavitve prosojnosti tipkovnice</string>
+  <string name="volume">Glasnost</string>
+  <string name="volume_summary">Nastavite glasnost ob pritisku tipke</string>
+  <string name="debug_logs">Omogoči dnevnike napak</string>
+  <string name="always_suggest">Vedno predlagaj</string>
+  <string name="always_suggest_summary">Prikazuj tudi predloge za iskanja</string>
+  <string name="custom_autotext">Samobesedilo po meri</string>
+  <string name="custom_autotext_summary">Uredi svoje bližnjice samobesedila</string>
+  <string name="add_autotext">Dodaj samobesedilo ...</string>
+  <string name="edit_autotext">Uredi samobesedilo</string>
+  <string name="autotext_key">Naslednja beseda:</string>
+  <string name="autotext_value">bo zamenjana z :</string>
+  <string name="autotext_context_edit">Uredi</string>
+  <string name="autotext_context_delete">Izbriši</string>
+  <string name="enable_arrows">Omogoči tipkovnico s smernimi tipkami</string>
+  <string name="enable_arrows_summary">Dostopna je z tipko 123</string>
+  <string name="always_caps">Vedno velike črke</string>
+  <string name="always_caps_summary">Vedno prikaži oznake tipk z velikimi črkami</string>
+  <string name="display_alt_labels">Prikaži ALT oznake</string>
+  <string name="display_alt_labels_summary">Prikaži tudi ALT oznake nad oznakami tipk</string>
+  <string name="user_dictionary">Uporabniški slovar</string>
+  <string name="user_dictionary_summary">Uredi besede v uporabniškem slovarju</string>
+  <string name="add_word">Dodaj besedo</string>
+  <string name="edit_word">Uredi besedo</string>
+  <string name="delete_word">Izbriši besedo</string>
+  <string name="word">Beseda</string>
+  <string name="download_dic">Prenesi slovarje</string>
+  <string name="download_dic_summary">Prenesi slovarje z Android tržnice</string>
+  <string name="mic_button">MIC tipka</string>
+  <string name="mic_button_summary">Prikaži tipko glasovnega vhoda, ko je mogoče</string>
+  <string name="voice_input">Glasovni vhod</string>
+  <string name="cancel">Prekliči</string>
+  <string name="retry">Poskusi znova</string>
+  <string name="restart_voice">Ponavljaj glasovni vhod</string>
+  <string name="restart_voice_summary">Vedno ponavljaj glasovni vhod do preklica</string>
+  <string name="voice_best">Najboljša možnost gl.vhoda</string>
+  <string name="voice_best_summary">Samodejno izberi najboljšo možno besedo</string>
+  <string name="touch_points">Prikaži točke dotika</string>
+  <string name="portrait_mode">Pokončna usmerjenost</string>
+  <string name="portrait_mode_summary">Izberite QWERTZ, XT9 ali 3x4 razporeditev tipk za pokončni način</string>
+  <string name="candidate_color">Barva kandidatke</string>
+  <string name="candidate_color_summary">Barva predlagane besede v vrstici komentar</string>
+  <string name="welcome">Hvala za namestitev \@!\n\n Če želite omogočiti tipkovnico, pojdite v nastavitve "\Jezik in tipkovnica\" (ali \"Območne nastavitve in besedilo\") in odkljukajte \"\@\" okence. Za izbiro \@, z dolgim ​​pritiskom na katero koli vnosno polje besedila, izberite \"Način vnosa\" in izberite \@ na seznamu. Do nastavitev tipkovnice lahko pridete z dolgim ​​pritiskom na \"123\" \n\n Sedaj pojdite v meni Nastavitve (lahko kliknete spodaj), in uživajte!  \n\n Opomba: Zagonsko ikono lahko odstranite v nastavitvah tipkovnice.</string>
+  <string name="disable_launcher">Onemogoči zagonsko ikono</string>
+  <string name="disable_launcher_warning">Opozorilo! Onemogočili boste Smart Keyboard zagonsko ikono in gumb  \"Odpri\" na Android tržnici! \n Morda bo potrebno ponovno zagnati telefon da bo ikona dejansko izginila.</string>
+  <string name="space_when_pick">Presledek po izbiri</string>
+  <string name="space_when_pick_summary">Vstavi presledek, če ročno izberem besedo v vrstici komentar</string>
+  <string name="swap_punctuation_space">Zamenjaj postavitev ločil</string>
+  <string name="swap_punctuation_space_summary">Samodejno zamenjaj ločilo in presledek za besedo</string>
+  <string name="smiley_key">Tipka Smeški</string>
+  <string name="smiley_key_summary">Prikaži tipko Smeški namesto tipke Vnesi</string>
+  <string name="toggle_smiley_key">Preklop tipke Smeški</string>
+  <string name="select_sound">Izberi zvok tipk</string>
+  <string name="smiley_editor">Urejevalnik Smeškov</string>
+  <string name="smiley_editor_summary">Prilagodi tipko Smeški</string>
+  <string name="smiley_editor_title">Za urejanje se dotakni Smeškov</string>
+  <string name="edit_smiley">Uredi smeška</string>
+  <string name="smart_dictionary">Pametni slovar</string>
+  <string name="smart_dictionary_summary">Slovar, ki se uči pogostosti vnešenih besed za izboljšavo predlogov</string>
+  <string name="backup">Nastavitve varnostnega kopiranja</string>
+  <string name="backup_to_sd">Varnostno kopiraj na kartico SD</string>
+  <string name="restore">Obnovi s kartice SD </string>
+  <string name="no_sd_card">Napaka: Kartica SD ni nameščena, kopiranje/obnovitev ni možna!</string>
+  <string name="backup_warning">Opozorilo! Varnostno boste kopirali vse nastavitve in slovarje.  Datoteka:   /sdcard/smartkeyboardpro/backup.zip bo prepisana.  Ali želite nadaljevati?</string>
+  <string name="restore_warning">Opozorilo! Obnovili boste vse Smart Keyboard Pro nastavitve in slovarje. Vse trenutne nastavitve bodo prepisane. Tipkovnica bo ponovno zagnana. Ali želite nadaljevati?</string>
+  <string name="backup_complete">Varnostno kopiranje končano</string>
+  <string name="slide_popup">Potegni v pojavno okence</string>
+  <string name="slide_popup_summary">Potegni s prstom za izbiro šumnikov na pojavnem okencu tipkovnice</string>
+  <string name="space_preview">Predogled preslednice</string>
+  <string name="space_preview_summary">Pokaži predogled preslednice v pojavnem okencu</string>
+  <string name="turkish">Turščina</string>
+  <string name="hungarian">Madžarščina</string>
+  <string name="icelandic">Islandščina</string>
+  <string name="bosnian">Bosanščina</string>
+  <string name="croatian">Hrvaščina</string>
+  <string name="serbian">Srbščina</string>
+  <string name="slovene">Slovenščina</string>
+  <string name="close">Zapri</string>
+  <string name="arabic">Arabščina</string>
+  <string name="layout">Razporeditev tipk</string>
+  <string name="force_latin">Forsiraj latinično razporeditev tipk</string>
+  <string name="force_latin_summary">Forsiraj razporeditev tipk za uporabo z vsemi jeziki, ki uporabljajo latinično pisavo</string>
+  <string name="korean">Korejščina</string>
+  <string name="rtl_suggestions">RTL predlogi</string>
+  <string name="rtl_suggestions_summary">Obratni vrstni red besed v vrstici komentar(za arabščino/hebrejščino)</string>
+  <string name="clean_userdic">Izbriši uporabniški slovar</string>
+  <string name="warn_clean_userdic">Pozor! To bo izbrisalo vse besede v vašem uporabniškem slovarju. Ali želite nadaljevati?</string>
+  <string name="suggest_punctuation">Predlagaj ločila</string>
+  <string name="key_height">Višina tipk</string>
+  <string name="thai">Tajščina</string>
+  <string name="longpress_duration">Časovni zamik tipk</string>
+  <string name="longpress_duration_summary">Prilagodite časovni zamik tipk za vklop nadomestnih simbolov v pojavnem okencu</string>
+  <string name="learn_new_words">Učenje novih besed</string>
+  <string name="learn_new_words_summary">Samodejno dodaj nove besede v uporabniški slovar (zahteva Pametni slovar)</string>
+  <string name="enter_sends_sms">Vnesi pošlje sporočilo</string>
+  <string name="enter_sends_sms_summary">Tipka Vnesi pošlje sporočilo, namesto vnosa nove vrstice (ne deluje v vseh aplikacijah) </string>
+  <string name="slovak">Slovaščina</string>
+  <string name="bk_warning">Pozor! To je preobleka  za Better Keyboard, ki morda ni združljiva s programom Smart Keyboard. Uporaba na lastno odgovornost!</string>
+  <string name="domain_editor">Urejevalnik domen</string>
+  <string name="domain_editor_summary">Prilagodite tipko .com</string>
+  <string name="domain_editor_title">Dotakni se domene za urejanje</string>
+  <string name="edit_domain">Uredi domeno</string>
+  <string name="persistent_domain_key">Stalna tipka domene</string>
+  <string name="persistent_domain_key_summary">Vedno prikaži tipko domene (.com) na tipkovnici</string>
+  <string name="no_alt_preview">Ni predogleda ALT</string>
+  <string name="no_alt_preview_summary">Ne prikaži pojavnega okenca predogleda za alternativni znak, če je en sam</string>
+  <string name="dynamic_resizing">Dinamično prilagodi tipke</string>
+  <string name="dynamic_resizing_summary">Spremeni navidezno velikost tipk glede na verjetnost naslednje črke</string>
+  <string name="japanese">Japonščina</string>
+  <string name="double_space_period">Pika ob dvojnem presledku</string>
+  <string name="double_space_period_summary">Vstavi piko pri dvakratnem pritisku preslednice</string>
+  <string name="arrows_style">Slog smernih tipk</string>
+  <string name="arrows_style_summary">Izberite slog tipkovnice s smernimi tipkami</string>
+  <string name="disable_mt">Onemogoči večkratni dotik</string>
+  <string name="compound_suggestions">Predlagaj zloženke</string>
+  <string name="compound_suggestions_summary">Omogoči predloge iz zloženk (predvsem  za nemščino) </string>
+  <string name="current_language">Trenutni jezik</string>
+  <string name="language_specific_options">Jezikovne posebnosti</string>
+  <string name="no_lansdcape_fullscreen">Brez celozaslonsko ležeče</string>
+  <string name="no_lansdcape_fullscreen_summary">V ležečem položaju ne preklapljaj v celozaslonski način</string>
+  <string name="t9_length_priority">XT9 prednostna dolžina</string>
+  <string name="t9_length_priority_summary">Prednost besed enake dolžine pri prikazu XT9 predlogov</string>
+  <string name="t9_next_key">XT9 tipka Naprej</string>
+  <string name="t9_next_key_summary">Prikaži tipko Naprej v XT9 pri pokončnem načinu</string>
+  <string name="suggest_numbers">Predlagaj številke</string>
+  <string name="suggest_numbers_summary">Omogoči predloge za besede, ki se ne začnejo s črko</string>
+  <string name="trial_popup">To je preizkusna različica. Kupite "Smart Keyboard PRO" sedaj in podprite razvoj aplikacije ter izklopite za vselej to moteče sporočilo :) </string>
+  <string name="buy">Nakup</string>
+  <string name="no_thanks">Ne, hvala</string>
+  <string name="chinese_simplified">Kitajščina (poenostavljeno) </string>
+  <string name="yes">Da</string>
+  <string name="no">Ne</string>
+  <string name="english_dic">Prenesti je potrebno program \"English for Smart Keyboard\" iz Android tržnice, če želite angleške predloge in samopopravke. Ali ga želite prenesti sedaj?</string>
+  <string name="physical_kbd">Fizična tipkovnica</string>
+  <string name="physical_kbd_summary">Omogoči predloge in preslikavo tipk s fizične tipkovnice. Uporabite shift + preslednico za preklop jezika.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Glasovni vhod</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Glasovni vhod trenutno ne podpira vašega jezika, podprt pa je v angleškem jeziku.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Glasovni vhod je v poskusna funkcija ki uporablja Googlovo omrežno prepoznavo govora.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Za izklop glasovnega vhoda, pojdite na nastavitve tipkovnice.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Govori zdaj!</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Delam</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Napaka. Prosim, poskusi znova.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Napaka pri povezavi</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Napaka, preveč govora.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Težava z zvokom</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Napaka strežnika</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Ne slišim govora</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Ni zadetkov</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Glasovno iskanje ni nameščeno</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">
+
+
+
+
+
+
+V redu</string>
+  <string name="estonian">Estonščina</string>
+  <string name="lithuanian">Litovščina</string>
+  <string name="latvian">Latvijščina</string>
+  <string name="only_one_language">Opozorilo! Ker ste izbrali samo en jezik v nastavitvah tipke jezika, ta ne bo prikazana, vendar pa je trenutni jezik nastavljen na izbrani jezik.</string>
+  <string name="different_language">Opozorilo! Izbranega jezika ni med tistimi, ki ste jih določili v možnostih \"tipke za izbiro jezikov\"!</string>
+  <string name="hebrew_alt">Hebrejska ALT razporeditev tipk</string>
+  <string name="hebrew_alt_summary">Postavi vračalko na levo stran pri hebrejski razporeditvi tipk</string>
+  <string name="portrait_fullscreen">Celozaslonsko pokončno</string>
+  <string name="portrait_fullscreen_summary">Nastavitev pokončne tipkovnice v celozaslonskem načinu  (uporabno pri majhnih zaslonih)</string>
+  <string name="czech_full">Češka/Slovaška polna razporeditev tipk</string>
+  <string name="czech_full_summary">Vključi zgornjo vrstico z naglašenimi črkami pri Češki in Slovaški razporeditvi tipk</string>
+  <string name="swipe_sensitivity">Občutljivost kretnje </string>
+  <string name="swipe_sensitivity_summary">Nastavitev občutljivosti kretnje (Swipe) Pozor: Pri previsoki občutljivosti se tipkanje z večkratnim dotikom (multitouch) lahko smatra kot kretnja.</string>
+  <string name="catalan">Katalonščina</string>
+  <string name="multitap_interval">Interval večkratnega pritiska</string>
+  <string name="multitap_interval_summary">Nastavi največjo zakasnitev za večkratni pritisk tipke, na primer v XT9 ali korejski nastavitvi \ "kratkih samoglasnikov \" </string>
+  <string name="persian">Perzijščina</string>
+  <string name="calibration">Umerjanje</string>
+  <string name="calibration_summary">Umerite tipkovnico za večjo natančnost</string>
+  <string name="calibration_instructions">Za umerjanje tipkovnice, vnesite naslednje besedilo:</string>
+  <string name="calibration_done">Umerjanje je končano! Kliknite na \"Shrani\", če želite uporabiti nove nastavitve, ali \"Prekliči\", da poskusite znova. Ne pozabite, da morate za boljše rezultate zagnati umerjanje v pokončnem in ležečem načinu.</string>
+  <string name="calibration_profile_is">Vaš profil umerjanja je:</string>
+  <string name="calibration_reset">Umeritev bo ponastavljena na privzete vrednosti. Ali želite nadaljevati?</string>
+  <string name="reset">Ponastavi</string>
+  <string name="save">Shrani</string>
+  <string name="get_skins">Prenesi več preoblek...</string>
+  <string name="sms_mode">SMS način</string>
+  <string name="sms_mode_summary">Odstrani naglase iz predlaganih besed med pisanjem SMS</string>
+  <string name="key_height_summary">Prilagodi višino tipk</string>
+  <string name="alt_symbols">ALT oznake</string>
+  <string name="alt_symbols_summary">Pokaži ALT oznake tipkovnici s simboli(123)</string>
+  <string name="hide_period">Skrij piko</string>
+  <string name="hide_period_summary">Skrij piko za povečavo preslednice</string>
+  <string name="hide_comma">Skrij vejico</string>
+  <string name="hide_comma_summary">Skrij vejico (ali mic tipko) za povečavo preslednice</string>
+  <string name="bottom_padding">Odmik tipkovnice od spodnjega roba</string>
+  <string name="bottom_padding_summary">Odmik tipkovnice od spodnjega roba zaslona pri pokončnem načinu</string>
+  <string name="apostrophe_separator">Opuščaj kot ločilo</string>
+  <string name="apostrophe_separator_summary">Smatraj opuščaj kot ločilo  (uporabno za italijanščino)</string>
+  <string name="ignore_hard_kbd">Prezri fizično tipkovnico</string>
+  <string name="ignore_hard_kbd_summary">V ležečem načinu prikaži tipkovnico, čeprav je prisotna tudi fizična (lahko se uporablja z Droid Pro)</string>
+  <string name="pinyin">Pinjin</string>
+  <string name="tatar">Tatarščina</string>
+  <string name="custom_punctuation">Ločila po meri</string>
+  <string name="custom_punctuation_summary">Prilagodite znake ločil, prikazane v vrstici komentar</string>
+  <string name="kazakh">Kazahstanščina</string>
+  <string name="azerbaijani">Azerbajdžanščina</string>
+  <string name="armenian">Armenščina</string>
+  <string name="vietnamese">Vietnamščina</string>
+  <string name="no_landscape_suggestions">Ne predlagaj besed v ležečem načinu</string>
+  <string name="no_landscape_suggestions_summary">Ne prikazuj vrstice komentar v ležečem položaju</string>
+  <string name="arrows_main">Prikaži smerne tipke</string>
+  <string name="arrows_main_summary">Izberite kdaj bodo smerne tipke prikazane na glavni tipkovnici</string>
+  <string name="cursor_volume">Kurzor z tipko za glasnost</string>
+  <string name="cursor_volume_summary">Premikaj kurzor z tipkami za glasnost</string>
+  <string name="export_user_dic">Izvoz uporabniškega slovarja</string>
+  <string name="export_user_dic_summary">Izvoz uporabniškega slovarja v obliki CSV</string>
+  <string name="export_autotext">Izvoz samobesedila</string>
+  <string name="export_autotext_summary">Izvoz bližnjic samobesedila v CSV formatu</string>
+  <string name="import_user_dic">Uvoz uporabniškega slovarja</string>
+  <string name="import_autotext">Uvoz samobesedila</string>
+  <string name="export_complete">CSV izvoz končan</string>
+  <string name="import_complete">CSV uvoz končan</string>
+  <string name="export_user_dic_warning">Pozor! Izvozili boste uporabniški slovar v obliki datoteke CSV.  Datoteka /sdcard/smartkeyboardpro/userdic.csv bo prepisana. Ali želite nadaljevati?</string>
+  <string name="import_user_dic_warning">Pozor! Uvozili boste uporabniški slovar iz datoteke CSV /sdcard/smartkeyboardpro/userdic.csv. To po prepisalo celotno vsebino vašega uporabniškega slovarja. Ali želite nadaljevati?    </string>
+  <string name="export_autotext_warning">Pozor! Izvozili boste slovar samobesedila v obliki datoteke CSV.  Datoteka /sdcard/smartkeyboardpro/autotext.csv bo prepisana. Ali želite nadaljevati?</string>
+  <string name="import_autotext_warning">Pozor! Uvozili boste slovar samobesedila iz datoteke CSV  /sdcard/smartkeyboardpro/autotext.csv. To po prepisalo celotno vsebino vašega slovarja za samobesedilo. Ali želite nadaljevati?   </string>
+  <string name="accents_priority">Prioriteta akcentov</string>
+  <string name="accents_priority_summary">Daj prednost akcentom (ali dvojnim soglasnikom) namesto simbolov pri dolgem pritisku tipke. Deluje samo pri nekaterih jezikih.</string>
+  <string name="afrikaans">Afrikanščina</string>
+  <string name="mongolian">Mongolščina</string>
+  <string name="prefs_enable_recorrection">Dotik za popravek besedila</string>
+  <string name="prefs_enable_recorrection_summary">Dotakni se vnešenih besed za popravke besedila</string>
+  <string name="macedonian">Makedonščina</string>
+  <string name="luxembourgish">Luksemburščina</string>
+  <string name="albanian">Albanščina</string>
+  <string name="belarusian">Beloruščina</string>
+  <string name="indonesian">Indonezijščina</string>
+  <string name="alt_compact">Razširjeno kompaktno/XT9</string>
+  <string name="alt_compact_summary">dolg pritisk v kompaktnem/XT9 načinu prikaže vse črke</string>
+  <string name="backup_failed">Napaka pri izdelavi varnostne kopije</string>
+  <string name="restore_failed">Obnovitev nastavitev ni uspela, arhiv je bil verjetno poškodovan</string>
+  <string name="hide_in_portrait">skrij v pokončnem načinu</string>
+  <string name="hide_in_portrait_summary">Vedno Skrij tipkovnico v pokončnem načinu (uporabno z Droid Pro)</string>
+  <string name="space_alert">opozorilo preslednice</string>
+  <string name="space_alert_summary">vibriraj samo pri preslednici</string>
+  <string name="hide_lang_key">Skrij tipko jezika</string>
+  <string name="hide_lang_key_summary">skrij izbirno tipko jezika, ko je omogočenih več jezikov</string>
+  <string name="show_language_icon">pokaži ikono jezika</string>
+  <string name="show_language_icon_summary">Prikažite ikono jezika v vrstici stanja</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Pozdravljeni v aplikaciji <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"s pisanjem s kretnjami"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Začnite"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Naslednji korak"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Nastavitev aplikacije <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Omogočanje aplikacije <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"V nastavitvah za jezik in vnos izberite aplikacijo »<xliff:g id="APPLICATION_NAME">%s</xliff:g>«. S tem ji omogočite izvajanje v napravi."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Aplikacija <xliff:g id="APPLICATION_NAME">%s</xliff:g> je že omogočena v nastavitvah jezika in vnosa, zato je to že opravljeno. Nadaljujte."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Omogoči v nastavitvah"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Preklop na aplikacijo <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Nato izberite aplikacijo »<xliff:g id="APPLICATION_NAME">%s</xliff:g>« kot aktivni način vnosa besedila."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Preklopi način vnosa"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Čestitamo, pripravljeni ste."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Zdaj lahko z aplikacijo <xliff:g id="APPLICATION_NAME">%s</xliff:g> tipkate v vseh svojih priljubljenih aplikacijah."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfiguracija dodatnih jezikov"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Končano"</string>
+  </resources>

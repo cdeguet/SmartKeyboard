@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setup_welcome_title" msgid="6112821709832031715">"Tere tulemast rakendusse <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"joonistusega sisestamisega"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"Alustamine"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"Järgmine toiming"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"Rakenduse <xliff:g id="APPLICATION_NAME">%s</xliff:g> seadistamine"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"Lubage <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step1_instruction" msgid="2578631936624637241">"Märkige oma keele ja sisestamise seadetes rakendus „<xliff:g id="APPLICATION_NAME">%s</xliff:g>”. See lubab rakenduse käitamise teie seadmes."</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"Luba seadetes"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"Minge üle rakendusele <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"Järgmisena valige aktiivseks tekstisisestusmeetodiks rakendus „<xliff:g id="APPLICATION_NAME">%s</xliff:g>”."</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"Vaheta sisestusmeetodeid"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"Õnnitleme. Kõik on valmis!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"Nüüd saate rakendusega <xliff:g id="APPLICATION_NAME">%s</xliff:g> sisestada kõikides oma lemmikrakendustes."</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"Seadista lisakeeled"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"Lõpetatud"</string>
+</resources>

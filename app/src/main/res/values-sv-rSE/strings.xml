@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Hjälp</string>
+  <string name="about">Om ...</string>
+  <string name="auto_cap">Auto-versaler</string>
+  <string name="auto_cap_summary">Inled början av en mening</string>
+  <string name="keyboard_settings">Smart Keyboard Pro inställningar</string>
+  <string name="settings">Inställningar</string>
+  <string name="general_settings">Allmänna inställningar</string>
+  <string name="text_prediction">Förprogrammerad text</string>
+  <string name="sound_vibrate">Ljud och vibration</string>
+  <string name="language">Språk</string>
+  <string name="language_summary">Ändra tangentbordsspråk och layout</string>
+  <string name="lang_key">Språkväljningsknapp</string>
+  <string name="lang_key_summary">Välj tillgängliga språk</string>
+  <string name="english">Engelska</string>
+  <string name="english_intl">Engelska (internationell)</string>
+  <string name="english_dvorak">Engelska (Dvorak)</string>
+  <string name="english_azerty">Engelska (AZERTY)</string>
+  <string name="french">Franska</string>
+  <string name="romanian">Rumänska</string>
+  <string name="bulgarian">Bulgariska</string>
+  <string name="russian">Ryska</string>
+  <string name="russian_phonetic">Ryska (fonetiskt)</string>
+  <string name="spanish">Spanska</string>
+  <string name="italian">Italienska</string>
+  <string name="german">Tyska</string>
+  <string name="portuguese">Portugisiska</string>
+  <string name="danish">Danska</string>
+  <string name="finnish">Finska</string>
+  <string name="hebrew">Hebreiska</string>
+  <string name="norwegian">Norska</string>
+  <string name="swedish">Svenska</string>
+  <string name="georgian">Georgiska</string>
+  <string name="czech_qwerty">Tjeckiska (QWERTY)</string>
+  <string name="czech_qwertz">Tjeckiska (QWERTZ)</string>
+  <string name="greek">Grekiska</string>
+  <string name="dutch">Nederländska</string>
+  <string name="polish">Polska</string>
+  <string name="ukrainian">Ukrainska</string>
+  <string name="vibrate">Vibrera</string>
+  <string name="vibrate_summary">Vibrera vid tangenttryck</string>
+  <string name="vibrate_duration">Tid på vibration</string>
+  <string name="label_go_key">Kör</string>
+  <string name="label_next_key">Nästa</string>
+  <string name="label_done_key">Klar</string>
+  <string name="label_send_key">Skicka</string>
+  <string name="advanced_settings">Avancerade inställningar</string>
+  <string name="sound_on_keypress">Ljud vid tangenttryck</string>
+  <string name="gestures">Gester</string>
+  <string name="swipe_left">Svep vänster</string>
+  <string name="swipe_right">Svep höger</string>
+  <string name="swipe_up">Svep upp</string>
+  <string name="swipe_down">Svep ner</string>
+  <string name="saved">Sparat</string>
+  <string name="quick_fixes">Snabbåtgärder</string>
+  <string name="quick_fixes_summary">Korrigerar vanliga felstavningar</string>
+  <string name="show_suggestions">Visa förslag</string>
+  <string name="show_suggestions_summary">Visa ordförslag  när du skriver</string>
+  <string name="auto_complete">Komplettera automatiskt</string>
+  <string name="contact_dic_summary">Visa telefonkontakters namn bland föreslagna ord. (Kräver Android 2.0)</string>
+  <string name="show_preview">Visa förhandsgranska</string>
+  <string name="show_preview_summary">Popup visas när knapp trycks in</string>
+  <string name="skin_selection">Visa skal</string>
+  <string name="skin_summary">Ändra tangentbordets tema</string>
+  <string name="transparency">Genomskinlighet</string>
+  <string name="opacity">Ställ in genomskinlighet</string>
+  <string name="transparency_summary">Ställ in tangentbordets genomskinlighet</string>
+  <string name="volume">Volym</string>
+  <string name="volume_summary">Ställ in volym för tangenttrycksljudet</string>
+  <string name="debug_logs">Aktivera loggning för att förenkla felsökning</string>
+  <string name="always_suggest">Föreslå alltid</string>
+  <string name="always_suggest_summary">Visa även förslag på sökningar</string>
+  <string name="custom_autotext">Anpassad AutoText</string>
+  <string name="custom_autotext_summary">Ändra egna AutoText genvägar</string>
+  <string name="add_autotext">Lägg till AutoText...</string>
+  <string name="edit_autotext">Ändra AutoText</string>
+  <string name="autotext_key">Följande ord:</string>
+  <string name="autotext_value">ersätts med:</string>
+  <string name="autotext_context_edit">Redigera</string>
+  <string name="autotext_context_delete">Ta bort</string>
+  <string name="enable_arrows">Aktivera piltangenterna</string>
+  <string name="always_caps">Alltid versaler</string>
+  <string name="user_dictionary">Användarordlista</string>
+  <string name="user_dictionary_summary">Redigera ord i ordlistan</string>
+  <string name="add_word">Lägg till ord</string>
+  <string name="edit_word">Redigera ord</string>
+  <string name="delete_word">Ta bort ord</string>
+  <string name="word">Ord</string>
+  <string name="download_dic">Hämta ordbok</string>
+  <string name="mic_button">Mikrofon knapp</string>
+  <string name="voice_input">Röstinmatning</string>
+  <string name="cancel">Avbryt</string>
+  <string name="retry">Försök igen</string>
+  <string name="restart_voice">Starta om röststyrning</string>
+  <string name="voice_best_summary">Välj automatiskt det bästa valet</string>
+  <string name="touch_points">Visa touch punkterna</string>
+  <string name="portrait_mode">Porträttläge</string>
+  <string name="disable_launcher">Inaktivera startsideikon</string>
+  <string name="space_when_pick_summary">Lägg automatiskt till ett mellanslag efter att ett föreslaget ord valts</string>
+  <string name="edit_smiley">Redigera smiley</string>
+  <string name="backup">Säkerhetskopiera inställningar</string>
+  <string name="backup_to_sd">Säkerhetskopiera till SD-kort</string>
+  <string name="restore">Återställ från SD-kort</string>
+  <string name="no_sd_card">Fel: SD-kort ej monterat, säkerhetskopiering/återställning är inte möjligt!</string>
+  <string name="backup_warning">Varning! En säkerhetskopia av Smart Keboard Pros inställningar och ordlistor kommer att tas.
+Detta skriver över filen /sdcard/smartkeyboardpro/backup.zip.
+Vill du fortsätta?</string>
+  <string name="restore_warning">Varning! Återskapande av ordlistor och inställningar för Smart Keyboard PRO kommer att genomföras.
+Detta kommer att skriva över alla nuvrande inställningar.
+Smart Keyboard PRO kommer att starta om för att slutföra åtgärden,
+Vill du fortsätta?</string>
+  <string name="backup_complete">Återskapning av data är slutförd</string>
+  <string name="turkish">Turkiska</string>
+  <string name="hungarian">Ungerska</string>
+  <string name="icelandic">Isländska</string>
+  <string name="bosnian">Bosniska</string>
+  <string name="croatian">Kroatiska</string>
+  <string name="serbian">Serbiska</string>
+  <string name="slovene">Slovenska</string>
+  <string name="close">Stäng</string>
+  <string name="arabic">Arabiska</string>
+  <string name="force_latin">Framtvinga latinsk layout</string>
+  <string name="korean">Koreanska</string>
+  <string name="clean_userdic">Rensa användarordlistan</string>
+  <string name="warn_clean_userdic">Varning! Detta kommer att ta bort ALLA orden i din användarordlista. Vill du fortsätta?</string>
+  <string name="suggest_punctuation">Föreslå interpunktion</string>
+  <string name="thai">Thailändska</string>
+  <string name="learn_new_words">Lär nya ord</string>
+  <string name="learn_new_words_summary">Lägg automatiskt till nya ord i ordlistan (smarta ordboken krävs)</string>
+  <string name="enter_sends_sms">Enter skickar meddelandet</string>
+  <string name="slovak">Slovakiska</string>
+  <string name="domain_editor_summary">Redigera .com tangenten</string>
+  <string name="domain_editor_title">Tryck för att redigera en domän</string>
+  <string name="edit_domain">Redigera domän</string>
+  <string name="persistent_domain_key_summary">Visa alltid domännyckeln (.com)</string>
+  <string name="japanese">Japanska</string>
+  <string name="double_space_period">Punkt vid dubbelt mellanslag</string>
+  <string name="double_space_period_summary">Infogar en punkt när du trycker två gånger på mellanslagstangenten </string>
+  <string name="arrows_style">Stil på pilarna</string>
+  <string name="arrows_style_summary">Välj stil på piltangenterna</string>
+  <string name="disable_mt">Slå av multitouch</string>
+  <string name="compound_suggestions">Sammansatta ord-förslag</string>
+  <string name="compound_suggestions_summary">Aktivera förslag på sammansatta ord (främst för tyska)</string>
+  <string name="current_language">Nuvarande språk</string>
+  <string name="language_specific_options">Språk specifika val</string>
+  <string name="no_lansdcape_fullscreen">Ej liggande fullskärm</string>
+  <string name="suggest_numbers">Föreslå nummer</string>
+  <string name="suggest_numbers_summary">Aktivera förslag på ord som börjar med ett icke alfabetiskt tecken</string>
+  <string name="trial_popup">Detta är en testversion. Skaffa  "Smart Keyboard PRO" nu för att stödja applikationen och för att slippa irriterande popup fönster igen :)</string>
+  <string name="buy">Köp</string>
+  <string name="no_thanks">Nej tack</string>
+  <string name="chinese_simplified">Kinesiska (Förenklad)</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nej</string>
+  <string name="physical_kbd">Fysiskt tangentbord</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Röstinmatning</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Tala nu</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Arbetar</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Fel, för mycket tal.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Ljudproblem</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Serverfel</string>
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Röstsökning inte installerat</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estniska</string>
+  <string name="lithuanian">Litauiska</string>
+  <string name="latvian">Lettiska</string>
+  <string name="catalan">Katalanska</string>
+  <string name="persian">Persiska</string>
+  <string name="calibration">Kalibrera</string>
+  <string name="calibration_summary">Kalibrera tangentbordet för att förbättra noggrannheten</string>
+  <string name="calibration_profile_is">Din kalibrations profil är:</string>
+  <string name="reset">Återställ</string>
+  <string name="save">Spara</string>
+  <string name="sms_mode">SMS läge</string>
+  <string name="hide_comma">Dölj kommatecken</string>
+  <string name="ignore_hard_kbd">Ignorera hårt tangentbord</string>
+  <string name="tatar">Tatariska</string>
+  <string name="kazakh">Kazakiska</string>
+  <string name="azerbaijani">Azerbajdzjanska</string>
+  <string name="armenian">Armeniska</string>
+  <string name="vietnamese">Vietnamesiska</string>
+  <string name="arrows_main">Visa pilar</string>
+  <string name="export_autotext">Exportera AutoText</string>
+  <string name="export_autotext_summary">Språkspecifika val</string>
+  <string name="import_autotext">Importera AutoText</string>
+  <string name="mongolian">Mongoliska</string>
+  <string name="macedonian">Makedoniska</string>
+  <string name="luxembourgish">Luxemburgska</string>
+  <string name="albanian">Albanska</string>
+  <string name="belarusian">Vitryska</string>
+  <string name="indonesian">Indonesiska</string>
+  <string name="hide_in_portrait">Dölj i porträtt</string>
+  <string name="hide_lang_key">Göm språktangent</string>
+  <string name="show_language_icon">Visa språk-ikon</string>
+  <string name="kurdish">Kurdiska</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Välkommen till <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"med svepskrivning"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Kom igång"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Nästa steg"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Konfigurera <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Aktivera <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Markera <xliff:g id="APPLICATION_NAME">%s</xliff:g> i inställningarna för språk och inmatning så att appen kan köras."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Aktivera i inställningarna"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Byt till <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Välj sedan <xliff:g id="APPLICATION_NAME">%s</xliff:g> som din aktiva textinmatningsmetod."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Byt inmatningsmetod"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Grattis! Nu är det klart."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Nu kan du skriva i alla dina favoritappar med <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfigurera ytterligare språk"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Slutförda"</string>
+  <string name="more_symbols">Fler symboler</string>
+  <string name="galician">Galiciska</string>
+  </resources>

@@ -1,0 +1,33 @@
+-optimizationpasses 5
+-keepattributes SourceFile,LineNumberTable
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-dump class_files.txt
+-printseeds seeds.txt
+-printusage unused.txt
+-printmapping mapping.txt
+
+# The -optimizations option disables some arithmetic simplifications that Dalvik 1.0 and 1.5 can't handle.
+#-optimizations !code/simplification/arithmetic
+-dontoptimize
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+
+-keep public class com.dexilog.smartkeyboard.*
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keep class * {
+public <init>(android.content.Context);
+public <init>(android.content.Context, android.util.AttributeSet);
+public <init>(android.content.Context, android.util.AttributeSet, int);
+public void set*(...);
+}

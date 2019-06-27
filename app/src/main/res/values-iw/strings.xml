@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">עזרה</string>
+  <string name="about">אודות...</string>
+  <string name="auto_cap">קפיטליזציה אוטומטית</string>
+  <string name="auto_cap_summary">הפוך לאות ראשית בתחילת משפט</string>
+  <string name="keyboard_settings">הגדרות Smart Keyboard Pro</string>
+  <string name="settings">הגדרות</string>
+  <string name="general_settings">הגדרות כלליות</string>
+  <string name="text_prediction">ניבוי טקסט</string>
+  <string name="sound_vibrate">צלצול ורטט</string>
+  <string name="language">שפה</string>
+  <string name="language_summary">שנה שפה וסידור מקלדת</string>
+  <string name="lang_key">מקש בחירת שפה</string>
+  <string name="lang_key_summary">בחר שפות זמינות</string>
+  <string name="english">אנגלית</string>
+  <string name="english_intl">אנגלית (בינלאומי)</string>
+  <string name="english_dvorak">אנגלית (Dvorak)</string>
+  <string name="english_azerty">אנגלית (AZERTY)</string>
+  <string name="french">צרפתית</string>
+  <string name="romanian">רומנית</string>
+  <string name="bulgarian">בולגרית</string>
+  <string name="russian">רוסית</string>
+  <string name="russian_phonetic">רוסית (phonetic)</string>
+  <string name="spanish">ספרדית</string>
+  <string name="italian">איטלקית</string>
+  <string name="german">גרמנית</string>
+  <string name="portuguese">פורטוגזית</string>
+  <string name="danish">דנית</string>
+  <string name="finnish">פינלנדית</string>
+  <string name="hebrew">עברית</string>
+  <string name="norwegian">נורבגית</string>
+  <string name="swedish">שוודית</string>
+  <string name="georgian">גרוזינית</string>
+  <string name="czech_qwerty">צ\'כית (QWERTY)</string>
+  <string name="czech_qwertz">צ\'כית (QWERTZ)</string>
+  <string name="greek">יוונית</string>
+  <string name="dutch">הולנדית</string>
+  <string name="polish">פולנית</string>
+  <string name="ukrainian">אוקראינית</string>
+  <string name="vibrate">רטט</string>
+  <string name="vibrate_summary">רטט בלחיצת מקש</string>
+  <string name="vibrate_duration">משך זמן רטט</string>
+  <string name="label_go_key">קדימה</string>
+  <string name="label_next_key">הבא</string>
+  <string name="label_done_key">בוצע</string>
+  <string name="label_send_key">שלח</string>
+  <string name="advanced_settings">הגדרות מתקדמות</string>
+  <string name="sound_on_keypress">צלצול בלחיצת מקש</string>
+  <string name="gestures">מחווה</string>
+  <string name="swipe_left">החלק שמאלה</string>
+  <string name="swipe_right">החלק ימינה</string>
+  <string name="swipe_up">החלק למעלה</string>
+  <string name="swipe_down">החלק למטה</string>
+  <string name="saved">נשמר</string>
+  <string name="quick_fixes">תיקונים מהירים</string>
+  <string name="quick_fixes_summary">מתקן טעויות נפוצות בהקלדה</string>
+  <string name="show_suggestions">הצג הצעות</string>
+  <string name="show_suggestions_summary">הצג הצעות מילים בזמן הקלדה</string>
+  <string name="auto_complete">השלמה אוטומטית</string>
+  <string name="auto_complete_summary">מקש רווח ופיסוק מכניסים באופן אוטומטי את המילה המודגשת</string>
+  <string name="contact_dic">מילון אנשי קשר</string>
+  <string name="contact_dic_summary">כלול שמות אנשי קשר בהצעות (דורש אנדרואיד 2.0)</string>
+  <string name="show_preview">הצג תצוגה מקדימה של כפתור קופץ</string>
+  <string name="show_preview_summary">בצג תווית קופצת כשמקש נלחץ</string>
+  <string name="skin_selection">בחר סקין</string>
+  <string name="skin_summary">שנה את סקין המקלדת</string>
+  <string name="transparency">שקיפות</string>
+  <string name="opacity">קבע כהה</string>
+  <string name="transparency_summary">קבע את שקיפות המקלדת</string>
+  <string name="volume">עוצמת שמע</string>
+  <string name="volume_summary">קבע את עוצמת השמע בלחיצה על מקש</string>
+  <string name="debug_logs">אפשר יומני רישום של איתור באגים</string>
+  <string name="always_suggest">תמיד להציע</string>
+  <string name="always_suggest_summary">גם הצג הצעות לחיפושים</string>
+  <string name="popular_domain_3">.co.il</string>
+  <string name="custom_autotext">טקסט אוטומטי מותאם אישית</string>
+  <string name="custom_autotext_summary">ערוך את קיצורי הדרך של הטקסט האוטומטי שלך</string>
+  <string name="add_autotext">הוסף טקסט אוטומטי...</string>
+  <string name="edit_autotext">ערוך טקסט אוטומטי</string>
+  <string name="autotext_key">המילה הבאה:</string>
+  <string name="autotext_value">יוחלף ע\"י:</string>
+  <string name="autotext_context_edit">ערוך</string>
+  <string name="autotext_context_delete">מחק</string>
+  <string name="enable_arrows">אפשר חץ מקלדת</string>
+  <string name="enable_arrows_summary">נגיש עם מקש 123</string>
+  <string name="always_caps">תמיד caps</string>
+  <string name="always_caps_summary">תמיד הצג את תוויות המקשים באותיות ראשיות</string>
+  <string name="display_alt_labels">הצג תוויות alt</string>
+  <string name="display_alt_labels_summary">הצג תווית חלופית מעל תווית מקש</string>
+  <string name="user_dictionary">מילון משתמש</string>
+  <string name="user_dictionary_summary">ערוך מילים במילון המשתמש</string>
+  <string name="add_word">הוסף מילה</string>
+  <string name="edit_word">ערוך מילה</string>
+  <string name="delete_word">מחק מילה</string>
+  <string name="word">מילה</string>
+  <string name="forum">פורום</string>
+  <string name="download_dic">הורד מילון</string>
+  <string name="download_dic_summary">הורדת מילונים מהמרקט</string>
+  <string name="mic_button">כפתור מיקרופון</string>
+  <string name="mic_button_summary">הצג את מקש הקלט הקולי כאשר הדבר אפשרי</string>
+  <string name="voice_input">קלט קולי</string>
+  <string name="cancel">ביטול</string>
+  <string name="retry">נסה שוב</string>
+  <string name="restart_voice">אפס קלט קולי</string>
+  <string name="restart_voice_summary">תמיד אפס קלט קולי עד שזה יבוטל</string>
+  <string name="voice_best">קלט קולי בחירה הכי טובה</string>
+  <string name="voice_best_summary">בחר אוטומטית את הבחירה הטובה ביותר</string>
+  <string name="touch_points">הצג נקודות מגע</string>
+  <string name="portrait_mode">מצב תצוגה לאורך</string>
+  <string name="portrait_mode_summary">בחירה רגילה, T9 או פריסה קומפקטית עבור אנכי</string>
+  <string name="candidate_color">צבע מועמד</string>
+  <string name="candidate_color_summary">צבע של המילה המומלצת בשורת ההצעה</string>
+  <string name="welcome">תודה על התקנת \@!\n\nTo כדי לאפשר מקלדת זו, עבור אל \"שפה ומקלדת\" (או \"לוקל וטקסט\") והגדרות הסימון \ "\ @ \" תיבת. אז, כדי לעבור \ @, עליך להקיש בכל תיבת קלט של טקסט ארוך, בחרו \' \"Input method\ \' \', ובחר \ @ ברשימה. באפשרותך להקיש ארוך ב- \"123\ את" מפתח כדי להזין את הגדרות לוח המקשים. \n\nNow, עבור לתפריט הגדרות (ללחוץ להלן), ותיהנה! \n\nNote: באפשרותך להסיר את סמל מפעיל הגדרות לוח מקשים</string>
+  <string name="disable_launcher">בטל את סמל הפעלה</string>
+  <string name="disable_launcher_warning">אזהרה! זה יבטל את סמל Smart Keyboard במסך הבית, אבל גם יבטל את מקש \"פתח\" באפליקצית מרקט!\nייתכן שיהיה עליך להפעיל מחדש את הטלפון שלך כדי שיהיה לך את הסמל של מסך הבית שלמעשה נעלם.</string>
+  <string name="space_when_pick">רווח לאחר בחירה</string>
+  <string name="space_when_pick_summary">הוספת רווח בעת בחירת מילה באופן ידני מתוך הסרגל הצעה</string>
+  <string name="swap_punctuation_space">החלף סימני פיסוק</string>
+  <string name="swap_punctuation_space_summary">החלף באופן אוטומטי פיסוק ורווח לאחר מילה</string>
+  <string name="smiley_key">מקש סמיילי</string>
+  <string name="smiley_key_summary">הצג מקש סמיילי במקום enter</string>
+  <string name="toggle_smiley_key">החלף מקש סמיילי</string>
+  <string name="select_sound">בחר סגנון צלצול</string>
+  <string name="smiley_editor">עריכת סמיילי</string>
+  <string name="smiley_editor_summary">התאם אישית את מקש הסמיילי</string>
+  <string name="smiley_editor_title">הקש כדי לערוך סמיילי</string>
+  <string name="edit_smiley">ערוך סמיילי</string>
+  <string name="smart_dictionary">מילון חכם</string>
+  <string name="smart_dictionary_summary">מילון שלומד את תדירות המילים שהקלדת כדי לשפר את ההצעות</string>
+  <string name="backup">הגדרות גיבוי</string>
+  <string name="backup_to_sd">גיבוי לכרטיס זיכרון</string>
+  <string name="restore">שיחזור מרכטיס זיכרון</string>
+  <string name="no_sd_card">שגיאה: כרטיס זיכרון לא נטען, גיבוי/שחזור לא אפשרי!</string>
+  <string name="backup_warning">אזהרה! אתה עומד לגבות את ההגדרות והמילונים של Smart Keyboard PRO. פעולה זו תחליף את /sdcard/smartkeyboardpro/backup.zip. האם ברצונך להמשיך?</string>
+  <string name="restore_warning">אזהרה! אתה עומד לשחזר את ההגדרות והמילונים של Smart Keyboard PRO. פעולה זו תחליף את כל ההגדרות הנוכחיות. המקלדת תופעל מחדש כדי להחיל את השינויים בחשבון. האם ברצונך להמשיך?</string>
+  <string name="backup_complete">הגיבוי הושלם</string>
+  <string name="slide_popup">החלק לוח מקשים קופץ</string>
+  <string name="slide_popup_summary">החלק את האצבע כדי לבחור מבטאים בלוח המקשים המוקפץ</string>
+  <string name="space_preview">תצוגה מקדימה של רווח</string>
+  <string name="space_preview_summary">הצג תצוגה מקדימה של מקש רווח</string>
+  <string name="turkish">טורקית</string>
+  <string name="hungarian">הונגרית</string>
+  <string name="icelandic">איסלנדית</string>
+  <string name="bosnian">בוסנית</string>
+  <string name="croatian">קרואטית</string>
+  <string name="serbian">סרבית</string>
+  <string name="slovene">סלובקית</string>
+  <string name="close">סגור</string>
+  <string name="arabic">ערבית</string>
+  <string name="layout">סידור</string>
+  <string name="force_latin">הכרח סידור לטיני</string>
+  <string name="force_latin_summary">להכריח את הפריסה לשימוש עם כל השפות הלטיניות</string>
+  <string name="default_latin_lang">&lt;ברירת מחדל&gt;</string>
+  <string name="korean">קוריאנית</string>
+  <string name="rtl_suggestions">הצעות מימין לשמאל</string>
+  <string name="rtl_suggestions_summary">להפוך מילים בשורת חיזוי (עבור ערבית/עברית)</string>
+  <string name="clean_userdic">נקה מילון משתמש</string>
+  <string name="warn_clean_userdic">אזהרה! פעולה זו תמחק את כל המילים במילון המשתמש שלך. האם ברצונך להמשיך?</string>
+  <string name="suggest_punctuation">הצע פיסוק</string>
+  <string name="key_height">גובה מקש</string>
+  <string name="thai">תאילנדית</string>
+  <string name="longpress_duration">משך זמן לחיצה ארוכה</string>
+  <string name="longpress_duration_summary">התאם אישית את משך הזמן של לחיצה ארוכה עבור סמלים חלופיים</string>
+  <string name="learn_new_words">ללמוד מילים חדשות</string>
+  <string name="learn_new_words_summary">הוסף באופן אוטומטי מילים חדשות למילון המשתמש (דורש את מילון חכם)</string>
+  <string name="enter_sends_sms">הכנס שולח ההודעה</string>
+  <string name="enter_sends_sms_summary">מקש Enter שולח את ההודעה במקום להכניס שורה חדשה. אזהרה: זה לא עובד בכל האפליקציות! (ראה מדריך משתמש)</string>
+  <string name="slovak">סלובקית</string>
+  <string name="bk_warning">אזהרה! זוהי מעטפת עבור Better Keyboard. תאימות עם Smart Keyboard עשוי להיות שבור בכל עת, אז תשתמש בה באחריותך!</string>
+  <string name="domain_editor">עריכת תחום</string>
+  <string name="domain_editor_summary">התאמה אישית של המקש .com</string>
+  <string name="domain_editor_title">הקש כדי לערוך תחום</string>
+  <string name="edit_domain">ערוך תחום</string>
+  <string name="persistent_domain_key">מקש תחום עיקרי</string>
+  <string name="persistent_domain_key_summary">הצג תמיד את המקש תחום (.com)</string>
+  <string name="no_alt_preview">אין תצוגה מקדימה alt</string>
+  <string name="no_alt_preview_summary">אל תציג תצוגה מקדימה של הקפצה עבור תו חלופי אם יש רק אחד</string>
+  <string name="dynamic_resizing">שינוי גודל מקש דינאמי</string>
+  <string name="dynamic_resizing_summary">שינוי גודל וירטואלי של מקשים מבוסס על ההסתברות המכתב הבא</string>
+  <string name="esperanto">אספרנטו</string>
+  <string name="japanese">יפנית</string>
+  <string name="double_space_period">משך זמן ברווח כפול</string>
+  <string name="double_space_period_summary">הכנס משך זמן כאשר מקש הרווח נלחץ פעמיים</string>
+  <string name="arrows_style">סיגנון חיצים</string>
+  <string name="arrows_style_summary">בחר סיגנון של חץ המקלדת</string>
+  <string name="disable_mt">בטל מגע רב נקודתי</string>
+  <string name="compound_suggestions">הצעות מורכבות</string>
+  <string name="compound_suggestions_summary">אפשר הצעות מילים מורכבות (בעיקר בגרמנית)</string>
+  <string name="current_language">שפה נוכחית</string>
+  <string name="language_specific_options">אפשרויות שפה ספציפיות</string>
+  <string name="no_lansdcape_fullscreen">ללא מסך רוחבי מלא</string>
+  <string name="no_lansdcape_fullscreen_summary">אל תחליף למצב מסך מלא במצב רוחבי</string>
+  <string name="t9_length_priority">T9 אורך עדיפות</string>
+  <string name="t9_length_priority_summary">תן סדר עדיפות למילים עם אותו אורך כאשר מציג הצעות של T9</string>
+  <string name="t9_next_key">המקש הבא T9</string>
+  <string name="t9_next_key_summary">הצג כפתור הבא במצב אנכי T9</string>
+  <string name="suggest_numbers">הצע מספרים</string>
+  <string name="suggest_numbers_summary">אפשר הצעות עבור מילים המתחילות בתווים שאינם אלפביתיים</string>
+  <string name="trial_popup">זוהי גירסת ניסיון. קבל את "Smart Keyboard PRO" עכשיו כדי לתומך באפליקציה, ולעולם לא לראות את ההטרדות הקופצות הללו :)</string>
+  <string name="buy">קנה</string>
+  <string name="no_thanks">לא, תודה</string>
+  <string name="chinese_simplified">סינית (פשוטה)"</string>
+  <string name="yes">כן</string>
+  <string name="no">לא</string>
+  <string name="english_dic">אתה צריך להוריד \"אנגלית ל Smart Keyboard" מהאנדרואיד מרקט כדי לאפשר הצעות באנגלית ותיקון אוטומטי. האם ברצונך להוריד כעת?</string>
+  <string name="physical_kbd">מקלדת פיזית</string>
+  <string name="physical_kbd_summary">אפשר הצעות ותרגום מקש עם המקלדת הפיזית. השתמש ב- shift + רווח כדי לעבור שפה.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">קלט קולי</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">קלט קול לא נתמך כעת עבור השפה שלך, אבל פועל באנגלית.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">קלט קול היא תכונה נסיונית באמצעות זיהוי דיבור ברשת של Google.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">כדי לבטל את קלט קולי, עבור אל הגדרות לוח המקשים.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">דבר עכשיו</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">פועל</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">שגיאה. אנא נסה שוב.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">לא ניתן לקשר</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">שגיאה, יותר מדי דיבורים.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">בעיית שמע</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">שגיאת שרת</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">אין דיבור שמע</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">לא נמצאו ערכים תואמים</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">חיפוש קולי אינו מותקן</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">אישור</string>
+  <string name="estonian">אסטונית</string>
+  <string name="lithuanian">ליטאית</string>
+  <string name="latvian">לטבית</string>
+  <string name="only_one_language">אזהרה! בחרת בשפה אחת בלבד עבור מקש שפה, מקש זה לא יוצג, אך השפה הנוכחית הוגדרה לשפה זו.</string>
+  <string name="different_language">אזהרה! השפה שבחרת כרגע אינה זו שהוגדרה באפשרות \"בחירת מקש שפה\"!</string>
+  <string name="hebrew_alt">סידור עברית alt</string>
+  <string name="hebrew_alt_summary">שים מקש חזור בצד שמאל בסידור עברית</string>
+  <string name="portrait_fullscreen">מסך מלא אנכי</string>
+  <string name="portrait_fullscreen_summary">בחר את לוח המקשים במצב מסך מלא במצב אנכי (יכול להיות שימושי במסכים קטנים מאוד)</string>
+  <string name="czech_full">צ\'כית/סלובקית סידור מלא</string>
+  <string name="czech_full_summary">כלול את השורה העליונה עם אותיות מודגשות בסידור צ\'כית וסלובקית</string>
+  <string name="swipe_sensitivity">רגישות החלקה</string>
+  <string name="swipe_sensitivity_summary">קבע את רמת הרגישות של תנועות. אזהרה: אם תגדיל את הרגישות יותר מדי, הקלדת רב מגע יכול לפרש כמחווה.</string>
+  <string name="catalan">קטלונית</string>
+  <string name="multitap_interval">מרווח הקשה מרובה</string>
+  <string name="multitap_interval_summary">בחר את ההשהייה המירבית עבור הקשה מרובה, לדוגמא ב T9 או סידור \"תנועה קצרה\" קוריאנית.</string>
+  <string name="persian">פרסית</string>
+  <string name="calibration">כיול</string>
+  <string name="calibration_summary">כייל את לוח המקשים כדי לשפר את הדיוק</string>
+  <string name="calibration_instructions">כדי לכייל את לוח המקשים שלך, הקלד את הטקסט הבא:</string>
+  <string name="calibration_done">הכיול הושלם! לחץ על \"שמור\" כדי להשתמש בהגדרות החדשות, או \"ביטול\" כדי לנסות שוב. הערה: עליך להפעיל את הכיול במצב לאורך ולרוחב לקבלת תוצאות טובות יותר.</string>
+  <string name="calibration_profile_is">פרופיל הכיול שלך הוא:</string>
+  <string name="calibration_reset">אתה עומד לאפס את הגדרות הכיול לערכי ברירת המחדל. האם ברצונך להמשיך?</string>
+  <string name="reset">אפס</string>
+  <string name="save">שמור</string>
+  <string name="get_skins">קבל עוד סקינים...</string>
+  <string name="sms_mode">SMS מצב</string>
+  <string name="sms_mode_summary">הסר הדגשות ארוכים מן המילים המוצעות בעת כתיבת SMS</string>
+  <string name="key_height_summary">התאמה אישית של גובה מקש</string>
+  <string name="alt_symbols">סימני alt</string>
+  <string name="alt_symbols_summary">הצג תוויות alt בחלונית \' סמלים \' (123)</string>
+  <string name="hide_period">הסתר נקודה</string>
+  <string name="hide_period_summary">הסתר את מקש נקודה כדי להגדיל את הרווח</string>
+  <string name="hide_comma">הסתר פסיק</string>
+  <string name="hide_comma_summary">הסתר את המקש פסיק (או מיקרופון) כדי להגדיל את הרווח</string>
+  <string name="bottom_padding">המרווח התחתון</string>
+  <string name="bottom_padding_summary">הוסף רווח נוסף בתחתית המקלדת במצב אנכי</string>
+  <string name="apostrophe_separator">מפריד גרש</string>
+  <string name="apostrophe_separator_summary">שקול גרש כמפריד מילה (שימושי עבור איטלקית למשל)</string>
+  <string name="ignore_hard_kbd">התעלם ממקלדת פיזית</string>
+  <string name="ignore_hard_kbd_summary">הצג מקלדת על המסך במצב רוחבי, גם אם קיימת מקלדת פיזית (ניתן להשתמש עם Droid Pro)</string>
+  <string name="pinyin">פינית</string>
+  <string name="tatar">טטרית</string>
+  <string name="custom_punctuation">פיסוק מותאם אישית</string>
+  <string name="custom_punctuation_summary">התאמה אישית של סימני פיסוק המוצג בשורת ההצעה</string>
+  <string name="kazakh">קזחית</string>
+  <string name="azerbaijani">אזרביג\'אנית</string>
+  <string name="armenian">ארמנית</string>
+  <string name="vietnamese">וייטנאמית</string>
+  <string name="no_landscape_suggestions">אין הצעות רוחב</string>
+  <string name="no_landscape_suggestions_summary">אל תציג את סרגל ההצעה במצב רוחבי</string>
+  <string name="arrows_main">הצג חיצים</string>
+  <string name="arrows_main_summary">בחר כאשר מקשי החצים מוצגים במקלדת הראשית</string>
+  <string name="cursor_volume">סמן עם עוצמת שמע</string>
+  <string name="cursor_volume_summary">הזז את הסמן עם מקשי עוצמת הקול</string>
+  <string name="export_user_dic">ייצא מילון משתמש</string>
+  <string name="export_user_dic_summary">ייצא מילון משתמש בתבנית CSV</string>
+  <string name="export_autotext">ייצוא טקסט אוטומטי</string>
+  <string name="export_autotext_summary">ייצא קיצורי דרך של הטקסט האוטומטי בתבנית CSV</string>
+  <string name="import_user_dic">ייבא מילון משתמש</string>
+  <string name="import_autotext">ייבא טקסט אוטומטי</string>
+  <string name="export_complete">ייצוא CVS הושלם</string>
+  <string name="import_complete">ייבוא CVS הושלם</string>
+  <string name="export_user_dic_warning">אזהרה! אתה עומד לייצא את מילון המשתמש לקובץ בתבנית CSV. פעולה זו תחליף את /sdcard/smartkeyboardpro/userdic.csv. האם ברצונך להמשיך?</string>
+  <string name="import_user_dic_warning">אזהרה! אתה עומד לייבא את מילון המשתמש מקובץ CSV /sdcard/smartkeyboardpro/userdic.csv. פעולה זו תחליף את כל תוכן מילון המשתמש שלך. האם ברצונך להמשיך?</string>
+  <string name="export_autotext_warning">אזהרה! אתה עומד לייצא את מילון טקסט אוטומטי לקובץ בתבנית CSV. פעולה זו תחליף את /sdcard/smartkeyboardpro/autotext.csv. האם ברצונך להמשיך?</string>
+  <string name="import_autotext_warning">אזהרה! אתה עומד לייבא את מילון טקסט אוטומטי מקובץ CSV /sdcard/smartkeyboardpro/autotext.csv. פעולה זו תחליף את כל תוכן מילון הטקסט האוטומטי שלך. האם ברצונך להמשיך?</string>
+  <string name="accents_priority">עדיפות הדגשה</string>
+  <string name="accents_priority_summary">הענק עדיפות לאותיות מודגשות (או כפולים) במקום סמלים כאשר לוחץ לחיצה ארוכה על מקשים. פועל רק עבור שפות מסוימות.</string>
+  <string name="afrikaans">אפריקאנית</string>
+  <string name="mongolian">מונגולית</string>
+  <string name="prefs_enable_recorrection">גע כדי לתקן מילים</string>
+  <string name="prefs_enable_recorrection_summary">גע ע\"י הזנת מילים כדי לתקן אותן</string>
+  <string name="macedonian">מקדונית</string>
+  <string name="luxembourgish">לוקסמבורגית</string>
+  <string name="albanian">אלבנית</string>
+  <string name="belarusian">בלרוסית</string>
+  <string name="indonesian">אינדונזית</string>
+  <string name="alt_compact">קומפקטי מורחב/T9</string>
+  <string name="alt_compact_summary">לחיצה ארוכה במצב קומפקטי/T9 מציג את כל האותיות האפשריות (סידור באנגלית בלבד)</string>
+  <string name="backup_failed">הגיבוי נכשל!</string>
+  <string name="restore_failed">השחזור נכשל! קובץ הגיבוי כנראה פגום.</string>
+  <string name="hide_in_portrait">הסתר באנכי</string>
+  <string name="hide_in_portrait_summary">תמיד הסתר את לוח המקשים באנכי (שימושי ב- Droid Pro)</string>
+  <string name="twitter">טוויטר</string>
+  <string name="space_alert">התראת רווח</string>
+  <string name="space_alert_summary">רטוט רק עבור הרווח</string>
+  <string name="hide_lang_key">הסתר מקש שפה</string>
+  <string name="hide_lang_key_summary">הסתר את מקש הבחירה של השפה כאשר מספר שפות זמינות</string>
+  <string name="show_language_icon">הצג סמל שפה</string>
+  <string name="show_language_icon_summary">הצג סמל שפה בשורת הסטטוס</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"ברוכים הבאים אל <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"עם הקלדה רציפה"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"תחילת העבודה"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"השלב הבא"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"הגדרת <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"הפעל את <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"סמן את \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" בהגדרות השפה והקלט שלך. פעולה זו תאפשר לו לפעול במכשיר שלך."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"הפעל בהגדרות"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"עבור אל <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"בשלב הבא, בחר ב-\'<xliff:g id="APPLICATION_NAME">%s</xliff:g>\' כאמצעי הקלט הפעיל להזנת טקסט."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"החלף שיטות קלט"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"ברכותינו, הכל מוכן!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"כעת תוכל להקליד בכל האפליקציות המועדפות עליך באמצעות <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"הגדר שפות נוספות"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"סיום"</string>
+  </resources>

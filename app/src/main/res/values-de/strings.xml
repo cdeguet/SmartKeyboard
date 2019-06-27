@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Hilfe</string>
+  <string name="about">Über...</string>
+  <string name="auto_cap">Autom. Großschreibung</string>
+  <string name="auto_cap_summary">Autom. Großschreibung am Satzanfang</string>
+  <string name="keyboard_settings">Smart Keyboard Pro Einstellungen</string>
+  <string name="settings">Einstellungen</string>
+  <string name="general_settings">Allgemeine Einstellungen</string>
+  <string name="text_prediction">Textvervollständigung</string>
+  <string name="sound_vibrate">Sound und Vibration</string>
+  <string name="language">Sprache</string>
+  <string name="language_summary">Tastatursprache und Layout ändern</string>
+  <string name="lang_key">Sprachwahltaste</string>
+  <string name="lang_key_summary">Verfügbare Sprachen wählen</string>
+  <string name="english">Englisch</string>
+  <string name="english_intl">Englisch (International)</string>
+  <string name="english_dvorak">Englisch (Dvorak)</string>
+  <string name="english_azerty">Englisch (AZERTY)</string>
+  <string name="french">Französisch</string>
+  <string name="romanian">Rumänisch</string>
+  <string name="bulgarian">Bulgarisch</string>
+  <string name="russian">Russisch</string>
+  <string name="russian_phonetic">Russisch (phonetisch)</string>
+  <string name="spanish">Spanisch</string>
+  <string name="italian">Italienisch</string>
+  <string name="german">Deutsch</string>
+  <string name="portuguese">Portugiesisch</string>
+  <string name="danish">Dänisch</string>
+  <string name="finnish">Finnisch</string>
+  <string name="hebrew">Hebräisch</string>
+  <string name="norwegian">Norwegisch</string>
+  <string name="swedish">Schwedisch</string>
+  <string name="georgian">Georgisch</string>
+  <string name="czech_qwerty">Tschechisch (QWERTY)</string>
+  <string name="czech_qwertz">Tschechisch (QWERTZ)</string>
+  <string name="greek">Griechisch</string>
+  <string name="dutch">Niederländisch</string>
+  <string name="polish">Polnisch</string>
+  <string name="ukrainian">Urkainisch</string>
+  <string name="vibrate">Vibrieren</string>
+  <string name="vibrate_summary">Vibration bei Tastendruck</string>
+  <string name="vibrate_duration">Vibrationsdauer</string>
+  <string name="label_go_key">Los</string>
+  <string name="label_next_key">Weiter</string>
+  <string name="label_done_key">Fertig</string>
+  <string name="label_send_key">Senden</string>
+  <string name="advanced_settings">Erweiterte Einstellungen</string>
+  <string name="sound_on_keypress">Ton bei Tastendruck</string>
+  <string name="gestures">Gesten</string>
+  <string name="swipe_left">Nach links wischen</string>
+  <string name="swipe_right">Nach rechts wischen</string>
+  <string name="swipe_up">Nach oben wischen</string>
+  <string name="swipe_down">Nach unten wischen</string>
+  <string name="saved">Gespeichert</string>
+  <string name="quick_fixes">kleine Rechtschreibkorrektur</string>
+  <string name="quick_fixes_summary">Korrigiert die häufigsten Fehler</string>
+  <string name="show_suggestions">Wortvorschläge anzeigen</string>
+  <string name="show_suggestions_summary">Anzeigen der vorgeschlagenen Wörter während der Eingabe</string>
+  <string name="auto_complete">Automatische Vervollständigung</string>
+  <string name="auto_complete_summary">Leertaste und Zeichensetzung fügt markiertes Wort automatisch ein</string>
+  <string name="contact_dic">Kontaktewörterbuch</string>
+  <string name="contact_dic_summary">Kontaktnamen in Wortvorschlägen anzeigen (benötigt Android 2.0)</string>
+  <string name="show_preview">Buchstabenvorschau anzeigen</string>
+  <string name="show_preview_summary">Miniaturvorschau anzeigen, wenn eine Taste gedrückt wird</string>
+  <string name="skin_selection">Aussehen auswählen</string>
+  <string name="skin_summary">Tastaturaussehen verändern</string>
+  <string name="transparency">Transparenz</string>
+  <string name="opacity">Transparenz ändern</string>
+  <string name="transparency_summary">Tastaturtransparenz ändern</string>
+  <string name="volume">Lautstärke</string>
+  <string name="volume_summary">Lautstärke bei Tastendruck</string>
+  <string name="debug_logs">Fehlerprotokoll aktivieren</string>
+  <string name="always_suggest">Immer vorschlagen</string>
+  <string name="always_suggest_summary">Vorschläge für Suche aktivieren</string>
+  <string name="custom_autotext">Benutzerdefinierte Texte</string>
+  <string name="custom_autotext_summary">Benutzerdefinierte Texte bearbeiten</string>
+  <string name="add_autotext">Benutzerdefinierten Text hinzufügen...</string>
+  <string name="edit_autotext">Benutzerdef. Text ändern</string>
+  <string name="autotext_key">Das folgende Wort:</string>
+  <string name="autotext_value">wird ersetzt mit:</string>
+  <string name="autotext_context_edit">Bearbeiten</string>
+  <string name="autotext_context_delete">Löschen</string>
+  <string name="enable_arrows">Steuerkreuz aktivieren</string>
+  <string name="enable_arrows_summary">Erreichbar über die 123 Taste</string>
+  <string name="always_caps">Immer Groß schreiben</string>
+  <string name="always_caps_summary">Buchstaben auf der Tastatur immer Groß anzeigen</string>
+  <string name="display_alt_labels">Zeige zusätzliche Bezeichnungen</string>
+  <string name="display_alt_labels_summary">Zeige zusätzlichen Bezeichnungen auf den Tasten</string>
+  <string name="user_dictionary">Benutzerwörterbuch</string>
+  <string name="user_dictionary_summary">Bearbeiten von Wörtern im Benutzerwörterbuch</string>
+  <string name="add_word">Wort hinzufügen</string>
+  <string name="edit_word">Wort bearbeiten</string>
+  <string name="delete_word">Wort löschen </string>
+  <string name="word">Wort</string>
+  <string name="download_dic">Wörterbuch herunterladen </string>
+  <string name="download_dic_summary">Weitere Wörterbücher aus dem Market herunterladen</string>
+  <string name="mic_button">Mikrofontaste</string>
+  <string name="mic_button_summary">Wenn möglich, die Taste für die Stimmeneingabe anzeigen</string>
+  <string name="voice_input">Spracheingabe</string>
+  <string name="cancel">Abbrechen</string>
+  <string name="retry">Wiederholen</string>
+  <string name="restart_voice">Erneute Spracheingabe</string>
+  <string name="restart_voice_summary">Spracheingabe solange wiederholen, bis sie abgebrochen wird</string>
+  <string name="voice_best">Beste Sprachwahl</string>
+  <string name="voice_best_summary">Autom. beste Sprachwahl treffen</string>
+  <string name="touch_points">Druckpunkt anzeigen</string>
+  <string name="portrait_mode">Hochformat</string>
+  <string name="portrait_mode_summary">Wählen Sie Normal, T9 oder kompaktes Layout für Hochformat</string>
+  <string name="candidate_color">Farbe der Druckpunktanzeige</string>
+  <string name="candidate_color_summary">Farbe des empfohlenen Wortes</string>
+  <string name="welcome">Danke für die Installation von \@!\n\nUm die Tastatur zu aktivieren, gehen Sie bitte in den Einstellungen zu \"Sprache &amp; Tastatur\" und aktivieren sie das SKP-Kontrollkästchen. Danach drücken Sie \"\@\" um die restlichen Einstellungen vorzunehmen. Für die endgültige Aktivierung müssen Sie lange in einem beliebigen Eingabefeld drücken, wählen Sie \"Eingabemethode\" und wählen Sie danach \@ aus der Liste aus.\n\nTIPP: Um in die Einstellungen von \@ zu kommen, drücken Sie lange die \"123\"-Taste.\n\nHinweis: Sie können in den Einstellungen das Starticon wieder entfernen.</string>
+  <string name="disable_launcher">Icon in Programmübersicht entfernen</string>
+  <string name="disable_launcher_warning">Achtung! Dies deaktiviert das Programmicon im Startmenü, aber es wird auch die \"Öffnen\"-Schaltfläche im AndroidMarket deaktivieren!\nSie müssen Ihr Telefon neustarten, um das Programmicon tatsächlich entfernen zu lassen.</string>
+  <string name="space_when_pick">Leerzeichen nach Auswahl</string>
+  <string name="space_when_pick_summary">Fügt eine Leerstelle ein, wenn ein Wort aus den Vorschlägen gewählt wurde</string>
+  <string name="swap_punctuation_space">Verschiebe Satzzeichen autom.</string>
+  <string name="swap_punctuation_space_summary">Verschiebe Satzzeichen und Leerzeichen automatisch nach einem Wort</string>
+  <string name="smiley_key">Smileytaste</string>
+  <string name="smiley_key_summary">Zeige Smileytaste, anstatt Entertaste</string>
+  <string name="toggle_smiley_key">Smileytaste umschalten</string>
+  <string name="select_sound">Soundstil auswählen</string>
+  <string name="smiley_editor">Smiley Editor</string>
+  <string name="smiley_editor_summary">Smileytaste anpassen</string>
+  <string name="smiley_editor_title">Tippen um Smiley zu editieren</string>
+  <string name="edit_smiley">Smiley bearbeiten</string>
+  <string name="smart_dictionary">Schlaues Wörterbuch</string>
+  <string name="smart_dictionary_summary">Merkt sich die am meisten eingegebenen Wörter und gibt Vorschläge</string>
+  <string name="backup">Einstellungen sichern/wiederherstellen</string>
+  <string name="backup_to_sd">Auf SD-Karte sichern</string>
+  <string name="restore">Von SD-Karte wiederherstellen</string>
+  <string name="no_sd_card">Fehler: Ihre SD-Karte ist nicht verfügbar, Sicherung/Wiederherstellung nicht möglich!</string>
+  <string name="backup_warning">Warnung! Sie sind dabei die Smart Keyboard PRO Einstellungen und Wörterbücher zu sichern. Das wird /sdcard/smartkeyboardpro/backup.zip überschreiben. Möchten Sie fortfahren?</string>
+  <string name="restore_warning">Warnung! Sie sind dabei die Smart Keyboard PRO Einstelleungen und Wörterbücher wiederherzustellen. Das wird ihre jetzigen Einstellungen und Wörterbücher überschreiben. Die Tastatur wird dabei neugestartet. Möchten Sie fortfahren?</string>
+  <string name="backup_complete">Sicherung abgeschlossen</string>
+  <string name="slide_popup">Akzenteauswahl in Vorschau-Popup</string>
+  <string name="slide_popup_summary">Wischen im Vorschau-Popup ermöglicht Auswahl von Akzenten</string>
+  <string name="space_preview">Leerzeichenvorschau</string>
+  <string name="space_preview_summary">Vorschau für Leerzeichen anzeigen</string>
+  <string name="turkish">Türkisch</string>
+  <string name="hungarian">Ungarisch</string>
+  <string name="icelandic">Isländisch</string>
+  <string name="bosnian">Bosnisch</string>
+  <string name="croatian">Kroatisch</string>
+  <string name="serbian">Serbisch</string>
+  <string name="slovene">Slowenisch</string>
+  <string name="close">Schließen</string>
+  <string name="arabic">Arabisch</string>
+  <string name="force_latin">Lateinisches Layout erzwingen</string>
+  <string name="force_latin_summary">Lateinisches Layout für alle lateinischen Sprachen erzwingen</string>
+  <string name="default_latin_lang">&lt;Werkseinstellung&gt;</string>
+  <string name="korean">Koreanisch</string>
+  <string name="rtl_suggestions">RTL Vorschläge</string>
+  <string name="rtl_suggestions_summary">Wörter umdrehen (für arabisch / hebräisch)</string>
+  <string name="clean_userdic">Benutzerwörterbuch zurücksetzen</string>
+  <string name="warn_clean_userdic">Warnung! Dies wird ALLE Wörter aus dem Benutzerwörterbuch löschen. Fortfahren?</string>
+  <string name="suggest_punctuation">Vorschläge für Satzzeichen</string>
+  <string name="key_height">Tastenhöhe</string>
+  <string name="thai">Thailändisch</string>
+  <string name="longpress_duration">Drückdauer</string>
+  <string name="longpress_duration_summary">Einstellen der Zeit bis alternatives Symbol verwendet wird</string>
+  <string name="learn_new_words">Neue Wörter lernen</string>
+  <string name="learn_new_words_summary">Fügt automatisch neue Wörter zum Wörterbuch hinzu</string>
+  <string name="enter_sends_sms">Enter sendet Nachrichten</string>
+  <string name="enter_sends_sms_summary">Nachricht senden mit der Entertaste anstatt Zeilenumbruch. Achtung: Dies funktioniert nicht in allen Apps! (siehe Benutzeranleitung)</string>
+  <string name="slovak">Slowakisch</string>
+  <string name="bk_warning">Warnung! Dies ist ein Better Keyboard Theme.</string>
+  <string name="domain_editor">Domaineditor</string>
+  <string name="domain_editor_summary">Passen Sie die .com-Taste an</string>
+  <string name="domain_editor_title">Antippen um Domain zu bearbeiten </string>
+  <string name="edit_domain">Domain bearbeiten</string>
+  <string name="persistent_domain_key">Ständige Domaintaste</string>
+  <string name="persistent_domain_key_summary">Immer die Domaintaste (.com) anzeigen</string>
+  <string name="no_alt_preview">Keine alternative Vorschau</string>
+  <string name="no_alt_preview_summary">Kein Vorschau-Popup für alternative Zeichen anzeigen, wenn nur eine existiert</string>
+  <string name="dynamic_resizing">Größenanpassung der Tastatur</string>
+  <string name="dynamic_resizing_summary">Vergrößert die Tasten, welche wahrscheinlich als nächstes gedrückt werden</string>
+  <string name="japanese">Japanisch</string>
+  <string name="double_space_period">Punkt bei doppelten Leerzeichen</string>
+  <string name="double_space_period_summary">Fügt ein Punkt ein, wenn die Leertaste zweimal hintereinander gedrückt wird</string>
+  <string name="arrows_style">Pfeilstil</string>
+  <string name="arrows_style_summary">Wählen Sie den Stil der Pfeiltastatur aus</string>
+  <string name="disable_mt">Multitouch deaktivieren</string>
+  <string name="compound_suggestions">Autom. zusammenschreiben</string>
+  <string name="compound_suggestions_summary">Vorschläge, für das Zusammenschreiben von Wörtern (vorallem für Deutsch)</string>
+  <string name="current_language">Aktuelle Sprache</string>
+  <string name="language_specific_options">Sprachspezifische Optionen</string>
+  <string name="no_lansdcape_fullscreen">Kein Vollbild im Querformat</string>
+  <string name="no_lansdcape_fullscreen_summary">Im Querformat nicht in den Vollbildmodus wechseln</string>
+  <string name="t9_length_priority">T9-Wortlängenpriorität</string>
+  <string name="t9_length_priority_summary">Wörter mit gleicher Länge bei den T9-Vorschlägen werden bevorzugt angezeigt</string>
+  <string name="t9_next_key">T9-Weitertaste</string>
+  <string name="t9_next_key_summary">Weitertaste bei der T9-Eingabe (Hochformat) anzeigen</string>
+  <string name="suggest_numbers">Zahlen vorschlagen</string>
+  <string name="suggest_numbers_summary">Vorschläge für Wörter anzeigen, die nicht mit einem Buchstaben beginnen.</string>
+  <string name="trial_popup">Dies ist eine Testversion. Holen Sie sich jetzt "Smart Keyboard PRO" um die Entwicklung zu unterstützen und um dieses Hinweisfenster zu verstecken :)</string>
+  <string name="buy">Kaufen</string>
+  <string name="no_thanks">Nein, danke</string>
+  <string name="chinese_simplified">Chinesisch (vereinfacht)</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nein</string>
+  <string name="english_dic">Sie MÜSSEN \"English for Smart Keyboard\" im Android Market herunterladen, um Vorschläge und Autokorrektur für Englisch benutzen zu können. Wollen Sie dies nun herunterladen?</string>
+  <string name="physical_kbd">Hardwaretastatur</string>
+  <string name="physical_kbd_summary">Vorschläge und wichtige Übersetzungen mit der Hardwaretastatur aktivieren. Verwenden Sie Shift+Leertaste, um die Sprache zu wechseln.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Spracheingabe</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Die Spracheingabe wird in ihrer Sprache derzeit noch nicht unterstützt, sie funktioniert aber in Englisch.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Spracheingabe ist ein experimentelles Feature, welches die netzgestützte Spracherkennung von Google verwendet.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Rufen Sie zum Ausschalten der Spracheingabe die Tastatureinstellungen auf.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Jetzt sprechen</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">In Bearbeitung</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Fehler. Bitte versuchen Sie es erneut.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Verbindung konnte nicht hergestellt werden</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Fehler, zu lange Spracheingabe.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Audioproblem</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Serverfehler</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Keine Spracheingabe gehört</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Keine Übereinstimmungen gefunden</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Sprachsuche nicht installiert</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estnisch</string>
+  <string name="lithuanian">Litauisch</string>
+  <string name="latvian">Lettisch</string>
+  <string name="only_one_language">Warnung! Wenn Sie nur eine Sprache ausgewählt haben, wird die Sprachumschalttaste nicht angezeigt.</string>
+  <string name="different_language">Achtung! Die Sprache, die Sie eingestellt haben ist nicht die Gleiche, die Sie in der \"Sprachauswahltaste\" ausgewählt haben</string>
+  <string name="hebrew_alt">Hebräisches alternatives Layout</string>
+  <string name="hebrew_alt_summary">Zeigt die Rücktaste auf der linken Seite im hebräischen Layout an</string>
+  <string name="portrait_fullscreen">Vollbild im Hochformat</string>
+  <string name="portrait_fullscreen_summary">Setzt die Tastatur in den Vollbildmodus im Hochformat (nützlich bei sehr kleinen Bildschirmen)</string>
+  <string name="czech_full">Tschechisch/Slowakisch vollständiges Layout</string>
+  <string name="czech_full_summary">Bindet in die oberste Zeile Buchstaben mit Akzenten im tschechischen und slowakischen Layout ein</string>
+  <string name="swipe_sensitivity">Wischempfindlichkeit</string>
+  <string name="swipe_sensitivity_summary">Stellt die Empfindlichkeit von Gesten ein. Warnung: Wenn Sie die Empfindlichkeit zu hoch einstellen, könnten Multitoucheingaben als Geste interpretiert werden.</string>
+  <string name="catalan">Katalanisch</string>
+  <string name="multitap_interval">Direkteingabeintervall</string>
+  <string name="multitap_interval_summary">Legen Sie die maximale Verzögerung für die Direkteingabe fest, zum Beispiel für T9 und koreanisches Layout.</string>
+  <string name="persian">Persisch</string>
+  <string name="calibration">Kalibrierung</string>
+  <string name="calibration_summary">Kalibrieren der Tastatur zu Verbesserung der Genauigkeit</string>
+  <string name="calibration_instructions">Um Ihre Tastatur zu kalibrieren, geben Sie den folgenden Text ein:</string>
+  <string name="calibration_done">Kalibrieren abgeschlossen! Drücken Sie \"Speichern\" um die neuen Einstellungen zu nutzen oder \"Abbrechen\" zum Wiederholen. Bitte beachten Sie, dass die Kalibrierung zur Optimierung der Ergebnisse sowohl im Porträt- als auch im Querformat durchgeführt werden sollte.</string>
+  <string name="calibration_profile_is">Ihr Kalibrierungsprofil lautet:</string>
+  <string name="calibration_reset">Sie sind im Begriff, die Kalibrierungseinstellungen auf die Standardwerte zurückzusetzen. Möchten Sie fortfahren?</string>
+  <string name="reset">Zurücksetzen</string>
+  <string name="save">Speichern</string>
+  <string name="get_skins">Holen Sie sich weitere Skins...</string>
+  <string name="sms_mode">SMS-Modus</string>
+  <string name="sms_mode_summary">Erweiterte Akzente beim Schreiben einer SMS aus den Wortvorschlägen entfernen</string>
+  <string name="key_height_summary">Tastenhöhe anpassen</string>
+  <string name="alt_symbols">Alt-Symbole</string>
+  <string name="alt_symbols_summary">Zeige alternative Bezeichnungen im Symbolbedienfeld (123)</string>
+  <string name="hide_period">Punkt ausblenden</string>
+  <string name="hide_period_summary">Punkttaste zum Verbreitern der Leertaste ausblenden</string>
+  <string name="hide_comma">Komma ausblenden</string>
+  <string name="hide_comma_summary">Ausblenden der Kommataste (oder Mikrofon) um die Leertaste zu verbreitern</string>
+  <string name="bottom_padding">Randabstand (unten)</string>
+  <string name="bottom_padding_summary">Füge zusätzlichen Abstand zum unteren Rand im Hochformat hinzu</string>
+  <string name="apostrophe_separator">Apostroph als Trennzeichen</string>
+  <string name="apostrophe_separator_summary">Apostroph als Trennzeichen betrachten (nützlich zum Beispiel für italienisch)</string>
+  <string name="ignore_hard_kbd">Hardwarekeyboard ignorieren</string>
+  <string name="ignore_hard_kbd_summary">Zeige die Tastatur im Querformat auch wenn eine Hardwaretastatur vorhanden ist (kann mit Droid Pro verwendet werden)</string>
+  <string name="tatar">Tatarisch</string>
+  <string name="custom_punctuation">Benutzerdefinierte Zeichensetzung</string>
+  <string name="custom_punctuation_summary">Satzzeichen in der Vorschlagszeile bearbeiten</string>
+  <string name="kazakh">Kasachisch</string>
+  <string name="azerbaijani">Aserbaidschanisch</string>
+  <string name="armenian">Armenisch</string>
+  <string name="vietnamese">Vietnamesisch</string>
+  <string name="no_landscape_suggestions">Keine Vorschläge im Querformat</string>
+  <string name="no_landscape_suggestions_summary">Vorschlagsleiste nicht im Querformat anzeigen</string>
+  <string name="arrows_main">Pfeile anzeigen</string>
+  <string name="arrows_main_summary">Wähle, wann die Pfeiltasten auf der Tastatur angezeigt werden sollen</string>
+  <string name="cursor_volume">Cursor mit Lautstärke</string>
+  <string name="cursor_volume_summary">Cursor mit den Lautstärketasten bewegen</string>
+  <string name="export_user_dic">Benutzerwörterbuch exportieren</string>
+  <string name="export_user_dic_summary">Benutzerwörterbuch im CSV-Format exportieren</string>
+  <string name="export_autotext">AutoText exportieren</string>
+  <string name="export_autotext_summary">AutoText-Verknüpfungen im CSV-Format exportieren</string>
+  <string name="import_user_dic">Benutzerwörterbuch importieren</string>
+  <string name="import_autotext">AutoText importieren</string>
+  <string name="export_complete">CVS-Export abgeschlossen</string>
+  <string name="import_complete">CVS-Import abgeschlossen</string>
+  <string name="export_user_dic_warning">Warnung! Sie sind im Begriff, das Benutzerwörterbuch in eine Datei im CSV-Format zu exportieren. Dies wird /sdcard/smartkeyboardpro/userdic.csv überschreiben. Möchten Sie fortfahren?</string>
+  <string name="import_user_dic_warning">Warnung! Sie sind im Begriff, das Benutzerwörterbuch aus der CSV-Datei /sdcard/smartkeyboardpro/userdic.csv zu importieren. Dabei wird der gesamte Inhalt des Benutzerwörterbuches überschrieben. Möchten Sie fortfahren?   </string>
+  <string name="export_autotext_warning">Warnung! Sie sind im Begriff, das AutoText-Wörterbuch in eine Datei im CSV-Format zu exportieren. Dies wird /sdcard/smartkeyboardpro/autotext.csv überschreiben. Möchten Sie fortfahren?</string>
+  <string name="import_autotext_warning">Warnung! Sie sind im Begriff, das AutoText-Wörterbuch aus der CSV-Datei /sdcard/smartkeyboardpro/autotext.csv zu importieren. Dabei wird der gesamte Inhalt des AutoText-Wörterbuches überschrieben. Möchten Sie fortfahren?   </string>
+  <string name="accents_priority">Akzente bevorzugen</string>
+  <string name="accents_priority_summary">Buchstaben mit Akzenten (oder doppelten Konsonanten) werden bevorzugt behandelt anstelle von Symbolen wenn Sie lange auf eine Taste drücken. Funktioniert nur für einige Sprachen.</string>
+  <string name="mongolian">Mongolisch</string>
+  <string name="prefs_enable_recorrection">Wortkorrektur</string>
+  <string name="prefs_enable_recorrection_summary">Zum Korrigieren auf eingegebene Wörter tippen</string>
+  <string name="macedonian">Mazedonisch</string>
+  <string name="luxembourgish">Luxemburgisch</string>
+  <string name="albanian">Albanisch</string>
+  <string name="belarusian">Weißrussisch</string>
+  <string name="indonesian">Indonesisch</string>
+  <string name="alt_compact">Erweitertes kompaktes Layout/T9</string>
+  <string name="alt_compact_summary">Langes drücken im kompakten Layout/T9 zeigt alle verfügbare Zeichen (nur englisches Layout)</string>
+  <string name="backup_failed">Sicherung fehlgeschlagen!</string>
+  <string name="restore_failed">Wiederherstellung fehlgeschlagen! Die Sicherungsdatei war wahrscheinlich beschädigt.</string>
+  <string name="hide_in_portrait">Aublenden im Hochformat</string>
+  <string name="hide_in_portrait_summary">Im Hochformat immer die Tastatur ausblenden (z.B. Droid Pro)</string>
+  <string name="space_alert">Leertastenvibration</string>
+  <string name="space_alert_summary">Vibration nur bei Drücken der Leertaste</string>
+  <string name="hide_lang_key">Sprachwahltaste ausblenden</string>
+  <string name="hide_lang_key_summary">Sprachwahltaste ausblenden, wenn mehrere Sprachen aktiviert sind</string>
+  <string name="show_language_icon">Sprachsymbol anzeigen</string>
+  <string name="show_language_icon_summary">Sprachsymbol in der Statusleiste anzeigen</string>
+  <string name="emoji">Emoticon</string>
+  <string name="domain_key">Domain-Schlüssel</string>
+  <string name="domain_key_summary">Anzeige des Domain (.com)-Schlüssels</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Willkommen bei <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"mit Bewegungseingabe"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Jetzt starten"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Nächster Schritt"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> einrichten"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> aktivieren"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Aktivieren Sie \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" unter \"Sprache &amp; Eingabe\". Damit wird die App auf Ihrem Gerät autorisiert."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"In den Einstellungen aktivieren"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Zu <xliff:g id="APPLICATION_NAME">%s</xliff:g> wechseln"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Wählen Sie dann \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" als Ihre aktive Texteingabemethode."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Eingabemethode wechseln"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Die Einrichtung ist abgeschlossen"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Jetzt können Sie in allen Ihren Lieblings-Apps über <xliff:g id="APPLICATION_NAME">%s</xliff:g> Text eingeben."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Weitere Sprachen konfigurieren"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Fertig"</string>
+  </resources>

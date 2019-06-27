@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">도움말</string>
+  <string name="about">정보</string>
+  <string name="auto_cap">자동 대문자 변환</string>
+  <string name="auto_cap_summary">문장의 첫 글자를 대문자로 변환합니다</string>
+  <string name="keyboard_settings">Smart Keyboard Pro 환경 설정</string>
+  <string name="settings">환경 설정</string>
+  <string name="general_settings">일반 설정</string>
+  <string name="text_prediction">단어 자동 완성 기능</string>
+  <string name="sound_vibrate">소리와 진동</string>
+  <string name="language">언어</string>
+  <string name="language_summary">키보드 언어와 레이아웃 변경</string>
+  <string name="lang_key">언어 선택 키</string>
+  <string name="lang_key_summary">사용하실 언어를 선택하세요</string>
+  <string name="english">영어</string>
+  <string name="english_intl">영어 (국제)</string>
+  <string name="english_dvorak">영어 (Dvorak)</string>
+  <string name="english_azerty">영어 (AZERTY)</string>
+  <string name="french">프랑스어</string>
+  <string name="romanian">루마니아어</string>
+  <string name="bulgarian">불가리아어</string>
+  <string name="russian">러시아어</string>
+  <string name="russian_phonetic">러시아어 (Phonetic)</string>
+  <string name="spanish">스페인어</string>
+  <string name="italian">이탈리아어</string>
+  <string name="german">독일어</string>
+  <string name="portuguese">포르투갈어</string>
+  <string name="danish">덴마크어</string>
+  <string name="finnish">핀란드어</string>
+  <string name="hebrew">히브리어</string>
+  <string name="norwegian">노르웨이어</string>
+  <string name="swedish">스웨덴어</string>
+  <string name="georgian">그루지야어</string>
+  <string name="czech_qwerty">체코어 (QWERTY)</string>
+  <string name="czech_qwertz">체코어 (QWERTZ)</string>
+  <string name="greek">그리스어</string>
+  <string name="dutch">네덜란드어</string>
+  <string name="polish">폴란드어</string>
+  <string name="ukrainian">우크라이나어</string>
+  <string name="vibrate">진동</string>
+  <string name="vibrate_summary">키 누를 때 진동</string>
+  <string name="vibrate_duration">진동 길이</string>
+  <string name="label_go_key">이동</string>
+  <string name="label_next_key">다음</string>
+  <string name="label_done_key">완료</string>
+  <string name="label_send_key">전송</string>
+  <string name="advanced_settings">고급 설정</string>
+  <string name="sound_on_keypress">키 누를 때 소리 재생</string>
+  <string name="gestures">제스쳐</string>
+  <string name="swipe_left">왼쪽으로 밀기</string>
+  <string name="swipe_right">오른쪽으로 밀기</string>
+  <string name="swipe_up">위로 밀기</string>
+  <string name="swipe_down">아래로 밀기</string>
+  <string name="saved">저장됨</string>
+  <string name="quick_fixes">빠른 수정</string>
+  <string name="quick_fixes_summary">틀리기 쉬운 철자를 고칩니다</string>
+  <string name="show_suggestions">제안어 보이기</string>
+  <string name="show_suggestions_summary">입력하는 동안 단어를 제안하여 보여줍니다</string>
+  <string name="auto_complete">자동 완성</string>
+  <string name="auto_complete_summary">스페이스바나 마침표를 누르면 밝게 표시된 단어가 자동완성됩니다</string>
+  <string name="contact_dic">연락처 사전</string>
+  <string name="contact_dic_summary">제안어 보이기에 연락처에 있는 이름들도 추가합니다. (안드로이드 2.0이상)</string>
+  <string name="show_preview">미리보기 팝업 보이기</string>
+  <string name="show_preview_summary">키가 눌리면 눌린 키를 팝업으로 보여줍니다</string>
+  <string name="skin_selection">스킨 선택</string>
+  <string name="skin_summary">키보드의 스킨을 선택하세요</string>
+  <string name="transparency">투명도</string>
+  <string name="opacity">불투명도</string>
+  <string name="transparency_summary">키보드의 투명도를 설정하세요</string>
+  <string name="volume">소리 크기</string>
+  <string name="volume_summary">키를 누를 때 소리의 크기를 조절하세요</string>
+  <string name="debug_logs">디버그 로그 활성화</string>
+  <string name="always_suggest">항상 제안어 사용</string>
+  <string name="always_suggest_summary">검색어 등을 입력 중에도 제안어 보여주기</string>
+  <string name="custom_autotext">자동 완성 단어 관리</string>
+  <string name="custom_autotext_summary">자신만의 자동 완성 단어를 관리하세요</string>
+  <string name="add_autotext">자동 문자열 변경 추가하기</string>
+  <string name="edit_autotext">자동 완성 단어 편집</string>
+  <string name="autotext_key">다음의 단어를:</string>
+  <string name="autotext_value">아래의 단어로 대체합니다:</string>
+  <string name="autotext_context_edit">수정하기</string>
+  <string name="autotext_context_delete">삭제하기</string>
+  <string name="enable_arrows">화살표 키패드 활성화</string>
+  <string name="enable_arrows_summary">123를 이용해서 변환 가능</string>
+  <string name="always_caps">대문자로만 보이기</string>
+  <string name="always_caps_summary">키보드의 자판을 대문자로만 표시합니다</string>
+  <string name="display_alt_labels">대체 키 표시</string>
+  <string name="display_alt_labels_summary">키를 오래 눌러서 입력할 수 있는 기호를 표시합니다</string>
+  <string name="user_dictionary">사용자 사전</string>
+  <string name="user_dictionary_summary">사용자 사전을 변경합니다</string>
+  <string name="add_word">단어 추가하기</string>
+  <string name="edit_word">단어 편집하기</string>
+  <string name="delete_word">단어 삭제하기</string>
+  <string name="word">단어</string>
+  <string name="forum">포럼</string>
+  <string name="download_dic">사전 다운로드 하기</string>
+  <string name="download_dic_summary">사전을 마켓에서 다운로드 하세요(영어 사전을 제외)</string>
+  <string name="mic_button">마이크 버튼</string>
+  <string name="mic_button_summary">음성 입력 버튼을 사용 가능할 때 보여줍니다</string>
+  <string name="voice_input">음성 입력</string>
+  <string name="cancel">취소</string>
+  <string name="retry">다시</string>
+  <string name="restart_voice">연속으로 음성 입력</string>
+  <string name="restart_voice_summary">취소할 때까지 음성 인식을 반복합니다</string>
+  <string name="voice_best">인식 결과 자동 선택</string>
+  <string name="voice_best_summary">자동으로 가장 좋은 결과를 선택합니다</string>
+  <string name="touch_points">터치하는 곳 보여주기</string>
+  <string name="portrait_mode">세로 모드</string>
+  <string name="portrait_mode_summary">세로 모드일 때 보통(normal), T9, 컴팩트(compact) 레이아웃 중 하나를 선택하세요</string>
+  <string name="candidate_color">제안어 색상</string>
+  <string name="candidate_color_summary">제안어 중 추천하는 단어의 색상을 선택합니다</string>
+  <string name="welcome">\@를 설치해 주셔서 감사합니다!\n\n이 키보드를 사용하시려면, \"언어 및 키보드\" 설정으로 가셔서, \"\@\" 박스를 체크하세요. 그리고 텍스트 입력창을 길게 눌러서 나오는 메뉴에서 \"입력방법\"을 선택하시면 \@를 사용하실 수 있습니다. \"123\" 키를 길게 누르면 키보드 환경 설정으로 가실 수 있습니다.\n\n이제 (아래를 클릭하여) 환경설정에 가셔서 즐겨주세요!\n\n참고: 키보드 환경 설정에서 런처 아이콘을 삭제할 수 있습니다.</string>
+  <string name="disable_launcher">런처의 아이콘 숨기기</string>
+  <string name="disable_launcher_warning">주의! 이 기능은 Smart Keyboard 아이콘을 숨길 뿐아니라 마켓에서 \"열기\" 버튼도 비활성화 시킵니다!\n아이콘을 숨기려면 리부팅을 해야할 수도 있습니다.</string>
+  <string name="space_when_pick">제안어 선택 후 띄어쓰기</string>
+  <string name="space_when_pick_summary">제안 단어를 선택하면 자동으로 띄어쓰기</string>
+  <string name="swap_punctuation_space">구두점 교체</string>
+  <string name="swap_punctuation_space_summary">자동으로 구두점과 빈 공백을 교체</string>
+  <string name="smiley_key">이모티콘 버튼</string>
+  <string name="smiley_key_summary">엔터키 대신 이모티콘 버튼을 보여줍니다</string>
+  <string name="toggle_smiley_key">이모티콘 버튼 전환</string>
+  <string name="select_sound">음향 스타일 선택</string>
+  <string name="smiley_editor">이모티콘 편집</string>
+  <string name="smiley_editor_summary">자신만의 이모티콘을 꾸며보세요</string>
+  <string name="smiley_editor_title">수정할 이모티콘을 선택하세요</string>
+  <string name="edit_smiley">이모티콘 수정</string>
+  <string name="smart_dictionary">스마트 사전</string>
+  <string name="smart_dictionary_summary">사용자가 많이 사용하는 단어를 자동으로 기억하는 사전</string>
+  <string name="backup">설정 백업하기</string>
+  <string name="backup_to_sd">SD 카드로 백업하기</string>
+  <string name="restore">SD 카드에서 불러오기</string>
+  <string name="no_sd_card">에러: 사용중인 SD 카드가 마운트되지 않아 백업/불러오기를 할 수 없습니다!</string>
+  <string name="backup_warning">경고! 현재 Smart Keyboard PRO의 설정과 사전을 백업하려고 하고 있습니다. 계속하시면 /sdcard/smartkeyboardpro/backup.zip에 덮어쓰게 됩니다. 계속하시겠습니까?</string>
+  <string name="restore_warning">경고! 현재 Smart Keyboard PRO의 설정과 사전을 불러오려고 하고 있습니다. 계속하시면 현재 설정 값들을 잃게 됩니다. 키보드는 변경 값 적용을 위해 다시 시작됩니다. 계속하시겠습니까?</string>
+  <string name="backup_complete">백업이 완료되었습니다</string>
+  <string name="slide_popup">팝업 키보드 슬라이드</string>
+  <string name="slide_popup_summary">키를 길게 눌러서 나타난 팝업에서 손가락을 밀어서 원하는 키를 선택할 수 있습니다</string>
+  <string name="space_preview">띄어쓰기 미리보기</string>
+  <string name="space_preview_summary">띄어쓰기를 할 때도 팝업 미리보기를 보여줍니다</string>
+  <string name="turkish">터키어</string>
+  <string name="hungarian">헝가리어</string>
+  <string name="icelandic">아이슬란드어</string>
+  <string name="bosnian">보스니아어</string>
+  <string name="croatian">크로아티아어</string>
+  <string name="serbian">세르비아어</string>
+  <string name="slovene">슬로베니아어</string>
+  <string name="close">닫기</string>
+  <string name="arabic">아랍어</string>
+  <string name="layout">레이아웃</string>
+  <string name="force_latin">강제로 라틴 레이아웃으로 하기</string>
+  <string name="force_latin_summary">모든 라틴 언어에 같은 레이아웃을 사용합니다</string>
+  <string name="default_latin_lang">&lt;기본 설정&gt;</string>
+  <string name="korean">한국어</string>
+  <string name="rtl_suggestions">좌서문자 제안</string>
+  <string name="rtl_suggestions_summary">제안영역에 좌서문자(아랍/히브리어)의 순서를 뒤집어 표기합니다</string>
+  <string name="clean_userdic">사용자 사전 모두 삭제</string>
+  <string name="warn_clean_userdic">경고! 사용자 사전에 등록된 모든 단어들이 삭제됩니다. 계속하시겠습니까?</string>
+  <string name="suggest_punctuation">구두점 제안</string>
+  <string name="key_height">버튼 높이</string>
+  <string name="thai">태국어</string>
+  <string name="longpress_duration">길게 누르는 시간</string>
+  <string name="longpress_duration_summary">대체 기호가 나타나는 누르는 시간 조정하기</string>
+  <string name="learn_new_words">새로운 단어 학습</string>
+  <string name="learn_new_words_summary">자동으로 사용자 사전에 새로운 단어를 추가합니다 (스마트 사전이 필요합니다)</string>
+  <string name="enter_sends_sms">엔터키로 메세지 보내기</string>
+  <string name="enter_sends_sms_summary">엔터키를 누르면 줄바꿈 대신에 메세지를 보냅니다. 경고: 모든 앱에 적용되지는 않습니다! (설명서 참조)</string>
+  <string name="slovak">슬로바키아어</string>
+  <string name="bk_warning">경고! Better Keyboard의 스킨입니다. 스마트 키보드와 호환되지 않을 수 있습니다.</string>
+  <string name="domain_editor">도메인 편집하기</string>
+  <string name="domain_editor_summary">.com 키를 눌러서 입력할 수 있는 도메인 명을 변경합니다</string>
+  <string name="domain_editor_title">수정할 도메인을 선택하세요</string>
+  <string name="edit_domain">도메인 수정하기</string>
+  <string name="persistent_domain_key">도메인 버튼 항상 보이기</string>
+  <string name="persistent_domain_key_summary">항상 도메인 버튼(.com)을 표시합니다</string>
+  <string name="no_alt_preview">대체 문자 팝업 끄기</string>
+  <string name="no_alt_preview_summary">대체 문자가 하나뿐인 경우 팝업을 보이지 않습니다</string>
+  <string name="dynamic_resizing">동적 버튼 크기 변경 사용</string>
+  <string name="dynamic_resizing_summary">확률적으로 가상 키보드 버튼의 크기를 변화시킵니다</string>
+  <string name="esperanto">에스페란토어</string>
+  <string name="japanese">일본어</string>
+  <string name="double_space_period">마침표 자동 삽입</string>
+  <string name="double_space_period_summary">스페이스바를 두번 누르면 마침표를 입력합니다</string>
+  <string name="arrows_style">화살표 키보드 스타일</string>
+  <string name="arrows_style_summary">화살표 키보드의 스타일을 선택합니다</string>
+  <string name="disable_mt">멀티터치 사용안함</string>
+  <string name="compound_suggestions">복합단어 제안</string>
+  <string name="compound_suggestions_summary">복합단어 제안을 사용합니다 (독일어 중심)</string>
+  <string name="current_language">현재 언어</string>
+  <string name="language_specific_options">언어별 설정</string>
+  <string name="no_lansdcape_fullscreen">가로화면시 전체화면 비활성</string>
+  <string name="no_lansdcape_fullscreen_summary">가로모드에서는 전체화면 모드로 전환되지 않게 합니다</string>
+  <string name="t9_length_priority">T9 길이 우선 적용</string>
+  <string name="t9_length_priority_summary">T9 제안어를 표시할 때 같은 길이의 단어를 우선시 합니다</string>
+  <string name="t9_next_key">T9 다음 키</string>
+  <string name="t9_next_key_summary">T9 세로 모드에서 다음 버튼을 표시합니다</string>
+  <string name="suggest_numbers">숫자 제안</string>
+  <string name="suggest_numbers_summary">글자가 아닌 문자로 시작하는 단어도 제안합니다</string>
+  <string name="trial_popup">이것은 트라이얼 버전입니다. "Smart Keyboard PRO"를 구매하시면 본 프로그램 개발에 도움이 되며, 이 성가신 팝업창을 다시 보지 않을 수 있습니다. ^^</string>
+  <string name="buy">구매</string>
+  <string name="no_thanks">아니오</string>
+  <string name="chinese_simplified">중국어 (간체)</string>
+  <string name="yes">네</string>
+  <string name="no">아니오</string>
+  <string name="english_dic">영어 단어 추천 기능을 사용하기 위해서는 안드로이드 마켓에서 \"English for Smart Keyboard\"를 다운로드 받아야 합니다. 지금 다운로드 받을까요?</string>
+  <string name="physical_kbd">하드웨어 키보드</string>
+  <string name="physical_kbd_summary">하드웨어 키보드에서 제안어 및 언어 변경을 사용합니다. Shift+Space로 언어를 바꿉니다.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">음성 입력</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">음성입력은 이 언어를 지원하지 않지만, 영어입력은 가능합니다.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">음성입력은 구글의 온라인 음성 인식을 이용한 실험적인 기능입니다.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">키보드 설정에서 음성 입력을 해제할 수 있습니다.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">음성을 입력하세요</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">처리중</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">오류입니다. 다시 시도해 주세요.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">연결할 수 없습니다</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">입력이 너무 깁니다.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">오디오 문제</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">서버 오류</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">음성이 입력되지 않았습니다</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">일치하는 결과가 없습니다</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">음성 검색이 설치되어 있지 않습니다</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">확인</string>
+  <string name="estonian">에스토니아어</string>
+  <string name="lithuanian">리투아니아어</string>
+  <string name="latvian">라트비아어</string>
+  <string name="only_one_language">주의! 언어를 하나만 선택하면 언어키가 나타나지 않습니다. 현재 언어는 이 언어로 설정되었습니다.</string>
+  <string name="different_language">주의! 선택한 언어가 \"언어 선택 키\"에서 선택되지 않았습니다!</string>
+  <string name="hebrew_alt">히브리어 대체 레이아웃</string>
+  <string name="hebrew_alt_summary">백스페이스를 왼쪽에 놓습니다 (히브리어)</string>
+  <string name="portrait_fullscreen">세로 전체 화면</string>
+  <string name="portrait_fullscreen_summary">세로화면에서 키보드를 전체화면으로 합니다 (아주 작은 화면에서 유용할 수 있습니다)</string>
+  <string name="czech_full">체코어/슬로바키아어 전체 키보드</string>
+  <string name="czech_full_summary">체코어와 슬로바키아어 키보드 윗줄에 악센트 문자가 추가됩니다</string>
+  <string name="swipe_sensitivity">제스쳐 감도</string>
+  <string name="swipe_sensitivity_summary">제스쳐 감도 설정. 주의: 감도가 높으면 멀티터치를 제스쳐로 오인식할 수 있습니다.</string>
+  <string name="catalan">카탈로니아어</string>
+  <string name="multitap_interval">더블클릭 간격</string>
+  <string name="multitap_interval_summary">T9이나 \"한글 단모음 키보드\"에서의 멀티터치 간격을 설정합니다.</string>
+  <string name="persian">페르시아어</string>
+  <string name="calibration">터치좌표보정</string>
+  <string name="calibration_summary">정확도를 높이기 위해 터치 좌표를 보정합니다</string>
+  <string name="calibration_instructions">키보드 터치 좌표를 보정하려면 다음 문장을 입력하세요:</string>
+  <string name="calibration_done">터치좌표보정이 완료되었습니다! 새로운 설정값을 이용하시려면 \"저장\" 버튼을 누르시고 재시도 하려면 \"취소\"를 누르세요. 더 나은 결과를 얻으시려면 가로모드와 세로모드 둘다에서 터치좌표보정을 하는 것이 좋습니다.</string>
+  <string name="calibration_profile_is">보정값은 다음과 같습니다:</string>
+  <string name="calibration_reset">보정 설정값을 기본값으로 초기화 합니다. 계속할까요?</string>
+  <string name="reset">초기화</string>
+  <string name="save">저장</string>
+  <string name="get_skins">더 많은 스킨 받기...</string>
+  <string name="sms_mode">문자 모드</string>
+  <string name="sms_mode_summary">문자메세지 작성시 제안단어에서 악센트를 제거</string>
+  <string name="key_height_summary">키의 높이를 설정합니다</string>
+  <string name="alt_symbols">대체 기호</string>
+  <string name="alt_symbols_summary">기호(123) 키보드에 대체기호를 표시합니다</string>
+  <string name="hide_period">마침표 숨김</string>
+  <string name="hide_period_summary">마침표 키를 숨겨 스페이스바를 키웁니다</string>
+  <string name="hide_comma">쉼표 숨김</string>
+  <string name="hide_comma_summary">쉼표(혹은 마이크) 버튼을 숨겨 스페이스바를 키웁니다</string>
+  <string name="bottom_padding">하단 여백</string>
+  <string name="bottom_padding_summary">세로모드에서 키보드의 하단에 공간을 추가</string>
+  <string name="apostrophe_separator">어포스트로피 구분</string>
+  <string name="apostrophe_separator_summary">어포스트로피를 단어 구분기호로 사용 (이태리어에 유용)</string>
+  <string name="ignore_hard_kbd">하드웨어 키보드 무시</string>
+  <string name="ignore_hard_kbd_summary">하드웨어 키보드가 있을 때에도 가로모드에서 터치 키보드를 표시 (Driod Pro에서 사용가능)</string>
+  <string name="pinyin">병음</string>
+  <string name="tatar">타타르어</string>
+  <string name="custom_punctuation">사용자 정의 문장부호</string>
+  <string name="custom_punctuation_summary">제안 표시줄에 표시되는 문장부호를 설정합니다</string>
+  <string name="kazakh">카자흐어</string>
+  <string name="azerbaijani">아제르바이잔어</string>
+  <string name="armenian">아르메니아어</string>
+  <string name="vietnamese">베트남어</string>
+  <string name="no_landscape_suggestions">가로모드에서 단어제안 안함</string>
+  <string name="no_landscape_suggestions_summary">가로모드에서는 추천단어를 표시하지 않습니다</string>
+  <string name="arrows_main">화살표 보이기</string>
+  <string name="arrows_main_summary">키보드에 화살표키를 언제 표시할지 설정</string>
+  <string name="cursor_volume">볼륨키로 커서 이동</string>
+  <string name="cursor_volume_summary">음량 버튼으로 커서를 이동할 수 있게 합니다</string>
+  <string name="export_user_dic">사용자 사전 내보내기</string>
+  <string name="export_user_dic_summary">사용자 사전을 CSV 형식으로 내보냅니다</string>
+  <string name="export_autotext">자동완성단어 내보내기</string>
+  <string name="export_autotext_summary">자동완성단어를 CSV 형식으로 내보냅니다</string>
+  <string name="import_user_dic">사용자 사전 가져오기</string>
+  <string name="import_autotext">자동완성단어 가져오기</string>
+  <string name="export_complete">CSV로 내보내기를 완료하였습니다</string>
+  <string name="import_complete">CSV 가져오기 완료</string>
+  <string name="export_user_dic_warning">주의! 사용자 사전을 CSV 형식으로 내보냅니다. /sdcard/smartkeyboardpro/userdic.csv 파일을 덮어쓰게 됩니다. 계속할까요?</string>
+  <string name="import_user_dic_warning">주의! /sdcard/smartkeyboardpro/userdic.csv 로부터 사용자 사전을 가져옵니다. 현재 사용하고 있는 사용자 사전을 덮어쓰게 됩니다. 계속할까요?</string>
+  <string name="export_autotext_warning">주의! 자동완성단어를 CSV 형식으로 내보냅니다. /sdcard/smartkeyboardpro/autotext.csv 파일을 덮어쓰게 됩니다. 계속할까요?</string>
+  <string name="import_autotext_warning">주의! /sdcard/smartkeyboardpro/autotext.csv 로부터 자동완성단어를 가져옵니다. 현재 사용하고 있는 자동완성단어를 덮어쓰게 됩니다. 계속할까요?</string>
+  <string name="accents_priority">악센트 문자 우선</string>
+  <string name="accents_priority_summary">버튼을 길게 누르면 기호 대신 악센트 문자나 쌍자음을 먼저 추천합니다. 일부 언어에만 적용됩니다.</string>
+  <string name="afrikaans">아프리칸스어</string>
+  <string name="mongolian">몽골어</string>
+  <string name="prefs_enable_recorrection">터치하여 단어 수정</string>
+  <string name="prefs_enable_recorrection_summary">입력한 단어를 터치하여 수정</string>
+  <string name="macedonian">마케도니아어</string>
+  <string name="luxembourgish">룩셈부르크어</string>
+  <string name="albanian">알바니아어</string>
+  <string name="belarusian">벨라루스어</string>
+  <string name="indonesian">인도네시아어</string>
+  <string name="alt_compact">컴팩트/T9 확장</string>
+  <string name="alt_compact_summary">컴팩트/T9 모드에서 버튼을 길게 누르면 가능한 모든 글자가 팝업됩니다 (영어만 지원)</string>
+  <string name="backup_failed">백업에 실패하였습니다!</string>
+  <string name="restore_failed">복원에 실패했습니다! 백업 파일이 손상되었을 가능성이 있습니다.</string>
+  <string name="hide_in_portrait">세로모드에서 숨기기</string>
+  <string name="hide_in_portrait_summary">세로모드에서 키보드를 항상 숨깁니다 (Droid Pro용)</string>
+  <string name="twitter">트위터</string>
+  <string name="space_alert">스페이스바 알림</string>
+  <string name="space_alert_summary">스페이스바를 누를때만 진동합니다</string>
+  <string name="unicode">유니코드</string>
+  <string name="hide_lang_key">언어 키 감추기</string>
+  <string name="hide_lang_key_summary">여러 언어를 사용할 때 언어 선택 키 감추기</string>
+  <string name="show_language_icon">언어 아이콘 표시</string>
+  <string name="show_language_icon_summary">알림줄에 언어 아이콘 표시</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>에 오신 것을 환영합니다."</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"제스처 타이핑 사용"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"시작하기"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"다음 단계"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> 설정"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> 사용 설정"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"언어 및 입력 설정에서 \'<xliff:g id="APPLICATION_NAME">%s</xliff:g>\'을(를) 확인하세요. 애플리케이션을 기기에서 실행할 수 있도록 승인합니다."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"\'설정\'에서 사용 설정"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g>(으)로 전환"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"그런 다음, 텍스트 입력 방법으로 \'<xliff:g id="APPLICATION_NAME">%s</xliff:g>\'을(를) 선택합니다."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"입력 방법 전환"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"모든 설정이 완료되었습니다."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"이제 즐겨찾는 앱을 <xliff:g id="APPLICATION_NAME">%s</xliff:g>에 입력할 수 있습니다."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"추가 언어 설정"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"완료됨"</string>
+  </resources>

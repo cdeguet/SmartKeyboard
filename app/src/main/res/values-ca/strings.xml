@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Ajuda</string>
+  <string name="about">Sobre...</string>
+  <string name="auto_cap">Autocapitalització </string>
+  <string name="auto_cap_summary">Capitalitzar l\'inici d\'una frase</string>
+  <string name="keyboard_settings">Configuració de Smart Keyboard Pro</string>
+  <string name="settings">Paràmetres</string>
+  <string name="general_settings">Configuració general</string>
+  <string name="text_prediction">Predicció de text</string>
+  <string name="sound_vibrate">So i vibració</string>
+  <string name="language">Llengua</string>
+  <string name="language_summary">Canvia l\'idioma de teclat i maquetació</string>
+  <string name="lang_key">Tecla de selecció de llengua</string>
+  <string name="lang_key_summary">Selecciona els idiomes disponibles</string>
+  <string name="english">Anglès</string>
+  <string name="english_intl">Anglès (internacional)</string>
+  <string name="english_dvorak">Anglès (Dvorak)</string>
+  <string name="english_azerty">Anglès (AZERTY)</string>
+  <string name="french">Francès</string>
+  <string name="romanian">Romanès</string>
+  <string name="bulgarian">Búlgar</string>
+  <string name="russian">Rus</string>
+  <string name="russian_phonetic">Rus (fonètic)</string>
+  <string name="spanish">Español</string>
+  <string name="italian">Italià</string>
+  <string name="german">Alemany</string>
+  <string name="portuguese">Portuguès</string>
+  <string name="danish">Danès</string>
+  <string name="finnish">Finès</string>
+  <string name="hebrew">Hebreu</string>
+  <string name="norwegian">Noruec</string>
+  <string name="swedish">Suec</string>
+  <string name="georgian">Georgià</string>
+  <string name="czech_qwerty">Txec (QWERTY)</string>
+  <string name="czech_qwertz">Txec (QWERTZ)</string>
+  <string name="greek">Grec</string>
+  <string name="dutch">Neerlandès</string>
+  <string name="polish">Polonès</string>
+  <string name="ukrainian">Ucraïnès</string>
+  <string name="vibrate">Vibrar</string>
+  <string name="vibrate_summary">Vibrar en prémer una tecla</string>
+  <string name="vibrate_duration">Durada de la vibració</string>
+  <string name="label_go_key">Vés</string>
+  <string name="label_next_key">Següent</string>
+  <string name="label_done_key">Fet</string>
+  <string name="label_send_key">Envia</string>
+  <string name="advanced_settings">Configuració avançada</string>
+  <string name="sound_on_keypress">So en prémer una tecla</string>
+  <string name="gestures">Gestos</string>
+  <string name="swipe_left">Gest cap a l\'esquerra</string>
+  <string name="swipe_right">Gest cap a l\'esquerra</string>
+  <string name="swipe_up">Gest cap amunt</string>
+  <string name="swipe_down">Gest cap avall</string>
+  <string name="saved">Desat</string>
+  <string name="quick_fixes">Arranjaments ràpids</string>
+  <string name="quick_fixes_summary">Corregeix errors mecanografiats comuns</string>
+  <string name="show_suggestions">Mostra suggestions</string>
+  <string name="show_suggestions_summary">Mostrar les paraules proposades mentre escriviu</string>
+  <string name="auto_complete">Autocompleta</string>
+  <string name="auto_complete_summary">La barra d\'espai i la puntuació insereixen automàticament la paraula subratllada</string>
+  <string name="contact_dic">Diccionari de contactes</string>
+  <string name="contact_dic_summary">Incloure els noms dels contactes en suggeriments (necessita Android 2.0)</string>
+  <string name="show_preview">Mostra el menú emergent de visualització prèvia</string>
+  <string name="show_preview_summary">Mostrarà un desplegable quan es prem una clau</string>
+  <string name="skin_selection">Seleccioneu la pell</string>
+  <string name="skin_summary">Canvia la pell del teclat</string>
+  <string name="transparency">Transparència</string>
+  <string name="opacity">Estableix l\'opacitat</string>
+  <string name="transparency_summary">Definiu la transparència del teclat</string>
+  <string name="volume">Volum</string>
+  <string name="volume_summary">Definiu el volum del so quan premeu una tecla</string>
+  <string name="debug_logs">Habiliteu els registres de depuració</string>
+  <string name="always_suggest">Sempre suggerir</string>
+  <string name="always_suggest_summary">També mostrar suggeriments per a les cerques</string>
+  <string name="custom_autotext">AutoText personalitzat</string>
+  <string name="custom_autotext_summary">Editeu les vostres pròpies dreceres de text automàtic</string>
+  <string name="add_autotext">Afegeix text automàtic...</string>
+  <string name="edit_autotext">Edita text automàtic</string>
+  <string name="autotext_key">La paraula següent:</string>
+  <string name="autotext_value">serà reemplaçada per:</string>
+  <string name="autotext_context_edit">Edita</string>
+  <string name="autotext_context_delete">Suprimeix</string>
+  <string name="enable_arrows">Permetre el teclat de fletxa</string>
+  <string name="enable_arrows_summary">Accessible amb teclat 123</string>
+  <string name="always_caps">Sempre Caps</string>
+  <string name="always_caps_summary">Sempre mostrar les etiquetes de les tecles en majúscules</string>
+  <string name="display_alt_labels">Mostra les etiquetes alt</string>
+  <string name="display_alt_labels_summary">Mostra l\'etiqueta alternativa per damunt del\'etiqueta de clau</string>
+  <string name="user_dictionary">Diccionari de l\'usuari</string>
+  <string name="user_dictionary_summary">Editeu paraules en el diccionari de l\'usuari</string>
+  <string name="add_word">Afegiu un mot</string>
+  <string name="edit_word">Editeu el mot</string>
+  <string name="delete_word">Suprimiu el mot</string>
+  <string name="word">Mot</string>
+  <string name="forum">Fòrum</string>
+  <string name="download_dic">Baixa un diccionari</string>
+  <string name="download_dic_summary">Descarrega diccionaris a la botiga d\'aplicacions</string>
+  <string name="mic_button">Botó del micròfon</string>
+  <string name="mic_button_summary">Mostra la tecla d\'entrada de veu quan sigui possible</string>
+  <string name="voice_input">Entrada de veu</string>
+  <string name="cancel">Cancel·la</string>
+  <string name="retry">Reintenta</string>
+  <string name="restart_voice">Repreneu l\'entrada de veu</string>
+  <string name="restart_voice_summary">Repreneu sempre l\'entrada de veu fins que s\'anul·li</string>
+  <string name="voice_best">La millor opció d\'entrada de veu</string>
+  <string name="voice_best_summary">Selecciona automàticament la millor elecció</string>
+  <string name="touch_points">Mostra els punts de Tacte</string>
+  <string name="portrait_mode">Mode de retrat</string>
+  <string name="portrait_mode_summary">Selecciona teclat normal, T9 compacte per a retrat</string>
+  <string name="candidate_color">Color de candidat</string>
+  <string name="candidate_color_summary">Color de la paraula recomanada en la barra de suggestions</string>
+  <string name="welcome">Gràcies per instal·lar-lo\@!\n\nPer a permetre aquest teclat, aneu als paràmetres \"Language &amp; keyboards\" (o \"Locale &amp; text\") i comproveu la caixa \"\@\" box. Llavors, per canviar a \@, cal prémer llargament a qualsevol caixa de text, triar \"Input method\" i seleccionar \"Input method\" a la llista. Sempre podeu prémer sobre la tecla \"123\" per a introduir la configuració del teclat. \n\nAra, aneu al menú de configuració (podeu fer clic a sota) i gaudir! \n\nNota: podeu treure la icona del llançador en la configuració del teclat</string>
+  <string name="disable_launcher">Inhabilita la icona del llançador</string>
+  <string name="disable_launcher_warning">Advertència! Això impossibilitarà la icona de Smart Keyboard en el llançador, però també impossibilitarà el botó \"Open\" en l\'aplicació Market! \nPodeu necessitar tornar a arrencar el vostre telèfon per a fer desaparèixer la icona del llançador.</string>
+  <string name="space_when_pick">Espai després de picar</string>
+  <string name="space_when_pick_summary">Insereix un espai quan piquis una paraula manualment des de la barra de suggestions</string>
+  <string name="swap_punctuation_space">Canvia de puntuació</string>
+  <string name="swap_punctuation_space_summary">Automàticament canviar espai i puntuació després d\'una paraula</string>
+  <string name="smiley_key">Tecla d\'emoticones</string>
+  <string name="smiley_key_summary">Mostra la tecla d\'emoticona en comptes de \'enter\'</string>
+  <string name="toggle_smiley_key">Canvia per la tecla d\'emoticones</string>
+  <string name="select_sound">Selecciona l\'estil sonor</string>
+  <string name="smiley_editor">Editor d\'emoticones</string>
+  <string name="smiley_editor_summary">Personalitza les tecles d\'emoticona</string>
+  <string name="smiley_editor_title">Pica per a editar una emoticona</string>
+  <string name="edit_smiley">Edita emoticona</string>
+  <string name="smart_dictionary">Diccionari intel·ligent</string>
+  <string name="smart_dictionary_summary">Diccionari que aprèn la freqüència de les paraules que escriviu per tal de millorar els suggeriments</string>
+  <string name="backup">Configuració de la còpia de seguretat</string>
+  <string name="backup_to_sd">Desa a la targeta SD</string>
+  <string name="restore">Restaura des de la carta SD</string>
+  <string name="no_sd_card">Error: La targeta SD no s\'ha muntat, no és possible desar/restaurar!</string>
+  <string name="backup_warning">Compte! Esteu a puntde desar els paràmetres i diccionaris de Smart Keyboard PRO.  Això sobreescriurà el fitxer /sdcard/smartkeyboardpro/backup.zip. Voleu continuar?</string>
+  <string name="restore_warning">Advertència! Esteu a punt de restaurar la configuració dels paràmetres i diccionaris de Smart Keyboard PRO.  Se sobreescriuran a la configuració actual. Es reiniciarà el teclat per prendre en compte els canvis al compte. Voleu continuar?</string>
+  <string name="backup_complete">Còpia de seguretat enllestida</string>
+  <string name="slide_popup">Teclat amb emergent desplegable</string>
+  <string name="slide_popup_summary">Feu lliscar el dit per a seleccionar els accents en el teclat emergent</string>
+  <string name="space_preview">Visualització prèvia de l\'espai</string>
+  <string name="space_preview_summary">Mostra la vista prèvia de la tecla d\'espai</string>
+  <string name="turkish">Turc</string>
+  <string name="hungarian">Hongarès</string>
+  <string name="icelandic">Islandès</string>
+  <string name="bosnian">Bosnià</string>
+  <string name="croatian">Croat</string>
+  <string name="serbian">Serbi</string>
+  <string name="slovene">Eslovè</string>
+  <string name="close">Tanca</string>
+  <string name="arabic">Àrab</string>
+  <string name="layout">Maquetació</string>
+  <string name="force_latin">Disposició de llatí per força</string>
+  <string name="force_latin_summary">Força la disposició per ser utilitzada amb totes les llengües romàniques</string>
+  <string name="korean">Coreà</string>
+  <string name="rtl_suggestions">Suggeriments RTL</string>
+  <string name="rtl_suggestions_summary">Inverteix paraules en la barra de predicció (àrab/hebreu)</string>
+  <string name="clean_userdic">Diccionari d\'usuari net</string>
+  <string name="warn_clean_userdic">Advertència! Això suprimirà totes les paraules al vostre diccionari d\'usuari. Voleu continuar?</string>
+  <string name="suggest_punctuation">Suggerir puntuació</string>
+  <string name="key_height">Alçada de la tecla</string>
+  <string name="thai">Tailandès</string>
+  <string name="longpress_duration">Premuda de llarga durada</string>
+  <string name="longpress_duration_summary">Personalitzar la durada d\'una premuda llarga per símbols alternatius</string>
+  <string name="learn_new_words">Aprèn noves paraules</string>
+  <string name="learn_new_words_summary">Afegeix automàticament noves paraules al diccionari d\'usuari (requereix el diccionari intel·ligent)</string>
+  <string name="enter_sends_sms">La tecla Enter envia el missatge</string>
+  <string name="enter_sends_sms_summary">La tecla Enter envia el missatge en comptes de posar una línia nova. Advertiment: no funciona en tots els apps! (veure la guia d\'usuari\)</string>
+  <string name="slovak">Eslovac</string>
+  <string name="bk_warning">Advertència! Es tracta d\'una pell per a Better Keyboard. La compatibilitat amb Smart Keyboard es pot perdre en qualsevol moment, així utilitzeu-la al vostre propi risc!</string>
+  <string name="domain_editor">Editor de domini</string>
+  <string name="domain_editor_summary">Personalitzeu la tecla .com</string>
+  <string name="domain_editor_title">Piqueu per a editar un domini</string>
+  <string name="edit_domain">Editeu domini</string>
+  <string name="persistent_domain_key">Tecla de domini persistent</string>
+  <string name="persistent_domain_key_summary">Sempre mostrar la tecla de domini (.com)</string>
+  <string name="no_alt_preview">No mostrar previsualització alternativa</string>
+  <string name="no_alt_preview_summary">No\ mostreu el desplegable de visualització prèvia per al caràcter alternatiu si només n\'hi ha un</string>
+  <string name="dynamic_resizing">Redimensionament dinàmic de tecles</string>
+  <string name="dynamic_resizing_summary">Canviar la mida virtual de les tecles basant-se en la probabilitat de la pròxima lletra</string>
+  <string name="japanese">Japonès</string>
+  <string name="double_space_period">Període del doble espai</string>
+  <string name="double_space_period_summary">Insereix un període quan es pica dos cops la barra d\'espai</string>
+  <string name="arrows_style">Estil de fletxes</string>
+  <string name="arrows_style_summary">Tria l\'estil del teclat de fletxes</string>
+  <string name="disable_mt">Desactiva el multitoc</string>
+  <string name="compound_suggestions">Suggestions de paraules compostes</string>
+  <string name="compound_suggestions_summary">Permetre suggeriments de paraules compostes (principalment per a l\'alemany)</string>
+  <string name="current_language">Llengua actual</string>
+  <string name="language_specific_options">Opcions específiques de llengua</string>
+  <string name="no_lansdcape_fullscreen">Inhabilita el mode paisatge en pantalla completa</string>
+  <string name="no_lansdcape_fullscreen_summary">No\ canvieu a mode de pantalla completa en orientació horitzontal</string>
+  <string name="t9_length_priority">Prioritat de llargada de T9</string>
+  <string name="t9_length_priority_summary">Dona prioritat a les paraules amb la mateixa llargada quan es mostrin suggeriments per a T9 </string>
+  <string name="t9_next_key">Pròxima tecla de T9</string>
+  <string name="t9_next_key_summary">Mostra un Botó següent en mode de retrat T9</string>
+  <string name="suggest_numbers">Suggereix números</string>
+  <string name="suggest_numbers_summary">Permetre suggeriments per a paraules que comencen amb un caràcter no alfabètic</string>
+  <string name="trial_popup">Això és un versió de prova. Obteniu l\'"Smart Keyboard PRO" ara per donar suport a l\'aplicació i no tornar a veure aquest molest avís :)</string>
+  <string name="buy">Compra</string>
+  <string name="no_thanks">No, gràcies</string>
+  <string name="chinese_simplified">Xinès (simplificat)"</string>
+  <string name="yes">Sí</string>
+  <string name="english_dic">Cal que descarregueu \"English for Smart Keyboard\" de l\'Android Market per a permetre suggeriments i correcció automàtica en anglès. Voleu descarregar-ho ara?</string>
+  <string name="physical_kbd">Teclat físic</string>
+  <string name="physical_kbd_summary">Habilita les suggestions i la traducció de tecla amb el teclat físic. Utilitza shift + espai per a canviar d\'idioma.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Entrada de veu</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">L\'entrada de veu no té suport per al vostre idioma, però funciona en anglès.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">L\'entrada de veu és una funció experimental que empra el reconeixement de veu en xarxa de Google\.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Per a desactivar l\'entrada de veu, aneu a configuració de teclat.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Parleu ara</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Treballant</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Error. Intenteu-ho novament.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">No es pot connectar</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Error, massa xerrameca.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Problema d\'àudio</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Error de servidor</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">No s\'ha sentit cap paraula</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">No hi ha coincidències</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">No s\'ha instal·lat la cerca per veu</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">D\'acord</string>
+  <string name="estonian">Estonià</string>
+  <string name="lithuanian">Lituà</string>
+  <string name="latvian">Letó</string>
+  <string name="only_one_language">Advertència! Com que heu seleccionat només una llengua per a la tecla de la llengua, no es mostrarà aquesta tecla, però la llengua actual s\'ha posat a aquesta llengua.</string>
+  <string name="different_language">Advertència! La llengua que haveu seleccionava no és aquella que heu definida en l\'opció de tecla de selecció de llengua!</string>
+  <string name="hebrew_alt">Disposició alternativa de l\'hebreu</string>
+  <string name="hebrew_alt_summary">Posar la tecla de retrocés a l\'esquerra en el teclat hebreu</string>
+  <string name="portrait_fullscreen">Retrat en pantalla completa</string>
+  <string name="portrait_fullscreen_summary">Establir el teclat en mode de pantalla completa amb orientació de retrat (pot ser útil en pantalles molt petites)</string>
+  <string name="czech_full">Teclat complet per a Txec/eslovac</string>
+  <string name="czech_full_summary">Incloure una fila superior amb lletres accentuades en el teclat Txec i eslovac</string>
+  <string name="swipe_sensitivity">Sensibilitat de la lliscada</string>
+  <string name="swipe_sensitivity_summary">Establir la sensibilitat dels gestos. Advertiment: Si augmenteu la sensibilitat en excés, l\'escriptura multitacte es podria interpretar com un gest.</string>
+  <string name="catalan">Català</string>
+  <string name="multitap_interval">Interval de multitoc</string>
+  <string name="multitap_interval_summary">Establir el retard màxim per al multitoc, per exemple en T9 o disposicions de vocals curtes del coreà.</string>
+  <string name="persian">Persa</string>
+  <string name="calibration">Calibratge</string>
+  <string name="calibration_summary">Calibrar el teclat per a millorar-ne la precisió</string>
+  <string name="calibration_instructions">Per a calibrar el teclat, escriviu el text següent:</string>
+  <string name="calibration_done">Calibratge acabat! Feu clic a \"Save\" per a utilitzar la configuració nova o \"Cancel\" per a tornar-ho a provar. Tingueu en compte que heu d\'executar el calibratge tant en el mode retrat com paisatge per tal d\'obtenir millors resultats.</string>
+  <string name="calibration_profile_is">El vostre perfil de calibratge és:</string>
+  <string name="calibration_reset">Esteu a punt de reinicialitzar els paràmetres de calibratge als valors per defecte. Voleu continuar?</string>
+  <string name="reset">Restablir</string>
+  <string name="save">Desa</string>
+  <string name="get_skins">Obten més aparences...</string>
+  <string name="sms_mode">Mode de SMS</string>
+  <string name="sms_mode_summary">Eliminar accents estesos de paraules suggerides quan escriviu un SMS</string>
+  <string name="key_height_summary">Personalitza l\'alçada de les tecles</string>
+  <string name="alt_symbols">Símbols alt</string>
+  <string name="alt_symbols_summary">Mostra les etiquetes alt en el panell de símbols (123)</string>
+  <string name="hide_period">Amaga el període</string>
+  <string name="hide_period_summary">Amaga el període clau per a ampliar l\'espaiador</string>
+  <string name="hide_comma">Amaga la coma</string>
+  <string name="hide_comma_summary">Amaga la tecla de la coma (o del micròfon) per fer més llarga la tecla d\'espai</string>
+  <string name="bottom_padding">Farciment de fons</string>
+  <string name="bottom_padding_summary">Afegeix espai addicional a la part inferior del teclat en mode de retrat</string>
+  <string name="apostrophe_separator">Separador d\'apòstrof</string>
+  <string name="apostrophe_separator_summary">Considerar l\'apòstrof com a separador de paraula (útil per a l\'italià per exemple)</string>
+  <string name="ignore_hard_kbd">Deixa de banda el teclat dur</string>
+  <string name="ignore_hard_kbd_summary">Mostra el teclat virtuak en mode paisatge encara que el teclat dur sigui present (pot ser utilitzat amb Droid Pro)</string>
+  <string name="tatar">Tàtar</string>
+  <string name="custom_punctuation">Puntuació personalitzada</string>
+  <string name="custom_punctuation_summary">Personalitza els signes de puntuació que es mostren a la barra de suggeriment</string>
+  <string name="azerbaijani">Azerbaidjanès</string>
+  <string name="armenian">Armenià</string>
+  <string name="vietnamese">Vietnamita</string>
+  <string name="no_landscape_suggestions">No hi ha suggeriments de paisatge</string>
+  <string name="no_landscape_suggestions_summary">No mostrar la barra de suggestions en orientació horitzontal</string>
+  <string name="arrows_main">Mostra les fletxes</string>
+  <string name="arrows_main_summary">Trieu quan es visualitzen les fletxes en el teclat principal</string>
+  <string name="cursor_volume">Cursor amb volum</string>
+  <string name="cursor_volume_summary">Desplaceu el cursor amb les tecles de volum</string>
+  <string name="export_user_dic">Exporteu el diccionari d\'usuari</string>
+  <string name="export_user_dic_summary">Exporteu el diccionari de l\'usuari en format CSV </string>
+  <string name="export_autotext">Exporteu el text automàtic</string>
+  <string name="export_autotext_summary">Exporteu les dreceres de text automàtic en format CSV</string>
+  <string name="import_user_dic">Importeu el diccionari d\'usuari</string>
+  <string name="import_autotext">Importeu el text automàtic</string>
+  <string name="export_complete">Exportació CVS completa</string>
+  <string name="import_complete">Importació CVS completa</string>
+  <string name="export_user_dic_warning">Advertiment! Esteu a punt d\'exportar el diccionari de l\'usuari a un fitxer en format CSV.  Això sobreescriurà el fitxer /sdcard/smartkeyboardpro/userdic.csv. Voleu continuar?</string>
+  <string name="import_user_dic_warning">Advertència! Esteu a punt d\'importar el diccionari de l\'usuari del fitxer CSV /sdcard/smartkeyboardpro/userdic.csv. Això sobreescriurà el contingut sencer del vostre diccionari de l\'usuari. Voleu continuar?   </string>
+  <string name="export_autotext_warning">Advertiment! Esteu a punt d\'exportar el diccionari de l\'usuari a un fitxer en format CSV.  Això sobreescriurà el fitxer /sdcard/smartkeyboardpro/autotext.csv. Voleu continuar?</string>
+  <string name="import_autotext_warning">Advertència! Esteu a punt d\'importar el diccionari de l\'usuari AutoText des del fitxer CSV /sdcard/smartkeyboardpro/autotext.csv. Això sobreescriurà el contingut sencer del vostre diccionari de l\'usuari. Voleu continuar</string>
+  <string name="accents_priority">Prioritat d\'accents</string>
+  <string name="accents_priority_summary">Donar prioritat a les lletres accentuades (o les consonants dobles) en comptes de símbols en prémer llargament les tecles. Només funciona per a algunes llengües.</string>
+  <string name="mongolian">Mongolià</string>
+  <string name="prefs_enable_recorrection">Toca per a corregir paraules</string>
+  <string name="prefs_enable_recorrection_summary">Toca paraules entrades per a corregir-les</string>
+  <string name="macedonian">Macedonià</string>
+  <string name="luxembourgish">Luxemburguès</string>
+  <string name="albanian">Albanès</string>
+  <string name="belarusian">Bielorús</string>
+  <string name="indonesian">Indonesià</string>
+  <string name="alt_compact">Compacte/T9 estès</string>
+  <string name="alt_compact_summary">Premuda llarga en el mode compacte/T9 mostra totes les lletres possibles (disposició en anglès només)</string>
+  <string name="backup_failed">Ha fallat la salvaguarda!</string>
+  <string name="restore_failed">La restauració ha fallat! Probablement estava fet malbé.</string>
+  <string name="hide_in_portrait">Amagar en retrat</string>
+  <string name="hide_in_portrait_summary">Sempre amagar el teclat en retrat (útil en Droid Pro)</string>
+  <string name="space_alert">Alerta d\'espai</string>
+  <string name="space_alert_summary">Vibrar només per a la barra d\'espai</string>
+  <string name="hide_lang_key">Amaga la tecla de llengua</string>
+  <string name="hide_lang_key_summary">Amagar la tecla de selecció de llengua quan estan habilitades diverses llengües</string>
+  <string name="show_language_icon">Mostra la icona de llengua</string>
+  <string name="show_language_icon_summary">Mostra una icona de llengua en la barra d\'estatut</string>
+  <string name="domain_key">Tecla de domini</string>
+  <string name="domain_key_summary">Mostra la tecla de domini (. com)</string>
+  <string name="numbers_top">Nombres a la part superior</string>
+  <string name="numbers_top_summary">Trieu quan apareix una fila addicional amb nombres a la part superior del teclat principal</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Et donem la benvinguda a <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"amb Escriptura gestual"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Comença"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Pas següent"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"S\'està configurant <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Activa <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Selecciona \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" a la configuració d\'Idioma i introducció de text perquè es pugui executar al teu dispositiu."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"L\'aplicació <xliff:g id="APPLICATION_NAME">%s</xliff:g> ja està activada per a la teva Configuració d\'idioma i d\'introducció de text. Pots passar al següent."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Activa a la configuració"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Canvi a <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"A continuació, selecciona \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" com a mètode d\'introducció de text actiu."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Canvia els mètodes d\'introducció"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Enhorabona, ja has acabat!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Ara ja pots escriure en totes les teves aplicacions preferides amb <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Configura altres idiomes"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Finalitzat"</string>
+  </resources>

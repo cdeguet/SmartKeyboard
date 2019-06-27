@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyHeight="@dimen/small_key_height"
+    android:keyWidth="9.1%p"
+    android:verticalGap="@dimen/vertical_gap" >
+
+    <Row>
+        <Key
+            altLabel="ऑ"
+            android:codes="2377"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ॉ"
+            android:popupCharacters="ऑ" />
+        <Key
+            altLabel="ॅ"
+            android:codes="2407"
+            android:keyLabel="१"
+            android:popupCharacters="ॅ1" />
+        <Key
+            altLabel="॓"
+            android:codes="2408"
+            android:keyLabel="२"
+            android:popupCharacters="॓2" />
+        <Key
+            altLabel="ॊ"
+            android:codes="2409"
+            android:keyLabel="३"
+            android:popupCharacters="ॊ3" />
+        <Key
+            altLabel="ः"
+            android:codes="2410"
+            android:keyLabel="४"
+            android:popupCharacters="ः4" />
+        <Key
+            altLabel="।"
+            android:codes="2411"
+            android:keyLabel="५"
+            android:popupCharacters="।5" />
+        <Key
+            altLabel="\@"
+            android:codes="2412"
+            android:keyLabel="६"
+            android:popupCharacters="6\@" />
+        <Key
+            altLabel="ज्ञ"
+            android:codes="2413"
+            android:keyLabel="७"
+            android:popupCharacters="7ज्ञ" />
+        <Key
+            altLabel="क्ष"
+            android:codes="2414"
+            android:keyLabel="८"
+            android:popupCharacters="8क्ष" />
+        <Key
+            altLabel="त्र"
+            android:codes="2415"
+            android:keyLabel="९"
+            android:popupCharacters="9त्र" />
+        <Key
+            altLabel="श्र"
+            android:codes="2406"
+            android:keyEdgeFlags="right"
+            android:keyLabel="०"
+            android:popupCharacters="0श्र" />
+    </Row>
+    <Row>
+        <Key
+            altLabel="औ"
+            android:codes="2380"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ौ"
+            android:popupCharacters="औ" />
+        <Key
+            altLabel="ऐ"
+            android:codes="2376"
+            android:keyLabel="ै"
+            android:popupCharacters="ऐ" />
+        <Key
+            altLabel="आ"
+            android:codes="2366"
+            android:keyLabel="ा"
+            android:popupCharacters="आ" />
+        <Key
+            altLabel="ई"
+            android:codes="2368"
+            android:keyLabel="ी"
+            android:popupCharacters="ई" />
+        <Key
+            altLabel="ऊ"
+            android:codes="2370"
+            android:keyLabel="ू"
+            android:popupCharacters="ऊ" />
+        <Key
+            altLabel="भ"
+            android:codes="2348"
+            android:keyLabel="ब"
+            android:popupCharacters="भ" />
+        <Key
+            altLabel="ङ"
+            android:codes="2361"
+            android:keyLabel="ह"
+            android:popupCharacters="ङ" />
+        <Key
+            altLabel="घ"
+            android:codes="2327"
+            android:keyLabel="ग"
+            android:popupCharacters="घ" />
+        <Key
+            altLabel="ध"
+            android:codes="2342"
+            android:keyLabel="द"
+            android:popupCharacters="ध" />
+        <Key
+            altLabel="झ"
+            android:codes="2332"
+            android:keyLabel="ज"
+            android:popupCharacters="झ" />
+        <Key
+            altLabel="ढ"
+            android:codes="2337"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ड"
+            android:popupCharacters="ढ" />
+    </Row>
+    <Row>
+        <Key
+            altLabel="ओ"
+            android:codes="2379"
+            android:keyEdgeFlags="left"
+            android:keyLabel="ो"
+            android:popupCharacters="ओ" />
+        <Key
+            altLabel="ए"
+            android:codes="2375"
+            android:keyLabel="े"
+            android:popupCharacters="ए" />
+        <Key
+            altLabel="अ"
+            android:codes="2381"
+            android:keyLabel="्"
+            android:popupCharacters="अ" />
+        <Key
+            altLabel="इ"
+            android:codes="2367"
+            android:keyLabel="ि"
+            android:popupCharacters="इ" />
+        <Key
+            altLabel="उ"
+            android:codes="2369"
+            android:keyLabel="ु"
+            android:popupCharacters="उ" />
+        <Key
+            altLabel="फ"
+            android:codes="2346"
+            android:keyLabel="प"
+            android:popupCharacters="फ" />
+        <Key
+            altLabel="ऋ"
+            android:codes="2352"
+            android:keyLabel="र"
+            android:popupCharacters="ऋ" />
+        <Key
+            altLabel="ख"
+            android:codes="2325"
+            android:keyLabel="क"
+            android:popupCharacters="ख" />
+        <Key
+            altLabel="थ"
+            android:codes="2340"
+            android:keyLabel="त"
+            android:popupCharacters="थ" />
+        <Key
+            altLabel="छ"
+            android:codes="2330"
+            android:keyLabel="च"
+            android:popupCharacters="छ" />
+        <Key
+            altLabel="ठ"
+            android:codes="2335"
+            android:keyEdgeFlags="right"
+            android:keyLabel="ट"
+            android:popupCharacters="ठ" />
+    </Row>
+    <Row>
+        <Key
+            altLabel="ृ"
+            android:codes="2364"
+            android:horizontalGap="4.5%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="़"
+            android:popupCharacters="ृ" />
+        <Key
+            altLabel="ॐ"
+            android:codes="2306"
+            android:keyLabel="ं"
+            android:popupCharacters="ॐ" />
+        <Key
+            altLabel="ँ"
+            android:codes="2350"
+            android:keyLabel="म"
+            android:popupCharacters="ँ" />
+        <Key
+            altLabel="ण"
+            android:codes="2344"
+            android:keyLabel="न"
+            android:popupCharacters="ण" />
+        <Key
+            altLabel="ञ"
+            android:codes="2357"
+            android:keyLabel="व"
+            android:popupCharacters="ञ" />
+        <Key
+            altLabel="ळ"
+            android:codes="2354"
+            android:keyLabel="ल"
+            android:popupCharacters="ळ" />
+        <Key
+            altLabel="श"
+            android:codes="2360"
+            android:keyLabel="स"
+            android:popupCharacters="श" />
+        <Key
+            altLabel="("
+            android:codes="2359"
+            android:keyLabel="ष"
+            android:popupCharacters="(" />
+        <Key
+            altLabel=")"
+            android:codes="2351"
+            android:keyLabel="य"
+            android:popupCharacters=")" />
+        <Key
+            iconID="@+id/delete_key"
+            android:codes="-5"
+            android:horizontalGap="0.8%p"
+            android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_delete"
+            android:keyWidth="12.8%p" />
+    </Row>
+    
+    <Row
+        android:keyboardMode="@+id/mode_normal"
+        android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="\?123"
+            android:keyWidth="15%p" />
+        <Key
+            commaWidth="0.0"
+            android:codes="-108"
+            android:iconPreview="@drawable/mic_black"
+            android:keyWidth="10%p" />
+        <Key
+            commaWidth="10.0"
+            iconID="@+id/space_key"
+            periodWidth="10.0"
+            android:codes="32"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:isRepeatable="false"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="47%p" />
+        <Key
+            altLabel=","
+            periodWidth="0.0"
+            android:codes="2404"
+            android:keyLabel="।"
+            android:keyWidth="10%p"
+            android:popupCharacters=".," />
+        <Key
+            iconID="@+id/return_key"
+            android:codes="10"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="18%p" />
+    </Row>
+    <Row
+        android:keyboardMode="@+id/mode_lang"
+        android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="123"
+            android:keyWidth="12%p" />
+        <Key
+            android:codes="-101"
+            android:keyLabel=""
+            android:keyWidth="10%p" />
+        <Key
+            commaWidth="0.0"
+            android:codes="-108"
+            android:iconPreview="@drawable/mic_black"
+            android:keyWidth="10%p" />
+        <Key
+            commaWidth="10.0"
+            iconID="@+id/space_key"
+            periodWidth="10.0"
+            android:codes="32"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:isRepeatable="false"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="40%p" />
+        <Key
+            altLabel=","
+            periodWidth="0.0"
+            android:codes="2404"
+            android:keyLabel="।"
+            android:keyWidth="10%p"
+            android:popupCharacters=".," />
+        <Key
+            iconID="@+id/return_key"
+            android:codes="10"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="18%p" />
+    </Row>
+    <Row
+        android:keyboardMode="@+id/mode_url"
+        android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="123"
+            android:keyWidth="12%p" />
+        <Key
+            android:keyLabel="%domain_00"
+            android:keyOutputText="%domain_00"
+            android:keyWidth="15%p"
+            android:popupKeyboard="@xml/popup_domains" />
+        <Key
+            android:codes="47"
+            android:keyLabel="/"
+            android:keyWidth="12%p" />
+        <Key
+            iconID="@+id/space_key"
+            android:codes="32"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:isRepeatable="false"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="33%p" />
+        <Key
+            altLabel=","
+            android:codes="46"
+            android:keyLabel="."
+            android:keyWidth="10%p"
+            android:popupCharacters="," />
+        <Key
+            iconID="@+id/return_key"
+            android:codes="10"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="18%p" />
+    </Row>
+    <Row
+        android:keyboardMode="@+id/mode_lang_url"
+        android:rowEdgeFlags="bottom" >
+        <Key
+            android:codes="-2"
+            android:keyEdgeFlags="left"
+            android:keyLabel="123"
+            android:keyWidth="12%p" />
+        <Key
+            android:codes="-101"
+            android:keyLabel=""
+            android:keyWidth="10%p" />
+        <Key
+            android:keyLabel="%domain_00"
+            android:keyOutputText="%domain_00"
+            android:keyWidth="15%p"
+            android:popupKeyboard="@xml/popup_domains" />
+        <Key
+            android:codes="47"
+            android:keyLabel="/"
+            android:keyWidth="12%p" />
+        <Key
+            iconID="@+id/space_key"
+            android:codes="32"
+            android:iconPreview="@drawable/sym_keyboard_feedback_space"
+            android:isRepeatable="false"
+            android:keyIcon="@drawable/sym_keyboard_space"
+            android:keyWidth="23%p" />
+        <Key
+            altLabel=","
+            android:codes="46"
+            android:keyLabel="."
+            android:keyWidth="10%p"
+            android:popupCharacters="," />
+        <Key
+            iconID="@+id/return_key"
+            android:codes="10"
+            android:iconPreview="@drawable/sym_keyboard_feedback_return"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/sym_keyboard_return"
+            android:keyWidth="18%p" />
+    </Row>
+
+</Keyboard>

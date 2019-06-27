@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Pagalba</string>
+  <string name="about">Apie...</string>
+  <string name="auto_cap">Automatinis rašymas didžiosiomis raidėmis</string>
+  <string name="auto_cap_summary">Sakinys pradedamas didžiąja raide</string>
+  <string name="keyboard_settings">Smart Keyboard Pro nustatymai</string>
+  <string name="settings">Nustatymai</string>
+  <string name="general_settings">Bendri nustatymai</string>
+  <string name="text_prediction">Nuspėjamasis tekstas</string>
+  <string name="sound_vibrate">Garsas ir vibracija</string>
+  <string name="language">Kalba</string>
+  <string name="language_summary">Pakeisti klaviatūros kalbą ir maketavimą</string>
+  <string name="lang_key">Kalbos pasirinkimo klavišas</string>
+  <string name="lang_key_summary">Pasirinkti galimas kalbas</string>
+  <string name="english">Anglų</string>
+  <string name="english_intl">Anglų (Tarptautinė)</string>
+  <string name="english_dvorak">Anglų (Dvorak (supaprastintas) klaviatūros išdėstymas)</string>
+  <string name="english_azerty">Anglų (AZERTY klaviatūros išdėstymas)</string>
+  <string name="french">Prancūzų</string>
+  <string name="romanian">Rumunų</string>
+  <string name="bulgarian">Bulgarų</string>
+  <string name="russian">Rusų</string>
+  <string name="russian_phonetic">Rusų (fonetinė)</string>
+  <string name="spanish">Ispanų</string>
+  <string name="italian">Italų</string>
+  <string name="german">Vokiečių</string>
+  <string name="portuguese">Portugalų</string>
+  <string name="danish">Danų</string>
+  <string name="finnish">Suomių</string>
+  <string name="hebrew">Žydų</string>
+  <string name="norwegian">Norvegų</string>
+  <string name="swedish">Švedų</string>
+  <string name="georgian">Gruzinų</string>
+  <string name="czech_qwerty">Čekų (QWERTY klaviatūros išdėstymas)</string>
+  <string name="czech_qwertz">Čekų (QWERTZ klaviatūros išdėstymas)</string>
+  <string name="greek">Graikų</string>
+  <string name="dutch">Olandų</string>
+  <string name="polish">Lenkų</string>
+  <string name="ukrainian">Ukrainiečių</string>
+  <string name="vibrate">Vibracija</string>
+  <string name="vibrate_summary">Vibruoti paspaudus klavišą</string>
+  <string name="vibrate_duration">Vibracijos trukmė</string>
+  <string name="label_go_key">Vykdyti</string>
+  <string name="label_next_key">Kitas</string>
+  <string name="label_done_key">Įvykdyta</string>
+  <string name="label_send_key">Siūsti</string>
+  <string name="advanced_settings">Sudėtingesni nustatymai</string>
+  <string name="sound_on_keypress">Garsas paspaudus klavišą</string>
+  <string name="gestures">Gestai</string>
+  <string name="swipe_left">Braukimas pirštu į kairę</string>
+  <string name="swipe_right">Braukimas pirštu į dešinę</string>
+  <string name="swipe_up">Braukimas pirštu aukštyn</string>
+  <string name="swipe_down">Braukimas pirštu žemyn</string>
+  <string name="saved">Išsaugota</string>
+  <string name="quick_fixes">Greitieji pataisymai</string>
+  <string name="quick_fixes_summary">Taisyti dažniausiai pasitaikančias klaidas</string>
+  <string name="show_suggestions">Rodyti pasiūlymus</string>
+  <string name="show_suggestions_summary">Rodyti pasiūlytą žodį kol spausdinama</string>
+  <string name="auto_complete">Automatinis užbaigimas</string>
+  <string name="auto_complete_summary">Tarpo ir skyrybos klavišai automatiškai įterpia pažymėtąjį žodį</string>
+  <string name="contact_dic">Adresų žodynas</string>
+  <string name="contact_dic_summary">Įtraukti kontaktą į pasiūlymus (reikia Android 2.0)</string>
+  <string name="show_preview">Rodyti peržiūros iššokantį langelį</string>
+  <string name="show_preview_summary">Rodyti iššokantį langelį paspaudus klavišą</string>
+  <string name="skin_selection">Pasirinkti temą</string>
+  <string name="skin_summary">Keisti klaviatūros temą</string>
+  <string name="transparency">Skaidrumas</string>
+  <string name="opacity">Nustatyti tamsumą</string>
+  <string name="transparency_summary">Nustatyti klaviatūros skaidrumą</string>
+  <string name="volume">Garsas</string>
+  <string name="volume_summary">Nustatyti klavišo spaudimo garsą</string>
+  <string name="debug_logs">Įgalinti suderinamumo logaritmus</string>
+  <string name="always_suggest">Visada teikti pasiūlymus</string>
+  <string name="always_suggest_summary">Taip pat rodyti ir paieškos pasiūlymus</string>
+  <string name="custom_autotext">Pasirinktinas Automatinis Tekstas</string>
+  <string name="custom_autotext_summary">Redaguoti Automatinio Teksto santrumpas</string>
+  <string name="add_autotext">Pridėti Automatinį Tekstą...</string>
+  <string name="edit_autotext">Redaguoti Automatinį Tekstą</string>
+  <string name="autotext_key">Sekantis žodis:</string>
+  <string name="autotext_value">bus pakeistas žodžiu:</string>
+  <string name="autotext_context_edit">Redaguoti</string>
+  <string name="autotext_context_delete">Panaikinti</string>
+  <string name="enable_arrows">Įgalinti papildomą rodyklių juostą</string>
+  <string name="enable_arrows_summary">Pasiekiamumas 123 klavišu</string>
+  <string name="always_caps">Visada didžiosios raidės</string>
+  <string name="always_caps_summary">Visada rodyti klavišo žymeklius esant didžiosioms raidėms</string>
+  <string name="display_alt_labels">Rodyti alternatyviuosius simbolius</string>
+  <string name="display_alt_labels_summary">Rodyti alternatyvųjį simbolį virš klavišo simbolio</string>
+  <string name="user_dictionary">Vartotojo žodynas</string>
+  <string name="user_dictionary_summary">Redaguoti vartotojo žodyno žodžius</string>
+  <string name="add_word">Pridėti žodį</string>
+  <string name="edit_word">Taisyti žodį</string>
+  <string name="delete_word">Panaikinti žodį</string>
+  <string name="word">Žodis</string>
+  <string name="forum">Forumas</string>
+  <string name="download_dic">Atsisiųsti žodyną</string>
+  <string name="download_dic_summary">Atsisiųsti žodynus iš prekyvietės</string>
+  <string name="mic_button">Balso įvesties klavišas</string>
+  <string name="mic_button_summary">Rodyti balso įvesties klavišą kada galima</string>
+  <string name="voice_input">Balso įvestis</string>
+  <string name="cancel">Atšaukti</string>
+  <string name="retry">Bandyti dar kartą</string>
+  <string name="restart_voice">Paleisti balso įvestį dar kartą</string>
+  <string name="restart_voice_summary">Visada paleisti balso įvestį dar kartą kol atšaukiama</string>
+  <string name="voice_best">Balso įvesties geriausias atitikmuo</string>
+  <string name="voice_best_summary">Automatiškai parinkti geriausią atitikmenį</string>
+  <string name="touch_points">Rodyti lietimo taškus</string>
+  <string name="portrait_mode">Vertikalusis režimas</string>
+  <string name="portrait_mode_summary">Pasirinkti įprastąjį, T9 žodyno ar kompaktiškąjį maketavimą vertikaliajame režime</string>
+  <string name="candidate_color">Būsimo žodžio spalva</string>
+  <string name="candidate_color_summary">Rekomenduojamo žodžio spalva pasiūlymų juostoje</string>
+  <string name="welcome">Ačiū, jog įdiegėte \@!\n\nNorėdami įgalinti šią klaviatūrą eikite į \"Kalba &amp; įvestis\" (arba \"Vieta &amp; tekstas\") nustatymus ir pažymėkite \"\@\" laukelį. Tada, norėdami perjungti į \@, turite palaikyti nuspaudę bet kuriame teksto įvesties laukelyje, pasirinkti \"Įvesties metodas\" ir pažymėti \@ atsiradusiame sąraše. Ilgai nuspaudę \"123\" klavišą galite atidaryti klaviatūros nustatymus. \n\nDabar, eikite į nustatymus (galite spustelėti žemiau) ir mėgaukitės!\n\nPriminimas: galite panaikinti klaviatūros piktogramą iš programų sąrašo klaviatūros nustatymuose</string>
+  <string name="disable_launcher">Panaikinti paleidimo piktogramą</string>
+  <string name="disable_launcher_warning">Įspėjimas! Bus panaikinta Smart Keyboard piktograma programų sąraše, bet taip pat bus panaikintas \"Open\" mygtukas prekyvietėje!\nJums gali prireikti perkrauti telefoną, kad piktograma tikrai išnyktų.</string>
+  <string name="space_when_pick">Tarpas pasirinkus žodį</string>
+  <string name="space_when_pick_summary">Įveskite tarpą rankiniu būdu pasirinkus žodį iš pasiūlymų juostos</string>
+  <string name="swap_punctuation_space">Keitimo skyryba</string>
+  <string name="swap_punctuation_space_summary">Automatiškai pakeisti skyrybą ir tarpą po žodžio</string>
+  <string name="smiley_key">Šypsenėlių klavišas</string>
+  <string name="smiley_key_summary">Rodyti šypsenėlių klavišą vietoje įvesties klavišo</string>
+  <string name="toggle_smiley_key">Įjungti šypsenėlių klavišą</string>
+  <string name="select_sound">Pasirinkti garso stilių</string>
+  <string name="smiley_editor">Šypsenėlių redagavimas</string>
+  <string name="smiley_editor_summary">Redaguokite šypsenėlių klavišą</string>
+  <string name="smiley_editor_title">Spustelkite norėdami redaguoti šypsenėlę</string>
+  <string name="edit_smiley">Redaguoti šypsenėlę</string>
+  <string name="smart_dictionary">Išmanusis Žodynas</string>
+  <string name="smart_dictionary_summary">Žodynas, kuris įsimena įvedamų žodžių dažnumą, kad pagerintų pasiūlymus</string>
+  <string name="backup">Atsarginio kopijavimo nustatymai</string>
+  <string name="backup_to_sd">Kurti atsarginę kopiją į SD kortelę</string>
+  <string name="restore">Atkurti iš SD kortelės</string>
+  <string name="no_sd_card">Klaida: SD kortelė neprijungta, atsarginis kopijavimas/atkūrimas negalimas!</string>
+  <string name="backup_warning">Įspėjimas! Jūs ketinate sukurti Smart Keyboard Pro atsarginę nustatymų ir žodynų kopiją. Tai perrašys esamą /sdcard/smartkeyboardpro/backup.zip failą. Ar norite tęsti?</string>
+  <string name="restore_warning">Įspėjimas! Jūs ketinate atkurti Smart Keyboard Pro nustatymus ir žodynus. Tai perrašys visus dabartinius parametrus. Klaviatūra bus paleista iš naujo siekiant įgalinti pokyčius. Ar norite tęsti?</string>
+  <string name="backup_complete">Atsarginis kopijavimas sėkmingas</string>
+  <string name="slide_popup">Braukti iššokančiojo langelio simbolius</string>
+  <string name="slide_popup_summary">Braukite pirštu pasirinkdami simbolius iššokančiojo langelio klaviatūroje</string>
+  <string name="space_preview">Tarpo peržiūra</string>
+  <string name="space_preview_summary">Rodyti peržiūrą tarpo klavišui</string>
+  <string name="turkish">Turkų</string>
+  <string name="hungarian">Vengrų</string>
+  <string name="icelandic">Islandų</string>
+  <string name="bosnian">Bosnių</string>
+  <string name="croatian">Kroatų</string>
+  <string name="serbian">Serbų</string>
+  <string name="slovene">Slovėnų</string>
+  <string name="close">Uždaryti</string>
+  <string name="arabic">Arabų</string>
+  <string name="layout">Maketavimas</string>
+  <string name="force_latin">Pirmenybė lotyniškam kalviatūros maketavimui</string>
+  <string name="force_latin_summary">Nustatykite lotynų klaviatūros maketavimą, kuris bus naudojamas vosoms lotynų simbolių kalboms</string>
+  <string name="default_latin_lang">&lt;Įprastasis&gt;</string>
+  <string name="korean">Korėjiečių</string>
+  <string name="rtl_suggestions">RTL žodyno pasiūlymai</string>
+  <string name="rtl_suggestions_summary">Rašyti žodžius veidrodiniu būdu nuspėjamojoje juostoje (arabų/žydų kalboms)</string>
+  <string name="clean_userdic">Išvalyti vartotojo žodyną</string>
+  <string name="warn_clean_userdic">Įspėjimas! Šis veiksmas panaikins VISUS žodžius, esančius vartotojo žodyne. Ar norite tęsti?</string>
+  <string name="suggest_punctuation">Siūlomų žodžių skyryba</string>
+  <string name="key_height">Klavišų aukštis</string>
+  <string name="thai">Tajų</string>
+  <string name="longpress_duration">Ilgojo nuspaudimo trukmė</string>
+  <string name="longpress_duration_summary">Nustatykite ilgojo nuspaudimo trukmę alternatyviesiems simboliams</string>
+  <string name="learn_new_words">Įsiminti naujus žodžius</string>
+  <string name="learn_new_words_summary">Automatiškai pridėti naujus žodžius į vartotojo žodyną (reikia Išmaniojo Žodyno)</string>
+  <string name="enter_sends_sms">Paspaudus įvesties klavišą siunčiamas pranešimas</string>
+  <string name="enter_sends_sms_summary">Įvesties klavišas siunčia pranešimą, o ne prideda naują eilutę. Įspėjimas: tai veikia tik kai kuriose programose (žiūrėkite vartotojo vadovą)</string>
+  <string name="slovak">Slovakų</string>
+  <string name="bk_warning">Įspėjimas! Tai Better Keyboard tema. Suderinamumas su Smart Keyboard gali būti nutrauktas bet kuriuo metu, taigi naudokite tai savo rizika!</string>
+  <string name="domain_editor">Domenų redagavimas</string>
+  <string name="domain_editor_summary">Redaguoti .com klavišą</string>
+  <string name="domain_editor_title">Spustelkite norėdami redaguoti domeną</string>
+  <string name="edit_domain">Redaguoti domeną</string>
+  <string name="persistent_domain_key">Nuolatinis dumeno klavišas</string>
+  <string name="persistent_domain_key_summary">Visada rodyti domeno (.com) klavišą</string>
+  <string name="no_alt_preview">Nerodyti alternatyviųjų simbolių peržiūros</string>
+  <string name="no_alt_preview_summary">Nerodyti iššokančiojo langelio alternatyviesiems simboliams jei yra tik vienas</string>
+  <string name="dynamic_resizing">Kintamas klavišų dydžių keitimas</string>
+  <string name="dynamic_resizing_summary">Pakeisti klavišų dydį remiantis kito simbolio tikimybe</string>
+  <string name="japanese">Japonų</string>
+  <string name="double_space_period">Taškas du kartus spūstelėjus tarpo klavišą</string>
+  <string name="double_space_period_summary">Įterpti taško simbolį kai tarpo klavišas spūstelėjamas du kartus</string>
+  <string name="arrows_style">Rodyklių stilius</string>
+  <string name="arrows_style_summary">Pasirinkti papildomos rodyklių juostos stilių</string>
+  <string name="disable_mt">Išjungti daugiajautrį spausdinimą</string>
+  <string name="compound_suggestions">Junginio pasiūlymai</string>
+  <string name="compound_suggestions_summary">Įgalinti pasiūlymus junginiams (labiausiai tinka vokiečių kalbai)</string>
+  <string name="current_language">Dabartinė kalba</string>
+  <string name="language_specific_options">Saviti kalbos nustatymai</string>
+  <string name="no_lansdcape_fullscreen">Nerodyti klaviatūros horizontaliojo režimo esant pilno ekrano režimui</string>
+  <string name="no_lansdcape_fullscreen_summary">Neperjungti į pilno ekrano režimą klaviatūros horizontaliajame režime</string>
+  <string name="t9_length_priority">T9 žodyno žodžių ilgumo pirmumas</string>
+  <string name="t9_length_priority_summary">Pirmumas to pačio ilgumo žodžiams rodant T9 žodyno žodžių pasiūlymus</string>
+  <string name="t9_next_key">T9 žodyno Kitas klavišas</string>
+  <string name="t9_next_key_summary">Rodyti Kitas klavišą T9 žodyno vertikaliajame režime</string>
+  <string name="suggest_numbers">Siūlyti numerius</string>
+  <string name="suggest_numbers_summary">Įgalinti pasiūlymus žodžiams prasidedančiais ne abecelės simboliu</string>
+  <string name="trial_popup">Tai yra bandomoji versija. Įsigykite "Smart Keyboard Pro" norėdami paremti programą ir niekada daugiau nebematyti šio įkyraus pranešimo :)</string>
+  <string name="buy">Įsigyti</string>
+  <string name="no_thanks">Ne, ačiū</string>
+  <string name="chinese_simplified">Kinų (Supaprastinta)</string>
+  <string name="yes">Taip</string>
+  <string name="no">Ne</string>
+  <string name="english_dic">Jūs turite atsisiųsti \"English for Smart Keyboard\" iš Android prekyvietės norėdami įgalinti anglų pasiūlymus automatiniame taisyme. Ar norite atsisiųsti dabar?</string>
+  <string name="physical_kbd">Fizinė klaviatūra</string>
+  <string name="physical_kbd_summary">Įgalinti pasiūlymus ir klavišų vertimus naudojant fizinę klaviatūrą. Naudokite shift+space klavišus norėdami perjungti kalbas.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Balso įvestis</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Balso įvestis kol kas nepalaikoma Jūsų kalbai, bet veikia naudojant anglų kalbą.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Balso įvestis yra eksperimentinė savybė, naudojanti Google internetu prieinamą kalbos atpažinimo metodą.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Norėdami išjungti balso įvestį, eikite į klaviatūros nustatymus.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Dabar galite kalbėti</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Analizuojama</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Klaida. Prašome bandyti dar kartą.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Negalima prisijungti. Patikrinkite interneto ryšį.</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Klaida, per daug pasakėte.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Garso klaida</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Serverio klaida</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Kalba neišgirsta</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Nerasta atitikmenų</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Balso paieška nėra įdiegta</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estų</string>
+  <string name="lithuanian">Lietuvių</string>
+  <string name="latvian">Latvių</string>
+  <string name="only_one_language">Įspėjimas! Jūs pasirinkote tik vieną kalbą kalbos pasirinkimo klavišui. Klavišas nebus rodomas, bet kalba nustatyta kaip dabartinė.</string>
+  <string name="different_language">Įspėjimas! Kalba, kurią ką tik pasirinkote, nėra numatyta \"kalbos pasirinkimo klavišo\" nustatymuose!</string>
+  <string name="hebrew_alt">Žydų klaviatūros alternatyviųjų simbolių maketavimas</string>
+  <string name="hebrew_alt_summary">Nustatyti atbulinės eigos klavišą kairėje žydų klaviatūros maketavime</string>
+  <string name="portrait_fullscreen">Vertikalusi režimas esant pilno ekrano režimui</string>
+  <string name="portrait_fullscreen_summary">Nustatykite klaviatūros pilno ekrano režimą esant vertikaliajai padėčiai (naudinga labai mažų ekranų prietaisams)</string>
+  <string name="czech_full">Čekų/Slovakų klaviatūros pilnas maketavimas</string>
+  <string name="czech_full_summary">Įtraukti papildomą juostą klaviatūros viršuje su kirčiuotomis raidėmis čekų ir slovakų klaviatūros maketavime</string>
+  <string name="swipe_sensitivity">Braukimo pirštu jautrumas</string>
+  <string name="swipe_sensitivity_summary">Nustatykite gestų jautrumą. Įspėjimas: jei padidinsite jautrumą per daug, daugiajautris spausdinimas gali būti suprastas kaip gestas.</string>
+  <string name="catalan">Katalonų</string>
+  <string name="multitap_interval">Daugiajautrio spausdinimo intervalas</string>
+  <string name="multitap_interval_summary">Nustatyti didžiausią daugiajautrio spausdinimo uždelstumą, pavyzdžiui T9 žodyno ar korėjiečių \"Trumpųjų balsių\" klaviatūros maketavimuose.</string>
+  <string name="persian">Persų</string>
+  <string name="calibration">Kalibravimas</string>
+  <string name="calibration_summary">Kalibruokite klaviatūrą norėdami pagerinti tikslumą</string>
+  <string name="calibration_instructions">Norėdami kalibruoti klaviatūrą, įveskite šį tekstą:</string>
+  <string name="calibration_done">Kalibravimas baigtas! Spustelėkite \"Išsaugoti\", norėdami naudotis naujais nustatymais, ar \"Atšaukti\", norėdami bandyti dar kartą. Primename, jog siekiant geresnių rezultatų, kalibravimą turėtumėte atlikti abiejuose - vertikaliajame ir horizontaliajame - režimuose.</string>
+  <string name="calibration_profile_is">Kalibravimo profilis:</string>
+  <string name="calibration_reset">Jūs ketinate atkurti kalibravimo nustatymus į pradinę padėtį. Ar norite tęsti?</string>
+  <string name="reset">Nustatyti iš naujo</string>
+  <string name="save">Išsaugoti</string>
+  <string name="get_skins">Gauti daugiau temų...</string>
+  <string name="sms_mode">SMS režimas</string>
+  <string name="sms_mode_summary">Pašalinti išplėstines kirčiuotas raides iš siūlomų žodžių kai rašoma SMS</string>
+  <string name="key_height_summary">Nustatyti klavišų aukštį</string>
+  <string name="alt_symbols">Alternatyvieji simboliai</string>
+  <string name="alt_symbols_summary">Rodyti alternatyviuosius simbolius pagrindinių simbolių (123) skyde</string>
+  <string name="hide_period">Slėpti taško simbolį</string>
+  <string name="hide_period_summary">Slėpti taško simbolio klavišą norint praplėsti tarpo klavišą</string>
+  <string name="hide_comma">Slėpti kablelio klavišą</string>
+  <string name="hide_comma_summary">Slėpti kablelio simbolio (ar balso įvesties) klavišą norint praplėsti tarpo klavišą</string>
+  <string name="bottom_padding">Klaviatūros apačios tarpas</string>
+  <string name="bottom_padding_summary">Pridėti papildomą juostą klaviatūros apačioje vertikaliajame režime</string>
+  <string name="apostrophe_separator">Apostrofos skyriklis</string>
+  <string name="apostrophe_separator_summary">Laikyti apostrofą kaip žodžių skyriklį (naudinga italų klaviatūroje)</string>
+  <string name="ignore_hard_kbd">Ignoruoti sunkiąją klaviatūrą</string>
+  <string name="ignore_hard_kbd_summary">Rodyti lengvąją klaviatūrą horizontaliajame režime net jei yra nustatyta sunkioji klaviatūra (naudinga naudojant Droid Pro)</string>
+  <string name="pinyin">Pinjinų</string>
+  <string name="tatar">Totorių</string>
+  <string name="custom_punctuation">Pasirinktinė skyryba</string>
+  <string name="custom_punctuation_summary">Redaguoti skyrybos ženklus rodomus pasiūlymų juostoje</string>
+  <string name="kazakh">Kazokų</string>
+  <string name="azerbaijani">Azerbaidžiano</string>
+  <string name="armenian">Armėnų</string>
+  <string name="vietnamese">Vietnamiečių</string>
+  <string name="no_landscape_suggestions">Nerodyti pasiūlymų horizontaliajame režime</string>
+  <string name="no_landscape_suggestions_summary">Nerodyti pasiūlymų juostos horizontaliajame režime</string>
+  <string name="arrows_main">Rodyti rodykles</string>
+  <string name="arrows_main_summary">Pasrinkti kada papildomos rodyklių juostos simboliai bus rodomi pagrindinėje klaviatūroje</string>
+  <string name="cursor_volume">Žymeklio judinimas garso mygtukų pagalba</string>
+  <string name="cursor_volume_summary">Judinti žymeklį naudojantis garso reguliavimo mygtukais</string>
+  <string name="export_user_dic">Sukurti atsarginę vartotojo žodyno kopiją</string>
+  <string name="export_user_dic_summary">Sukurti atsarginę vartotojo žodyno kopiją CSV formato faile</string>
+  <string name="export_autotext">Sukurti Automatinio teksto atsatrginę kopiją</string>
+  <string name="export_autotext_summary">Sukurti Automatinio Teksto santrumpų atsarginę kopiją CSV formatu</string>
+  <string name="import_user_dic">Atkurti vartotojo žodyną</string>
+  <string name="import_autotext">Atkurti Automatinį Tekstą</string>
+  <string name="export_complete">CSV failo atsarginė kopija sukurta sėkmingai</string>
+  <string name="import_complete">CSV failo atkūrimas sėkmingas</string>
+  <string name="export_user_dic_warning">Įspėjimas! Jūs ketinate sukurti atsarginę vartotojo žodyno kopiją CSV failo formatu. Tai perrašys esamą /sdcard/smartkeyboardpro/userdic.csv failą. Ar norite tęsti?</string>
+  <string name="import_user_dic_warning">Įspėjimas! Jūs ketinate atkurti varotojo žodyną iš failo CSV formatu: /sdcard/smartkeyboardpro/userdic.csv. Tai perrašys visus esamo vartotojo žodyno nustatymus. Ar norite tęsti?</string>
+  <string name="export_autotext_warning">Įspėjimas! Jūs ketinate sukurti atsarginę Automatinio Teksto žodyno kopiją CSV failo formatu. Tai perrašys esamą /sdcard/smartkeyboardpro/autotext.csv failą. Ar norite tęsti?</string>
+  <string name="import_autotext_warning">Įspėjimas! Jūs ketinate atkurti Automatinio Teksto žodyną iš failo CSV formatu: /sdcard/smartkeyboardpro/autotext.csv. Tai perrašys visus esamo Automatinio Teksto žodyno nustatymus. Ar norite tęsti?</string>
+  <string name="accents_priority">Kirčių pirmumas</string>
+  <string name="accents_priority_summary">Teikti pirmumą kirčiuotoms raidėms (ar dvigubiems priebalsiams) vietoje simbolių, kai ilgai laikoma nuspaudus klavišą. Veikia tik kelioms kalboms.</string>
+  <string name="afrikaans">Afrikečių</string>
+  <string name="mongolian">Mongolų</string>
+  <string name="prefs_enable_recorrection">Palieskite norėdami koreguoti žodžius</string>
+  <string name="prefs_enable_recorrection_summary">Palieskite įvestą žodį norėdami koreguoti</string>
+  <string name="macedonian">Makedoniečių</string>
+  <string name="luxembourgish">Liuksemburgo</string>
+  <string name="albanian">Albanų</string>
+  <string name="belarusian">Baltarusių</string>
+  <string name="indonesian">Indonezijos</string>
+  <string name="alt_compact">Išplėstas kompaktiškasis/T9 žodynas</string>
+  <string name="alt_compact_summary">Ilgasis nuspaudimas kompaktiškajame/T9 žodyno režime rodo visas įmanomas raides (tik anglų klaviatūros maketavime)</string>
+  <string name="backup_failed">Atsarginis kopijavimas neįvykdytas!</string>
+  <string name="restore_failed">Atkūrimas neįvykdytas! Atsarginio kopijavimo failas tikriausiai buvo sugadintas.</string>
+  <string name="hide_in_portrait">Slėpti vertikaliajame režime</string>
+  <string name="hide_in_portrait_summary">Visada slėpti klaviatūrą vertikaliajame režime (naudinga naudojant Droid Pro)</string>
+  <string name="space_alert">Tarpo klavišo įspėjimas</string>
+  <string name="space_alert_summary">Vibruoti tik paspaudus tarpo klavišą</string>
+  <string name="unicode">Koduotė</string>
+  <string name="hide_lang_key">Slėpti kalbos pasirinkimo klavišą</string>
+  <string name="hide_lang_key_summary">Slėpti kalbos pasirinkimo klavišą kai įgalinta kelios kalbos</string>
+  <string name="show_language_icon">Rodyti kalbos santrumpos ikoną</string>
+  <string name="show_language_icon_summary">Rodyti kalbos santrumpos ikoną būsenos juostoje</string>
+  <string name="domain_key">Domeno klavišas</string>
+  <string name="domain_key_summary">Rodyti domeno (.com) klavišą</string>
+  <string name="numbers_top">Skaičiai viršuje</string>
+  <string name="numbers_top_summary">Nustatyti kada papildoma skaičių eilė bus rodoma viršuje pagrindinės klaviatūros</string>
+  <string name="kurdish">Kurdų</string>
+  <string name="marathi">Maratų</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Sveiki! Tai „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"naudojant įvestį gestais"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Pradėti"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Kitas veiksmas"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"„<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ sąranka"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Įgalinkite „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Skiltyje „Kalbos ir įvesties nustatymai“ žr. „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ (progr. bus įgal. veikti įr.)."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"„<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ jau įgalinta jūsų „Kalbos ir įvesties nustatymuose“, todėl šis veiksmas yra atliktas. Galite pereiti prie kito!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">Įgalinti nustatymuose</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Perjungimas į „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Toliau pasirinkite „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ kaip aktyvų teksto įvesties metodą."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Perjungti įvesties metodus"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Sveikiname, viską nustatėte!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">Dabar galite rašyti visose mėgstamose programose naudodami <xliff:g id="APPLICATION_NAME" example="Android Keyboard">%s</xliff:g>.</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfigūruokite papildomas kalbas"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Baigta"</string>
+  <string name="legacy_voice">Paveldėta balso įvestis</string>
+  <string name="legacy_voice_details">Naudoti senąjį balso įvesties metodą vietoje Google įvesties balsu</string>
+  <string name="disable_launch_settings">Panaikinti nustatymų santrumpą</string>
+  <string name="disable_launch_settings_details">Nepaleisti nustatymų lango ilgai nuspaudus 123 klavišą</string>
+  </resources>

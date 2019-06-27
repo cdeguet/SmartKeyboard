@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:keyWidth="15%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+	<Row>
+		<Key android:codes="-104" android:keyIcon="@drawable/up_arrow"
+			android:iconPreview="@drawable/up_arrow" android:horizontalGap="43%p"
+			iconID="@+id/up_arrow" android:isRepeatable="true"
+			android:keyEdgeFlags="left" />
+	</Row>
+	<Row>
+		<Key android:codes="-102" android:keyIcon="@drawable/left_arrow"
+			android:horizontalGap="28%p" android:iconPreview="@drawable/left_arrow"
+			android:isRepeatable="true" iconID="@+id/left_arrow"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="-103" android:keyIcon="@drawable/right_arrow"
+			android:isRepeatable="true" android:iconPreview="@drawable/right_arrow"
+			android:horizontalGap="15%p" iconID="@+id/right_arrow"
+			android:keyEdgeFlags="right" />
+	</Row>
+
+	<Row>
+		<Key android:codes="-106" android:keyLabel="Tab" android:keyWidth="15%p"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="-105" android:keyIcon="@drawable/down_arrow"
+			android:iconPreview="@drawable/down_arrow" android:isRepeatable="true"
+			android:horizontalGap="28%p" iconID="@+id/down_arrow" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+			android:horizontalGap="27%" iconID="@+id/delete_key"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:codes="-2" android:keyLabel="ABC" android:keyWidth="15%p"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
+		<Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space"
+			android:iconPreview="@drawable/sym_keyboard_feedback_space" iconID="@+id/space_key"
+			android:keyWidth="47%p" android:isRepeatable="false" />
+		<Key android:codes="46" android:keyLabel="." android:keyWidth="10%p" />
+		<Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
+			android:iconPreview="@drawable/sym_keyboard_feedback_return" iconID="@+id/return_key"
+			android:keyWidth="18%p" alwaysEnter="true" android:keyEdgeFlags="right" />
+	</Row>
+</Keyboard>

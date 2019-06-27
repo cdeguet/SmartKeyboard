@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Pomoć</string>
+  <string name="about">О програму...</string>
+  <string name="auto_cap">Аутоматска капитализација</string>
+  <string name="auto_cap_summary">Veliko slovo na početku rečenice</string>
+  <string name="keyboard_settings">Smart Keyboard Pro podešavanja</string>
+  <string name="settings">Podešavanja</string>
+  <string name="general_settings">Opšta podešavanja</string>
+  <string name="text_prediction">Predviđanje teksta</string>
+  <string name="sound_vibrate">Zvuk i vibracija</string>
+  <string name="language">Jezik</string>
+  <string name="language_summary">Promeni jezik i raspored tastera na tastaturi</string>
+  <string name="lang_key">Taster za biranje jezika</string>
+  <string name="lang_key_summary">Izaberite dostupne jezike</string>
+  <string name="english">Engleski</string>
+  <string name="english_intl">Engleski (međunarodni)</string>
+  <string name="english_dvorak">Engleski (Dvorak)</string>
+  <string name="english_azerty">Engleski (AZERTY)</string>
+  <string name="french">Francuski</string>
+  <string name="romanian">Rumunski</string>
+  <string name="bulgarian">Bugarski</string>
+  <string name="russian">Ruski</string>
+  <string name="russian_phonetic">Ruski (fonetski)</string>
+  <string name="spanish">Španski</string>
+  <string name="italian">Italijanski</string>
+  <string name="german">Nemački</string>
+  <string name="portuguese">Portugalski</string>
+  <string name="danish">Danski</string>
+  <string name="finnish">Finski</string>
+  <string name="hebrew">Hebrejski</string>
+  <string name="norwegian">Norveški</string>
+  <string name="swedish">Švedski</string>
+  <string name="georgian">Gruzijski</string>
+  <string name="czech_qwerty">Češki (QWERTY)</string>
+  <string name="czech_qwertz">Češki (QWERTY)</string>
+  <string name="greek">Grčki</string>
+  <string name="dutch">Holandski</string>
+  <string name="polish">Poljski</string>
+  <string name="ukrainian">Ukrajinski</string>
+  <string name="vibrate">Vibracija</string>
+  <string name="vibrate_summary">Vibriranje na dodir</string>
+  <string name="vibrate_duration">Trajanje vibracije</string>
+  <string name="label_go_key">Idi</string>
+  <string name="label_next_key">Sledeći</string>
+  <string name="label_done_key">Završeno</string>
+  <string name="label_send_key">Pošalji</string>
+  <string name="advanced_settings">Napredna podešavanja</string>
+  <string name="sound_on_keypress">Zvuk na dodir</string>
+  <string name="gestures">Gestikulacije</string>
+  <string name="swipe_left">Превлачење у лево</string>
+  <string name="swipe_right">Превлачење у десно</string>
+  <string name="swipe_up">Превлачење на горе</string>
+  <string name="swipe_down">Превлачење на доле</string>
+  <string name="saved">Sačuvano</string>
+  <string name="quick_fixes">Brza rešenja</string>
+  <string name="quick_fixes_summary">Исправља најчешће откуцане грешке</string>
+  <string name="show_suggestions">Prikaži predloge</string>
+  <string name="show_suggestions_summary">Приказивање предлога речи током куцања</string>
+  <string name="auto_complete">Аутоматско попуњавање</string>
+  <string name="auto_complete_summary">Размак и знаци интерпункције аутоматски
+убацују означену реч</string>
+  <string name="contact_dic">Речник контакта</string>
+  <string name="edit_autotext">Izmena automatskog teksta</string>
+  <string name="autotext_value">biće zamenjeno sa:</string>
+  <string name="cancel">Odustani</string>
+  <string name="retry">Pokušaj ponovo</string>
+  <string name="turkish">Turski</string>
+  <string name="hungarian">Mađarski</string>
+  <string name="icelandic">Islandski</string>
+  <string name="bosnian">Bosanski</string>
+  <string name="croatian">Hrvatski</string>
+  <string name="serbian">Srpski</string>
+  <string name="close">Zatvori</string>
+  <string name="arabic">Arapski</string>
+  <string name="layout">Raspored</string>
+  <string name="korean">Korejski</string>
+  <string name="thai">Tajlandski</string>
+  <string name="slovak">Slovački</string>
+  <string name="japanese">Japanski</string>
+  <string name="double_space_period_summary">Stavi tačku kada je razmak pritisnut dva puta</string>
+  <string name="arrows_style">Stil strelica</string>
+  <string name="arrows_style_summary">Izaberi stil strelice tastature</string>
+  <string name="disable_mt">Deaktiviraj mulititač</string>
+  <string name="compound_suggestions">Objedinjene sugestije</string>
+  <string name="compound_suggestions_summary">Aktiviraj predlaganje složenica(uglavnom za nemački)</string>
+  <string name="current_language">Trenutni jezik</string>
+  <string name="language_specific_options">Posebne jezičke opcije</string>
+  <string name="buy">Kupi</string>
+  <string name="no_thanks">Ne, hvala</string>
+  <string name="chinese_simplified">Kineski (pojednostavljen)</string>
+  <string name="yes">Da</string>
+  <string name="no">Ne</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Izgovori sad</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Izvršava se</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Greška, pokušajte ponovo.</string>
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Greška, izgovoreno je previše reči.</string>
+  <!-- Short message shown for an audio error. -->
+  <!-- Short message shown for an error with the voice server. -->
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Estonski</string>
+  <string name="lithuanian">Litvanski</string>
+  <string name="latvian">Letonski</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Добро дошли у <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"помоћу Куцања покретима"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Започнимо"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Следећи корак"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Подешавање апликације <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Омогућите апликацију <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Потврдите апликацију „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ у Подешавањима језика и уноса. Тако јој одобравате покретање на уређају."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Апликација <xliff:g id="APPLICATION_NAME">%s</xliff:g> је већ омогућена у Подешавањима језика и уноса тако да је овај корак готов. Пређимо на следећи!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Омогући у Подешавањима"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Пребаците на <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Затим изаберите „<xliff:g id="APPLICATION_NAME">%s</xliff:g>“ као активни метод уноса текста."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Пребаци методе уноса"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Честитамо, све је спремно!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Сада можете да куцате у свим омиљеним апликацијама помоћу <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Конфигуриши додатне језике"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Завршено"</string>
+  </resources>

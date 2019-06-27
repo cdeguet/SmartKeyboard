@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Súgó</string>
+  <string name="about">Névjegy...</string>
+  <string name="auto_cap">Automatikus nagybetű</string>
+  <string name="auto_cap_summary">Legyen nagy kezdőbetű a mondat elején </string>
+  <string name="keyboard_settings">Smart Keyboard Pro Beállításai</string>
+  <string name="settings">Beállítások</string>
+  <string name="general_settings">Általános beállítások</string>
+  <string name="text_prediction">Szövegbevitel</string>
+  <string name="sound_vibrate">Hang és rezgés</string>
+  <string name="language">Nyelv</string>
+  <string name="language_summary">Billentyűzet nyelvének és kinézetének megváltoztatása</string>
+  <string name="lang_key">Nyelvválasztó gomb</string>
+  <string name="lang_key_summary">Válassza ki a rendelkezésre álló nyelveket</string>
+  <string name="english">Angol</string>
+  <string name="english_intl">Angol (nemzetközi)</string>
+  <string name="english_dvorak">Angol (Dvorak)</string>
+  <string name="english_azerty">Angol (AZERTY)</string>
+  <string name="french">Francia</string>
+  <string name="romanian">Román</string>
+  <string name="bulgarian">Bolgár</string>
+  <string name="russian">Orosz</string>
+  <string name="russian_phonetic">Orosz (kiejtés szerinti)</string>
+  <string name="spanish">Spanyol</string>
+  <string name="italian">Olasz</string>
+  <string name="german">Német</string>
+  <string name="portuguese">Portugál</string>
+  <string name="danish">Dán</string>
+  <string name="finnish">Finn</string>
+  <string name="hebrew">Héber</string>
+  <string name="norwegian">Norvég</string>
+  <string name="swedish">Svéd</string>
+  <string name="georgian">Grúz</string>
+  <string name="czech_qwerty">Cseh (QWERTY)</string>
+  <string name="czech_qwertz">Cseh (QWERTY)</string>
+  <string name="greek">Görög</string>
+  <string name="dutch">Holland</string>
+  <string name="polish">Lengyel</string>
+  <string name="ukrainian">Ukrán</string>
+  <string name="vibrate">Rezgés</string>
+  <string name="vibrate_summary">A billentyű nyomására rezeg</string>
+  <string name="vibrate_duration">Rezgés időtartama</string>
+  <string name="label_go_key">Ugrás</string>
+  <string name="label_next_key">Tovább</string>
+  <string name="label_done_key">Kész</string>
+  <string name="label_send_key">Küldés</string>
+  <string name="advanced_settings">Haladó beállítások</string>
+  <string name="sound_on_keypress">Gombnyomásra hang</string>
+  <string name="gestures">Kézmozdulatok </string>
+  <string name="swipe_left">Balra húzás</string>
+  <string name="swipe_right">Jobbra húzás</string>
+  <string name="swipe_up">Felfele húzás</string>
+  <string name="swipe_down">Lefelé húzás</string>
+  <string name="saved">Mentve</string>
+  <string name="quick_fixes">Gyors javítások</string>
+  <string name="quick_fixes_summary">Korrigálja a gépelt hibákat</string>
+  <string name="show_suggestions">Javaslatok megjelenítése</string>
+  <string name="show_suggestions_summary">Ajánlott szó megjelenítése írás közben</string>
+  <string name="auto_complete">Automatikus kitöltés</string>
+  <string name="auto_complete_summary">Szóköz és írásjelek használatánál automatikusan beszúrhatja a kijelölt szót</string>
+  <string name="contact_dic">Kapcsolatok szótár</string>
+  <string name="contact_dic_summary">Tartalmazza a kapcsolati neveket a javaslatoknál (Android 2.0 szükséges hozzá)</string>
+  <string name="show_preview">Előugró előnézet</string>
+  <string name="show_preview_summary">Egy előugrás megjelenítése gomblenyomáskor</string>
+  <string name="skin_selection">Kinézet választása</string>
+  <string name="skin_summary">Billentyűzet kinézetének megváltoztatása</string>
+  <string name="transparency">Átlátszóság</string>
+  <string name="opacity">Láthatóság beállítása</string>
+  <string name="transparency_summary">Beállítja a billentyűzet átláthatóságát</string>
+  <string name="volume">Hangerő</string>
+  <string name="volume_summary">Billentyűhang erejének beállítása</string>
+  <string name="debug_logs">Hibakeresési napló</string>
+  <string name="always_suggest">Mindig javasoljon</string>
+  <string name="always_suggest_summary">Javaslatok megjelenítése keresésnél is</string>
+  <string name="popular_domain_0">.com </string>
+  <string name="custom_autotext">Egyéni Szövegtár</string>
+  <string name="custom_autotext_summary">Egyéni Szövegtár parancsikonjának szerkesztése</string>
+  <string name="add_autotext">Egyéni Szövegtár hozzáadása...</string>
+  <string name="edit_autotext">Egyéni Szövegtár szerkesztése</string>
+  <string name="autotext_key">A következő szó:</string>
+  <string name="autotext_value">kicserélendő:</string>
+  <string name="autotext_context_edit">Szerkesztés</string>
+  <string name="autotext_context_delete">Törlés</string>
+  <string name="enable_arrows">Nyíl billentyűzet</string>
+  <string name="enable_arrows_summary">Elérhető az 123 gombbal</string>
+  <string name="always_caps">Mindig nagybetű</string>
+  <string name="always_caps_summary">Mindig nagybetűvel jelenjenek meg a címkék</string>
+  <string name="display_alt_labels">Alt-címkék megjelenítése</string>
+  <string name="display_alt_labels_summary">Alternatív címkék megjelenítése</string>
+  <string name="user_dictionary">Felhasználói szótár</string>
+  <string name="user_dictionary_summary">Szavak szerkesztése a felhasználói szótárból</string>
+  <string name="add_word">Szó hozzáadása </string>
+  <string name="edit_word">Szó módosítása</string>
+  <string name="delete_word">Szó törlése</string>
+  <string name="word">Szó</string>
+  <string name="forum">Fórum</string>
+  <string name="download_dic">Szótár letöltése</string>
+  <string name="download_dic_summary">Szótárak letöltése a Marketből</string>
+  <string name="mic_button">Mikrofon gomb </string>
+  <string name="mic_button_summary">Mikrofon gomb megjelenítése, amikor csak lehetséges</string>
+  <string name="voice_input">Hang bemenet</string>
+  <string name="cancel">Mégsem</string>
+  <string name="retry">Újra</string>
+  <string name="restart_voice">Hangbemenet újraindítás</string>
+  <string name="restart_voice_summary">Mindig indítsa újra a hang bemenet, amíg nem törlik</string>
+  <string name="voice_best">Legjobb hangbemenet</string>
+  <string name="voice_best_summary">Automatikusan a legjobbat választja</string>
+  <string name="touch_points">Érintési pontok</string>
+  <string name="portrait_mode">Portré módban</string>
+  <string name="portrait_mode_summary">Válassza a normál, T9 vagy kompakt elrendezést módot</string>
+  <string name="candidate_color">Jelölési szín</string>
+  <string name="candidate_color_summary">Beszínezi az ajánlott szót</string>
+  <string name="welcome">Köszönjük, hogy telepítette a \@!\n\n programot. A billentyűzet engedélyezéséhez menjen a Beállításokon belül a "Nyelv és billentyűzet (vagy \"Locale &amp; text\") menüpontra és jelölje be a \"\@\" dobozt. Ez után, váltson \@, ehhez egy szövegdobozban hosszan nyomjon, majd válassza ki a \"Beviteli mód\" menüpontot, ahol a \@ megjelenik a listában. Az \"123\" gomb megnyomásával pedig a billentyűzet beállításaihoz juthat el. \n\nMost, menjen a Beállítások menüponthoz és élvezze programunkat!\n\nMegjegyzés: Az alkalmazás-ikont bármikor eltüntetheti az alkalmazások közül.</string>
+  <string name="disable_launcher">Launcher ikon letiltása </string>
+  <string name="disable_launcher_warning">Figyelem! Ezzel eltünteti a Smart Keyboard ikont az alkalmazások közül.
+Előfordulhat, hogy az eltávolításhoz újra kell indítani a készüléket.</string>
+  <string name="space_when_pick">Szóköz elfogadás után</string>
+  <string name="space_when_pick_summary">Szóközt illeszt be, miután elfogadásra került egy javasolt szó</string>
+  <string name="swap_punctuation_space">Írásjelek felcserélése </string>
+  <string name="swap_punctuation_space_summary">Írásjelek és a szóköz automatikusan cserélje a szó után</string>
+  <string name="smiley_key">Smiley kulcs</string>
+  <string name="smiley_key_summary">Smiley kulcs megjelenítése az Enter helyett</string>
+  <string name="toggle_smiley_key">Smiley gomb csatolása</string>
+  <string name="select_sound">Hang kiválasztása</string>
+  <string name="smiley_editor">Smiley szerkesztő</string>
+  <string name="smiley_editor_summary">Smiley gomb testreszabása</string>
+  <string name="smiley_editor_title">Smiley szerkesztéshez érintsen ide</string>
+  <string name="edit_smiley">Smiley szerkesztése</string>
+  <string name="smart_dictionary">Intelligens Szótár</string>
+  <string name="smart_dictionary_summary">Szótár, amely megtanulja a gyakran beírt szavakat, hogy a későbbiekben megfelelő javaslatot ajánlhasson</string>
+  <string name="backup">Beállítások mentése…</string>
+  <string name="backup_to_sd">Biztonsági mentés az SD-re</string>
+  <string name="restore">Visszaállítás az SD kártyáról</string>
+  <string name="no_sd_card">Hiba: Az SD kártya használatban van, így nem lehet biztonsági mentést/visszaállítást végrehajtani!</string>
+  <string name="backup_warning">Figyelem! A Smart Keyboard PRO a beállításokat és szótárakat készül elmenteni.
+Ezzel felülíródik a /sdcard/smartkeyboardpro/backup.zip fájl. Biztos, hogy folytatja?</string>
+  <string name="restore_warning">Figyelem! A Smart Keyboard PRO a beállításokat és szótárakat készül visszaállítani.
+Ezzel felülíródik az összes jelenlegi beállításod. Biztos, hogy folytatja?</string>
+  <string name="backup_complete">A mentés befejeződött</string>
+  <string name="slide_popup">Előugró billentyűzet</string>
+  <string name="slide_popup_summary">Csúsztassa az ujját, hogy kiválaszthassa a megfelelő betűt</string>
+  <string name="space_preview">Előnézeti terület </string>
+  <string name="space_preview_summary">Előnézet szóköz billentyűre</string>
+  <string name="turkish">Török</string>
+  <string name="hungarian">Magyar</string>
+  <string name="icelandic">Izlandi</string>
+  <string name="bosnian">Bosnyák</string>
+  <string name="croatian">Horvát</string>
+  <string name="serbian">Szerb</string>
+  <string name="slovene">Szlovén</string>
+  <string name="close">Bezárás</string>
+  <string name="arabic">Arab</string>
+  <string name="layout">Elrendezés</string>
+  <string name="force_latin">Latin billentyűzet eröltetése</string>
+  <string name="force_latin_summary">Kinézet eröltetése az összes latin nyelvnél</string>
+  <string name="default_latin_lang">&lt;Alapértelmezett&gt;</string>
+  <string name="korean">Koreai</string>
+  <string name="rtl_suggestions">RTL javaslatok</string>
+  <string name="rtl_suggestions_summary">Szavak felcserélése a predikatív mezőben (arabi/héber nyelvhez)</string>
+  <string name="clean_userdic">Felhasználói szótár tisztítása</string>
+  <string name="warn_clean_userdic">Figyelem! Ezzel törlödik az ÖSSZES szó a felhasználói szótáradból. Biztos, hogy folytatja?</string>
+  <string name="suggest_punctuation">Írásjelek javaslata</string>
+  <string name="key_height">Billentyűmagasság</string>
+  <string name="longpress_duration">Hosszan nyomás ideje</string>
+  <string name="longpress_duration_summary">Megnyomás időtartamának testreszabása az alternatív szimbólumokhoz</string>
+  <string name="learn_new_words">Új szavak megjegyzése</string>
+  <string name="learn_new_words_summary">Automatikusan hozzáadja az új szavakat a felhasználói szótárhoz (ehhez Intelligens Szótár szükséges)</string>
+  <string name="enter_sends_sms">Küldés ENTER-re</string>
+  <string name="enter_sends_sms_summary">Az enter megnyomásával az üzenetben egy új sor jön létre. Figyelem: ez nem működik minden alkalmazásnál!</string>
+  <string name="slovak">Szlovák</string>
+  <string name="bk_warning">Figyelem! Ez a kinézet a Better Keyboardra készült. Lehet, hogy nem lesz kompatibilis a Smart Keyboard programmal, ezért csak saját felelősségére használja!</string>
+  <string name="domain_editor">Domain szerkesztő</string>
+  <string name="domain_editor_summary">A .com billentyű testreszabása</string>
+  <string name="domain_editor_title">Érintse meg a domaint a szerkesztéshez</string>
+  <string name="edit_domain">Domain szerkesztése</string>
+  <string name="persistent_domain_key">Állandó domain billentyűzet</string>
+  <string name="persistent_domain_key_summary">Mindig megjelenjen a domain (.com) billentyű</string>
+  <string name="no_alt_preview">Nincs alt előnézet</string>
+  <string name="no_alt_preview_summary">Ha csak egy van, ne mutassa az alternatív karakter előnézetet</string>
+  <string name="dynamic_resizing">Gomb átméretezés</string>
+  <string name="dynamic_resizing_summary">A virtuális billentyűzet gombjainak méretének módosítása</string>
+  <string name="esperanto">Eszperantó</string>
+  <string name="japanese">Japán</string>
+  <string name="double_space_period">Időszak dupla szóközre</string>
+  <string name="double_space_period_summary">A szóköz billentyű kétszeres megnyomásakor egy időszak (kettős szóköz) beillesztése</string>
+  <string name="arrows_style">Nyíl stílus</string>
+  <string name="arrows_style_summary">Nyíl billentyűzet stílusának kiválasztása</string>
+  <string name="disable_mt">Multitouch letiltása</string>
+  <string name="compound_suggestions">Összetett javaslatok</string>
+  <string name="compound_suggestions_summary">Javaslatok engedélyezése összetett szavakra (főleg német)</string>
+  <string name="current_language">Aktuális nyelv</string>
+  <string name="language_specific_options">Nyelvspecifikus beállítások</string>
+  <string name="no_lansdcape_fullscreen">Csak állónézet</string>
+  <string name="no_lansdcape_fullscreen_summary">Képernyő fordításra ne váltson helyzetet</string>
+  <string name="t9_length_priority">T9 prioritása</string>
+  <string name="t9_length_priority_summary">Elsőbbség adása az ugyan olyan hosszú T9 szavak számára</string>
+  <string name="t9_next_key">T9 Tovább gomb</string>
+  <string name="t9_next_key_summary">Tovább gomb megjelenítése T9 elfordított módban</string>
+  <string name="suggest_numbers">Javasolt számok</string>
+  <string name="suggest_numbers_summary">Nem abc kezdetű szavaknál szójavaslat engedélyezése</string>
+  <string name="trial_popup">Ez egy próba-változat. Vásárolja meg a "Smart Keyboard PRO" alkalmazást és soha többé nem fogja látni ezt az előugró ablakot! :)</string>
+  <string name="buy">Megveszem</string>
+  <string name="no_thanks">Nem, köszönöm</string>
+  <string name="chinese_simplified">Kínai (egyszerűsített)</string>
+  <string name="yes">Igen</string>
+  <string name="no">Nem</string>
+  <string name="english_dic">Töltsd le az \"English for Smart Keyboard\" alkalmazást az Android Marketről, hogy használni tudd az Angol nyelvi javaslatokat. Le szeretnéd tölteni?</string>
+  <string name="physical_kbd">Fizikai billentyűzet</string>
+  <string name="physical_kbd_summary">Engedélyezze a javaslatokat és a fordításokat a fizikai billentyűzetnél. A SHIFT + space a nyelvváltás.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Hangbemenet</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Hangbemenet jelenleg nem támogatja a jelenlegi nyelvet, de az angol nyelvvel működik.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">A hangbevitel egy kísérleti funkció, ami a Google beszédfelismerő szolgáltatását használja.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">A hangbemenet kikapcsolásához menjen a billentyűzet beállításai menüpontra.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Most beszéljen</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Dolgozom</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Hiba. Kérjük, próbálja újra.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Csatlakozás sikertelen</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Hiba, túl sok a beszéd.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Hang probléma</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Kiszolgálóhiba</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Nem hallható a beszéd</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Nincs találat</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Hang keresés nincs telepítve</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">Észt</string>
+  <string name="lithuanian">Litván</string>
+  <string name="latvian">Lett</string>
+  <string name="only_one_language">Figyelem! Csak egy nyelvet választottál ki. Ez a billentyű nem fog megjelenni, de a jelenlegi nyelv lett beállítva.</string>
+  <string name="different_language">Figyelem! A kiválasztott nyelv nem egyezik azzal, amit a \ "Nyelvválasztó gomb\" opciónál lett beállítva!</string>
+  <string name="hebrew_alt">Héber alt elrendezés</string>
+  <string name="hebrew_alt_summary">Helyezze el héber elrendezésnél Backspace gombot a bal oldalra</string>
+  <string name="portrait_fullscreen">Teljes képernyős portré</string>
+  <string name="portrait_fullscreen_summary">Álló helyzetben állítsa be a billentyűzetet teljes képernyős módba (hasznos lehet, ha nagyon kicsi a képernyő)</string>
+  <string name="czech_full">Cseh/Szlovák elrendezés</string>
+  <string name="czech_full_summary">Felső sorban jelennek meg az ékezetes betűk</string>
+  <string name="swipe_sensitivity">Húzás érzékenysége</string>
+  <string name="swipe_sensitivity_summary">Kézmozdulatok érzékenységének beállítása. Figyelem: ha túl érzékenyre állította be, a multitouchot lehet kézmozdulatnak fogja érzékelni.</string>
+  <string name="catalan">Katalán</string>
+  <string name="multitap_interval">Multitap intervallum</string>
+  <string name="multitap_interval_summary">Állítsa be a maximális késleltetést a multitapnál, például a T9 vagy koreai \"rövid magánhangzók\" elrendezésénél.</string>
+  <string name="persian">Perzsa</string>
+  <string name="calibration">Kalibráció</string>
+  <string name="calibration_summary">Kalibrálja a billentyűzetet a pontosság növelése érdekében</string>
+  <string name="calibration_instructions">A billentyűzet kalibrálásához írja be a következő szöveget:</string>
+  <string name="calibration_done">Kalibrálás kész! Kattintson a \"Mentés\" gombra az új beállításhoz vagy a \"Mégsem\" gombra az újrapróbáláshoz.</string>
+  <string name="calibration_profile_is">A kalibrációs profil:</string>
+  <string name="calibration_reset">A kalibrálási beállítások alapértelmezett értékekre való visszaállítására készül. Szeretné folytatni?</string>
+  <string name="reset">Visszaállítás</string>
+  <string name="save">Mentés</string>
+  <string name="get_skins">Még több kinézet...</string>
+  <string name="sms_mode">SMS mód</string>
+  <string name="sms_mode_summary">Az ékezetek eltávolítása a javasolt szövegből SMS írásakor</string>
+  <string name="key_height_summary">Gomb magasságának testreszabása</string>
+  <string name="alt_symbols">Alt szimbólumok</string>
+  <string name="alt_symbols_summary">Alt címkék megjelenítése a szimbólumok (123) panelen</string>
+  <string name="hide_period">Elrejtése időszak</string>
+  <string name="hide_period_summary">Az ideiglenes gomb elrejtése, hogy a szóköz billentyű nagyobb lehessen</string>
+  <string name="hide_comma">Vessző elrejtése</string>
+  <string name="hide_comma_summary">A vessző (vagy a mikrofon) gomb elrejtése, hogy a szóköz billentyű nagyobb lehessen</string>
+  <string name="bottom_padding">Alsó térköz</string>
+  <string name="bottom_padding_summary">Extra hely biztosítása a billentyűzet alján portré módban</string>
+  <string name="apostrophe_separator">Idézőjel elválasztó</string>
+  <string name="apostrophe_separator_summary">Aposztróf használata szó-elválasztásnál (hasznos az olasz nyelvnél)</string>
+  <string name="ignore_hard_kbd">Fizikai billentyűzet tiltása</string>
+  <string name="ignore_hard_kbd_summary">Virtuális billentyűzet megjelenítése fekvő módban, még akkor is, amikor használható a fizikális billentyű.</string>
+  <string name="tatar">Tatár</string>
+  <string name="custom_punctuation">Egyéni írásjelek</string>
+  <string name="custom_punctuation_summary">A javaslati sávban megjelenő írásjelek személyreszabása</string>
+  <string name="kazakh">Kazah</string>
+  <string name="azerbaijani">Azerbajdzsán</string>
+  <string name="armenian">Örmény</string>
+  <string name="vietnamese">Vietnami</string>
+  <string name="no_landscape_suggestions">Nincsenek fekvő-módban javaslatok</string>
+  <string name="no_landscape_suggestions_summary">Ne jelenjenek meg fekvő módban javaslatok</string>
+  <string name="arrows_main">Nyilak megjelenítése</string>
+  <string name="arrows_main_summary">Válassza ki, mikor jelenjenek meg a nyilak a billentyűzeten</string>
+  <string name="cursor_volume">Kurzor hangerő-gombbal</string>
+  <string name="cursor_volume_summary">Hangerő-gombbal kurzor irányítása</string>
+  <string name="export_user_dic">Felhasználói szótár exportálása</string>
+  <string name="export_user_dic_summary">Felhasználói szótár exportálása CSV formátumban</string>
+  <string name="export_autotext">Szövegtár exportálása</string>
+  <string name="export_autotext_summary">Szövegtár exportálása CSV formátumban</string>
+  <string name="import_user_dic">Felhasználói szótár importálása</string>
+  <string name="import_autotext">Szövegtár importálása</string>
+  <string name="export_complete">CVS export teljes</string>
+  <string name="import_complete">CVS import teljes</string>
+  <string name="export_user_dic_warning">Figyelem! A felhasználói szótár CSV formátumú exportálására készül. Ezzel felülíródik a /sdcard/smartkeyboardpro/userdic.csv fájl. Szeretné folytatni?</string>
+  <string name="import_user_dic_warning">Figyelem! A felhasználói szótár CSV formátumú importálására készül a /sdcard/smartkeyboardpro/userdic.csv fájlból. Ezzel felülíródik a jelenlegi felhasználói szótár. Szeretné folytatni?</string>
+  <string name="export_autotext_warning">Figyelmeztetés! A Szövegtár CSV formátumú exportálásához készül.
+	Ezzel felülíródik a /sdcard/smartkeyboardpro/autotext.csv fájl. Szeretné folytatni?</string>
+  <string name="import_autotext_warning">Figyelmeztetés! A Szövegtár CSV formátumú importálására készül a /sdcard/smartkeyboardpro/autotext.csv fájlból.
+	Ezzel felülíródik a Szövegtár tartalma. Szeretné folytatni?</string>
+  <string name="accents_priority">Ékezetek prioritása</string>
+  <string name="accents_priority_summary">Ékezetes betűk prioritásának beállítása gombnyomáskor. Csak néhány nyelvnél működik.</string>
+  <string name="afrikaans">Búr</string>
+  <string name="mongolian">Mongol</string>
+  <string name="prefs_enable_recorrection">Javítás a szavak megérintésével</string>
+  <string name="prefs_enable_recorrection_summary">A beírt szavakat megérintve kijavíthatja őket</string>
+  <string name="macedonian">Macedón</string>
+  <string name="luxembourgish">Luxemburgi</string>
+  <string name="albanian">Albán</string>
+  <string name="belarusian">Fehérorosz</string>
+  <string name="indonesian">Indonéz</string>
+  <string name="alt_compact">Kibővített/T9</string>
+  <string name="alt_compact_summary">Hosszan nyomásnál a kompakt/T9 módban megjeleníti a lehetséges betűket (csak az angol elrendezésnél)</string>
+  <string name="backup_failed">Biztonsági mentés nem sikerült!</string>
+  <string name="restore_failed">Visszaállítás nem sikerült! A biztonságimásolat-fájl valószínűleg sérült.</string>
+  <string name="hide_in_portrait">Álló tájolás elrejtése</string>
+  <string name="hide_in_portrait_summary">Billentyűzet mindig rejtve portré módban (hasznos a Droid Pro-nál)</string>
+  <string name="space_alert">Space-riasztás</string>
+  <string name="space_alert_summary">Rezgés csak a szóköznél</string>
+  <string name="hide_lang_key">Nyelv gomb elrejtése</string>
+  <string name="hide_lang_key_summary">Nyelv választó gomb elrejtése, ha további nyelvek vannak engedélyezve</string>
+  <string name="show_language_icon">Nyelvi ikon megjelenítése</string>
+  <string name="show_language_icon_summary">Nyelvi ikon megjelenítése az állapotsorban</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Üdvözli a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g>!"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"kézmozdulatokkal történő bevitellel"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Első lépések"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Következő lépés"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"A(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> beállítása"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"A(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> engedélyezése"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Jelölje be a(z) „<xliff:g id="APPLICATION_NAME">%s</xliff:g>” alkalmazást a „Nyelv és bevitel” alatt a futtatás érdekében."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Engedélyezés a Beállítások között"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Váltás a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> alkalmazásra"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Ezután válassza a(z) „<xliff:g id="APPLICATION_NAME">%s</xliff:g>”  alkalmazást aktív szövegbeviteli módszerként."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Váltás a beviteli módok között"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Gratulálunk, máris elkészült!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Immár minden kedvenc alkalmazásában gépelhet a(z) <xliff:g id="APPLICATION_NAME">%s</xliff:g> segítségével."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Állítson be további nyelveket"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Befejeződött"</string>
+  </resources>

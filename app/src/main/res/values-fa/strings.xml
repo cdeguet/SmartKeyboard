@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">راهنما</string>
+  <string name="about">درباره...</string>
+  <string name="auto_cap">حروف بزرگ خودکار</string>
+  <string name="auto_cap_summary">آغاز یک جمله با حرف بزرگ</string>
+  <string name="keyboard_settings">تنظیمات صفحه کلید هوشمند</string>
+  <string name="settings">ساماندهی‌ها</string>
+  <string name="general_settings">تنظیمات کلی</string>
+  <string name="text_prediction">پیش بینی متن</string>
+  <string name="sound_vibrate">صدا و ارتعاش</string>
+  <string name="language">زبان</string>
+  <string name="language_summary">تغییر زبان صفحه کلید و چیدمان</string>
+  <string name="lang_key">کلید انتخاب زبان</string>
+  <string name="lang_key_summary">انتخاب زبان های موجود</string>
+  <string name="english">انگلیسی</string>
+  <string name="english_intl">انگلیسی (بین المللی)</string>
+  <string name="english_dvorak">انگلیسی (Dvorak)</string>
+  <string name="english_azerty">انگلیسی (AZERTY)</string>
+  <string name="french">فرانسوی</string>
+  <string name="romanian">رومانیایی</string>
+  <string name="bulgarian">بلغاری</string>
+  <string name="russian">روسی</string>
+  <string name="russian_phonetic">روسی (آوایی)</string>
+  <string name="spanish">اسپانیایی</string>
+  <string name="italian">ایتالیایی</string>
+  <string name="german">آلمانی</string>
+  <string name="portuguese">پرتغالی</string>
+  <string name="danish">دانمارکی</string>
+  <string name="finnish">فنلاندی</string>
+  <string name="hebrew">عبری</string>
+  <string name="norwegian">نروژی</string>
+  <string name="swedish">سوئدی</string>
+  <string name="georgian">گرجی</string>
+  <string name="czech_qwerty">چک (QWERTY)</string>
+  <string name="czech_qwertz">چک (QWERTZ)</string>
+  <string name="greek">یونانی</string>
+  <string name="dutch">هلندی</string>
+  <string name="polish">لهستانی</string>
+  <string name="ukrainian">اوکراینی</string>
+  <string name="vibrate">ارتعاش</string>
+  <string name="vibrate_summary">ارتعاش در فشردن کلید</string>
+  <string name="vibrate_duration">مدت زمان ارتعاش</string>
+  <string name="label_go_key">برو</string>
+  <string name="label_next_key">بعدی</string>
+  <string name="label_done_key">انجام شد</string>
+  <string name="label_send_key">ارسال</string>
+  <string name="advanced_settings">تنظیمات پیشرفته</string>
+  <string name="sound_on_keypress">صدا در فشردن کلید</string>
+  <string name="gestures">حرکات</string>
+  <string name="swipe_left">کشیدن به چپ</string>
+  <string name="swipe_right">کشیدن به راست</string>
+  <string name="swipe_up">کشیدن به بالا</string>
+  <string name="swipe_down">کشیدن به پایین</string>
+  <string name="saved">ذخیره شد</string>
+  <string name="quick_fixes">تعمیرات سریع</string>
+  <string name="quick_fixes_summary">تصحیح اشتباهات معمول تایپی</string>
+  <string name="show_suggestions">نمایش پیشنهادات</string>
+  <string name="show_suggestions_summary">نمایش کلمات پیشنهادی در هنگام تایپ</string>
+  <string name="auto_complete">تکمیل خودکار</string>
+  <string name="auto_complete_summary">درج خودکار فاصله و علامت گذاری ها</string>
+  <string name="contact_dic">واژه نامه مخاطبین</string>
+  <string name="contact_dic_summary">نام مخاطبین در پیشنهادات (آندروید 2.0 نیاز است)</string>
+  <string name="show_preview">نمایش پنجره پیش نمایش</string>
+  <string name="show_preview_summary">نمایش یک پنجره زمانی که کلید فشرده شده است</string>
+  <string name="skin_selection">انتخاب پوسته</string>
+  <string name="skin_summary">تغییر پوسته صفحه کلید</string>
+  <string name="transparency">شفافیت</string>
+  <string name="opacity">تنظیم شفافیت</string>
+  <string name="transparency_summary">تنظیم شفافیت صفحه کلید</string>
+  <string name="volume">حجم صدا</string>
+  <string name="volume_summary">تنظیم حجم صدا فشرده شدن کلید</string>
+  <string name="debug_logs">فعال کردن اشکال زدایی</string>
+  <string name="always_suggest">پیشنهاد همیشگی</string>
+  <string name="always_suggest_summary">همچنین نمایش پیشنهادها برای جستجو</string>
+  <string name="popular_domain_3">.ir</string>
+  <string name="custom_autotext">متن خودکار سفارشی</string>
+  <string name="custom_autotext_summary">میانبر متن خودکار خود را ویرایش کنید</string>
+  <string name="add_autotext">افزودن متن آماده...</string>
+  <string name="edit_autotext">ویرایش متن آماده</string>
+  <string name="autotext_key">واژه زیر:</string>
+  <string name="autotext_value">جایگزین خواهد شد توسط:</string>
+  <string name="autotext_context_edit">ویرایش</string>
+  <string name="autotext_context_delete">حذف</string>
+  <string name="enable_arrows">فعال کردن صفحه کلید پیکان</string>
+  <string name="enable_arrows_summary">قابل دسترسی با کلید 123</string>
+  <string name="always_caps">همیشه کلاه</string>
+  <string name="always_caps_summary">همیشه نمایش برچسبهای کلید در حروف بزرگ</string>
+  <string name="display_alt_labels">نشان دادن برچسب دگرساز</string>
+  <string name="display_alt_labels_summary">نمایش برچسب جایگزین بالاتر از برچسب کلیدی</string>
+  <string name="user_dictionary">واژه نامه کاربر</string>
+  <string name="user_dictionary_summary">ویرایش واژه ها در واژه نامه کاربر</string>
+  <string name="add_word">اضافه کردن کلمه</string>
+  <string name="edit_word">ویرایش کلمه</string>
+  <string name="delete_word">حذف کلمه</string>
+  <string name="word">کلمه</string>
+  <string name="forum">تالار گفتگو</string>
+  <string name="download_dic">دانلود فرهنگ لغت</string>
+  <string name="download_dic_summary">دانلود واژه نامه ها از مارکت</string>
+  <string name="mic_button">دکمه میکروفون</string>
+  <string name="mic_button_summary">نمایش کلید ورودی صدا زمان ممکن بودن</string>
+  <string name="voice_input">ورودی صدا</string>
+  <string name="cancel">لغو</string>
+  <string name="retry">سعی مجدد</string>
+  <string name="restart_voice">راه اندازی مجدد ورودی صدا</string>
+  <string name="restart_voice_summary">همیشه راه اندازی ورودی صدا تا زمانی که لغو شود</string>
+  <string name="voice_best">انتخاب بهترین ورودی صدا</string>
+  <string name="voice_best_summary">به طور خودکار بهترین را انتخاب کنید</string>
+  <string name="touch_points">نمایش نقاط لمس</string>
+  <string name="portrait_mode">حالت عمودی</string>
+  <string name="portrait_mode_summary">انتخاب چیدمان معمولی، T9 یا فشرده برای حالت عمودی</string>
+  <string name="candidate_color">رنگ کلمات پیشنهادی</string>
+  <string name="candidate_color_summary">رنگ کلمه پیشنهادی را در نوار پیشنهاد</string>
+  <string name="welcome">برای نصب این برنامه متشکریم \ @! \ n \ n برای فعال کردن این صفحه کلید ، برو به \ "زبان و صفحه کلید \" (\ "محلی و متن \") تنظیمات ، و \ "\ @ \" جعبه چک کنید. سپس ، به \ @ ، در هر جعبه متن ورودی شما را به مطبوعات طولانی نیاز دارند ، را انتخاب کنید \ "روش ورودی \" سوئیچ ، و انتخاب \ @ در لیست. شما مدت می تواند بر روی \ "123 \" را فشار دهید کلید ورود به تنظیمات صفحه کلید. \ N \ nNow ، به منو تنظیمات (شما می توانید در زیر کلیک کنید) بروید ، و لذت بردن از \ N \ nNote : شما می توانید آیکون پرتاب در تنظیمات صفحه کلید را حذف</string>
+  <string name="disable_launcher">غیر فعال کردن نماد پرتاب</string>
+  <string name="disable_launcher_warning">هشدار! این کار آیکن برنامه را از لانچر شما مخفی میکند
+شاید نیاز باشد که گوشی خود را راه اندازی مجدد کنید !
+برای تکمیل این مرحله و ناپدید شدن ایکن .</string>
+  <string name="space_when_pick">فاصله بعد از برداشت</string>
+  <string name="space_when_pick_summary">درج فاصله هنگام انتخاب دستی کلمه از نوار پیشنهاد</string>
+  <string name="swap_punctuation_space">تعویض نقطه گذاری</string>
+  <string name="swap_punctuation_space_summary">تعویض خودکار نقطه گذاری و فاصله پس از یک کلمه</string>
+  <string name="smiley_key">کلید خندانک</string>
+  <string name="smiley_key_summary">نمایش کلید خندانک بجای کلید اینتر</string>
+  <string name="toggle_smiley_key">تغییر کلید خندانک</string>
+  <string name="select_sound">انتخاب سبک صدا</string>
+  <string name="smiley_editor">ویرایشگر خندانک</string>
+  <string name="smiley_editor_summary">سفارشی کردن کلید خندانک</string>
+  <string name="smiley_editor_title">ویرایش خندانک</string>
+  <string name="edit_smiley">ویرایش خندانک</string>
+  <string name="smart_dictionary">واژه نامه هوشمند</string>
+  <string name="smart_dictionary_summary">واژه نامه ای که کلمات شما را یاد میگیرد برای بهبود پیشنهادات</string>
+  <string name="backup">تنظیمات پشتیبان</string>
+  <string name="backup_to_sd">پشتیبان گیری به کارت حافظه</string>
+  <string name="restore">بازیابی از کارت حافظه</string>
+  <string name="no_sd_card">خطا:کارت حافظه ی شما نصب نشده است، بازیابی/تهیه پشتیبان امکان پذیر نمی باشد.</string>
+  <string name="backup_warning">اخطار! شما در حال تهیه نسخه پشتیبان هستید که این نسخه جایگزین نسخه ی پشتیبان قبلی می شود. آیا می خواهید ادامه دهید ؟</string>
+  <string name="restore_warning">اخطار! شما در حال بازیابی تنظیمات و واژه نامه هستید که جایگزین تنظیمات فعلی می شود، آیا می خواهید ادامه دهید ؟</string>
+  <string name="backup_complete">پشتیبان گیری کامل شد</string>
+  <string name="slide_popup">اسلاید پنجره صفحه کلید</string>
+  <string name="slide_popup_summary">اسلاید انگشت برای انتخاب حرف روی صفحه کلید پنجره</string>
+  <string name="space_preview">پیش نمایش فاصله</string>
+  <string name="space_preview_summary">پیش نمایش برای کلید فاصله</string>
+  <string name="turkish">ترکی</string>
+  <string name="hungarian">مجارستانی</string>
+  <string name="icelandic">ایسلندی</string>
+  <string name="bosnian">بوسنیایی</string>
+  <string name="croatian">کرواتی</string>
+  <string name="serbian">صربی</string>
+  <string name="slovene">اسلوونی</string>
+  <string name="close">بستن</string>
+  <string name="arabic">عربی</string>
+  <string name="layout">چیدمان</string>
+  <string name="force_latin">چیدمان لاتین</string>
+  <string name="force_latin_summary">چیدمان برای تمام زبان های لاتین استفاده شود</string>
+  <string name="default_latin_lang">پیش فرض</string>
+  <string name="korean">کره ای</string>
+  <string name="rtl_suggestions">پیشنهادات راست به چپ</string>
+  <string name="rtl_suggestions_summary">معکوس کردن کلمات در نوار پیش بینی (برای پارسی / عبری)</string>
+  <string name="clean_userdic">پاک کردن واژه نامه کاربر</string>
+  <string name="warn_clean_userdic">هشدار! تمام کلمات موجود در واژه نامه کاربر حذف خواهد شد. آیا شما می خواهید ادامه دهید؟</string>
+  <string name="suggest_punctuation">پیشنهاد نقطه گذاری</string>
+  <string name="key_height">ارتفاع کلید</string>
+  <string name="thai">تایلندی</string>
+  <string name="longpress_duration">مدت زمان نگه داشتن کلید</string>
+  <string name="longpress_duration_summary">مدت زمان نگه داشتن کلید برای نماد های جایگزین</string>
+  <string name="learn_new_words">یادگیری لغات جدید</string>
+  <string name="learn_new_words_summary">افزودن خودکار واژه های جدید به واژه نامه کاربر (واژه نامه هوشمند نیاز دارد)</string>
+  <string name="enter_sends_sms">ارسال پیام با کلید اینتر</string>
+  <string name="enter_sends_sms_summary">کلیدی را وارد کنید پیام به جای قرار دادن یک خط جدید می فرستد. هشدار : آن را ندارد ، در همه برنامه کار نمی کند! (نگاه کنید به کاربر \ \'راهنمای)</string>
+  <string name="slovak">اسلواک</string>
+  <string name="bk_warning">هشدار! این پوسته برای صفحه کلید بهتر است. در هر لحظه امکان مشکل در سازگاری با صفحه کلید هوشمند وجود دارد، پس با مسولیت خود از آن استفاده کنید.</string>
+  <string name="domain_editor">ویرایشگر دامنه</string>
+  <string name="domain_editor_summary">سفارشی کردن کلید. com</string>
+  <string name="domain_editor_title">برای ویرایش دامنه لمس کنید</string>
+  <string name="edit_domain">ویرایش دامنه</string>
+  <string name="persistent_domain_key">کلید دامنه مداوم</string>
+  <string name="persistent_domain_key_summary">همیشه نمایش کلید دامنه (.com)</string>
+  <string name="no_alt_preview">بدون پیش نمایش دگرساز</string>
+  <string name="no_alt_preview_summary">عدم نمایش پیش نمایش برای کاراکتر های جایگزین اگر یکی وجود داشت</string>
+  <string name="dynamic_resizing">تغییر اندازه پویا کلید</string>
+  <string name="dynamic_resizing_summary">تغییر اندازه مجازی کلیدها مبتنی بر حرف بعدی</string>
+  <string name="esperanto">اسپرانتو</string>
+  <string name="japanese">ژاپنی</string>
+  <string name="double_space_period">فاصله معین در دوبار فشردن کلید فاصله</string>
+  <string name="double_space_period_summary">ایجاد فاصله ی معین هنگام دوبار فشردن کلید فاصله</string>
+  <string name="arrows_style">سبک پیکان</string>
+  <string name="arrows_style_summary">انتخاب سبک صفحه کلید پیکان</string>
+  <string name="disable_mt">غیر فعال کردن multitouch</string>
+  <string name="compound_suggestions">پیشنهادات ترکیبی</string>
+  <string name="compound_suggestions_summary">فعال سازی پیشنهادات برای واژه های ترکیبی (عمدتا برای آلمانی)</string>
+  <string name="current_language">زبان کنونی</string>
+  <string name="language_specific_options">گزینه های خاص زبان</string>
+  <string name="no_lansdcape_fullscreen">بدون تمام صفحه افقی</string>
+  <string name="no_lansdcape_fullscreen_summary">عدم تعویض به تمام صفحه در حالت افقی</string>
+  <string name="t9_length_priority">T9 طول اولویت</string>
+  <string name="t9_length_priority_summary">دادن اولویت به کلمات با طول یکسان هنگام نمایش پیشنهادات در حالت T9</string>
+  <string name="t9_next_key">T9 کلید بعدی</string>
+  <string name="t9_next_key_summary">نمایش دکمه بعدی در حالت عمودی T9</string>
+  <string name="suggest_numbers">پیشنهاد اعداد</string>
+  <string name="suggest_numbers_summary">فعال سازی پیشنهادات برای واژه ها ای که با یک نویسه غیر الفبایی شروه می شوند</string>
+  <string name="trial_popup">این نسخه آزمایشی است. همین الان نسخه کامل برنامه را بگیرید تا هم از برنامه حمایت کنید و هم از شر این صفحه خلاص شوید :)</string>
+  <string name="buy">خرید</string>
+  <string name="no_thanks">نه ممنون</string>
+  <string name="chinese_simplified">چینی (ساده شده)"</string>
+  <string name="yes">بله</string>
+  <string name="no">نه</string>
+  <string name="english_dic">شما برای دانلود نیاز به \ "انگلیسی برای صفحه کلید هوشمند \" از بازار آندروید برای فعال کردن پیشنهادات انگلیسی و تصحیح خودکار است. آیا شما می خواهید آن را دانلود کنید در حال حاضر؟</string>
+  <string name="physical_kbd">صفحه کلید فیزیکی</string>
+  <string name="physical_kbd_summary">فعال کردن پیشنهادات و کلید ترجمه با صفحه کلید فیزیکی. برای تغییر زبان از Shift+Space استفاده کنید.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">ورودی صدا</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">ورودی صدا در حال حاضر برای زبان شما پشتیبانی نمی شود اما برای زبان انگلیسی کار می کند.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">ورودی صدا از ویژگی های تجربی با استفاده از گوگل \ \'شبکه رسمیت شناختن آزادی بیان است.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">برای خاموش کردن صدای ورودی به تنظیمات صفحه کلید بروید.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">هم اکنون صحبت کنید</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">در حال کار</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">خطا. لطفا دوباره امتحان کنید.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">عدم اتصال</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">خطا ، سخنرانی بیش از حد.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">مشکل صدا</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">خطای سرور</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">صدایی شنیده نشد</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">هیچ مورد سازگاری یافت نشد</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">جستجوی صوتی نصب نشده</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">باشه</string>
+  <string name="estonian">استونیایی</string>
+  <string name="lithuanian">لیتوانیایی</string>
+  <string name="latvian">لتونی</string>
+  <string name="only_one_language">هشدار! شما تنها یک زبان برای کلید زبان انتخاب کرده اید ، این کلید به شما نشان داده نمی شود ، اما این زبان تنظیم شده است.</string>
+  <string name="different_language">هشدار! زبانی که شما انتخاب کرده اید 
+زبانی نیست که شما در قمست کلید انتخاب زبان تعریف کرده اید !</string>
+  <string name="hebrew_alt">چیدمان دگرساز عبری</string>
+  <string name="hebrew_alt_summary">کلید backspace را در سمت چپ در چیدمان عبری قرار دهید</string>
+  <string name="portrait_fullscreen">تمام صفحه در حالت عمودی</string>
+  <string name="portrait_fullscreen_summary">تنظیم صفحه کلید در حالت تمام صفحه در جهت عمودی (بر روی صفحه نمایش بسیار کوچک می تواند مفید باشد)</string>
+  <string name="czech_full">طرح بندی کامل چک / اسلواکی</string>
+  <string name="czech_full_summary">شامل یک ردیف بالا با حروف لهجه در طرح بندی چک و اسلواکی</string>
+  <string name="swipe_sensitivity">حساسیت به ضربه تند وشدید زدن</string>
+  <string name="swipe_sensitivity_summary">تنظیم حساسیت از حرکات و اشارات. هشدار : اگر حساسیت را بیش از حد افزایش دهید ، تایپ کردن چند لمسی می تواند به عنوان یک حرکت و اشاره تفسیر شود.</string>
+  <string name="catalan">کاتالان</string>
+  <string name="multitap_interval">Multitap فاصله</string>
+  <string name="multitap_interval_summary">تنظیم تاخیر حداکثر برای multitap ، به عنوان مثال در T9 و یا کره ای \ "کوتاه صامت ، \" طرح بندی.</string>
+  <string name="persian">پارسی</string>
+  <string name="calibration">درجه بندی</string>
+  <string name="calibration_summary">کالیبره کردن صفحه کلید به منظور بهبود دقت</string>
+  <string name="calibration_instructions">برای مدرج کردن صفحه کلید خود متن زیر را تایپ کنید :</string>
+  <string name="calibration_done">کالیبراسیون است به پایان رسید! با کلیک بر روی \ "ذخیره \" را به استفاده از تنظیمات جدید ، یا \ "لغو \" به دوباره سعی کنید. توجه داشته باشید که شما باید کالیبراسیون در هر دو پرتره و حالت افقی برای نتایج بهتر اجرا.</string>
+  <string name="calibration_profile_is">مشخصات کالیبراسیون شما :</string>
+  <string name="calibration_reset">شما در حال تنظیم مجدد تنظیمات به مقدار پیش فرض هستید. می خواهید ادامه دهید؟</string>
+  <string name="reset">تنظیم مجدد</string>
+  <string name="save">ذخیره</string>
+  <string name="get_skins">دریافت پوسته های بیشتر...</string>
+  <string name="sms_mode">حالت پیام کوتاه</string>
+  <string name="sms_mode_summary">حذف لهجه طولانی از پیشنهاد کلمات هنگام نوشتن پیام کوتاه</string>
+  <string name="key_height_summary">سفارشی کردن ارتفاع کلید</string>
+  <string name="alt_symbols">نمادهای دگرساز</string>
+  <string name="alt_symbols_summary">نشان دادن برچسب دگرساز در نمادهای صفحه (123)</string>
+  <string name="hide_period">پنهان کردن کلید دوره</string>
+  <string name="hide_period_summary">مخفی کردن کلید دوره برای بزرگ شدن کلید فاصله.</string>
+  <string name="hide_comma">پنهان کردن ویرگول</string>
+  <string name="hide_comma_summary">پنهان کردن کلید ویرگول (یا میکروفون) برای بزرگ شدن نوار فاصله</string>
+  <string name="bottom_padding">بالشتک پایین</string>
+  <string name="bottom_padding_summary">اضافه کردن فضای اضافی در پایین صفحه کلید در حالت عمودی</string>
+  <string name="apostrophe_separator">رشته جدا کننده</string>
+  <string name="apostrophe_separator_summary">مخصوص کاربران ایتالیایی</string>
+  <string name="ignore_hard_kbd">نادیده گرفتن صفحه کلید سخت</string>
+  <string name="ignore_hard_kbd_summary">نمایش صفحه کلید در حالت افقی حتی اگر صفحه کلید سخت وجود داشته باشد(مفید در Droid Pro)</string>
+  <string name="pinyin">پین یین</string>
+  <string name="tatar">تاتاری</string>
+  <string name="custom_punctuation">علامت گذاری سفارشی</string>
+  <string name="custom_punctuation_summary">سفارشی کردن علائم نقطه گذاری نمایش داده شده در نوار پیشنهاد</string>
+  <string name="kazakh">قزاقستان</string>
+  <string name="azerbaijani">آذربایجانی</string>
+  <string name="armenian">ارمنی</string>
+  <string name="vietnamese">ویتنامی</string>
+  <string name="no_landscape_suggestions">بدون پیشنهادات در حالت افقی</string>
+  <string name="no_landscape_suggestions_summary">عدم نمایش نوار پیشنهاد در حالت عمودی</string>
+  <string name="arrows_main">نمایش پیکان ها</string>
+  <string name="arrows_main_summary"> انتخاب کنید هنگامی که کلیدهای جهت نما روی صفحه کلید اصلی نمایش داده می شوند</string>
+  <string name="cursor_volume">مکان نما با کلید صدا</string>
+  <string name="cursor_volume_summary">حرکت مکان نما با کلیدهای صدا</string>
+  <string name="export_user_dic">صادر کردن واژه نامه کاربر</string>
+  <string name="export_user_dic_summary">صادر کردن واژه نامه کاربر در قالب CSV</string>
+  <string name="export_autotext">صادر کردن متن آماده</string>
+  <string name="export_autotext_summary">صادر کردن میانبرهای متن آماده در قالب CSV</string>
+  <string name="import_user_dic">وارد کردن واژه نامه کاربر</string>
+  <string name="import_autotext">وارد کردن متن آماده</string>
+  <string name="export_complete">صادر کردن CVS کامل شد</string>
+  <string name="import_complete">وارد کردن CVS کامل شد</string>
+  <string name="export_user_dic_warning">هشدار! شما در حال ایجاد فایل واژه نامه هستید که جایگزین واژه نامه ی پیشین می شود. آیا می خواهید ادامه دهید ؟</string>
+  <string name="import_user_dic_warning">هشدار! شما در حال وارد کردن واژه نامه کاربر هستید که جایگزین واژه نامه کاربر فعلی می شود. آیا می خواهید ادامه دهید ؟</string>
+  <string name="export_autotext_warning">هشدار! شما در حال ایجاد واژه نامه متن آماده هستید که جایگزین واژه نامه متن آماده پیشین می شود. آیا می خواهید ادامه دهید ؟</string>
+  <string name="import_autotext_warning">هشدار! شما در حال وارد کردن واژه نامه متن آماده هستید که جایگزین واژه نامه متن آماده فعلی می شود. آیا می خواهید ادامه دهید ؟</string>
+  <string name="accents_priority">اولویت لهجه ها</string>
+  <string name="accents_priority_summary">قرار دادن لهجه ها در اولویت بجای دگرساز ها هنگام نگه داشتن کلید. کارامد برای بعضی زبان ها</string>
+  <string name="afrikaans">آفریکانس</string>
+  <string name="mongolian">مغولی</string>
+  <string name="prefs_enable_recorrection">لمس عبارت درست</string>
+  <string name="prefs_enable_recorrection_summary">لمس کلمات وارد شده برای تصحیح آنها</string>
+  <string name="macedonian">مقدونيه اي</string>
+  <string name="luxembourgish">لوگزامبورگی</string>
+  <string name="albanian">آلبانیایی</string>
+  <string name="belarusian">بلاروس</string>
+  <string name="indonesian">اندونزیایی</string>
+  <string name="alt_compact">توسعه یافته فشرده/T9</string>
+  <string name="alt_compact_summary">برای حالت نمایش همه compact/T9 فشار دادن طولانی </string>
+  <string name="backup_failed">پشتیبانی انجام نشد!</string>
+  <string name="restore_failed">بازیابی انجام نشد! فایل پشتیبان احتمالا خراب شده است.</string>
+  <string name="hide_in_portrait">پنهان در حالت عمودی</string>
+  <string name="hide_in_portrait_summary">پنهان کردن صفحه کلید در حالت عمودی (مفید در Droid Pro)</string>
+  <string name="twitter">توییتر</string>
+  <string name="space_alert">هشدار فاصله</string>
+  <string name="space_alert_summary">ارتعاش تنها برای نوار فاصله</string>
+  <string name="unicode">یونیکد</string>
+  <string name="hide_lang_key">پنهان کردن کلید زبان</string>
+  <string name="hide_lang_key_summary">پنهان کردن کلید انتخاب زبان هنگامی که زبان های مختلف فعال هستند</string>
+  <string name="show_language_icon">نمایش ایکون زبان</string>
+  <string name="show_language_icon_summary">نمایش ایکون زبان در نوار وضعیت</string>
+  <string name="domain_key">کلید دامنه</string>
+  <string name="domain_key_summary">نمایش کلید دامنه (.com)</string>
+  <string name="numbers_top">اعداد در بالا</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"به <xliff:g id="APPLICATION_NAME">%s</xliff:g> خوش آمدید"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"با ورودی اشاره‌ای"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"شروع به کار"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"مرحله بعد"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"راه‌اندازی <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"فعال‌سازی <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"لطفاً «<xliff:g id="APPLICATION_NAME">%s</xliff:g>» را در تنظیمات زبان و ورودی خود علامت بزنید. این کار مجوز اجرای آن در دستگاه شما است."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"فعال‌سازی در تنظیمات"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"جابجایی به <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"در مرحله بعد، با انتخاب «<xliff:g id="APPLICATION_NAME">%s</xliff:g>» به عنوان روش ورودی نوشتار خود آن را فعال نمایید."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"تغییر روش‌های ورودی"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"تبریک می‌گوییم، اکنون کاملاً آماده هستید!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"اکنون می‌توانید در همه برنامه‌های دلخواه خود با <xliff:g id="APPLICATION_NAME">%s</xliff:g> تایپ کنید."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"پیکربندی زبان‌های دیگر"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"تمام شد"</string>
+  </resources>

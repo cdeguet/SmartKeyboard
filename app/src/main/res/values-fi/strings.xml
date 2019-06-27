@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Ohje</string>
+  <string name="about">Tietoja...</string>
+  <string name="auto_cap">Automaattisesti isot kirjaimet</string>
+  <string name="auto_cap_summary">Lauseet alkavat isoilla kirjaimilla</string>
+  <string name="keyboard_settings">Smart Keyboard Pro:n asetukset</string>
+  <string name="settings">Asetukset</string>
+  <string name="general_settings">Yleiset asetukset</string>
+  <string name="text_prediction">Tekstin ennustaminen</string>
+  <string name="sound_vibrate">Ääni ja tärinä</string>
+  <string name="language">Kieli</string>
+  <string name="language_summary">Vaihda näppäimistön kieli ja ulkoasu</string>
+  <string name="lang_key">Kielen valintanäppäin</string>
+  <string name="lang_key_summary">Valitse käytettävissä olevista kielistä</string>
+  <string name="english">englanti</string>
+  <string name="english_intl">englanti (kansainvälinen)</string>
+  <string name="english_dvorak">englanti (Dvorak)</string>
+  <string name="english_azerty">englanti (AZERTY)</string>
+  <string name="french">ranska</string>
+  <string name="romanian">romania</string>
+  <string name="bulgarian">bulgaria</string>
+  <string name="russian">venäjä</string>
+  <string name="russian_phonetic">venäjä (foneettinen)</string>
+  <string name="spanish">espanja</string>
+  <string name="italian">italia</string>
+  <string name="german">saksa</string>
+  <string name="portuguese">portugali</string>
+  <string name="danish">tanska</string>
+  <string name="finnish">suomi</string>
+  <string name="hebrew">heprea</string>
+  <string name="norwegian">norja</string>
+  <string name="swedish">ruotsi</string>
+  <string name="georgian">georgia</string>
+  <string name="czech_qwerty">tšekki (QWERTY)</string>
+  <string name="czech_qwertz">tšekki (QWERTZ)</string>
+  <string name="greek">kreikka</string>
+  <string name="dutch">hollanti</string>
+  <string name="polish">puola</string>
+  <string name="ukrainian">ukraina</string>
+  <string name="vibrate">Tärinä</string>
+  <string name="vibrate_summary">Tärinä painalluksesta</string>
+  <string name="vibrate_duration">Tärinän kesto</string>
+  <string name="label_go_key">Siirry</string>
+  <string name="label_next_key">Seur</string>
+  <string name="label_done_key">Valmis</string>
+  <string name="label_send_key">Lähetä</string>
+  <string name="advanced_settings">Lisäasetukset</string>
+  <string name="sound_on_keypress">Ääni painalluksesta</string>
+  <string name="gestures">Eleet</string>
+  <string name="swipe_left">Pyyhkäisy vasemmalle</string>
+  <string name="swipe_right">Pyyhkäisy oikealle</string>
+  <string name="swipe_up">Pyyhkäisy ylös</string>
+  <string name="swipe_down">Pyyhkäisy alas</string>
+  <string name="saved">Tallennettu</string>
+  <string name="quick_fixes">Pikakorjaukset</string>
+  <string name="quick_fixes_summary">Korjaa yleisimmät kirjoitusvirheet</string>
+  <string name="show_suggestions">Näytä ehdotukset</string>
+  <string name="show_suggestions_summary">Näytä ehdotetut sanat kirjoittaessa</string>
+  <string name="auto_complete">Automaattinen täydennys</string>
+  <string name="auto_complete_summary">Välilyönti ja välimerkkien lisääminen automaattisesti korostetun sanan kohdalla</string>
+  <string name="contact_dic">Yhteystiedot-sanasto</string>
+  <string name="contact_dic_summary">Sisällytä yhteystiedot ehdotuksiin (tarvitaan Android 2.0)</string>
+  <string name="show_preview">Näytä esikatselu-ponnahdusikkuna</string>
+  <string name="show_preview_summary">Näytä ponnahdusikkuna, kun näppäintä painetaan</string>
+  <string name="skin_selection">Valitse teema</string>
+  <string name="skin_summary">Vaihda näppäimistön teemaa</string>
+  <string name="transparency">Läpinäkyvä</string>
+  <string name="opacity">Aseta läpinäkyvyys</string>
+  <string name="transparency_summary">Määritä näppäimistön läpinäkyvyys</string>
+  <string name="volume">Äänenvoimakkuus</string>
+  <string name="volume_summary">Määritä näppäinpainnalluksen äänenvoimakkuus</string>
+  <string name="debug_logs">Ota virheenkorjauslokit käyttöön</string>
+  <string name="always_suggest">Ehdota aina</string>
+  <string name="always_suggest_summary">Näytä myös ehdotuksia hauissa</string>
+  <string name="custom_autotext">Mukautettu automaattinen teksti</string>
+  <string name="custom_autotext_summary">Muokkaa automaattinen teksti -pikakuvakkeita</string>
+  <string name="add_autotext">Lisää automaattinen teksti...</string>
+  <string name="edit_autotext">Muokkaa automaattinen teksti</string>
+  <string name="autotext_key">Seuraava sana:</string>
+  <string name="autotext_value">korvataan:</string>
+  <string name="autotext_context_edit">Muokkaa</string>
+  <string name="autotext_context_delete">Poista</string>
+  <string name="enable_arrows">Ota nuoli-näppäimet käyttöön</string>
+  <string name="enable_arrows_summary">Siirtyminen 123-näppäimellä</string>
+  <string name="always_caps">Aina isolla</string>
+  <string name="always_caps_summary">Näppäimien kirjaimet näkyvät isoina</string>
+  <string name="display_alt_labels">Näytä alt-merkit</string>
+  <string name="display_alt_labels_summary">Näytä vaihtoehtoinen tunnus näppäimen tunnuksen yläpuolella</string>
+  <string name="user_dictionary">Käyttäjän sanakirja</string>
+  <string name="user_dictionary_summary">Muokkaa sanat käyttäjän sanastoon</string>
+  <string name="add_word">Lisää sana</string>
+  <string name="edit_word">Muokkaa sanaa</string>
+  <string name="delete_word">Poista sana</string>
+  <string name="word">Sana</string>
+  <string name="forum">Foorumi</string>
+  <string name="download_dic">Lataa sanakirja</string>
+  <string name="download_dic_summary">Lataa sanakirjat Android Marketista</string>
+  <string name="mic_button">Mikrofoni-painike</string>
+  <string name="mic_button_summary">Näytä ääniohjaus-näppäintä, kun mahdollista</string>
+  <string name="voice_input">Ääniohjaus</string>
+  <string name="cancel">Peruuta</string>
+  <string name="retry">Yritä uudelleen</string>
+  <string name="restart_voice">Käynnistä uudelleen ääniohjaus</string>
+  <string name="restart_voice_summary">Käynnistä aina ääniohjaus uudelleen, kunnes se peruutetaan</string>
+  <string name="voice_best">Ääniohjauksen paras vaihtoehto</string>
+  <string name="voice_best_summary">Valitse automaattisesti paras vaihtoehto</string>
+  <string name="touch_points">Näytä kosketuspisteet</string>
+  <string name="portrait_mode">Pystysuuntainen</string>
+  <string name="portrait_mode_summary">Valitse normaali, T9 tai kompakti ulkoasu pystyasennossa</string>
+  <string name="candidate_color">Ehdotetun sanan väri</string>
+  <string name="candidate_color_summary">Ehdotus-rivin suositellun sanan väri</string>
+  <string name="welcome">Kiitos, että asensit \@!\n\n
+
+Ottaaksesi näppäimistön käyttöön, siirry \"Kieli ja näppäimistön\" (tai \"Sijainti ja teksti) -asetuksiin ja ruksaa \"\@\" laatikko. Ottaaksesi \@ käyttöön sinun tarvitsee painaa pitkää mitä tahansa tekstisyöttölaatikkoa ja painaa \"Tekstinsyöttötapa\" ja valita \@ listalta. Voit painaa \"123\"-painiketta siirtyäksesi näppäimistöasetuksiins.\n\n
+
+Nyt voit siirtyä asetuksiin (paina alhaalta) ja nauti!n\n
+
+Huomaa: voit poistaa käynnistyskuvakkeen näppäimistönasetuksista.</string>
+  <string name="disable_launcher">Poista käynnistyskuvake</string>
+  <string name="disable_launcher_warning">Varoitus! Tämä poistaa Smart Keyboard -kuvakkeen käynnistyssovelluksesta, mutta poistaa myös \"Avaa\"-painikkeen Market-sovelluksesta!\nSaatat joutua käynnistämään puhelimesi uudelleen ennen kuin kuvake poistuu käynnistyssovelluksesta.</string>
+  <string name="space_when_pick">Välilyönti valinnan jälkeen</string>
+  <string name="space_when_pick_summary">Lisää välilyönti valitessa sanan manuaalisesti ehdotus-riviltä</string>
+  <string name="swap_punctuation_space">Vaihda välimerkin paikka</string>
+  <string name="swap_punctuation_space_summary">Vaihda automaattisesti välimerkin ja välilyönnin paikkaa sanan jälkeen</string>
+  <string name="smiley_key">Hymiönäppäin</string>
+  <string name="smiley_key_summary">Näytä hymiö-näppäin enterin sijaan</string>
+  <string name="toggle_smiley_key">Vaihda hymiöihin</string>
+  <string name="select_sound">Valitse äänityyli</string>
+  <string name="smiley_editor">Hymiö-editori</string>
+  <string name="smiley_editor_summary">Muokkaa hymiö-näppäintä</string>
+  <string name="smiley_editor_title">Kosketa muokataaksesi hymiötä</string>
+  <string name="edit_smiley">Muokkaa hymiötä</string>
+  <string name="smart_dictionary">Älykäs Sanakirja</string>
+  <string name="smart_dictionary_summary">Sanakirja, joka oppii parantamaan ehdotuksia kirjoittamiesi sanojen esiintymistiheyden perusteella</string>
+  <string name="backup">Varmuuskopio asetukset</string>
+  <string name="backup_to_sd">Varmuuskopioi SD-kortille</string>
+  <string name="restore">Palauta SD-kortilta</string>
+  <string name="no_sd_card">Virhe: SD-kortti ei ole asennettu, varmuuskopiointi/palauttaminen ei ole mahdollista!</string>
+  <string name="backup_warning">Varoitus! Olet varmuuskopioinnut Smart Keyboard PRO:n asetukset ja sanakirjat.
+Tämä korvaa /sdcard/smartkeyboardpro/backup.zip tiedoston. Haluatko jatkaa?</string>
+  <string name="restore_warning">Varoitus! Olet palauttanut Smart Keyboard PRO:n asetukset ja sanakirjat.
+Tämä korvaa nykyiset asetukset. Näppäimistö on käynnistettävä uudelleen ottakseen muutokset voimaan.
+Haluatko jatkaa?</string>
+  <string name="backup_complete">Varmuuskopio on valmis</string>
+  <string name="slide_popup">Ponnahdusnäppäimistö liu\'uttamalla</string>
+  <string name="slide_popup_summary">Liu\'uta sormeasi valitaksesi aksenttimerkin ponnahdusnäppäimistöltä</string>
+  <string name="space_preview">Tilan esikatselu</string>
+  <string name="space_preview_summary">Esikatsele välilyöntinäppäintä</string>
+  <string name="turkish">turkki</string>
+  <string name="hungarian">unkari</string>
+  <string name="icelandic">islanti</string>
+  <string name="bosnian">bosnia</string>
+  <string name="croatian">kroatia</string>
+  <string name="serbian">serbia</string>
+  <string name="slovene">sloveeni</string>
+  <string name="close">Sulje</string>
+  <string name="arabic">arabia</string>
+  <string name="layout">Asettelu</string>
+  <string name="force_latin">Pakota latinalainen asettelu</string>
+  <string name="force_latin_summary">Pakotettu asettelu voidaan käyttää kaikkien latinalaisilla kielillä</string>
+  <string name="korean">korea</string>
+  <string name="rtl_suggestions">RTL-ehdotukset</string>
+  <string name="rtl_suggestions_summary">Käänteiset sanat ennuste-rivillä (arabialle/heprealle)</string>
+  <string name="clean_userdic">Tyhjennä käyttäjän sanakirja</string>
+  <string name="warn_clean_userdic">Varoitus! Tämä poistaa kaikki sanat käyttäjän sanakirjasta. Haluatko jatkaa?</string>
+  <string name="suggest_punctuation">Ehdota välimerkkejä</string>
+  <string name="key_height">Näppäimen korkeus</string>
+  <string name="thai">thai</string>
+  <string name="longpress_duration">Pitkön painalluksen kesto</string>
+  <string name="longpress_duration_summary">Mukauta vaihtoehtoisten symbolien painalluksen kestoa</string>
+  <string name="learn_new_words">Opi uusia sanoja</string>
+  <string name="learn_new_words_summary">Lisää automaattisesti uudet sanat käyttäjän sanakirjaan (vaatii älykästä sanakirjaa)</string>
+  <string name="enter_sends_sms">Enter-painike lähettää viestin</string>
+  <string name="enter_sends_sms_summary">Enter-näppäin lähettää viestin uuden rivin sijaan. Varoitus: se ei toimi kaikissa sovelluksissa!(ks. käyttäjän opas)</string>
+  <string name="slovak">slovakki</string>
+  <string name="bk_warning">Varoitus! Tämä teema on Better Keyboard -sovellukselle. Yhteensopivuus Smart Keyboardin kanssa voi olla epävakaa, joten käytä omalla vastuullasi!</string>
+  <string name="domain_editor">Verkkotunnus-editori</string>
+  <string name="domain_editor_summary">Mukauta .com-näppäintä</string>
+  <string name="domain_editor_title">Kosketa muokataaksesi verkkotunnusta</string>
+  <string name="edit_domain">Muokkaa verkkotunnusta</string>
+  <string name="persistent_domain_key">Pysyvä domain-näppäin</string>
+  <string name="persistent_domain_key_summary">Näytä aina verkkotunnus-näppäin (.com)</string>
+  <string name="no_alt_preview">Ei alt-esikatselua</string>
+  <string name="no_alt_preview_summary">Älä näytä esikatselua vaihtoehtoiselle merkille jos vain yksi merkki</string>
+  <string name="dynamic_resizing">Dynaaminen näppäimen koon muuttaminen</string>
+  <string name="dynamic_resizing_summary">Muuta näppäinten kokoa seuraavan kirjaimen todennäköisyyden perusteella</string>
+  <string name="esperanto">esperanto</string>
+  <string name="japanese">japani</string>
+  <string name="double_space_period">Tuplavälilyönti pisteeksi</string>
+  <string name="double_space_period_summary">Kaksoinvälilyönti muuttuu pisteeksi</string>
+  <string name="arrows_style">Nuolien tyyli</string>
+  <string name="arrows_style_summary">Valitse nuoli-näppäimistön tyyli</string>
+  <string name="disable_mt">Poista monikosketus käytöstä</string>
+  <string name="compound_suggestions">Yhdyssana ehdotukset</string>
+  <string name="compound_suggestions_summary">Ota ehdotetut yhdyssanat käyttöön (lähinnä saksaksi)</string>
+  <string name="current_language">Nykyinen kieli</string>
+  <string name="language_specific_options">Kielikohtaiset asetukset</string>
+  <string name="no_lansdcape_fullscreen">Älä käytä kokoruutu-tilaa vaaka-asennossa</string>
+  <string name="no_lansdcape_fullscreen_summary">Älä käytä kokoruutu-tilaa vaaka-asennossa</string>
+  <string name="t9_length_priority">T9 pituuden prioriteetti</string>
+  <string name="t9_length_priority_summary">Etusijalle yhtä pitkiä sanoja, kun näytetään T9-ehdotuksia</string>
+  <string name="t9_next_key">T9:n seuraava-näppäin</string>
+  <string name="t9_next_key_summary">Näytä seuraava-painiketta T9-pystyasennossa</string>
+  <string name="suggest_numbers">Ehdota numerot</string>
+  <string name="suggest_numbers_summary">Ota käyttöön ehdotukset sanoille, jotka eivät ala kirjainmerkillä</string>
+  <string name="trial_popup">Tämä on kokeiluversio. Hanki heti "Smart Keyboard Pro" sovelluksen tukemiseksi ja et näe tätä ärsyttävää ponnahdusikkunaa uudelleen :)</string>
+  <string name="buy">Osta</string>
+  <string name="no_thanks">Ei, kiitos</string>
+  <string name="chinese_simplified">kiina (yksinkertaistettu)</string>
+  <string name="yes">Kyllä</string>
+  <string name="no">Ei</string>
+  <string name="english_dic">Sinun täytyy ladata \"English for Smart Keyboard\" Android Marketista, jotta ehdotukset ja automaattinen korjaus otetaan käyttöön. Haluatko ladata sen nyt?</string>
+  <string name="physical_kbd">Fyysinen näppäimistö</string>
+  <string name="physical_kbd_summary">Ota käyttöön ehdotukset ja näppäinmuunnokset käytettäessä fyysistä näppäimistöä. Vaihda kieltä painamalla vaihto+välilyönti.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Ääniohjaus</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Ääniohjaus ei tällä hetkellä tue käyttämääsi kieltä, mutta se toimii englanniksi.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Ääniohjaus on kokeellinen ominaisuus käyttää Google-verkon puheentunnistusta.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Ääniohjauksen poistaminen käyttöstä onnistuu menemällä näppäimistön asetuksiin.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Puhu nyt</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Työstetään</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Virhe. Ole hyvä ja yritä uudelleen.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Ei voitu yhdistää</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Virhe, liian paljon puhetta.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Ääni ongelma</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Palvelinvirhe</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Ei kuullut puhetta</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Ei yhtään osumaa</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Äänihakua ei ole asennettu</string>
+  <!-- Label on button when an error occurs -->
+  <string name="estonian">viro</string>
+  <string name="lithuanian">liettua</string>
+  <string name="latvian">latvia</string>
+  <string name="only_one_language">Varoitus! Kun valitset haluamasi kielen kieli-näppäimelle, tätä näppäintä ei näy, siitä huolimatta nykyinen kieli on määritetty kyseiseksi kieleksi.</string>
+  <string name="different_language">Varoitus! Valitsemellasi kielelläsi ei ole määritelty \"Kielen valintanäppäin\" -vaihtoehtoa!</string>
+  <string name="hebrew_alt">Heprean alt -asettelu</string>
+  <string name="hebrew_alt_summary">Siirrä askelpalautin-näppäin vasemalle Heprea-asettelussa</string>
+  <string name="portrait_fullscreen">Kokoruutu pystyasennossa</string>
+  <string name="portrait_fullscreen_summary">Aseta näppäimistö kokoruututilaan pystyasennossa (voi olla hyödyllinen pienillä näytöillä)</string>
+  <string name="czech_full">Tšekin/Slovakian täydellinen asettelu</string>
+  <string name="czech_full_summary">Lisää tsekin- ja slovakiankielisiin näppäinasetteluihin aksenttikirjaimet sisältävä ylärivi</string>
+  <string name="swipe_sensitivity">Pyyhkäisyn herkkyys</string>
+  <string name="swipe_sensitivity_summary">Aseta eleiden herkkyys. Varoitus: jos herkkyyden arvo on liian korkea, monikosketuksen kirjoittaminen voidaan tulkita eleenä.</string>
+  <string name="catalan">katalaani</string>
+  <string name="multitap_interval">Toistuvien painallusten väli</string>
+  <string name="multitap_interval_summary">Aseta maksimiviive toistuville painalluksille, esim. T9- tai korealaisessa \"lyhyiden vokaalien\" näppäinasetteluissa.</string>
+  <string name="persian">persia</string>
+  <string name="calibration">Kalibrointi</string>
+  <string name="calibration_summary">Kalibroi näppäimistö parantaaksesi tarkkuutta</string>
+  <string name="calibration_instructions">Kalibroida näppäimistö, kirjoita seuraava teksti:</string>
+  <string name="calibration_done">Kalibrointi on valmis! Valitse \"Tallenna\" käyttääksesi uusia asetuksia, tai \"Peruuta\" ja yrittää uudelleen. Huomaa, että sinun pitäisi suorittaa kalibrointi sekä pysty- että vaaka-asennossa saadaksei paremman tuloksen.</string>
+  <string name="calibration_profile_is">Kalibrointi-profiili on:</string>
+  <string name="calibration_reset">Olet palauttanut kalibroinnin asetukset oletusarvoihinsa. Haluatko jatkaa?</string>
+  <string name="reset">Palauta</string>
+  <string name="save">Tallenna</string>
+  <string name="get_skins">Hae lisää skinejä...</string>
+  <string name="sms_mode">SMS-tila</string>
+  <string name="sms_mode_summary">Poista laajennetut aksentit ehdotetuista sanoista kirjoitettaessa tekstiviestiä</string>
+  <string name="key_height_summary">Mukauta näppäimen korkeutta</string>
+  <string name="alt_symbols">ALT-symbolit</string>
+  <string name="alt_symbols_summary">Näytä alt-merkit symbolit (123) -paneelissa</string>
+  <string name="hide_period">Piilota piste</string>
+  <string name="hide_period_summary">Piilota piste-näppäin saadaksesi isomman välilyönti-näppäimen</string>
+  <string name="hide_comma">Piilota pilkku</string>
+  <string name="hide_comma_summary">Piilota pilkku- tai mikrofoni-näppäin saadaksesi isomman välilyönti-näppäimen</string>
+  <string name="bottom_padding">Alareunan näkyvyys</string>
+  <string name="bottom_padding_summary">Lisää ylimääräistä tilaa pystyasennossa näppäimistön alareunaan</string>
+  <string name="apostrophe_separator">Heittomerkki erotin</string>
+  <string name="apostrophe_separator_summary">Käsittele heittomerkkiä sanaerottimena (esim. italiankielessä)</string>
+  <string name="ignore_hard_kbd">Ohita kova näppäimistö</string>
+  <string name="ignore_hard_kbd_summary">Näytä pehmeä näppäimistö vaaka-asennossa, vaikka kova näppäimistö on käytössä (voidaan käyttää Droid Pro:n kanssa)</string>
+  <string name="custom_punctuation">Mukauta välimerkkejä</string>
+  <string name="custom_punctuation_summary">Mukauta ehdotuspalkissa näytettäviä välimerkkejä</string>
+  <string name="kazakh">kazakki</string>
+  <string name="azerbaijani">azeri</string>
+  <string name="armenian">armenia</string>
+  <string name="vietnamese">vietnam</string>
+  <string name="no_landscape_suggestions">Älä näytä ehdotuksia vaakatilassa</string>
+  <string name="no_landscape_suggestions_summary">Älä näytä ehdotuspalkkia vaakatilassa</string>
+  <string name="arrows_main">Näytä nuolet</string>
+  <string name="arrows_main_summary">Valitse, kun nuolinäppäimet näkyvät päänäppäimistössä</string>
+  <string name="cursor_volume">Kohdistin äänenvoimakkuudella</string>
+  <string name="cursor_volume_summary">Siirrä kohdistinta äänenvoimakkuuden säätimillä</string>
+  <string name="export_user_dic">Vie käyttäjän sanakirja</string>
+  <string name="export_user_dic_summary">Vie käyttäjän sanakirja CSV-muodossa</string>
+  <string name="export_autotext">Automaattisen tekstin vieminen</string>
+  <string name="export_autotext_summary">Vie automaattisen tekstin pikakuvakkeet CSV-muodossa</string>
+  <string name="import_user_dic">Tuo käyttäjän sanakirja</string>
+  <string name="import_autotext">Automaattisen tekstin tuominen</string>
+  <string name="export_complete">CVS-vienti valmis</string>
+  <string name="import_complete">CVS-tuonti valmis</string>
+  <string name="export_user_dic_warning">Varoitus! Olet viemässä käyttäjän sanakirjan tiedoston CSV-muodossa. Tämä korvaa /sdcard/smartkeyboardpro/userdic.csv. Haluatko jatkaa?</string>
+  <string name="import_user_dic_warning">Varoitus! Olet tuomassa käyttäjän sanakirjan CSV-tiedoston /sdcard/smartkeyboardpro/userdic.csv polusta. Tämä korvaa kokonaan nykyisen käyttäjän sanakirjan. Haluatko jatkaa?</string>
+  <string name="export_autotext_warning">Varoitus! Olet viemässä automaatisen tekstin sanakirjatiedoston CSV-muodossa. Tämä korvaa /sdcard/smartkeyboardpro/autotext.csv. Haluatko jatkaa?</string>
+  <string name="import_autotext_warning">Varoitus! Olet tuomassa automaattisen tekstin CSV-tiedoston /sdcard/smartkeyboardpro/autotext.csv polusta. Tämä korvaa kokonaan nykyisen automaattisen tekstin sanakirjan. Haluatko jatkaa?</string>
+  <string name="accents_priority">Aksenttien prioriteetti</string>
+  <string name="accents_priority_summary">Etusijalle aksentit (tai kaksoiskonsonantit) symbolien sijasta, kun painaa pitkään näppäintä. Toimii vain joillekin kielille.</string>
+  <string name="mongolian">Mongolia</string>
+  <string name="prefs_enable_recorrection">Korjaa sanoja koskettamalla</string>
+  <string name="prefs_enable_recorrection_summary">Korjaa sanoja koskettamalla niitä</string>
+  <string name="macedonian">makedonia</string>
+  <string name="luxembourgish">luxemburg</string>
+  <string name="albanian">albania</string>
+  <string name="belarusian">indonesia</string>
+  <string name="indonesian">indonesia</string>
+  <string name="alt_compact">Laajennettu kompakti/T9</string>
+  <string name="alt_compact_summary">Pitkä pannallus kompakti/T9 -tilassa näyttää kaikki mahdolliset kirjaimen (vain englanti-asettelussa)</string>
+  <string name="backup_failed">Varmuuskopiointi epäonnistui!</string>
+  <string name="restore_failed">Palautus epäonnistui! Varmuuskopiotiedosto on todennäköisesti vioittunut.</string>
+  <string name="hide_in_portrait">Piilota pystysuunnassa</string>
+  <string name="hide_in_portrait_summary">Piilota aina näppäimistö pystysuunnassa (hyödyllinen Droid Pro:ssa)</string>
+  <string name="space_alert">Välilyönti-hälytys</string>
+  <string name="space_alert_summary">Tärise vain välilyöntinäppäimestä</string>
+  <string name="hide_lang_key">Piilota kieli-näppäin</string>
+  <string name="hide_lang_key_summary">Piilota kielen valintanäppäin, kun useita kieliä on käytössä</string>
+  <string name="show_language_icon">Näytä kielikuvake</string>
+  <string name="show_language_icon_summary">Näytä kielikuvake tilarivillä</string>
+  <string name="domain_key">Toimialueen avain</string>
+  <string name="domain_key_summary">Näyttää toimialueen (.com) avain</string>
+  <string name="numbers_top">Numerot päälle</string>
+  <string name="numbers_top_summary">Valitse näytettäessä ylimääräinen rivi numeroita päälle tärkeimmistä näppäimistö</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Tervetuloa käyttämään sovellusta <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"ja piirtokirjoitus"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Aloita"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Seuraava vaihe"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Sovelluksen <xliff:g id="APPLICATION_NAME">%s</xliff:g> asetukset"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Ota <xliff:g id="APPLICATION_NAME">%s</xliff:g> käyttöön"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Valitse <xliff:g id="APPLICATION_NAME">%s</xliff:g> Kieli ja syöttötapa -asetuksissa. Se antaa sovellukselle luvan toimia laitteessasi."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Ota käyttöön asetuksissa"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Siirry sovellukseen <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Valitse <xliff:g id="APPLICATION_NAME">%s</xliff:g> käytössä olevaksi tekstinsyöttötavaksi."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Vaihda syöttötapaa"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Onneksi olkoon, valmista tuli!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Nyt voit kirjoittaa kaikissa lempisovelluksissasi sovelluksen <xliff:g id="APPLICATION_NAME">%s</xliff:g> avulla."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Määritä lisää kieliä"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Valmis"</string>
+  </resources>

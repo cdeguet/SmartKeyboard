@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setup_welcome_title" msgid="6112821709832031715">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> എന്നതിലേക്ക് സ്വാഗതം"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"ജെസ്റ്റർ ടൈപ്പുചെയ്യലിനൊപ്പം"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"ആരംഭിക്കുക"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"അടുത്ത ചുവട്"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> സജ്ജമാക്കുന്നു"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> പ്രവർത്തനക്ഷമമാക്കുക"</string>
+    <string name="setup_step1_instruction" msgid="2578631936624637241">"നിങ്ങളുടെ ഭാഷ &amp; ടൈപ്പുചെയ്യൽ ക്രമീകരണങ്ങളിൽ \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" പരിശോധിക്കുക. ഇത് നിങ്ങളുടെ ഉപകരണത്തിൽ പ്രവർത്തിക്കാൻ ഇതിന് അംഗീകാരം നൽകും."</string>
+    <string name="setup_step1_finished_instruction" msgid="10761482004957994">"നിങ്ങളുടെ ഭാഷ &amp; ടൈപ്പുചെയ്യൽ ക്രമീകരണങ്ങളിൽ <xliff:g id="APPLICATION_NAME">%s</xliff:g> എന്നത് ഇതിനകം പ്രവർത്തനക്ഷമമാക്കിയതിനാൽ ഈ ഘട്ടം പൂർത്തിയായി. അടുത്ത ഘട്ടത്തിലേക്ക് പോകുക!"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"ക്രമീകരണങ്ങളിൽ പ്രവർത്തനക്ഷമമാകുക"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> എന്നതിലേക്ക് മാറുക"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"അടുത്തത്, \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" എന്നതിനെ നിങ്ങളുടെ സജീവ വാചക-ടൈപ്പുചെയ്യൽ രീതിയായി തിരഞ്ഞെടുക്കുക."</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"ടൈപ്പുചെയ്യൽ രീതികൾ മാറുക"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"അഭിനന്ദനങ്ങൾ, നിങ്ങൾ എല്ലാം പൂർത്തിയാക്കി!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ഉപയോഗിച്ച് നിങ്ങളുടെ പ്രിയപ്പെട്ട എല്ലാ അപ്ലിക്കേഷനുകളിലും ഇപ്പോൾ ടൈപ്പുചെയ്യാനാകും."</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"കൂടുതൽ ഭാഷകൾ കോൺഫിഗർ ചെയ്യുക"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"പൂർത്തിയായി"</string>
+</resources>

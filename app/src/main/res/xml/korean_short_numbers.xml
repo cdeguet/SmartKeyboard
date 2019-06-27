@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="12.5%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+    <Include xml="@xml/numbers_top"/>
+	<Row>
+		<Key android:codes="12610,12611" android:keyLabel="&#x3142;" altLabel="1" android:popupCharacters="1&#x3143;" 
+			popupAccents="&#x3143;1" android:keyEdgeFlags="left" />
+		<Key android:codes="12616,12617" android:keyLabel="&#x3148;" altLabel="2" android:popupCharacters="2&#x3149;" 
+			popupAccents="&#x3149;2"/>
+		<Key android:codes="12599,12600" android:keyLabel="&#x3137;" altLabel="3" android:popupCharacters="3&#x3138;" 
+			popupAccents="&#x3138;3"/>
+		<Key android:codes="12593,12594" android:keyLabel="&#x3131;" altLabel="4" android:popupCharacters="4&#x3132;" 
+			popupAccents="&#x3132;4"/>
+		<Key android:codes="12613,12614" android:keyLabel="&#x3145;" altLabel="5" android:popupCharacters="&#x3146;5" 
+			popupAccents="5&#x3146;"/>
+		<Key android:codes="12631,12635" android:keyLabel="&#x3157;" altLabel="\@" android:popupCharacters="&#x315B;♥\@"
+			popupAccents="\@♥&#x315B;" />
+		<Key android:codes="12624,12626" android:keyLabel="&#x3150;" altLabel="$" android:popupCharacters="&#x3152;$" 
+			popupAccents="$&#x3152;"/>
+		<Key android:codes="12628,12630" android:keyLabel="&#x3154;" altLabel="\#" android:popupCharacters="&#x3156;\#"
+			popupAccents="\#&#x3156;" 
+			android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="12609" android:keyLabel="&#x3141;" altLabel="6" android:popupCharacters="6" 
+			android:keyEdgeFlags="left" />
+		<Key android:codes="12596" android:keyLabel="&#x3134;" altLabel="7" android:popupCharacters="7" />
+		<Key android:codes="12615" android:keyLabel="&#x3147;" altLabel="8" android:popupCharacters="8" />
+		<Key android:codes="12601" android:keyLabel="&#x3139;" altLabel="9" android:popupCharacters="9" />
+		<Key android:codes="12622" android:keyLabel="&#x314E;" altLabel="0" android:popupCharacters="0" />
+		<Key android:codes="12627,12629" android:keyLabel="&#x3153;" altLabel="+" android:popupCharacters="&#x3155;+"
+			popupAccents="+&#x3155;" />
+		<Key android:codes="12623,12625" android:keyLabel="&#x314F;" altLabel="(" android:popupCharacters="&#x3151;("
+			popupAccents="(&#x3151;" />
+		<Key android:codes="12643" android:keyLabel="&#x3163;" altLabel=")" android:popupCharacters=")" 
+			android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="12619" android:keyLabel="&#x314B;" altLabel="!" 
+			android:popupCharacters="!" android:horizontalGap="6%p" android:keyEdgeFlags="left" />
+		<Key android:codes="12620" android:keyLabel="&#x314C;" altLabel="&quot;" android:popupCharacters="&quot;" />
+		<Key android:codes="12618" android:keyLabel="&#x314A;" altLabel="'" android:popupCharacters="'" />
+		<Key android:codes="12621" android:keyLabel="&#x314D;" altLabel=":" android:popupCharacters=":" />
+		<Key android:codes="12636,12640" android:keyLabel="&#x315C;" altLabel="/" android:popupCharacters="&#x3160;/"
+			popupAccents="/&#x3160;" />
+		<Key android:codes="12641" android:keyLabel="&#x3161;" altLabel="\?" android:popupCharacters="\?" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"  android:horizontalGap="2%" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" 
+			iconID="@+id/delete_key" android:keyWidth="16%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

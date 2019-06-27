@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">求助說明</string>
+  <string name="about">關於</string>
+  <string name="auto_cap">自動大寫</string>
+  <string name="auto_cap_summary">句子的開頭要大寫</string>
+  <string name="keyboard_settings">智慧鍵盤專業設置</string>
+  <string name="settings">設置</string>
+  <string name="general_settings">常用設定</string>
+  <string name="text_prediction">文字預測</string>
+  <string name="sound_vibrate">聲音和震動</string>
+  <string name="language">語言</string>
+  <string name="language_summary">更改鍵盤語言和規劃</string>
+  <string name="lang_key">語言選擇鍵</string>
+  <string name="lang_key_summary">選擇可用的語言</string>
+  <string name="english">英語</string>
+  <string name="english_intl">英語 （通式）</string>
+  <string name="english_dvorak">英語 (捷克-德沃夏克)</string>
+  <string name="english_azerty">英語 (AZERTY)</string>
+  <string name="french">法語</string>
+  <string name="romanian">羅馬尼亞語</string>
+  <string name="bulgarian">保加利亞語</string>
+  <string name="russian">俄語</string>
+  <string name="russian_phonetic">俄語 （拼音）</string>
+  <string name="spanish">西班牙語</string>
+  <string name="italian">義大利語</string>
+  <string name="german">德語</string>
+  <string name="portuguese">葡萄牙語</string>
+  <string name="danish">丹麥語</string>
+  <string name="finnish">芬蘭語</string>
+  <string name="hebrew">希伯來語</string>
+  <string name="norwegian">挪威語</string>
+  <string name="swedish">瑞典語</string>
+  <string name="georgian">喬治亞語</string>
+  <string name="czech_qwerty">捷克 (標準鍵盤)</string>
+  <string name="czech_qwertz">捷克 (QWERTZ)</string>
+  <string name="greek">希臘語</string>
+  <string name="dutch">荷蘭語</string>
+  <string name="polish">波蘭語</string>
+  <string name="ukrainian">烏克蘭語</string>
+  <string name="vibrate">震動</string>
+  <string name="vibrate_summary">按key鍵震動</string>
+  <string name="vibrate_duration">振動持續時間</string>
+  <string name="label_go_key">轉到</string>
+  <string name="label_next_key">下一個</string>
+  <string name="label_done_key">完成</string>
+  <string name="label_send_key">發送</string>
+  <string name="advanced_settings">進階設置</string>
+  <string name="sound_on_keypress">聲音鍵在Keypress</string>
+  <string name="gestures">手勢</string>
+  <string name="swipe_left">刷卡左</string>
+  <string name="swipe_right">刷卡右</string>
+  <string name="swipe_up">上刷</string>
+  <string name="swipe_down">下刷</string>
+  <string name="saved">儲存</string>
+  <string name="quick_fixes">快速修復</string>
+  <string name="quick_fixes_summary">糾正常用打字的錯誤</string>
+  <string name="show_suggestions">顯示建議</string>
+  <string name="show_suggestions_summary">鍵入時顯示建議的單詞</string>
+  <string name="auto_complete">自動完成</string>
+  <string name="auto_complete_summary">空格鍵和標點符號自動插入突出顯示的單詞</string>
+  <string name="contact_dic">通訊錄</string>
+  <string name="contact_dic_summary">建議欄中包含連絡人姓名</string>
+  <string name="show_preview">顯示預覽彈出式功能</string>
+  <string name="show_preview_summary">快按key鍵可顯示彈出視窗</string>
+  <string name="skin_selection">選擇表面材質</string>
+  <string name="skin_summary">更換鍵盤材質</string>
+  <string name="transparency">透明度</string>
+  <string name="opacity">不透明度設置</string>
+  <string name="transparency_summary">設置鍵盤的透明度</string>
+  <string name="volume">音度</string>
+  <string name="volume_summary">設置按鍵聲音的音量</string>
+  <string name="debug_logs">啟用除錯日誌</string>
+  <string name="always_suggest">總是建議</string>
+  <string name="always_suggest_summary">同時顯示搜索的建議</string>
+  <string name="custom_autotext">個人化自動文字輸入</string>
+  <string name="custom_autotext_summary">編輯您自己的自動圖文集快速鍵</string>
+  <string name="add_autotext">添加自動圖文...</string>
+  <string name="edit_autotext">編輯自動圖文集</string>
+  <string name="autotext_key">將以下的單詞：</string>
+  <string name="autotext_value">將替換為：</string>
+  <string name="autotext_context_edit">編輯</string>
+  <string name="autotext_context_delete">刪除</string>
+  <string name="enable_arrows">啟用箭頭小鍵盤</string>
+  <string name="enable_arrows_summary">可使用123 鍵</string>
+  <string name="always_caps">永久顯示大寫</string>
+  <string name="always_caps_summary">永久顯示輸入時鍵蠻符號的上方選項</string>
+  <string name="display_alt_labels">顯示 alt 標籤</string>
+  <string name="display_alt_labels_summary">在按鍵上方顯示替代符號
+</string>
+  <string name="user_dictionary">使用字典</string>
+  <string name="user_dictionary_summary">利用字典編輯單字</string>
+  <string name="add_word">增加單字</string>
+  <string name="edit_word">修改單字</string>
+  <string name="delete_word">刪除單字</string>
+  <string name="word">單字</string>
+  <string name="forum">論壇</string>
+  <string name="download_dic">下載字典</string>
+  <string name="mic_button">麥克風按鈕</string>
+  <string name="mic_button_summary">請顯示語音輸入</string>
+  <string name="voice_input">語音輸入</string>
+  <string name="cancel">取消</string>
+  <string name="retry">請重試</string>
+  <string name="restart_voice">請重新語音輸入</string>
+  <string name="restart_voice_summary">總是重新語音輸入，直到它被取消</string>
+  <string name="voice_best">語音輸入的最佳方式</string>
+  <string name="voice_best_summary">自動選擇最佳的方式</string>
+  <string name="touch_points">顯示觸碰點</string>
+  <string name="portrait_mode">縱向模式</string>
+  <string name="portrait_mode_summary">縱向畫面時可選擇一般、T9或簡單模式</string>
+  <string name="smart_dictionary">智慧詞典</string>
+  <string name="smart_dictionary_summary">字典，會熟悉你用詞的頻率來幫助改善輸入正確性</string>
+  <string name="backup">備份設置</string>
+  <string name="backup_to_sd">備份到 SD 卡</string>
+  <string name="restore">從 SD 卡還原</string>
+  <string name="no_sd_card">錯誤: 未裝入你的 SD 卡，備份/恢復不能執行</string>
+  <string name="backup_warning">警告 ！您將要到備份智慧鍵盤 PRO 設置和詞典。這將完全覆寫在 /sdcard/smartkeyboardpro/backup.zip。您要繼續嗎？</string>
+  <string name="restore_warning">警告 ！您是要還原智慧鍵盤 PRO 設置和詞典。這將覆蓋所有之前的設置。鍵盤將會重新開機，才能考慮變動。您要繼續嗎？</string>
+  <string name="backup_complete">備份完成</string>
+  <string name="turkish">土耳其語</string>
+  <string name="hungarian">匈牙利語</string>
+  <string name="icelandic">冰島語</string>
+  <string name="bosnian">波士尼亞語</string>
+  <string name="croatian">克羅地亞語</string>
+  <string name="serbian">塞爾維亞語</string>
+  <string name="slovene">斯洛維尼亞語</string>
+  <string name="close">關閉</string>
+  <string name="arabic">阿拉伯語</string>
+  <string name="bk_warning">警告 ！這是鍵盤特殊材質。與智慧鍵盤的相容性可能會因為長期時間使用而增加破損的風險！</string>
+  <string name="domain_editor">編輯者區域</string>
+  <string name="domain_editor_summary">自訂.com 鍵</string>
+  <string name="domain_editor_title">TAP鍵編輯區域</string>
+  <string name="edit_domain">編輯區域</string>
+  <string name="persistent_domain_key">持久性域鍵</string>
+  <string name="persistent_domain_key_summary">永久顯示功能變數名稱 (.com) 鍵</string>
+  <string name="no_alt_preview">沒有 alt 預覽</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <!-- Short message shown after the user finishes speaking. -->
+  <!-- Short message shown when a generic error occurs. -->
+  <!-- Short message shown for a network error. -->
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <!-- Short message shown for an audio error. -->
+  <!-- Short message shown for an error with the voice server. -->
+  <!-- Short message shown when no speech is heard. -->
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <!-- Label on button when an error occurs -->
+  <string name="no_landscape_suggestions_summary">景觀陳述時關閉建議欄</string>
+  <string name="import_autotext">導入自動圖文集</string>
+  <string name="export_complete">CVS 匯出完成</string>
+  <string name="import_complete">CVS 導入完成</string>
+  <string name="export_user_dic_warning">警告 ！您將要匯出到 CSV 格式的檔中的使用者詞典。這將覆蓋 /sdcard/smartkeyboardpro/userdic.csv。您要繼續嗎？</string>
+  <string name="accents_priority">口音優先</string>
+  <string name="afrikaans">南非荷蘭人</string>
+  <string name="mongolian">蒙族</string>
+  <string name="prefs_enable_recorrection">觸控更正的單詞</string>
+  <string name="prefs_enable_recorrection_summary">觸控整句來修正</string>
+  <string name="macedonian">馬其頓人</string>
+  <string name="luxembourgish">盧森堡語</string>
+  <string name="albanian">阿爾巴尼亞語</string>
+  <string name="belarusian">比利時人</string>
+  <string name="indonesian">印尼人</string>
+  <string name="alt_compact">延長T9的契約</string>
+  <string name="alt_compact_summary">按住T9開關鍵模式不放之後將會顯示所有的信件（僅適用英文版面）</string>
+  <string name="backup_failed">備份失敗 ！</string>
+  <string name="restore_failed">還原失敗 ！備份檔案可能已損壞。</string>
+  <string name="hide_in_portrait">隱藏個人影像</string>
+  <string name="hide_in_portrait_summary">永久隱藏個人影像鍵（適用 Droid Pro ）</string>
+  <string name="twitter">推特</string>
+  <string name="space_alert">空格警示</string>
+  <string name="space_alert_summary">空格鍵震動模式</string>
+  <string name="unicode">萬國編碼</string>
+  <string name="hide_lang_key">隱藏語言鍵</string>
+  <string name="hide_lang_key_summary">多種語言功能開啓後 、隱藏語言選擇鍵</string>
+  <string name="show_language_icon">顯示語言圖像</string>
+  <string name="show_language_icon_summary">在狀態列中顯示的語言圖像</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"歡迎使用「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"配備觸控輸入功能"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"開始"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"下一步"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"設定「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"啟用「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"請在語言與輸入設定中勾選「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」，授權這個應用程式在您的裝置上執行。"</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"您已在 [語言與輸入設定] 中啟用「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」。這個步驟已完成，可繼續下一個步驟了！"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"在設定中啟用"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"切換至「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"接著，請選取「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」作為目前使用的文字輸入方法。"</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"切換輸入方法"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"恭喜，一切就緒！"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"現在，您可以在所有最愛的應用程式中使用「<xliff:g id="APPLICATION_NAME">%s</xliff:g>」輸入文字。"</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"設定其他語言"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"完成"</string>
+  </resources>

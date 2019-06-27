@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/app_name">
+               
+	<PreferenceScreen android:title="@string/help"
+		icon="@drawable/icon" >
+		<com.dexilog.smartkeyboard.About
+			android:title="@string/about" android:dialogTitle="@string/about"
+			android:key="about" android:persistent="false"
+			android:negativeButtonText="@null" />
+		<Preference android:key="help" android:title="@string/help">
+			<intent android:action="android.intent.action.VIEW"
+				android:data="http://www.dexilog.com/smartkeyboard/users-guide" />
+		</Preference>
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/language">
+		<com.dexilog.smartkeyboard.LangListPref
+			android:key="curLang" android:title="@string/current_language"
+			android:summary="@string/language_summary" android:entries="@array/language_choices"
+			android:entryValues="@array/language_values" android:dialogTitle="@string/language"
+			android:persistent="true" android:defaultValue="EN" />
+		<PreferenceScreen android:title="@string/lang_key" android:key="langPref"
+			android:summary="@string/lang_key_summary">
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Afrikaans"
+				android:key="langAF" android:summary="@string/afrikaans"
+				android:persistent="true" android:defaultValue="false" />	
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="العربية"
+				android:key="langAR" android:summary="@string/arabic"
+				android:persistent="true" android:defaultValue="false" />				
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Azərbaycanca"
+				android:key="langAZ" android:summary="@string/azerbaijani"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Беларуская"
+				android:key="langBE" android:summary="@string/belarusian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Bosanski"
+				android:key="langBS" android:summary="@string/bosnian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Български (БДС)"
+				android:key="langBG_BDS" android:summary="@string/bulgarian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Български (ЯВЕРТ)"
+				android:key="langBG_YaVERT" android:summary="@string/bulgarian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Български (ЧЯВЕР)"
+				android:key="BG_TchYaVER" android:summary="@string/bulgarian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Català"
+				android:key="langCA" android:summary="@string/catalan"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Čeština (QWERTY)"
+				android:key="langCZ_QWERTY" android:summary="@string/czech_qwerty"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Čeština (QWERTZ)"
+				android:key="langCZ_QWERTZ" android:summary="@string/czech_qwertz"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Dansk"
+				android:key="langDA" android:summary="@string/danish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Deutsch"
+				android:key="langDE" android:summary="@string/german"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Deutsch (+äöü)"
+				android:key="langDE_FULL" android:summary="@string/german"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Eesti"
+				android:key="langET" android:summary="@string/estonian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Ελληνικά"
+				android:key="langEL" android:summary="@string/greek"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Emoji"
+				android:key="langEM" android:summary="@string/emoji"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English"
+				android:key="langEN" android:summary="@string/english"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English (UK)"
+				android:key="langEN_UK" android:summary="@string/english"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English (International)"
+				android:key="langEN_INTL" android:summary="@string/english_intl"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English (Dvorak)"
+				android:key="langEN_DVORAK" android:summary="@string/english_dvorak"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English (Colemak)"
+				android:key="langEN_COLEMAK" android:summary="@string/english"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="English (AZERTY)"
+				android:key="langEN_AZERTY" android:summary="@string/english_azerty"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Español"
+				android:key="langES" android:summary="@string/spanish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Esperanto"
+				android:key="langEO" android:summary="@string/esperanto"
+				android:persistent="true" android:defaultValue="false" />
+			         <com.dexilog.smartkeyboard.LangKeyPref
+						 android:title="فارسی"
+				android:key="langFA" android:summary="@string/persian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Français"
+				android:key="langFR" android:summary="@string/french"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Français (QWERTY)"
+				android:key="langFR_QWERTY" android:summary="@string/french"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Français (QWERTY+')"
+				android:key="langFR_QWERTY_FULL" android:summary="@string/french"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Français (QWERTZ)"
+				android:key="langFR_QWERTZ" android:summary="@string/french"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Galego"
+				android:key="langGL" android:summary="@string/galician"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="한국어"
+				android:key="langKO" android:summary="@string/korean"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="한국어 (단모음키보드)"
+				android:key="langKO_SHORT" android:summary="@string/korean"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Հայերեն (3 տող)"
+				android:key="langHY" android:summary="@string/armenian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Հայերեն (4 տող)"
+				android:key="langHY_FULL" android:summary="@string/armenian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="हिन्दी"
+				android:key="langHI" android:summary="@string/hindi"
+				android:persistent="true" android:defaultValue="false" />			
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="עברית"
+				android:key="langHE" android:summary="@string/hebrew"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Hrvatski"
+				android:key="langHR" android:summary="@string/croatian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Bahasa Indonesia"
+				android:key="langID" android:summary="@string/indonesian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Íslenska"
+				android:key="langIS" android:summary="@string/icelandic"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Italiano"
+				android:key="langIT" android:summary="@string/italian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Italiano (+')"
+				android:key="langIT_FULL" android:summary="@string/italian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="ქართული"
+				android:key="langKA" android:summary="@string/georgian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Қазақша"
+				android:key="langKK" android:summary="@string/kazakh"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Kurdî"
+				android:key="langKU_HAWAR" android:summary="@string/kurdish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="کوردی"
+				android:key="langKU_SORANI" android:summary="@string/kurdish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Lëtzebuergesch"
+				android:key="langLB" android:summary="@string/luxembourgish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Latviešu"
+				android:key="langLV" android:summary="@string/latvian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Lietuvių"
+				android:key="langLT" android:summary="@string/lithuanian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Magyar (QWERTY)"
+				android:key="langHU_QWERTY" android:summary="@string/hungarian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Magyar (QWERTZ)"
+				android:key="langHU" android:summary="@string/hungarian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Македонски"
+				android:key="langMK" android:summary="@string/macedonian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="मराठी"
+				android:key="langMR" android:summary="@string/marathi"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Монгол"
+				android:key="langMN" android:summary="@string/mongolian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Nederlands (QWERTY)"
+				android:key="langNL" android:summary="@string/dutch"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Nederlands (AZERTY)"
+				android:key="langNL_AZERTY" android:summary="@string/dutch"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="日本語"
+				android:key="langJP" android:summary="Japanese"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Norsk"
+				android:key="langNO" android:summary="@string/norwegian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Polski"
+				android:key="langPL" android:summary="@string/polish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Português (BR)"
+				android:key="langBR" android:summary="@string/portuguese"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Português (PT)"
+				android:key="langPT" android:summary="@string/portuguese"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Română"
+				android:key="langRO" android:summary="@string/romanian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Русский (4 ряда)"
+				android:key="langRU" android:summary="@string/russian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Русский (3 ряда)"
+				android:key="langRU_SMALL" android:summary="@string/russian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Русский (ЯШЕРТ)"
+				android:key="langRU_YaShERT" android:summary="@string/russian_phonetic"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Slovenčina (QWERTY)"
+				android:key="langSK_QWERTY" android:summary="@string/slovak"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Slovenčina (QWERTZ)"
+				android:key="langSK_QWERTZ" android:summary="@string/slovak"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Slovenščina"
+				android:key="langSL" android:summary="@string/slovene"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Shqip"
+				android:key="langSQ" android:summary="@string/albanian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Srpski"
+				android:key="langSR" android:summary="@string/serbian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Српски"
+				android:key="langSR_CYRILLIC" android:summary="@string/serbian"
+				android:persistent="true" android:defaultValue="false" />		
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Suomi (-å)"
+				android:key="langFI_SMALL" android:summary="@string/finnish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Suomi"
+				android:key="langFI" android:summary="@string/finnish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Svenska"
+				android:key="langSV" android:summary="@string/swedish"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="தமிழ்"
+				android:key="langTA" android:summary="@string/tamil"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="ไทย"
+				android:key="langTH" android:summary="@string/thai"
+				android:persistent="true" android:defaultValue="false" />	
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Татарча"
+				android:key="langTT" android:summary="@string/tatar"
+				android:persistent="true" android:defaultValue="false" />	
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Türkçe"
+				android:key="langTR" android:summary="@string/turkish"
+				android:persistent="true" android:defaultValue="false" />	
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Українська"
+				android:key="langUK" android:summary="@string/ukrainian"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="Tiếng Việt (Telex)"
+				android:key="langVI" android:summary="@string/vietnamese"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="中文 (简体)"
+				android:key="langZH" android:summary="@string/chinese_simplified"
+				android:persistent="true" android:defaultValue="false" />
+			<com.dexilog.smartkeyboard.LangKeyPref
+				android:title="中文 (pīnyīn)"
+				android:key="langPY" android:summary="@string/pinyin"
+				android:persistent="true" android:defaultValue="false" />
+		</PreferenceScreen>
+		<CheckBoxPreference android:title="@string/hide_lang_key"
+				android:summary="@string/hide_lang_key_summary" android:key="hide_lang_key"
+				android:persistent="true" android:defaultValue="false" />
+		<ListPreference android:key="show_language_icon" android:title="@string/show_language_icon"
+			android:summary="@string/show_language_icon_summary" android:entries="@array/language_icon_choices"
+			android:entryValues="@array/language_icon_values" android:dialogTitle="@string/show_language_icon"
+			android:persistent="true" android:defaultValue="1" />
+		<Preference android:key="download_dic" android:title="@string/download_dic"
+			android:summary="@string/download_dic_summary">
+			<intent android:action="android.intent.action.VIEW"
+				android:data="market://search?q=pub:Dexilog, LLC" />
+		</Preference>
+		<PreferenceCategory android:title="@string/language_specific_options"
+			android:key="language_specific_options" >
+			<CheckBoxPreference android:title="@string/accents_priority"
+				android:summary="@string/accents_priority_summary" android:key="accents_priority"
+				android:persistent="true" android:defaultValue="false" />
+			<CheckBoxPreference android:title="@string/rtl_suggestions"
+				android:summary="@string/rtl_suggestions_summary" android:key="rtl_suggestions"
+				android:persistent="true" android:defaultValue="true" />
+			<com.dexilog.smartkeyboard.LatinLayoutList
+				android:key="latin_layout"
+				android:title="@string/force_latin" android:summary="@string/force_latin_summary" 
+				android:dialogTitle="@string/layout" android:persistent="true" 
+				android:entryValues="@array/latin_layouts" android:defaultValue="" />
+			<CheckBoxPreference android:title="@string/hebrew_alt"
+				android:summary="@string/hebrew_alt_summary" android:key="hebrew_alt"
+				android:persistent="true" android:defaultValue="false" />
+			<CheckBoxPreference android:title="@string/czech_full"
+				android:summary="@string/czech_full_summary" android:key="czech_full"
+				android:persistent="true" android:defaultValue="false" />
+			<CheckBoxPreference android:title="@string/alt_compact"
+				android:summary="@string/alt_compact_summary" android:key="alt_compact"
+				android:persistent="true" android:defaultValue="false" />
+		</PreferenceCategory>
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/general_settings">
+		<PreferenceScreen android:title="@string/skin_selection" 
+			android:summary="@string/skin_summary" >
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.SkinList" />
+		</PreferenceScreen>
+		<ListPreference android:key="portrait_mode" android:title="@string/portrait_mode"
+			android:summary="@string/portrait_mode_summary" android:entries="@array/portrait_choices"
+			android:entryValues="@array/portrait_values" android:dialogTitle="@string/portrait_mode"
+			android:persistent="true" android:defaultValue="0" />
+		<ListPreference android:title="@string/numbers_top"
+			android:key="show_numbers_top" android:summary="@string/numbers_top_summary"
+			android:entries="@array/arrows_main" android:entryValues="@array/arrows_main_values"
+			android:persistent="true" android:defaultValue="0" />
+		<ListPreference android:title="@string/arrows_main"
+			android:key="show_arrows_main" android:summary="@string/arrows_main_summary"
+			android:entries="@array/arrows_main" android:entryValues="@array/arrows_main_values"
+			android:persistent="true" android:defaultValue="0" />
+		<CheckBoxPreference android:key="suggest_hard"
+			android:title="@string/physical_kbd" android:summary="@string/physical_kbd_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/t9_next_key"
+			android:key="t9_next_key" android:summary="@string/t9_next_key_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/show_preview"
+			android:key="show_preview" android:summary="@string/show_preview_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/transparency" android:summary="@string/transparency_summary"
+			android:dialogTitle="@string/opacity" android:key="opacity"
+			android:persistent="true" android:defaultValue="50" />
+		<CheckBoxPreference android:title="@string/cursor_volume"
+			android:key="cursor_volume" android:summary="@string/cursor_volume_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/enable_arrows"
+			android:key="enable_arrows" android:summary="@string/enable_arrows_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<ListPreference android:key="arrows_style" android:title="@string/arrows_style"
+		 	android:summary="@string/arrows_style_summary" android:entries="@array/arrows_styles"
+			android:entryValues="@array/arrows_values" android:dialogTitle="@string/arrows_style"
+			android:persistent="true" android:defaultValue="1" />
+		<CheckBoxPreference android:title="@string/always_caps"
+			android:key="always_caps" android:summary="@string/always_caps_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/display_alt_labels"
+			android:key="display_alt_labels" android:summary="@string/display_alt_labels_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/alt_symbols"
+			android:key="alt_symbols" android:summary="@string/alt_symbols_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/more_symbols" android:key="more_symbols"
+			android:summary="@string/more_symbols_summary" android:persistent="true" android:defaultValue="false" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/longpress_duration" android:summary="@string/longpress_duration_summary"
+			android:dialogTitle="@string/longpress_duration" android:key="longpress_duration"
+			android:persistent="true" android:defaultValue="40" />
+		<CheckBoxPreference android:key="custom_smileys" android:title="@string/custom_smileys"
+						android:summary="@string/custom_smileys_summary"
+						android:persistent="true" android:defaultValue="false" />
+		<ListPreference android:key="smiley_key" android:title="@string/smiley_key"
+			android:summary="@string/smiley_key_summary" android:entries="@array/smiley_choices"
+			android:entryValues="@array/smiley_values" android:dialogTitle="@string/smiley_key"
+			android:persistent="true" android:defaultValue="0" android:dependency="custom_smileys" />
+		<PreferenceScreen android:title="@string/smiley_editor" android:dependency="custom_smileys"
+			android:summary="@string/smiley_editor_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.ui.SmileyEditor" />
+		</PreferenceScreen>
+		<PreferenceScreen android:title="@string/domain_editor"
+			android:summary="@string/domain_editor_summary">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.ui.DomainEditor" />
+		</PreferenceScreen>
+		<ListPreference android:title="@string/domain_key"
+			android:key="domain_key" android:summary="@string/domain_key_summary"
+			android:entries="@array/smiley_choices" android:entryValues="@array/smiley_values"
+			android:persistent="true" android:defaultValue="0" />
+		<CheckBoxPreference android:title="@string/no_lansdcape_fullscreen"
+			android:key="no_lansdcape_fullscreen" android:summary="@string/no_lansdcape_fullscreen_summary"
+			android:persistent="true" android:defaultValue="@bool/default_no_landscape_fullscreen" />
+		<CheckBoxPreference android:title="@string/portrait_fullscreen"
+			android:key="portrait_fullscreen" android:summary="@string/portrait_fullscreen_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/multitap_interval" android:summary="@string/multitap_interval_summary"
+			android:dialogTitle="@string/multitap_interval" android:key="multitap_interval"
+			android:persistent="true" android:defaultValue="80" />
+		<PreferenceScreen android:title="@string/calibration" 
+			android:summary="@string/calibration_summary" >
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.Calibration" />
+		</PreferenceScreen>
+		<com.dexilog.smartkeyboard.KeyHeightDialog
+			android:title="@string/key_height" android:summary="@string/key_height_summary"
+			android:dialogTitle="@string/key_height" android:key="key_height"
+			android:persistent="true" android:defaultValue="50" />
+		<CheckBoxPreference android:title="@string/hide_period"
+			android:key="hide_period" android:summary="@string/hide_period_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/hide_comma"
+			android:key="hide_comma" android:summary="@string/hide_comma_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/bottom_padding" android:summary="@string/bottom_padding_summary"
+			android:dialogTitle="@string/bottom_padding" android:key="bottom_padding"
+			android:persistent="true" android:defaultValue="0" />
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/text_prediction">
+		<CheckBoxPreference android:key="auto_cap"
+			android:title="@string/auto_cap" android:summary="@string/auto_cap_summary"
+			android:defaultValue="true" android:persistent="true" />
+		<CheckBoxPreference android:key="quick_fixes"
+			android:title="@string/quick_fixes" android:summary="@string/quick_fixes_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="show_suggestions"
+			android:title="@string/show_suggestions" android:summary="@string/show_suggestions_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="no_landscape_suggestions"
+			android:title="@string/no_landscape_suggestions" android:summary="@string/no_landscape_suggestions_summary"
+			android:persistent="true" android:defaultValue="false" android:dependency="show_suggestions" />
+		<CheckBoxPreference android:key="auto_complete"
+			android:title="@string/auto_complete" android:summary="@string/auto_complete_summary"
+			android:persistent="true" android:defaultValue="true"
+			android:dependency="show_suggestions" />
+		<CheckBoxPreference android:key="swap_punctuation_space"
+			android:title="@string/swap_punctuation_space" android:summary="@string/swap_punctuation_space_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:key="space_when_pick"
+			android:title="@string/space_when_pick" android:summary="@string/space_when_pick_summary"
+			android:persistent="true" android:defaultValue="false"
+			android:dependency="show_suggestions" />
+		<CheckBoxPreference android:key="contact_dic"
+			android:title="@string/contact_dic" android:summary="@string/contact_dic_summary"
+			android:persistent="true" android:defaultValue="false"
+			android:dependency="show_suggestions" />
+		<PreferenceScreen android:title="@string/user_dictionary"
+			android:summary="@string/user_dictionary_summary" android:dependency="show_suggestions">
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.UserDictionaryEditor" />
+		</PreferenceScreen>
+		<Preference android:title="@string/clean_userdic" android:key="clean_userdic"
+			android:persistent="false"/>
+		<CheckBoxPreference android:title="@string/smart_dictionary" 
+				android:summary="@string/smart_dictionary_summary"
+				android:key="smart_dictionary" android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/learn_new_words" 
+				android:summary="@string/learn_new_words_summary" android:dependency="smart_dictionary"
+				android:key="learn_new_words" android:persistent="true" android:defaultValue="false" />
+		<PreferenceScreen android:title="@string/custom_autotext"
+			android:summary="@string/custom_autotext_summary" >
+			<intent android:action="android.intent.action.MAIN"
+				android:targetPackage="@string/application_id"
+				android:targetClass="com.dexilog.smartkeyboard.AutoTextEditor" />
+		</PreferenceScreen>
+		<CheckBoxPreference android:key="always_suggest"
+			android:title="@string/always_suggest" android:summary="@string/always_suggest_summary"
+			android:persistent="true" android:defaultValue="true"
+			android:dependency="show_suggestions" />
+		<CheckBoxPreference android:title="@string/suggest_punctuation" android:dependency="show_suggestions"
+			android:key="suggest_punctuation" android:persistent="true" android:defaultValue="true" />
+		<EditTextPreference android:title="@string/custom_punctuation" android:key="custom_punctuation"
+			android:summary="@string/custom_punctuation_summary" android:dependency="suggest_punctuation"
+			android:defaultValue="@string/suggested_punctuations_old" />
+		<CheckBoxPreference android:key="double_space_period"
+			android:title="@string/double_space_period" android:summary="@string/double_space_period_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="compound_suggestions" android:dependency="show_suggestions"
+			android:title="@string/compound_suggestions" android:summary="@string/compound_suggestions_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:key="t9_length_priority"
+			android:title="@string/t9_length_priority" android:summary="@string/t9_length_priority_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:key="suggest_numbers" android:dependency="show_suggestions"
+			android:title="@string/suggest_numbers" android:summary="@string/suggest_numbers_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:key="apostrophe_separator"
+			android:title="@string/apostrophe_separator" android:summary="@string/apostrophe_separator_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:key="recorrection_enabled"
+			android:title="@string/prefs_enable_recorrection" android:persistent="true"
+			android:summary="@string/prefs_enable_recorrection_summary"
+			android:defaultValue="@bool/default_recorrection_enabled" />
+		<!-- 
+		<CheckBoxPreference android:key="sms_mode" android:dependency="show_suggestions"
+			android:title="@string/sms_mode" android:summary="@string/sms_mode_summary"
+			android:persistent="true" android:defaultValue="false" />  -->
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/gestures">
+	
+		<ListPreference android:key="swipe_left" android:title="@string/swipe_left"
+			android:entries="@array/swipe_actions" android:entryValues="@array/swipe_values"
+			android:dialogTitle="@string/swipe_left" android:persistent="true"
+			android:defaultValue="None" />
+		<ListPreference android:key="swipe_right"
+			android:title="@string/swipe_right" android:entries="@array/swipe_actions"
+			android:entryValues="@array/swipe_values" android:dialogTitle="@string/swipe_right"
+			android:persistent="true" android:defaultValue="Symbols" />
+		<ListPreference android:key="swipe_up" android:title="@string/swipe_up"
+			android:entries="@array/swipe_actions" android:entryValues="@array/swipe_values"
+			android:dialogTitle="@string/swipe_up" android:persistent="true"
+			android:defaultValue="Shift" />
+		<ListPreference android:key="swipe_down" android:title="@string/swipe_down"
+			android:entries="@array/swipe_actions" android:entryValues="@array/swipe_values"
+			android:dialogTitle="@string/swipe_down" android:persistent="true"
+			android:defaultValue="Close" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/swipe_sensitivity" android:summary="@string/swipe_sensitivity_summary"
+			android:dialogTitle="@string/swipe_sensitivity" android:key="swipe_factor"
+			android:persistent="true" android:defaultValue="70" />
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/voice_input">
+		<CheckBoxPreference android:title="@string/mic_button"
+			android:key="mic_button" android:summary="@string/mic_button_summary"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/mic_above_comma"
+							android:dependency="mic_button"
+							android:key="mic_above_comma" android:summary="@string/mic_above_comma_summary"
+							android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/legacy_voice"
+			android:key="legacy_voice" android:summary="@string/legacy_voice_details"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/restart_voice"
+			android:dependency="legacy_voice"
+			android:key="restart_voice" android:summary="@string/restart_voice_summary"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/voice_best"
+			android:key="voice_best" android:summary="@string/voice_best_summary"
+			android:dependency="legacy_voice"
+			android:persistent="true" android:defaultValue="false" />
+		</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/sound_vibrate">
+		<CheckBoxPreference android:key="sound_on"
+			android:title="@string/sound_on_keypress" android:persistent="true" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:title="@string/volume" android:summary="@string/volume_summary"
+			android:dialogTitle="@string/volume" android:key="volume"
+			android:persistent="true" android:defaultValue="100"
+			android:dependency="sound_on" />
+		<ListPreference android:key="sound_style" android:title="@string/select_sound"
+		 	android:entries="@array/sound_styles"
+			android:entryValues="@array/sound_styles" android:dialogTitle="@string/select_sound"
+			android:persistent="true" android:defaultValue="Android" android:dependency="sound_on" />
+		<CheckBoxPreference android:title="@string/vibrate"
+			android:summary="@string/vibrate_summary" android:key="vibrate"
+			android:defaultValue="true" android:persistent="true" />
+		<com.dexilog.smartkeyboard.ui.preferences.SeekBarPref
+			android:key="vibrator_duration_ms" android:title="@string/vibrate_duration"
+			android:dialogTitle="@string/vibrate_duration" android:dependency="vibrate"
+			android:persistent="true" android:defaultValue="20" />
+		<CheckBoxPreference android:title="@string/space_alert"
+			android:summary="@string/space_alert_summary" android:key="space_alert"
+			android:defaultValue="false" android:persistent="true" android:dependency="vibrate" />
+	</PreferenceScreen>
+	
+	<PreferenceScreen android:title="@string/backup">
+		<Preference android:title="@string/backup_to_sd" android:key="backup"
+			android:persistent="false"/>
+		<Preference android:title="@string/restore" android:key="restore"
+			android:persistent="false"/>
+		<Preference android:title="@string/export_user_dic" android:key="export_user_dic"
+			android:summary="@string/export_user_dic_summary" android:persistent="false"/>
+		<Preference android:title="@string/import_user_dic" android:key="import_user_dic"
+			android:persistent="false"/>
+		<Preference android:title="@string/export_autotext" android:key="export_autotext"
+			android:summary="@string/export_autotext_summary" android:persistent="false"/>
+		<Preference android:title="@string/import_autotext" android:key="import_autotext"
+			android:persistent="false"/>
+	</PreferenceScreen>
+
+	<PreferenceScreen android:title="@string/advanced_settings">
+		<CheckBoxPreference android:title="@string/disable_launcher"
+			android:key="disable_launcher" android:persistent="true"
+			android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/debug_logs"
+			android:key="debug" android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/touch_points"
+			android:key="touch_points" android:persistent="true"
+			android:defaultValue="false" />
+		<com.dexilog.smartkeyboard.ColorPickerPref
+			android:key="candidate_text_color" android:title="@string/candidate_color"
+			android:summary="@string/candidate_color_summary"
+			android:dialogTitle="@string/candidate_color" android:persistent="true"
+			android:defaultValue="#FFE35900" />
+		<CheckBoxPreference android:title="@string/slide_popup"
+			android:summary="@string/slide_popup_summary" android:key="slide_popup"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/space_preview"
+			android:summary="@string/space_preview_summary" android:key="space_preview"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/enter_sends_sms"
+			android:summary="@string/enter_sends_sms_summary" android:key="enter_sends_sms"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/no_alt_preview"
+			android:summary="@string/no_alt_preview_summary" android:key="no_alt_preview"
+			android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/dynamic_resizing"
+			android:summary="@string/dynamic_resizing_summary" android:key="dynamic_resizing"
+			android:persistent="true" android:defaultValue="true" />
+		<CheckBoxPreference android:title="@string/disable_mt"
+			android:key="disable_mt" android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/ignore_hard_kbd"
+			android:summary="@string/ignore_hard_kbd_summary"
+			android:key="ignore_hard_kbd" android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/hide_in_portrait"
+			android:summary="@string/hide_in_portrait_summary"
+			android:key="hide_in_portrait" android:persistent="true" android:defaultValue="false" />
+		<CheckBoxPreference android:title="@string/disable_launch_settings"
+			android:summary="@string/disable_launch_settings_details"
+			android:key="disable_settings" android:persistent="true" android:defaultValue="false" />
+		<!-- <CheckBoxPreference android:title="@string/native_user_dic"
+			android:key="native_user_dic" android:persistent="true" android:defaultValue="false" />  -->
+	</PreferenceScreen>
+
+</PreferenceScreen>

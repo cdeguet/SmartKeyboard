@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Hjælp</string>
+  <string name="about">Om...</string>
+  <string name="auto_cap">Auto-kapitalisering</string>
+  <string name="auto_cap_summary">Kapitaliser starten af en sætning</string>
+  <string name="keyboard_settings">Smart Keyboard Pro Indstillinger</string>
+  <string name="settings">Indstillinger</string>
+  <string name="general_settings">Generelle indstillinger</string>
+  <string name="text_prediction">Tekst forudsigelse</string>
+  <string name="sound_vibrate">Lyd og vibrator</string>
+  <string name="language">Sprog</string>
+  <string name="language_summary">Ændre tastatur-sprog og layout</string>
+  <string name="lang_key">Sprog valgtast</string>
+  <string name="lang_key_summary">Vælg tilgængelige sprog</string>
+  <string name="english">Engelsk</string>
+  <string name="english_intl">Engelsk (International)</string>
+  <string name="english_dvorak">Engelsk (Dvorak)</string>
+  <string name="english_azerty">Engelsk (AZERTY)</string>
+  <string name="french">Fransk</string>
+  <string name="romanian">Rumænsk</string>
+  <string name="bulgarian">Bulgarsk</string>
+  <string name="russian">Russisk</string>
+  <string name="russian_phonetic">Russisk (fonetisk)</string>
+  <string name="spanish">Spansk</string>
+  <string name="italian">Italiensk</string>
+  <string name="german">Tysk</string>
+  <string name="portuguese">Portugisisk</string>
+  <string name="danish">Dansk</string>
+  <string name="finnish">Finsk</string>
+  <string name="hebrew">Hebraisk</string>
+  <string name="norwegian">Norsk</string>
+  <string name="swedish">Svensk</string>
+  <string name="georgian">Georgisk</string>
+  <string name="czech_qwerty">Tjekkisk (QWERTY)</string>
+  <string name="czech_qwertz">Tjekkisk (QWERTY)</string>
+  <string name="greek">Græsk</string>
+  <string name="dutch">Hollandsk</string>
+  <string name="polish">Polsk</string>
+  <string name="ukrainian">Ukrainsk</string>
+  <string name="vibrate">Vibrere</string>
+  <string name="vibrate_summary">Vibrer på tastetryk</string>
+  <string name="vibrate_duration">Vibrations varighed</string>
+  <string name="label_go_key">Gå</string>
+  <string name="label_next_key">Næste</string>
+  <string name="label_done_key">Færdig</string>
+  <string name="advanced_settings">Avanceret indstillinger</string>
+  <string name="sound_on_keypress">Lyd ved tastetryk</string>
+  <string name="gestures">Håndbevægelser</string>
+  <string name="swipe_left">Glid til venstre</string>
+  <string name="swipe_right">Glid til højre</string>
+  <string name="swipe_up">Glid op</string>
+  <string name="swipe_down">Glid ned</string>
+  <string name="saved">Gemte</string>
+  <string name="quick_fixes">Hurtig rettelser</string>
+  <string name="quick_fixes_summary">Ret almindelige indtastede fejltagelser</string>
+  <string name="show_suggestions">Vis forslag</string>
+  <string name="show_suggestions_summary">Få vist foreslåede ord mens du skriver</string>
+  <string name="auto_complete">Udfyld automatisk</string>
+  <string name="auto_complete_summary">Mellemrum og tegnsætning indsættes automatisk ved fremhævede ord</string>
+  <string name="contact_dic">Kontaktpersoner ordbog</string>
+  <string name="contact_dic_summary">Medtage navne på kontaktpersoner i forslag (kræver Android 2.0)</string>
+  <string name="show_preview">Vis eksempel popup</string>
+  <string name="show_preview_summary">Vis et popup-vindue, når en tast trykkes</string>
+  <string name="skin_selection">Vælg skin</string>
+  <string name="skin_summary">Ændre tastatur skin</string>
+  <string name="transparency">Gennemsigtighed</string>
+  <string name="opacity">Angiv opacitet</string>
+  <string name="transparency_summary">Indstil tastaturets gennemsigtighed</string>
+  <string name="volume">Lydstyrke</string>
+  <string name="volume_summary">Angiv lydstyrken af tastetryk lyden</string>
+  <string name="debug_logs">Aktivere debug logfiler</string>
+  <string name="always_suggest">Altid foreslå</string>
+  <string name="always_suggest_summary">Vis også forslag til søgninger</string>
+  <string name="custom_autotext">Brugerdefinerede Autotekst</string>
+  <string name="custom_autotext_summary">Redigere dine egne autotekst genveje</string>
+  <string name="add_autotext">Tilføj autotekst...</string>
+  <string name="edit_autotext">Rediger Autotekst</string>
+  <string name="autotext_key">Det følgende ord:</string>
+  <string name="autotext_value">vil blive erstattet af:</string>
+  <string name="autotext_context_edit">Rediger</string>
+  <string name="autotext_context_delete">Slet</string>
+  <string name="enable_arrows">Aktivere pil tastatur</string>
+  <string name="enable_arrows_summary">Tilgængelig med 123 tasten</string>
+  <string name="always_caps">Altid store bogstaver</string>
+  <string name="always_caps_summary">Vis altid tast etikken ved store bogstaver</string>
+  <string name="display_alt_labels">Vis alternative etiketter</string>
+  <string name="display_alt_labels_summary">Vis alternative etiketter over almindelig tast symbol</string>
+  <string name="user_dictionary">Brugerordbog</string>
+  <string name="user_dictionary_summary">Redigere ord i brugerordbogen</string>
+  <string name="add_word">Tilføj ord</string>
+  <string name="edit_word">Rediger ord</string>
+  <string name="delete_word">Slet ord</string>
+  <string name="word">Ord</string>
+  <string name="download_dic">Download ordbog</string>
+  <string name="download_dic_summary">Hent ordbøger fra markedet</string>
+  <string name="mic_button">Mikrofon knap</string>
+  <string name="mic_button_summary">Vis stemmeinput tasten når muligt</string>
+  <string name="voice_input">Stemmeinput</string>
+  <string name="cancel">Annuller</string>
+  <string name="retry">Forsøg igen</string>
+  <string name="restart_voice">Genstart stemmeinput</string>
+  <string name="restart_voice_summary">Genstart altid stemmeinput indtil det er annulleret</string>
+  <string name="voice_best">Bedste valg ved stemmeinput</string>
+  <string name="voice_best_summary">Vælg automatisk det bedste valg</string>
+  <string name="touch_points">Vis berøringspunkter</string>
+  <string name="portrait_mode">Portræt tilstand</string>
+  <string name="portrait_mode_summary">Vælg normal, T9 eller kompakt layout til portræt</string>
+  <string name="candidate_color">Kandidat farve</string>
+  <string name="candidate_color_summary">Farven på det valgte ord i forslags-baren</string>
+  <string name="disable_launcher">Deaktiver program ikon</string>
+  <string name="disable_launcher_warning">Advarsel! Dette vil deaktivere ikonet Smart Keyboard PRO\'s ikon, men vil også deaktivere \"Åben\" knappen i markedet programmet! \nDet kan være nødvendigt at genstarte din telefon for at ikonet faktisk forsvinder.</string>
+  <string name="space_when_pick">Mellemrum efter valg</string>
+  <string name="space_when_pick_summary">Indsæt et mellemrum efter manuelt valg fra forslags-baren</string>
+  <string name="swap_punctuation_space">Skift tegnsætning</string>
+  <string name="swap_punctuation_space_summary">Automatisk ombytning af tegnsætning og mellemrum efter et ord</string>
+  <string name="smiley_key">Smiley tast</string>
+  <string name="smiley_key_summary">Vis smileytast i stedet for enter</string>
+  <string name="toggle_smiley_key">Skift til smileytast</string>
+  <string name="select_sound">Vælg lyd stil</string>
+  <string name="smiley_editor">Rediger smileys</string>
+  <string name="smiley_editor_summary">Tilpas din smileytast</string>
+  <string name="smiley_editor_title">Tryk for at redigere en smiley</string>
+  <string name="edit_smiley">Rediger smiley</string>
+  <string name="smart_dictionary">Smart ordbog</string>
+  <string name="smart_dictionary_summary">Ordbog, som lærer hyppigheden af ord du skriver for at forbedre forslag</string>
+  <string name="backup">Indstillinger for sikkerhedskopiering</string>
+  <string name="backup_to_sd">Sikkerhedskopiering til SD-kort</string>
+  <string name="restore">Gendan fra SD-kort</string>
+  <string name="no_sd_card">Fejl: Dit SD kort er ikke monteret, sikkerhedskopiering/gendannelse er ikke muligt!</string>
+  <string name="backup_warning">Advarsel! Du er ved at tage backup af Smart Keyboard PRO indstillinger og ordbøgerne. Dette vil overskrive /sdcard/smartkeyboardpro/backup.zip. Ønsker du at fortsætte?</string>
+  <string name="restore_warning">Advarsel! Du er ved at gendanne Smart tastatur PRO indstillinger og ordbøger.  Dette vil overskrive alle dine aktuelle indstillinger. Tastaturet genstartes for at tage ændringer i brug. Vil du fortsætte?</string>
+  <string name="backup_complete">Sikkerhedskopiering fuldført</string>
+  <string name="slide_popup">Skub popup keyboard</string>
+  <string name="slide_popup_summary">Skub fingeren for at vælge accenter på popup-tastaturet</string>
+  <string name="space_preview">Mellemrums visning</string>
+  <string name="space_preview_summary">Vis eksempel for mellemrums-tasten</string>
+  <string name="turkish">Tyrkisk</string>
+  <string name="hungarian">Ungarnsk</string>
+  <string name="icelandic">Islandsk</string>
+  <string name="bosnian">Bosnisk</string>
+  <string name="croatian">Kroatisk</string>
+  <string name="serbian">Serbisk</string>
+  <string name="slovene">Slovensk</string>
+  <string name="close">Luk</string>
+  <string name="arabic">Arabisk</string>
+  <string name="force_latin">Tving latinsk layout</string>
+  <string name="force_latin_summary">Tving layoutet til at bruge alle latinske sprog</string>
+  <string name="default_latin_lang">&lt;Standart&gt;</string>
+  <string name="korean">Koreansk</string>
+  <string name="rtl_suggestions">RTL forslag</string>
+  <string name="rtl_suggestions_summary">Omvendte ord i værktøjslinjen forudsigelse (for arabisk/hebraisk)</string>
+  <string name="clean_userdic">Tøm brugerordbog</string>
+  <string name="warn_clean_userdic">Advarsel! Dette vil slette ALLE ord i din brugerordbog. Ønsker du at fortsætte?</string>
+  <string name="suggest_punctuation">Foreslå tegnsætning</string>
+  <string name="key_height">Tast højde</string>
+  <string name="longpress_duration">Lang tryk varighed</string>
+  <string name="longpress_duration_summary">Tilpas varighed for tastetryk ved alternative symboler</string>
+  <string name="learn_new_words">Lær nye ord</string>
+  <string name="learn_new_words_summary">Føj automatisk nye ord til brugerordbogen (kræver Smart-ordbogen)</string>
+  <string name="enter_sends_sms">Enter sender beskeden</string>
+  <string name="slovak">Slovakisk</string>
+  <string name="bk_warning">Advarsel! Dette er et skin til Better Keyboard. Kompatibilitet med Smart Keyboard PRO tastaturet er på eget ansvar!</string>
+  <string name="domain_editor">Domæne editor</string>
+  <string name="domain_editor_summary">Tilpas tasten .com</string>
+  <string name="domain_editor_title">Tryk for at redigere et domæne</string>
+  <string name="edit_domain">Redigere domæne</string>
+  <string name="persistent_domain_key">Persistent domæne nøgle</string>
+  <string name="persistent_domain_key_summary">Vis altid domain (.com) tasten</string>
+  <string name="no_alt_preview">Ingen alt preview</string>
+  <string name="dynamic_resizing">Dynamisk tast størrelses ændring</string>
+  <string name="dynamic_resizing_summary">Ændre den virtuelle størrelse af en tast baseret på bogstavs sansynlighed</string>
+  <string name="japanese">Japansk</string>
+  <string name="double_space_period">Punktum ved dobbelt mellemrum</string>
+  <string name="double_space_period_summary">Indsæt et punktum når mellemrums-tasten er trykket på to gange</string>
+  <string name="arrows_style">Pile stil</string>
+  <string name="arrows_style_summary">Vælg en stil til pil-tasteturet</string>
+  <string name="disable_mt">Slå multi-berøring fra</string>
+  <string name="compound_suggestions">Sammensæt forslag</string>
+  <string name="compound_suggestions_summary">Slår forslag om sammensatte ord til (mest brugt i tysk)</string>
+  <string name="current_language">Nuværende sprog</string>
+  <string name="language_specific_options">Sprog specifikke indstillinger</string>
+  <string name="no_lansdcape_fullscreen">Ingen landskab i fuld-skærm</string>
+  <string name="no_lansdcape_fullscreen_summary">Skift ikke til fuldskærms-tilstand i landskab orrentation</string>
+  <string name="t9_length_priority">T9 længde prioritet</string>
+  <string name="t9_length_priority_summary">Giv prioritet til ord med samme længde, når der vises T9 forslag</string>
+  <string name="t9_next_key">T9 næste tast</string>
+  <string name="t9_next_key_summary">Vis en næste knap i T9 portræt tilstand</string>
+  <string name="suggest_numbers">Foreslå numre</string>
+  <string name="suggest_numbers_summary">Aktivere forslag til ord startende med et ikke-alfabetiske tegn</string>
+  <string name="trial_popup">Dette er en prøveversion. Hent "Smart Keyboard PRO" nu for at støtte programmet og for aldrig at se denne irriterende popup igen :)</string>
+  <string name="buy">Køb</string>
+  <string name="no_thanks">Nej tak</string>
+  <string name="chinese_simplified">Kinesisk (forenklet)"</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nej</string>
+  <string name="english_dic">Du skal hente \"English for Smart Keyboard\" fra Android markedet og aktivere engelsk forslag og auto-korrektion. Vil du hente den nu?</string>
+  <string name="physical_kbd">Fysisk tastatur</string>
+  <string name="physical_kbd_summary">Aktiver forslag og tast-oversættelse med det fysiske tastatur. Bruge Skift + mellemrum til at skifte sprog.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Stemmeinput</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Stemmeinput understøttes ikke i øjeblikket til dit sprog, men fungerer i engelsk.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Stemmeinput er en eksperimentel funktion ved hjælp af Google\'s netværksbaseret talegenkendelse.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Hvis du vil deaktivere stemmeinput, gå til tastaturindstillinger.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Tal nu</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Arbejder</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Fejl. Prøv igen.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Kunne ikke oprette forbindelse</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Fejl, for meget tale.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Lyd problem</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Serverfejl</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Intet snak hørt</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Ingen sammenligninger fundet</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Stemme søgning ikke installeret</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Ok</string>
+  <string name="estonian">Estisk</string>
+  <string name="lithuanian">Litauisk</string>
+  <string name="latvian">Lettisk</string>
+  <string name="only_one_language">Advarsel! Du har valgt kun ét sprog for tasten sprog, denne nøgle vises ikke, men det aktuelle sprog er blevet angivet til dette sprog.</string>
+  <string name="different_language">Advarsel! Det sprog, du netop har valgt er ikke defineret i \"sprog valg tasten\" indstilling!</string>
+  <string name="hebrew_alt">Hebraiske alt layout</string>
+  <string name="hebrew_alt_summary">Lægge tilbage-tasten på venstre side i hebraisk layout</string>
+  <string name="portrait_fullscreen">Portræt fuldskærm</string>
+  <string name="portrait_fullscreen_summary">Indstil tastaturet i fuldskærm tilstand i stående papirretning (kan være nyttige på meget små skærme)</string>
+  <string name="czech_full">Tjekkisk/slovakisk fuld layout</string>
+  <string name="czech_full_summary">Inkluder en toprække med bogstavs-accenter i tjekkiske og slovakiske layout</string>
+  <string name="swipe_sensitivity">Glide følsomhed</string>
+  <string name="swipe_sensitivity_summary">Angiv følsomheden af håndbevægelser. Advarsel: Hvis du øger følsomheden for meget, kan multitouch skrivelse kunne fortolkes som en gestus.</string>
+  <string name="catalan">Catalansk</string>
+  <string name="multitap_interval">Multitryk interval</string>
+  <string name="multitap_interval_summary">Angive den maksimale forsinkelse for multitryk, for eksempel i T9 eller koreansk \"korte vokaler\" layout.</string>
+  <string name="persian">Persisk</string>
+  <string name="calibration">Kalibrering</string>
+  <string name="calibration_summary">Kalibrere tastaturet for at forbedre nøjagtigheden</string>
+  <string name="calibration_instructions">Hvis du vil kalibrere dit tastatur, skriv da følgende tekst:</string>
+  <string name="calibration_done">Kalibreringen er færdig! Klik på \"Gem\" for at bruge denne indstilling, eller \"Annuller\" for at prøve igen. Vær opmærksom på at at du bør kalibrer både i portræt- samt landskab tilstand for bedre resultat.</string>
+  <string name="calibration_profile_is">Din kalibrerings profil er:</string>
+  <string name="calibration_reset">Du er ved at nulstille kalibrerings indstillingerne til standardværdierne. Vil du fortsætte?</string>
+  <string name="reset">Nulstil</string>
+  <string name="save">Gem</string>
+  <string name="get_skins">Hent flere temaer...</string>
+  <string name="sms_mode">SMS tilstand</string>
+  <string name="sms_mode_summary">Fjerne udvidede accenter fra foreslåede ord, når du skriver en SMS</string>
+  <string name="key_height_summary">Tilpas tast højde</string>
+  <string name="alt_symbols">Alt symboler</string>
+  <string name="alt_symbols_summary">Vis etiketter til alt i panelet symboler (123)</string>
+  <string name="hide_period">Skjul punktum</string>
+  <string name="hide_period_summary">Skjule punktum tasten og dermed forstørre mellemrumstasten</string>
+  <string name="hide_comma">Skjul komma</string>
+  <string name="hide_comma_summary">Skjule kommatasten (eller mikrofon) for derved at forstørre mellemrumstasten</string>
+  <string name="bottom_padding">Bund udfyldning</string>
+  <string name="bottom_padding_summary">Tilføj ekstra plads i bunden af keyboardet i protræt tilstand</string>
+  <string name="apostrophe_separator">Apostrof separator</string>
+  <string name="apostrophe_separator_summary">Brug apostrof som en ordseparator (nyttigt for f.eks italienske)</string>
+  <string name="ignore_hard_kbd">Ignorere fysisk tastatur</string>
+  <string name="ignore_hard_kbd_summary">Vis virtuelt keyboard i landskab tilstand også selvom fysisk keyboard er tilstede (kan bruges med Droid Pro)</string>
+  <string name="tatar">Tatarisk</string>
+  <string name="custom_punctuation">Brugerdefineret tegnsætning</string>
+  <string name="custom_punctuation_summary">Tilpas tegnsætningstegn som vises i linjen forslag</string>
+  <string name="kazakh">Kasakhisk</string>
+  <string name="azerbaijani">Aserbajdsjansk</string>
+  <string name="armenian">Armensk</string>
+  <string name="vietnamese">Vietnamesisk</string>
+  <string name="no_landscape_suggestions">Ingen landskabstilstand forslag</string>
+  <string name="no_landscape_suggestions_summary">vis ikke værktøjslinjen forslag i landskabretning</string>
+  <string name="arrows_main">Vis pile</string>
+  <string name="arrows_main_summary">Vælg hvornår piletasterne vises på det almindelige tastatur</string>
+  <string name="cursor_volume">Markør med volume</string>
+  <string name="cursor_volume_summary">Ryk markør med volumetaster</string>
+  <string name="export_user_dic">Eksporter brugerordbog</string>
+  <string name="export_user_dic_summary">Eksporter brugerordbog i CSV-format</string>
+  <string name="export_autotext">Eksportere Autotekst</string>
+  <string name="export_autotext_summary">Eksportere autotekst genveje i CSV-format</string>
+  <string name="import_user_dic">Importer brugerordbog</string>
+  <string name="import_autotext">Importer autotekst</string>
+  <string name="export_complete">CVS eksportering fuldført</string>
+  <string name="import_complete">CVS importering fuldført</string>
+  <string name="export_user_dic_warning">Advarsel! Du er ved at eksportere brugerordbogen til en fil i CSV format. Dette vil overskrive /sdcard/smartkeyboardpro/userdic.csv. Ønsker du at fortsætte?</string>
+  <string name="import_user_dic_warning">Advarsel! Du er ved at importere brugerordbogen fra CSV-filen /sdcard/smartkeyboardpro/userdic.csv.   Dette vil overskrive hele indholdet af din brugerordbog. Vil du fortsætte?  </string>
+  <string name="export_autotext_warning">Advarsel! Du er ved at eksportere autotekst ordbogen til en fil i CSV format. Dette vil overskrive /sdcard/smartkeyboardpro/autotext.csv. Ønsker du at fortsætte?</string>
+  <string name="import_autotext_warning">Advarsel! Du er ved at importere autotekst ordbogen fra CSV-filen /sdcard/smartkeyboardpro/autotext.csv.   Dette vil overskrive hele indholdet af din autotekst ordbog. Vil du fortsætte?  </string>
+  <string name="accents_priority">Accenter prioritet</string>
+  <string name="accents_priority_summary">Giv prioritet til bogstaver accenter (eller dobbelte konsonanter) i stedet for symboler, når der trykkes længe på taster. Fungerer kun for nogle sprog.</string>
+  <string name="mongolian">Mongolsk</string>
+  <string name="prefs_enable_recorrection">Tryk for at tilrette ord</string>
+  <string name="prefs_enable_recorrection_summary">Rør det indsatte ord for at rette det</string>
+  <string name="macedonian">Makedonsk</string>
+  <string name="luxembourgish">Luxembourgsk</string>
+  <string name="albanian">Albansk</string>
+  <string name="belarusian">Hviderussisk</string>
+  <string name="indonesian">Indonesisk</string>
+  <string name="alt_compact">Udvid kompakt/T9</string>
+  <string name="alt_compact_summary">Langt tryk i kompakt/T9 tilstand viser alle de mulige bogstaver (kun engelsk layout)</string>
+  <string name="backup_failed">Sikkerhedskopi mislykkedes!</string>
+  <string name="restore_failed">Gendannelse mislykkedes! Sikkerhedskopifilen blev formentlig beskadiget.</string>
+  <string name="hide_in_portrait">Skjul i portrættilstand</string>
+  <string name="hide_in_portrait_summary">Skjul altid keyboard i portræt tilstand (nyttigt på Droid Pro)</string>
+  <string name="space_alert">Mellemrums advarsel</string>
+  <string name="space_alert_summary">Vibrer kun ved mellemrumstasten</string>
+  <string name="hide_lang_key">Skjul sprog tasten</string>
+  <string name="hide_lang_key_summary">Skjul sprog valgtast, når flere sprog er aktiveret</string>
+  <string name="show_language_icon">Vis sprogikonet</string>
+  <string name="show_language_icon_summary">Vis et sprogikon i statuslinjen</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Velkommen til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"med glidende indtastning"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Kom godt i gang"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Næste trin"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> konfigureres"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Aktivér <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Markér \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" i Sprog og inputindstillinger. Dermed får appen tilladelse til at køre på din enhed."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Aktivér i Indstillinger"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Skift til <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Dernæst skal du vælge \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" som din aktive sms-indtastningsmetode."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Skift indtastningsmetode"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Så er du klar."</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Nu kan du skrive i alle dine favoritapps med <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Konfigurer flere sprog"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Afslut"</string>
+  </resources>

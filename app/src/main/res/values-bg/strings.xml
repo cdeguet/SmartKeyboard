@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Помощ</string>
+  <string name="about">За програмата</string>
+  <string name="auto_cap">Авто главна буква</string>
+  <string name="auto_cap_summary">В началото на изречението с главна буква</string>
+  <string name="keyboard_settings">Настройки на Smart Keyboard Pro</string>
+  <string name="settings">Настройки</string>
+  <string name="general_settings">Основни настройки</string>
+  <string name="text_prediction">Предвиждане на текст</string>
+  <string name="sound_vibrate">Звук и вибрация</string>
+  <string name="language">Език</string>
+  <string name="language_summary">Промяна на езика и подредбата на клавиатурата</string>
+  <string name="lang_key">Бутон за избор на език</string>
+  <string name="lang_key_summary">Избор на налични езици</string>
+  <string name="english">Английски</string>
+  <string name="english_intl">Английски (международна)</string>
+  <string name="english_dvorak">Английски (Dvorak)</string>
+  <string name="english_azerty">Английски (AZERTY)</string>
+  <string name="french">Френски</string>
+  <string name="romanian">Румънски</string>
+  <string name="bulgarian">Български</string>
+  <string name="russian">Руски</string>
+  <string name="russian_phonetic">Руски (фонетично)</string>
+  <string name="spanish">Испански</string>
+  <string name="italian">Италиански</string>
+  <string name="german">Немски</string>
+  <string name="portuguese">Португалски</string>
+  <string name="danish">Датски</string>
+  <string name="finnish">Финландски</string>
+  <string name="hebrew">Иврит</string>
+  <string name="norwegian">Норвежки</string>
+  <string name="swedish">Шведски</string>
+  <string name="georgian">Грузински</string>
+  <string name="czech_qwerty">Чешки (QWERTY)</string>
+  <string name="czech_qwertz">Чешки (QWERTZ)</string>
+  <string name="greek">Гръцки</string>
+  <string name="dutch">Холандски</string>
+  <string name="polish">Полски</string>
+  <string name="ukrainian">Украински</string>
+  <string name="vibrate">Вибрация</string>
+  <string name="vibrate_summary">Вибриране при натиск на клавиш</string>
+  <string name="vibrate_duration">Продължителност на вибриране</string>
+  <string name="label_go_key">Напред</string>
+  <string name="label_next_key">Следващ</string>
+  <string name="label_done_key">Готово</string>
+  <string name="label_send_key">Изпрати</string>
+  <string name="advanced_settings">Разширени настройки</string>
+  <string name="sound_on_keypress">Звук при натиск на клавиш</string>
+  <string name="gestures">Жестове</string>
+  <string name="swipe_left">Плъзгане наляво</string>
+  <string name="swipe_right">Плъзгане надясно</string>
+  <string name="swipe_up">Плъзгане нагоре</string>
+  <string name="swipe_down">Плъзгане надолу</string>
+  <string name="saved">Запаметено</string>
+  <string name="quick_fixes">Бързи корекции</string>
+  <string name="quick_fixes_summary">Коригира често допуснати грешки</string>
+  <string name="show_suggestions">Показвай предложения</string>
+  <string name="show_suggestions_summary">Показвай предложенията по време на писане</string>
+  <string name="auto_complete">Авто допълване</string>
+  <string name="auto_complete_summary">Автоматично вмъкване на маркирана дума, интервал и пунктуация</string>
+  <string name="contact_dic">Речник на контактите</string>
+  <string name="contact_dic_summary">Вмъкване на контактните имена в приложения (трябва Android 2.0)</string>
+  <string name="show_preview">Показвай прозорец с изглед</string>
+  <string name="show_preview_summary">Показвай прозорец когато е натиснат клавиш</string>
+  <string name="skin_selection">Избери кожа</string>
+  <string name="skin_summary">Смени кожата на клавиатурата</string>
+  <string name="transparency">Прозрачност</string>
+  <string name="opacity">Задаване на прозрачност</string>
+  <string name="transparency_summary">Задаване прозрачност на клавиатурата</string>
+  <string name="volume">Сила на звука</string>
+  <string name="volume_summary">Задаване сила на звука при натиск на клавиш</string>
+  <string name="debug_logs">Включване на логовете с грешки</string>
+  <string name="always_suggest">Винаги питай</string>
+  <string name="always_suggest_summary">Също така показва приложенията при търсене</string>
+  <string name="custom_autotext">Автоматичен текст по избор</string>
+  <string name="custom_autotext_summary">Редактиране на собствените автоматични текстови преки пътища</string>
+  <string name="add_autotext">Добавяне на автоматичен текст...</string>
+  <string name="edit_autotext">Редактиране на автоматичния текст</string>
+  <string name="autotext_key">Следната дума:</string>
+  <string name="autotext_value">ще бъде заменена от:</string>
+  <string name="autotext_context_edit">Редактирай</string>
+  <string name="autotext_context_delete">Изтрий</string>
+  <string name="enable_arrows">Разрешаване на стрелките</string>
+  <string name="enable_arrows_summary">Достъпни с клавиша 123</string>
+  <string name="always_caps">Винаги главни букви</string>
+  <string name="always_caps_summary">Винаги показвай бутоните с главни букви</string>
+  <string name="display_alt_labels">Покажи алтернативните символи</string>
+  <string name="display_alt_labels_summary">Показва алтернативните симоли на клавиатурата</string>
+  <string name="user_dictionary">Потребителски речник</string>
+  <string name="user_dictionary_summary">Редактиране на думи в потребителския речник</string>
+  <string name="add_word">Добави дума</string>
+  <string name="edit_word">Редактирай дума</string>
+  <string name="delete_word">Изтрий дума</string>
+  <string name="word">Дума</string>
+  <string name="forum">Форум</string>
+  <string name="download_dic">Свали речник</string>
+  <string name="download_dic_summary">Изтегляне на речници от магазина</string>
+  <string name="mic_button">Бутон микрофон</string>
+  <string name="mic_button_summary">Показвай клавиша за гласово въвеждане когато е възможно</string>
+  <string name="voice_input">Гласово въвеждане</string>
+  <string name="cancel">Отказ</string>
+  <string name="retry">Опитай отново</string>
+  <string name="restart_voice">Рестартирай гласово въвеждане</string>
+  <string name="restart_voice_summary">Винаги рестартирай гласовите данни, докато не е отказано</string>
+  <string name="voice_best">Най-добро гласово въвеждане</string>
+  <string name="voice_best_summary">Автоматично избиране на най-доброто съвпадение</string>
+  <string name="touch_points">Покажи точките на докосване</string>
+  <string name="portrait_mode">Портретен режим</string>
+  <string name="portrait_mode_summary">Изберете нормална, T9 или компактна подредба за портретен режим</string>
+  <string name="candidate_color">Цвят - кандидат</string>
+  <string name="candidate_color_summary">Цветът на препоръчителните думи в лентата за предложения</string>
+  <string name="disable_launcher">Скриване на стартиращата икона</string>
+  <string name="space_when_pick">Интервал след подбиране на думите</string>
+  <string name="space_when_pick_summary">Вмъква интервал, след избиране на дума от лентата с предложения</string>
+  <string name="swap_punctuation_space">Сменяне на пунктуацията</string>
+  <string name="swap_punctuation_space_summary">Автоматично сменяне на пунктуацията при интервал след дума</string>
+  <string name="smiley_key">Бутон усмивки</string>
+  <string name="smiley_key_summary">Показва бутона с усмивки вместо бутона ↵ (ENTER)</string>
+  <string name="toggle_smiley_key">Показване на усмивките след като е натиснат ↵ (ENTER)</string>
+  <string name="select_sound">Изберете стил на звука</string>
+  <string name="smiley_editor">Редактор на усмивки</string>
+  <string name="smiley_editor_summary">Персонализирайте ваши усмивки</string>
+  <string name="smiley_editor_title">Щракнете, за да редактирате усмивка</string>
+  <string name="edit_smiley">Редактиране на усмивки</string>
+  <string name="smart_dictionary">Интелигентен речник</string>
+  <string name="smart_dictionary_summary">Речник, който изучава повтарянето на думите, за подобряване на предложенията</string>
+  <string name="backup">Архивирай настройки</string>
+  <string name="backup_to_sd">Архивирай на SD картата</string>
+  <string name="restore">Възстанови от SD картата</string>
+  <string name="no_sd_card">Грешка: Вашата SD карта не е монтирана, архивиране/възтановяване не е възможно!</string>
+  <string name="backup_warning">Предупреждение! Вие сте на път да архивирате настройките и речниците на Smart Keyboard PRO в /sdcard/smartkeyboardpro/backup.zip. Искате ли да продължите?</string>
+  <string name="restore_warning">Предупреждение! Вие сте на път да възстановите  настройките и речниците на Smart Keyboard PRO. Приложението ще се рестартира, за да се приложат промените в акаунта Ви. Искате ли да продължите?</string>
+  <string name="backup_complete">Архивирането приключи</string>
+  <string name="slide_popup">Плъзгащи бутони</string>
+  <string name="slide_popup_summary">Плъзнете пръста си, за да изберете акцентите, изскачащи върху клавиатурата</string>
+  <string name="space_preview">Визуализация на интервала</string>
+  <string name="space_preview_summary">Покажи визуализацията за интервал клавиш</string>
+  <string name="turkish">Турски</string>
+  <string name="hungarian">Унгарски</string>
+  <string name="icelandic">Исландски</string>
+  <string name="bosnian">Босненски</string>
+  <string name="croatian">Хърватски</string>
+  <string name="serbian">Сръбски</string>
+  <string name="slovene">Словенски</string>
+  <string name="close">Затвори</string>
+  <string name="arabic">Арабски</string>
+  <string name="layout">Подредба</string>
+  <string name="force_latin">Принудително латинско оформление</string>
+  <string name="force_latin_summary">Принудително, ще се използва оформлението с всички латински езици</string>
+  <string name="default_latin_lang">&lt;Подразбиране&gt;</string>
+  <string name="korean">Корейски</string>
+  <string name="rtl_suggestions">RTL предложения</string>
+  <string name="rtl_suggestions_summary">Обръща думите в лентата за предвиждане на текста (за Арабски/Иврит)</string>
+  <string name="clean_userdic">Изчисти потребителския речник</string>
+  <string name="warn_clean_userdic">Предупреждение! Това ще изтрие ВСИЧКИ думите във вашия потребителски речник. Искате ли да продължите?</string>
+  <string name="suggest_punctuation">Предлагай пунктуация</string>
+  <string name="key_height">Височина на бутоните</string>
+  <string name="thai">Тайландски</string>
+  <string name="longpress_duration">Продължителност на задържането</string>
+  <string name="longpress_duration_summary">Персонализиране времетраенето на задържане за алтернативните символи</string>
+  <string name="learn_new_words">Научете нови думи</string>
+  <string name="learn_new_words_summary">Автоматично добавяне на нови думи към потребителския речника (изисква "Интелигентен речник")</string>
+  <string name="enter_sends_sms">↵ (ENTER) изпраща съобщение</string>
+  <string name="slovak">Словашки</string>
+  <string name="bk_warning">Предупреждение! Това е кожа за Better Keyboard. Съвместимостта с Smart Keyboard може да бъде прекъсната по всяко време, така че използвате на собствен риск!</string>
+  <string name="domain_editor">Редактор на домейн</string>
+  <string name="domain_editor_summary">Персонализиране на .com клавиш</string>
+  <string name="domain_editor_title">Натиснете за да редактирате домейна</string>
+  <string name="edit_domain">Редактирай домейн</string>
+  <string name="persistent_domain_key">Постоянен домейн бутон</string>
+  <string name="persistent_domain_key_summary">Винаги показвай домейн .com бутона</string>
+  <string name="no_alt_preview">Без алтернативни символи</string>
+  <string name="dynamic_resizing">Динамично оразмеряване на бутоните</string>
+  <string name="dynamic_resizing_summary">Променя размера на виртуалните бтони на базата на вероятната следваща буква</string>
+  <string name="esperanto">Есперанто</string>
+  <string name="japanese">Японски</string>
+  <string name="double_space_period">Точка при двоен интервал</string>
+  <string name="double_space_period_summary">Вмъкване на знак точка, когато интервалът се натисне два пъти</string>
+  <string name="arrows_style">Стил на стрелките</string>
+  <string name="arrows_style_summary">Изберете стил на клавиатурата със стрелки</string>
+  <string name="disable_mt">Забраняване на мултитъч</string>
+  <string name="compound_suggestions">Комбинирани предложения</string>
+  <string name="compound_suggestions_summary">Разрешава предложенията на сложни думи (предимно за Немски език)</string>
+  <string name="current_language">Текущ език</string>
+  <string name="language_specific_options">Специфични езикови настройки</string>
+  <string name="t9_next_key">T9 следващ бутон</string>
+  <string name="t9_next_key_summary">Показва следващия бутона в T9 портретен режим</string>
+  <string name="suggest_numbers">Предлагай числа</string>
+  <string name="suggest_numbers_summary">Разрешава предложения за думи, започващи с не буквен знак</string>
+  <string name="trial_popup">Това е пробна версия. Вземете "Smart клавиатура PRO" сега, за да подкрепите приложението и няма да бъдете обезпокоявани от това досадно съобщение повече :)</string>
+  <string name="buy">Купете</string>
+  <string name="no_thanks">Не, благодаря</string>
+  <string name="chinese_simplified">Китайски (опростен)"</string>
+  <string name="yes">Да</string>
+  <string name="no">Не</string>
+  <string name="physical_kbd">Хардуерна клавиатура</string>
+  <string name="physical_kbd_summary">Разрешава предложенията с хардуерната клавиатура. Използвайте shift + интервал, за да превключите езика.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Гласово въвеждане</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Гласовото въвеждане в момента не се поддържа за вашия език, но работи на Английски.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">За да изключите гласовото въвеждане, отидете в настройките на клавиатурата.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Говори сега</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Оработване</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Грешка. Моля, опитайте отново.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Не може да се свърже</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Грешка, твърде много думи.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Аудио проблем</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Грешка в сървъра</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Не е засечена реч</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Не са намерени съвпадения</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Гласовото търсене не е инсталирано</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Добре</string>
+  <string name="estonian">Естонски</string>
+  <string name="lithuanian">Литовски</string>
+  <string name="latvian">Латвийски</string>
+  <string name="only_one_language">Предупреждение! Кагато сте избрали само един език за въвеждане, бутона за смяна на езика няма да бъде показан.</string>
+  <string name="hebrew_alt">Иврит оформление на алтернативните символи</string>
+  <string name="czech_full">Чешки/словашки пълно оформление</string>
+  <string name="catalan">Каталонски</string>
+  <string name="persian">Персийски</string>
+  <string name="calibration">Калибриране</string>
+  <string name="reset">Начално състояние</string>
+  <string name="save">Запази</string>
+  <string name="get_skins">Още кожи...</string>
+  <string name="sms_mode">SMS режим</string>
+  <string name="key_height_summary">Височина на бутоните</string>
+  <string name="alt_symbols">ALT символи</string>
+  <string name="hide_period">Скрий периода</string>
+  <string name="hide_period_summary">Скриване на запетаята, за по-голям спейс</string>
+  <string name="hide_comma">Скрий запетая</string>
+  <string name="ignore_hard_kbd">Игнорирай физическа клавиатура</string>
+  <string name="pinyin">Пинин</string>
+  <string name="tatar">Татарски</string>
+  <string name="kazakh">Казахски</string>
+  <string name="azerbaijani">Азербайджански</string>
+  <string name="armenian">Арменски</string>
+  <string name="vietnamese">Виетнамски</string>
+  <string name="arrows_main">Покажи стрелките</string>
+  <string name="afrikaans">Африкаанс</string>
+  <string name="mongolian">Монголски</string>
+  <string name="macedonian">Македонски</string>
+  <string name="luxembourgish">Люксембургски</string>
+  <string name="albanian">Албански</string>
+  <string name="belarusian">Беларуски</string>
+  <string name="indonesian">Индонезийски</string>
+  <string name="alt_compact">Разширен компактен/T9</string>
+  <string name="backup_failed">Архивирането е неуспешно!</string>
+  <string name="space_alert">Интервал предупреждение</string>
+  <string name="space_alert_summary">Вибриране само при интервал</string>
+  <string name="unicode">Уникод</string>
+  <string name="hide_lang_key">Скриване на езиковия клавиш</string>
+  <string name="hide_lang_key_summary">Скриване на избора на езиков клавиш, когато са разрешени няколко езика</string>
+  <string name="show_language_icon">Показване на иконата с езици</string>
+  <string name="show_language_icon_summary">Показване на иконата с езици в лентата състоянието</string>
+  <string name="emoji">Емоджи</string>
+  <string name="domain_key">Ключ на домейн</string>
+  <string name="kurdish">кюрдски</string>
+  <string name="hindi">хинди</string>
+  <string name="marathi">маратхи</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Добре дошли в/ъв <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"с въвеждане чрез жест"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Първи стъпки"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Следваща стъпка"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Настройване на <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Активирайте <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Поставете отметка за <xliff:g id="APPLICATION_NAME">%s</xliff:g> в „Език и въвеждане“. Така ще упълномощите приложението да се изпълнява на устройството."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"Вече активирахте <xliff:g id="APPLICATION_NAME">%s</xliff:g> в настройките си за език и въвеждане, така че тази стъпка е изпълнена. Преминете към следващата!"</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Активиране в настройките"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Превключете към <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"След това изберете <xliff:g id="APPLICATION_NAME">%s</xliff:g> като активен метод на въвеждане на текст."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Превключване на методите на въвеждане"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Поздравления! Вече сте готови!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Вече можете да пишете във всичките си любими приложения посредством <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Конфигуриране на допълнителни езици"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Край"</string>
+  </resources>

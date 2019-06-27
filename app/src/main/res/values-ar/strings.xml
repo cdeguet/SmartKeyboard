@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">مساعدة</string>
+  <string name="about">حول البرنامج...</string>
+  <string name="auto_cap">أحرف كبيرة تلقائيا</string>
+  <string name="auto_cap_summary">حرف كبير بداية الجملة</string>
+  <string name="keyboard_settings">إعدادات Smart Keyboard Pro</string>
+  <string name="settings">إعدادات</string>
+  <string name="general_settings">إعدادات عامة</string>
+  <string name="text_prediction">التنبؤ بالنص</string>
+  <string name="sound_vibrate">الصوت والاهتزاز</string>
+  <string name="language">اللغة</string>
+  <string name="language_summary">تغيير لغة لوحة المفاتيح وشكلها</string>
+  <string name="lang_key">مفتاح اختيار اللغة</string>
+  <string name="lang_key_summary">حدد اللغات المتوفرة</string>
+  <string name="english">الإنجليزية</string>
+  <string name="english_intl">اللغة الإنجليزية (الدولية)</string>
+  <string name="english_dvorak">اللغة الإنجليزية (دفوراك)</string>
+  <string name="english_azerty">اللغة الإنجليزية (AZERTY)</string>
+  <string name="french">الفرنسية</string>
+  <string name="romanian">الرومانية</string>
+  <string name="bulgarian">البلغارية</string>
+  <string name="russian">الروسية</string>
+  <string name="russian_phonetic">الروسية (لفظي)</string>
+  <string name="spanish">الإسبانية</string>
+  <string name="italian">الإيطالية</string>
+  <string name="german">الألمانية</string>
+  <string name="portuguese">البرتغالية</string>
+  <string name="danish">الدانماركية</string>
+  <string name="finnish">الفنلندية</string>
+  <string name="hebrew">العبرية</string>
+  <string name="norwegian">النرويجية ‏</string>
+  <string name="swedish">السويدية</string>
+  <string name="georgian">الجورجية</string>
+  <string name="czech_qwerty">التشيكية (QWERTY)</string>
+  <string name="czech_qwertz">التشيكية (QWERTZ)</string>
+  <string name="greek">اليونانية</string>
+  <string name="dutch">الهولندية</string>
+  <string name="polish">البولندية</string>
+  <string name="ukrainian">الأوكرانية</string>
+  <string name="vibrate">الاهتزاز</string>
+  <string name="vibrate_summary">الاهتزاز عند ضغط مفتاح</string>
+  <string name="vibrate_duration">مدة الاهتزاز</string>
+  <string name="label_go_key">تنفيذ</string>
+  <string name="label_next_key">التالي</string>
+  <string name="label_done_key">تم التنفيذ</string>
+  <string name="label_send_key">إرسال</string>
+  <string name="advanced_settings">إعدادات متقدمة</string>
+  <string name="sound_on_keypress">الصوت عند ضغط مفتاح</string>
+  <string name="gestures">إيماءات</string>
+  <string name="swipe_left">إيماء لليسار</string>
+  <string name="swipe_right">إيماء لليمين</string>
+  <string name="swipe_up">إيماء للأعلى</string>
+  <string name="swipe_down">إيماء للأسفل</string>
+  <string name="saved">تم الحفظ</string>
+  <string name="quick_fixes">إصلاحات سريعة</string>
+  <string name="quick_fixes_summary">تصحيح الأخطاء الشائعة المكتوبة</string>
+  <string name="show_suggestions">إظهار الاقتراحات</string>
+  <string name="show_suggestions_summary">عرض الكلمات المقترحة أثناء الكتابة</string>
+  <string name="auto_complete">الإكمال التلقائي</string>
+  <string name="auto_complete_summary">إدراج الكلمات المظللة بعد مفتاح المسافة وعلامات التنقيط تلقائياً</string>
+  <string name="contact_dic">قاموس جهات الاتصال</string>
+  <string name="contact_dic_summary">إظهار أسماء جهات الاتصال في الاقتراحات (يحتاج الروبوت 2.0)</string>
+  <string name="show_preview">إظهار المعاينة المنبثقة</string>
+  <string name="show_preview_summary">تفعيل العرض المنبثق عند الضغط على مفتاح</string>
+  <string name="skin_selection">حدد الشكل</string>
+  <string name="skin_summary">تغيير شكل لوحة المفاتيح</string>
+  <string name="transparency">الشفافية</string>
+  <string name="opacity">تعيين العتامة</string>
+  <string name="transparency_summary">تعيين الشفافية للوحة المفاتيح</string>
+  <string name="volume">درجة الصوت</string>
+  <string name="volume_summary">ضبط درجة الصوت عند الضغط</string>
+  <string name="debug_logs">تفعيل سجلات المعالجة</string>
+  <string name="always_suggest">تفعيل التصحيح الدائم</string>
+  <string name="always_suggest_summary">عرض اقتراحات البحث أيضا</string>
+  <string name="custom_autotext">النص التلقائي الخاص</string>
+  <string name="custom_autotext_summary">تحرير النص التلقائي الخاص</string>
+  <string name="add_autotext">إضافة نص تلقائي...</string>
+  <string name="edit_autotext">تحرير النص التلقائي</string>
+  <string name="autotext_key">الكلمة التالية:</string>
+  <string name="autotext_value">ستحل محلها:</string>
+  <string name="autotext_context_edit">تحرير</string>
+  <string name="autotext_context_delete">حذف</string>
+  <string name="enable_arrows">تفعيل لوحة مفاتيح الأسهم</string>
+  <string name="enable_arrows_summary">يمكن الوصول إليها باستخدام المفتاح 123</string>
+  <string name="always_caps">تكبير الأحرف دائما</string>
+  <string name="always_caps_summary">عرض تسميات المفاتيح بأحرف كبيرة</string>
+  <string name="display_alt_labels">تظهر تسميات alt</string>
+  <string name="display_alt_labels_summary">عرض التسمية البديلة أعلى تسمية المفتاح</string>
+  <string name="user_dictionary">قاموس المستخدم</string>
+  <string name="user_dictionary_summary">تحرير كلمات قاموس المستخدم</string>
+  <string name="add_word">إضافة كلمة</string>
+  <string name="edit_word">تحرير كلمة</string>
+  <string name="delete_word">حذف كلمة</string>
+  <string name="word">كلمة</string>
+  <string name="forum">منتدى</string>
+  <string name="download_dic">تحميل قاموس</string>
+  <string name="download_dic_summary">تحميل القواميس من السوق</string>
+  <string name="mic_button">زر الميكروفون</string>
+  <string name="mic_button_summary">عرض مفتاح الإدخال الصوتي إذا أمكن</string>
+  <string name="voice_input">الإدخال الصوتي</string>
+  <string name="cancel">إلغاء</string>
+  <string name="retry">إعادة المحاولة</string>
+  <string name="restart_voice">إعادة إدخال الصوت</string>
+  <string name="restart_voice_summary">إعادة تشغيل دائم لإدخال الصوت حتى إلغاؤه</string>
+  <string name="voice_best">صوت الإدخال أفضل خيار</string>
+  <string name="voice_best_summary">تلقائياً حدد الخيار الأفضل</string>
+  <string name="touch_points">إظهار نقاط اتصال</string>
+  <string name="portrait_mode">الوضع العمودي</string>
+  <string name="portrait_mode_summary">إختيار الكيبورد العادي، T9 أو المضغوط في الوضع العمودي</string>
+  <string name="candidate_color">اللون المرشح</string>
+  <string name="candidate_color_summary">لون الكلمة المقترحة في شريط الإقتراح</string>
+  <string name="welcome">شكرا لتثبيت \@!\n\nTo لتفعيل لوحة المفاتيح ، انتقل إلى \"Language &amp; keyboards\"(أو من\"Locale &amp; text\") الإعدادات، واختر \"\@\" مربع. ثم للتبديل إلى\@، تحتاج إلى الضغط لوقت طويل في أي مربع إدخال النص، اختر\"Input method\"، وحدد\@ في القائمة. يمكنك الضغط فترة طويلة على مفتاح \"123\" لإدخال إعدادات لوحة المفاتيح. \n\nNow، انتقل إلى قائمة الإعدادات (يمكن النقر أدناه)، وتمتع!\n\nNote: يمكنك إزالة رمز مشغل في إعدادات لوحة المفاتيح</string>
+  <string name="disable_launcher">تعطيل رمز المستعرض</string>
+  <string name="disable_launcher_warning">تحذير! سيتم تعطيل أيقونة "Smart Keyboard" في الشاشة الرئيسية، وتعطيل زر \"Open\" في تطبيق السوق!\n قد تحتاج إلى إعادة تشغيل الهاتف لإخفاء الأيقونة.</string>
+  <string name="space_when_pick">مسافة بعد الإختيار</string>
+  <string name="space_when_pick_summary">أدخل مسافة بعد إختيار الكلمة يدويا</string>
+  <string name="swap_punctuation_space">مبادلة علامات الترقيم</string>
+  <string name="swap_punctuation_space_summary">تلقائياً تبديل علامات التنقيط والمسافة بعد الكلمة</string>
+  <string name="smiley_key">مفتاح الوجوه</string>
+  <string name="smiley_key_summary">إظهار مفتاح الوجوه بدلاً من إدخال</string>
+  <string name="toggle_smiley_key">مفتاح تبديل الوجوه</string>
+  <string name="select_sound">حدد نمط الصوت</string>
+  <string name="smiley_editor">محرر الوجوه</string>
+  <string name="smiley_editor_summary">تخصيص مفتاح الوجوه</string>
+  <string name="smiley_editor_title">انقر لتحرير الوجوه</string>
+  <string name="edit_smiley">تحرير الوجوه</string>
+  <string name="smart_dictionary">قاموس ذكي</string>
+  <string name="smart_dictionary_summary">القاموس الذي يتعلم الكلمات المتكررة لتحسين الاقتراحات</string>
+  <string name="backup">إعدادات النسخ الاحتياطي</string>
+  <string name="backup_to_sd">النسخ الاحتياطي لبطاقة SD</string>
+  <string name="restore">استعادة من بطاقة SD</string>
+  <string name="no_sd_card">خطأ: بطاقة SD غير جاهزة "Not Mounted"!</string>
+  <string name="backup_warning">تحذير! أنت على وشك النسخ الاحتياطي لإعدادات و قواميس "Smart Keyboard PRO".
+ذلك سيقوم باستبدال ملف sdcard/smartkeyboardpro/backup.zip.
+هل تريد الاستمرار؟</string>
+  <string name="restore_warning">تحذير! أنت على وشك إستعادة النسخ الاحتياطية لإعدادات و قواميس "Smart Keyboard PRO".
+ذلك سيقوم باستبدال جميع إعداداتك الحالية. سيتم إعادة تشغيل البرنامج لتفعيل التغييرات.
+هل تريد الاستمرار؟</string>
+  <string name="backup_complete">تم النسخ الاحتياطي</string>
+  <string name="slide_popup">لوحة المفاتيح المنبثقة</string>
+  <string name="slide_popup_summary">حرك بإصبعك لتحديد لهجات لوحة المفاتيح المنبثقة</string>
+  <string name="space_preview">المعاينة المسافة</string>
+  <string name="space_preview_summary">إظهار المعاينة لمفتاح المسافة</string>
+  <string name="turkish">التركية</string>
+  <string name="hungarian">المجرية</string>
+  <string name="icelandic">الأيسلندية</string>
+  <string name="bosnian">البوسنية</string>
+  <string name="croatian">الكرواتية</string>
+  <string name="serbian">الصربية</string>
+  <string name="slovene">السلوفينية</string>
+  <string name="close">إغلاق</string>
+  <string name="arabic">العربية</string>
+  <string name="layout">التصميم</string>
+  <string name="force_latin">فرض التصميم اللاتيني</string>
+  <string name="force_latin_summary">فرض إستخدام التصميم مع جميع اللغات اللاتينية</string>
+  <string name="korean">الكورية</string>
+  <string name="rtl_suggestions">اقتراحات RTL</string>
+  <string name="rtl_suggestions_summary">عكس الكلمات في شريط التنبؤ (للعربية/العبرية)</string>
+  <string name="clean_userdic">مسح قاموس المستخدم</string>
+  <string name="warn_clean_userdic">تحذير! سيؤدي هذا إلى حذف كافة الكلمات في قاموس المستخدم الخاص بك. هل تريد الاستمرار؟</string>
+  <string name="suggest_punctuation">إقتراح علامات الترقيم</string>
+  <string name="key_height">ارتفاع المفاتيح</string>
+  <string name="thai">التايلندية</string>
+  <string name="longpress_duration">فترة الضغط المطول</string>
+  <string name="longpress_duration_summary">تخصيص مدة الضغط الطويل للرموز البديلة</string>
+  <string name="learn_new_words">تعلم الكلمات الجديدة</string>
+  <string name="learn_new_words_summary">إضافة الكلمات الجديدة إلى القاموس المستخدم تلقائياً (يتطلب القاموس الذكية)</string>
+  <string name="enter_sends_sms">مفتاح الإدخال للإرسال</string>
+  <string name="enter_sends_sms_summary">مفتاح الإدخال يرسل الرسالة بدلاً من وضع سطر جديد. تحذير: لا يعمل في جميع تطبيقات! (انظر دليل ل user\)</string>
+  <string name="slovak">السلوفاكية</string>
+  <string name="bk_warning">تحذير! هذا الشكل ل"Better Keyboard". التوافق مع "Smart Keyboard" قد تكون مفقودة في أي وقت، استخدمه على مسؤوليتك!</string>
+  <string name="domain_editor">محرر النطاق</string>
+  <string name="domain_editor_summary">تخصيص مفتاح.com</string>
+  <string name="domain_editor_title">انقر لتحرير النطاق</string>
+  <string name="edit_domain">تحرير النطاق</string>
+  <string name="persistent_domain_key">مفتاح النطاق ثابت</string>
+  <string name="persistent_domain_key_summary">عرض دائماً لمفتاح النطاق (.com)</string>
+  <string name="no_alt_preview">لا معاينة لـalt</string>
+  <string name="no_alt_preview_summary">لا تظهر الرسالة المنبثقة لمعاينة الأحرف البديلة إذا كان هناك واحد فقط</string>
+  <string name="dynamic_resizing">تغيير حجم المفتاح تلقائي</string>
+  <string name="dynamic_resizing_summary">تغيير الحجم الظاهري للمفاتيح استناداً إلى احتمال الرسالة التالية</string>
+  <string name="esperanto">الإسبرانتو</string>
+  <string name="japanese">اليابانية</string>
+  <string name="double_space_period">نقطة بعد مسافة مرتين</string>
+  <string name="double_space_period_summary">إدراج "نقطة" عندما ضغط زر المسافة مرتين</string>
+  <string name="arrows_style">نمط الأسهم</string>
+  <string name="arrows_style_summary">اختيار نمط لوحة مفاتيح الأسهم</string>
+  <string name="disable_mt">تعطيل اللمس المزدوج</string>
+  <string name="compound_suggestions">إضافة الإقتراحات</string>
+  <string name="compound_suggestions_summary">تمكين اقتراحات للكلمات المركبة (للألمانية)</string>
+  <string name="current_language">اللغة الحالية</string>
+  <string name="language_specific_options">خيارات اللغة</string>
+  <string name="no_lansdcape_fullscreen">لا تملئ الشاشة في الوضع الأفقي</string>
+  <string name="no_lansdcape_fullscreen_summary">لا تتحول إلى وضع ملء الشاشة في الوضع الأفقي</string>
+  <string name="t9_length_priority">T9 طول الأولوية</string>
+  <string name="t9_length_priority_summary">إعطاء الأولوية للكلمات بنفس الطول عند عرض اقتراحات T9</string>
+  <string name="t9_next_key">المفتاح التالي T9</string>
+  <string name="t9_next_key_summary">عرض زر التالي في وضع العمودي T9</string>
+  <string name="suggest_numbers">إقتراح الأرقام</string>
+  <string name="suggest_numbers_summary">تمكين الاقتراحات للكلمات التي تبدأ بحرف غير أبجدي</string>
+  <string name="trial_popup">هذا إصدار تجريبي. الحصول على "Smart Keyboard PRO" الآن لدعم التطبيق وعدم مشاهدة هذه الرسالة المزعجة مرة أخرى:</string>
+  <string name="buy">شراء</string>
+  <string name="no_thanks">لا، شكراً</string>
+  <string name="chinese_simplified">الصينية (المبسطة) "</string>
+  <string name="yes">نعم</string>
+  <string name="no">لا</string>
+  <string name="english_dic">تحتاج إلى تحميل \"English for Smart Keyboard\" من سوق الأندرويد لتمكين الاقتراحات الإنجليزية والتصحيح التلقائي. هل تريد تحميله الآن؟</string>
+  <string name="physical_kbd">لوحة المفاتيح ثابتة</string>
+  <string name="physical_kbd_summary">تمكين الاقتراحات والترجمة الرئيسية مع لوحة المفاتيح الفعلية. استخدام shift + مسافة لتبديل لغة.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">الإدخال الصوتي</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">إدخال الصوت غير معتمد حاليا للغة الخاصة بك، ولكنه يعمل للغة الإنجليزية.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">الإدخال الصوتي سمة تجريبية باستخدام التعرف على الكلام ضمن شبكة في Google\.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">لإيقاف الإدخال الصوتي، انتقل إلى إعدادات لوحة المفاتيح.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">تكلم الآن</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">جاري العمل</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">خطأ. الرجاء المحاولة مرة أخرى.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">تعذر الإتصال</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">خطأ،كلام كثير.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">مشكلة الصوت</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">خطأ في الخادم</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">لم يسمع أي كلمة</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">لم يتم العثور على مطابقات</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">البحث الصوتي غير مثبت</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">موافق</string>
+  <string name="estonian">الإستونية</string>
+  <string name="lithuanian">الليتوانية</string>
+  <string name="latvian">اللاتفية</string>
+  <string name="only_one_language">تحذير! تحديد لغة واحدة فقط من أجل المفتاح اللغة، لن يتم عرض هذا المفتاح، ولكن تم تعيين اللغة الحالية إلى هذه اللغة.</string>
+  <string name="different_language">تحذير! اللغة التي قمت بتحديدها ليست التي قمت بتعريفها في خيارات  \"language selection key\" !</string>
+  <string name="hebrew_alt">تخطيط alt للعبرية</string>
+  <string name="hebrew_alt_summary">وضع المفتاح BACKSPACE على اليسار في تخطيط العبرية</string>
+  <string name="portrait_fullscreen">ملء الشاشة عاموديا</string>
+  <string name="portrait_fullscreen_summary">تعيين لوحة المفاتيح في وضع ملء الشاشة في اتجاه عمودي (يمكن أن تكون مفيدة على شاشات صغيرة جداً)</string>
+  <string name="czech_full">تخطيط كامل التشيكية/السلوفاكية</string>
+  <string name="czech_full_summary">إدراج صف علوي مع أحرف معلمة في تخطيط التشيكية والسلوفاكية</string>
+  <string name="swipe_sensitivity">حساسية الإيماءات</string>
+  <string name="swipe_sensitivity_summary">تعيين الحساسية للإيماءات.
+تحذير: إذا قمت بزيادة الحساسية كثيرا، الكتابة المزدوجة يمكن أن تفسر على أنها إيماءة.</string>
+  <string name="catalan">الكتالانية</string>
+  <string name="multitap_interval">الفترة بين النقر المتعدد</string>
+  <string name="multitap_interval_summary">تعيين الحد الأقصى لتأخر لتعدد الإستخدام، على سبيل المثال في تخطيطات T9 أو الكوري \"short vowels\".</string>
+  <string name="persian">الفارسية</string>
+  <string name="calibration">معايرة</string>
+  <string name="calibration_summary">معايرة لوحة المفاتيح لتحسين الدقة</string>
+  <string name="calibration_instructions">لمعايرة لوحة المفاتيح ، اكتب النص التالي :</string>
+  <string name="calibration_done">تمت المعايرة! انقر فوق \"Save\" لاستخدام الإعدادات الجديدة، أو \"Cancel\" للمحاولة مرة أخرى. لاحظ أنه يجب تشغيل المعايرة في الوضع العمودي والأفقي لتحقيق أفضل النتائج.</string>
+  <string name="calibration_profile_is">ملفك للمعايرة هو :</string>
+  <string name="calibration_reset">أنت على وشك إعادة ضبط المعايرة إلى القيم الافتراضية. هل تريد الاستمرار؟</string>
+  <string name="reset">إعادة تعيين</string>
+  <string name="save">حفظ</string>
+  <string name="get_skins">الحصول على المزيد من الأشكال...</string>
+  <string name="sms_mode">وضع SMS</string>
+  <string name="sms_mode_summary">إزالة اللهجات الإضافية من الكلمات المقترحة عند كتابة رسالة قصيرة</string>
+  <string name="key_height_summary">تحديد ارتفاع المفاتيح</string>
+  <string name="alt_symbols">رموز alt</string>
+  <string name="alt_symbols_summary">إظهار تسميات alt في لوحة الرموز (123)</string>
+  <string name="hide_period">إخفاء النقطة</string>
+  <string name="hide_period_summary">إخفاء مفتاح النقطة لتكبير شريط المسافة</string>
+  <string name="hide_comma">إخفاء الفاصلة</string>
+  <string name="hide_comma_summary">إخفاء مفتاح الفاصلة (أو المايك) لتكبير شريط المسافة</string>
+  <string name="bottom_padding">الحشو السفلي</string>
+  <string name="bottom_padding_summary">إضافة مساحة إضافية في الجزء السفلي من لوحة المفاتيح في وضع عمودي</string>
+  <string name="apostrophe_separator">فاصل علامة اقتباس أحادية</string>
+  <string name="apostrophe_separator_summary">النظر في الفاصلة كفاصل بين الكلمات (مفيدة للايطالي على سبيل المثال)</string>
+  <string name="ignore_hard_kbd">تجاهل لوحة المفاتيح الثابتة</string>
+  <string name="ignore_hard_kbd_summary">عرض لوحة المفاتيح على الشاشة في وضع أفقي حتى إذا كان موجوداً لوحة المفاتيح الثابتة (يمكن أن تستخدم مع برو [درويد])</string>
+  <string name="pinyin">نظام الكتابة</string>
+  <string name="tatar">التتارية</string>
+  <string name="custom_punctuation">علامات الترقيم المخصصة</string>
+  <string name="custom_punctuation_summary">تخصيص علامات التنقيط المعروض في شريط اقتراح</string>
+  <string name="kazakh">الكازاخية</string>
+  <string name="azerbaijani">الأذربيجانية</string>
+  <string name="armenian">الأرمينية</string>
+  <string name="vietnamese">الفيتنامية</string>
+  <string name="no_landscape_suggestions">لا اقتراحات في الوضع الأفقي</string>
+  <string name="no_landscape_suggestions_summary">لا تعرض شريط الاقتراح في الوضع أفقي</string>
+  <string name="arrows_main">إظهار الأسهم</string>
+  <string name="arrows_main_summary">اختر عندما يتم عرض مفاتيح الأسهم على لوحة المفاتيح الرئيسية</string>
+  <string name="cursor_volume">المؤشر مع مفاتيح الصوت</string>
+  <string name="cursor_volume_summary">تحرك المؤشر مع مفاتيح الصوت</string>
+  <string name="export_user_dic">إستخراج قاموس المستخدم</string>
+  <string name="export_user_dic_summary">إستخراج قاموس المستخدم بصيغة CSV</string>
+  <string name="export_autotext">إستخراج النص التلقائي</string>
+  <string name="export_autotext_summary">إستخراج إختصارات النص التلقائي بصيغة CSV</string>
+  <string name="import_user_dic">استيراد قاموس المستخدم</string>
+  <string name="import_autotext">استيراد النص التلقائي</string>
+  <string name="export_complete">تم الإستخراج بصيغة CVS</string>
+  <string name="import_complete">تم الإستيراد بصيغة CVS</string>
+  <string name="export_user_dic_warning">تحذير! أنت على وشك إستخراج قاموس المستخدم إلى ملف بتنسيق CSV. سيؤدي ذلك إلى الكتابة فوق ملف /sdcard/smartkeyboardpro/userdic.csv. هل تريد الاستمرار؟</string>
+  <string name="import_user_dic_warning">تحذير! أنت على وشك استيراد قاموس المستخدم من ملف CSV هنا
+/sdcard/smartkeyboardpro/userdic.csv . سيؤدي ذلك إلى الكتابة فوق محتويات قاموس المستخدم الخاص بك. هل تريد الاستمرار؟   </string>
+  <string name="export_autotext_warning">تحذير! أنت على وشك إستخراج قاموس النص التلقائي بصيغة CSV. سيؤدي ذلك إلى الكتابة فوق/sdcard/smartkeyboardpro/autotext.csv. هل تريد الاستمرار؟</string>
+  <string name="import_autotext_warning">تحذير! أنت على وشك استيراد قاموس النص التلقائي ملف CSV من/sdcard/smartkeyboardpro/autotext.csv. سيؤدي ذلك إلى الكتابة فوق محتويات قاموس النص التلقائي الخاص بك. هل تريد الاستمرار؟   </string>
+  <string name="accents_priority">الأولوية للهجات</string>
+  <string name="accents_priority_summary">إعطاء الأولوية للأحرف المحركة (أو الساكنة مزدوجة) بدلاً من الرموز عند الضغط فترة طويلة على المفاتيح. يعمل فقط لبعض اللغات.</string>
+  <string name="afrikaans">الأفريقية</string>
+  <string name="mongolian">المنغولية</string>
+  <string name="prefs_enable_recorrection">إلمس لتصحيح الكلمات</string>
+  <string name="prefs_enable_recorrection_summary">إلمس الكلمات المدخلة لتصحيحها</string>
+  <string name="macedonian">المقدونية</string>
+  <string name="luxembourgish">اللكسمبرغية</string>
+  <string name="albanian">الألبانية</string>
+  <string name="belarusian">البيلاروسية</string>
+  <string name="indonesian">الأندونيسية</string>
+  <string name="alt_compact">إضافات المضغوطة/T9</string>
+  <string name="alt_compact_summary">الضغط طويلاً في الوضع المضغوط/T9 يعرض كافة الأحرف الممكنة (تخطيط اللغة الإنجليزية فقط)</string>
+  <string name="backup_failed">فشل النسخ الاحتياطي!</string>
+  <string name="restore_failed">الإستعادة فشلت! ربما كان ملف النسخ الاحتياطي معطوباً.</string>
+  <string name="hide_in_portrait">الإخفاء في الوضع عمودي</string>
+  <string name="hide_in_portrait_summary">دائماً إخفاء لوحة المفاتيح في الوضع العمودي (مفيدة على برو [درويد])</string>
+  <string name="twitter">التويتر</string>
+  <string name="space_alert">تنبيه المسافة</string>
+  <string name="space_alert_summary">الاهتزاز لمفتاح المسافة فقط</string>
+  <string name="unicode">يونيكود</string>
+  <string name="hide_lang_key">إخفاء مفتاح اللغة</string>
+  <string name="hide_lang_key_summary">إخفاء زر تبديل اللغة عندما تكون هنا الكثير من اللغات المتاحة</string>
+  <string name="show_language_icon">عرض رمز اللغة</string>
+  <string name="show_language_icon_summary">عرض رمز اللغة في شريط المعلومات</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"مرحبا بكم في <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"مع الكتابة بالإشارة"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"بدء الاستخدام"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"الخطوة التالية"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"إعداد <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"تمكين <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"يُرجى تحديد \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" في إعدادات اللغة والإدخال حيث يسمح هذا الإعداد بتشغيله على جهازك."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_finished_instruction">"تم تمكين <xliff:g id="APPLICATION_NAME">%s</xliff:g> من قبل في إعدادات اللغة والإدخال، وبالتالي هذه الخطوة مكتملة. انتقل إلى الخطوة التالية."</string>
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"تمكين في الإعدادات"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"التبديل إلى <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"بعد ذلك، حدد \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" باعتباره أسلوب إدخال النص النشط."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"تبديل أساليب الإدخال"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"تهانينا، بهذا تكون قد انتهيت من الإعداد"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"الآن أصبح بإمكانك الكتابة في جميع تطبيقاتك المفضلة باستخدام <xliff:g id="APPLICATION_NAME">%s</xliff:g>."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"تهيئة اللغات الإضافية"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"إنهاء العملية"</string>
+  </resources>

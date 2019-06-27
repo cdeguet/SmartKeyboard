@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+	<string name="kbd_korean">\u3142\u3148\u3137\u3131\u3145\u315b\u3155\u3151\u3150\u3154\u3141\u3134\u3147\u3139\u314e\u3157\u3153\u314f\u3163\u314b\u314c\u314a\u314d\u3160\u315c\u3161</string>
+	
+	<string name="kbd_russian">\u044f\u0448\u0435\u0440\u0442\u044b\u0443\u0438\u043e\u043f\u0430\u0441\u0434\u0444\u0433\u0447\u0439\u043a\u043b\u0437\u0445\u0446\u0432\u0431\u043d\u043c</string>
+	
+	<string name="kbd_russian_standard">\u0439\u0446\u0443\u043a\u0435\u043d\u0433\u0448\u0449\u0437\u0445\u044a\u0444\u044b\u0432\u0430\u043f\u0440\u043e\u043b\u0434\u0436\u044d\u0451\u044f\u0447\u0441\u043c\u0438\u0442\u044c\u0431\u044e</string>
+	
+	<string name="kbd_ukrainian">\u044f\u0448\u0435\u0440\u0442\u0456\u0443\u0438\u043e\u043f\u0430\u0441\u0434\u0444\u0433\u0447\u0439\u043a\u043b\u0437\u0445\u0446\u0432\u0431\u043d\u043c</string>
+
+	<string name="kbd_hebrew">\u05e5\u05e3\u05e7\u05e8\u05d0\u05d8\u05d5\u05df\u05dd\u05e4\u05e9\u05d3\u05d2\u05db\u05e2\u05d9\u05d7\u05dc\u05da\u05d6\u05e1\u05d1\u05d4\u05e0\u05de\u05e6\u05ea</string>
+	
+	<!-- ?ςερτυθιοπασδφγηξκλζχψωβνμ -->
+	<string name="kbd_greek">\u003f\u03c2\u03b5\u03c1\u03c4\u03c5\u03b8\u03b9\u03bf\u03c0\u03b1\u03c3\u03b4\u03c6\u03b3\u03b7\u03be\u03ba\u03bb\u03b6\u03c7\u03c8\u03c9\u03b2\u03bd\u03bc</string>
+	
+	<string name="kbd_arabic">\u0642\u0648\u0651\u0631\u062a\u064a\u064e\u0650\u064f\u0639\u0627\u0633\u062f\u0641\u062d\u0647\u062c\u0643\u0644\u0632\u0637\u0635\u06a4\u0628\u0646\u0645</string>
+
+	<string name="kbd_turkish">qwertyu\u0130opasdfghjklzxcvbnm</string>
+
+	<string name="kbd_multi_ar">\u0648\u0624:\u062a\u0629:\u064a\u0649:\u0627\u0623:\u0633\u0634:\u062f\u0630:\u0643\u062e:\u0637\u0638:\u0635\u0636:\u0628\u067e:</string>
+
+	<!-- aá:cč:dď:eéě:ií:nň:oó:rř:sš:tť:uúů:yý:zž: -->
+	<string name="kbd_multi_cz">\u0061\u00e1\u003a\u0063\u010d\u003a\u0064\u010f\u003a\u0065\u00e9\u011b\u003a\u0069\u00ed\u003a\u006e\u0148\u003a\u006f\u00f3\u003a\u0072\u0159\u003a\u0073\u0161\u003a\u0074\u0165\u003a\u0075\u00fa\u016f\u003a\u0079\u00fd\u003a\u007a\u017e\u003a</string>
+
+	<!-- aåæ:oø: -->
+	<string name="kbd_multi_da">\u0061\u00e5\u00e6\u003a\u006f\u00f8\u003a</string>
+
+	<!-- aä:oö:uü:sß: -->
+	<string name="kbd_multi_de">\u0061\u00e4\u003a\u006f\u00f6\u003a\u0075\u00fc\u003a\u0073\u00df\u003a</string>
+
+	<!-- aá:eé:ií:oó:uúü:nñ: -->
+	<string name="kbd_multi_es">\u0061\u00e1\u003a\u0065\u00e9\u003a\u0069\u00ed\u003a\u006f\u00f3\u003a\u0075\u00fa\u00fc\u003a\u006e\u00f1\u003a</string>
+
+	<!-- aä:oõö:sš:uü:zž: -->
+	<string name="kbd_multi_et">\u0061\u00e4\u003a\u006f\u00f5\u00f6\u003a\u0073\u0161\u003a\u0075\u00fc\u003a\u007a\u017e\u003a</string>
+	
+	<!--  aä:oö: -->
+	<string name="kbd_multi_fi">\u0061\u00e4\u003a\u006f\u00f6\u003a</string>
+
+	<!-- aàâäæ:eéèêë:iîï:oôœö:yÿ:uùüû:cç: -->
+	<string name="kbd_multi_fr">\u0061\u00e0\u00e2\u00e4\u00e6\u003a\u0065\u00e9\u00e8\u00ea\u00eb\u003a\u0069\u00ee\u00ef\u003a\u006f\u00f4\u0153\u00f6\u003a\u0079\u00ff\u003a\u0075\u00f9\u00fc\u00fb\u003a\u0063\u00e7\u003a</string>
+
+	<!-- aá:eé:uüűú:ií:oőöó: -->
+	<string name="kbd_multi_hu">\u0061\u00e1\u003a\u0065\u00e9\u003a\u0075\u00fc\u0171\u00fa\u003a\u0069\u00ed\u003a\u006f\u0151\u00f6\u00f3\u003a</string>
+
+	<!-- aáæ:dð:eé:ií:oóö:tþ:uú:yý: -->
+	<string name="kbd_multi_is">\u0061\u00e1\u00e6\u003a\u0064\u00f0\u003a\u0065\u00e9\u003a\u0069\u00ed\u003a\u006f\u00f3\u00f6\u003a\u0074\u00fe\u003a\u0075\u00fa\u003a\u0079\u00fd\u003a</string>
+
+	<!-- aàá:eéè:iìí:oòóô:uùú: -->
+	<string name="kbd_multi_it">\u0061\u00e0\u00e1\u003a\u0065\u00e9\u00e8\u003a\u0069\u00ec\u00ed\u003a\u006f\u00f2\u00f3\u00f4\u003a\u0075\u00f9\u00fa\u003a</string>
+
+	<!-- aą:cč:eęė:iį:sš:uųū:zž: -->
+	<string name="kbd_multi_lt">\u0061\u0105\u003a\u0063\u010d\u003a\u0065\u0119\u0117\u003a\u0069\u012f\u003a\u0073\u0161\u003a\u0075\u0173\u016b\u003a\u007a\u017e\u003a</string>
+
+	<!-- aā:cč:eē:gģ:iī:kķ:lļ:nņ:sš:uū:zž: -->
+	<string name="kbd_multi_lv">\u0061\u0101\u003a\u0063\u010d\u003a\u0065\u0113\u003a\u0067\u0123\u003a\u0069\u012b\u003a\u006b\u0137\u003a\u006c\u013c\u003a\u006e\u0146\u003a\u0073\u0161\u003a\u0075\u016b\u003a\u007a\u017e\u003a</string>
+
+	<!-- aåæ:oø: -->
+	<string name="kbd_multi_no">\u0061\u00e5\u00e6\u003a\u006f\u00f8\u003a</string>
+
+	<!-- aą:cć:eę:lł:nń:oó:sś:zźż: -->
+	<string name="kbd_multi_pl">\u0061\u0105\u003a\u0063\u0107\u003a\u0065\u0119\u003a\u006c\u0142\u003a\u006e\u0144\u003a\u006f\u00f3\u003a\u0073\u015b\u003a\u007a\u017a\u017c\u003a</string>
+
+	<!--  aáàâã:cç:eéèê:ií:oóòôõ:uúü: -->
+	<string name="kbd_multi_pt">\u0061\u00e1\u00e0\u00e2\u00e3\u003a\u0063\u00e7\u003a\u0065\u00e9\u00e8\u00ea\u003a\u0069\u00ed\u003a\u006f\u00f3\u00f2\u00f4\u00f5\u003a\u0075\u00fa\u00fc\u003a</string>
+
+	<!-- aâă:iî:sș:tţț: -->
+	<string name="kbd_multi_ro">\u0061\u00e2\u0103\u003a\u0069\u00ee\u003a\u0073\u0219\u003a\u0074\u0163\u021b\u003a</string>
+
+	<!-- еэ:ыъ:ую:оё:йь:шщ:зж: -->
+	<string name="kbd_multi_ru">\u0435\u044d\u003a\u044b\u044a\u003a\u0443\u044e\u003a\u043e\u0451\u003a\u0439\u044c\u003a\u0448\u0449\u003a\u0437\u0436\u003a</string>
+
+	<!-- aáä:cč:dď:eé:ií:lĺľ:nň:oó:rř:sš:tť:uúů:yý:zž: -->
+	<string name="kbd_multi_sk">\u0061\u00e1\u00e4\u003a\u0063\u010d\u003a\u0064\u010f\u003a\u0065\u00e9\u003a\u0069\u00ed\u003a\u006c\u013a\u013e\u003a\u006e\u0148\u003a\u006f\u00f3\u003a\u0072\u0159\u003a\u0073\u0161\u003a\u0074\u0165\u003a\u0075\u00fa\u016f\u003a\u0079\u00fd\u003a\u007a\u017e\u003a</string>
+
+	<!-- cčć:dđ:sš:zž: -->
+	<string name="kbd_multi_sr">\u0063\u010d\u0107\u003a\u0064\u0111\u003a\u0073\u0161\u003a\u007a\u017e\u003a</string>
+
+	<!-- cç:eë: -->
+	<string name="kbd_multi_sq">\u0063\u00e7\u003a\u0065\u00eb\u003a</string>
+
+	<!--  aåä:oö: -->
+	<string name="kbd_multi_sv">\u0061\u00e5\u00e4\u003a\u006f\u00f6\u003a</string>
+	
+	<!-- iI:cç:gğ:oö:sş:uü: -->
+	<string name="kbd_multi_tr">\u0130\u0131:\u0063\u00e7\u003a\u0067\u011f\u003a\u006f\u00f6\u003a\u0073\u015f\u003a\u0075\u00fc\u003a</string>
+
+	<string name="kbd_multi_uk">\u0435\u0454:\u0456\u0457:\u0443\u044e:\u0439\u044c:\u0448\u0449:\u0433\u0491:\u0437\u0436:</string>
+
+</resources>

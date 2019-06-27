@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Yardım</string>
+  <string name="about">Hakkında...</string>
+  <string name="auto_cap">Otomatik bütük harf çevirici</string>
+  <string name="auto_cap_summary">Cümle başlangıcını büyük harf yap</string>
+  <string name="keyboard_settings">Smart Keyboard Pro Ayarları</string>
+  <string name="settings">Ayarlar</string>
+  <string name="general_settings">Genel Ayarlar</string>
+  <string name="text_prediction">Metin tahmini</string>
+  <string name="sound_vibrate">Ses ve titreşim</string>
+  <string name="language">Dil</string>
+  <string name="language_summary">Klavye dil ve düzenini değiştir</string>
+  <string name="lang_key">Dil seçim tuşu</string>
+  <string name="lang_key_summary">Kullanılabilir dilleri seçin</string>
+  <string name="english">İngilizce</string>
+  <string name="english_intl">İngilizce (Uluslararası)</string>
+  <string name="english_dvorak">İngilizce (Dvorak)</string>
+  <string name="english_azerty">İngilizce (azerty)</string>
+  <string name="french">Fransızca</string>
+  <string name="romanian">Romence</string>
+  <string name="bulgarian">Bulgarca</string>
+  <string name="russian">Rusça</string>
+  <string name="russian_phonetic">Rusça (fonetik)</string>
+  <string name="spanish">İspanyolca</string>
+  <string name="italian">İtalyanca</string>
+  <string name="german">Almanca</string>
+  <string name="portuguese">Portekizce</string>
+  <string name="danish">Danca</string>
+  <string name="finnish">Fince</string>
+  <string name="hebrew">İbranice</string>
+  <string name="norwegian">Norveççe</string>
+  <string name="swedish">İsveççe</string>
+  <string name="georgian">Gürcüce</string>
+  <string name="czech_qwerty">Çek (qwerty)</string>
+  <string name="czech_qwertz">Çek (qwertz)</string>
+  <string name="greek">Yunanca</string>
+  <string name="dutch">Felemenkçe</string>
+  <string name="polish">Lehçe</string>
+  <string name="ukrainian">Ukraynaca</string>
+  <string name="vibrate">Titret</string>
+  <string name="vibrate_summary">Tuşa basınca titret</string>
+  <string name="vibrate_duration">Titreşim süresi</string>
+  <string name="label_go_key">Git</string>
+  <string name="label_next_key">Sonraki</string>
+  <string name="label_done_key">Tamamla</string>
+  <string name="label_send_key">Gönder</string>
+  <string name="advanced_settings">Gelişmiş ayarlar</string>
+  <string name="sound_on_keypress">Tuş sesi</string>
+  <string name="gestures">Hareketler</string>
+  <string name="swipe_left">Sola çek</string>
+  <string name="swipe_right">Sağa çek</string>
+  <string name="swipe_up">Yukarı çek</string>
+  <string name="swipe_down">Aşağı çek</string>
+  <string name="saved">Kaydedildi</string>
+  <string name="quick_fixes">Hızlı düzeltmeler</string>
+  <string name="quick_fixes_summary">Sık yazılan hataları düzeltir</string>
+  <string name="show_suggestions">Önerileri göster</string>
+  <string name="show_suggestions_summary">Yazı yazarken önerilen kelimeleri gösterir</string>
+  <string name="auto_complete">Otomatik tamamlama</string>
+  <string name="auto_complete_summary">Boşluk tuşu ve noktalama işaretleri vurgulanmış kelimeleri otomatik ekler</string>
+  <string name="contact_dic">Kişiler sözlüğü</string>
+  <string name="contact_dic_summary">Önerilen kişi isimlerini içerir (Android 2.0 gerektirir)</string>
+  <string name="show_preview">Önizleme penceresini göster</string>
+  <string name="show_preview_summary">Bir tuşa basıldığında açılır pencere ekranı göster</string>
+  <string name="skin_selection">Kaplama Seç</string>
+  <string name="skin_summary">Klavye kaplaması değiştir</string>
+  <string name="transparency">Şeffaflık</string>
+  <string name="opacity">Opaklığı ayarla</string>
+  <string name="transparency_summary">Klavye saydamlığını ayarla</string>
+  <string name="volume">Ses</string>
+  <string name="volume_summary">Tuş sesi seviyesini ayarla</string>
+  <string name="debug_logs">Hata Ayıklama kayıtlarını etkinleştir</string>
+  <string name="always_suggest">Her zaman Öner</string>
+  <string name="always_suggest_summary">Ayrıca aramalar için önerileri görüntüle</string>
+  <string name="popular_domain_1">.NET</string>
+  <string name="custom_autotext">Özel otomatik metin</string>
+  <string name="custom_autotext_summary">Kendi Otomatik Metin kısayollarınızı düzenleyin</string>
+  <string name="add_autotext">Otomatik Metin Ekle...</string>
+  <string name="edit_autotext">Otomatik Metin Düzenle</string>
+  <string name="autotext_key">Sonraki kelime:</string>
+  <string name="autotext_value">şununla değiştirilir:</string>
+  <string name="autotext_context_edit">Düzenle</string>
+  <string name="autotext_context_delete">Sil</string>
+  <string name="enable_arrows">OK tuş takımını etkinleştir</string>
+  <string name="enable_arrows_summary">123 Anahtarıyla erişilebilir</string>
+  <string name="always_caps">Her zaman büyük harf</string>
+  <string name="always_caps_summary">Her zaman büyük harf anahtar etiketlerini görüntüle</string>
+  <string name="display_alt_labels">ALT etiketlerini göster</string>
+  <string name="display_alt_labels_summary">Anahtar etiket üstünde alternatif etiketi göster</string>
+  <string name="user_dictionary">Kullanıcı Sözlüğü</string>
+  <string name="user_dictionary_summary">Kullanıcı sözlüğündeki sözcükleri düzenle</string>
+  <string name="add_word">Sözcük ekle</string>
+  <string name="edit_word">Sözcük düzenleme</string>
+  <string name="delete_word">Sözcük Sil</string>
+  <string name="word">Sözcük</string>
+  <string name="download_dic">Sözlük indir</string>
+  <string name="download_dic_summary">Marketten Sözlükler indir</string>
+  <string name="mic_button">Mikrofon tuşu</string>
+  <string name="mic_button_summary">Mümkün olduğunda ses giriş anahtarı görüntüleyin</string>
+  <string name="voice_input">Ses girişi</string>
+  <string name="cancel">İptal</string>
+  <string name="retry">Yeniden dene</string>
+  <string name="restart_voice">Ses girişini yeniden başlat</string>
+  <string name="restart_voice_summary">İptal edilene kadar ses girişlerini daima yeniden başlat</string>
+  <string name="voice_best">Ses giriş en iyi seçim</string>
+  <string name="voice_best_summary">Otomatik olarak en iyi seçimi seçin</string>
+  <string name="touch_points">Dokunmaları göster</string>
+  <string name="portrait_mode">Dikey mod</string>
+  <string name="portrait_mode_summary">Normal, T9  ya da portre için sıkıştırılmış düzeni seçin</string>
+  <string name="candidate_color">Aday renk</string>
+  <string name="candidate_color_summary">Öneri çubuğunda önerilmiş kelimenin rengi</string>
+  <string name="welcome">\@!\n\n yüklediğiniz için teşekkürler. Bu klavyeyi etkinleştirmek için, \"Language &amp; keyboards\" (ya da \"Locale &amp; text\") ayarlarına gidin, sonra \"\@\" kutusunu seçin. Daha sonra, \@, değiştirmek için, herhangi bir metin kutusunda uzun basmanız gerekir, \"Input method\" seçin, daha sonra listeden \@ seçin. Klavye ayarlarına girmek için \"123\" tuşlarına uzunca basmalısınız.  \n\nŞimdi, Ayarlar menüsüne (aşağıda tıklayabilirsiniz) gidin ve keyfini çıkarın! \n\nNot: Klavye ayarlarındaki launcher simgesini silebilirsiniz.</string>
+  <string name="disable_launcher">Başlatıcı simgesini devre dışı bırak</string>
+  <string name="disable_launcher_warning">Uyarı! Bu işlem Smart Keyboard simgesini Launcher\'da devredışı bırakır, ayrıca Marketten \"Aç\" tuşu ile devre dışı bırakabilirsiniz.\nLauncher simgesinin görünmemesi için telefonunuzu yeniden başlatmanız gerekir.</string>
+  <string name="space_when_pick">Seçme sonrası boşluk</string>
+  <string name="space_when_pick_summary">Kelime öneri çubuğundan el ile seçilmesi sırasında bir boşluk ekleyin</string>
+  <string name="swap_punctuation_space">Noktalamayı değiştir</string>
+  <string name="swap_punctuation_space_summary">Bir sözcükten sonra noktalama ve boşluğu otomatik olarak değiştir</string>
+  <string name="smiley_key">Suratlar anahtarı</string>
+  <string name="smiley_key_summary">Girmek yerine smiley anahtarlarını göster</string>
+  <string name="toggle_smiley_key">Smiley tuşu geçişi</string>
+  <string name="select_sound">Ses stil seç</string>
+  <string name="smiley_editor">İfade düzenleyici</string>
+  <string name="smiley_editor_summary">Smiley anahtarınızı özelleştirin</string>
+  <string name="smiley_editor_title">Bir smiley düzenlemek için dokunun</string>
+  <string name="edit_smiley">İfade düzenle</string>
+  <string name="smart_dictionary">Akıllı sözlük</string>
+  <string name="smart_dictionary_summary">Önerileri geliştirmek için girdiğiniz kelimelerin frekansını öğreten sözlük</string>
+  <string name="backup">Yedekleme ayarları</string>
+  <string name="backup_to_sd">SD karta yedekle</string>
+  <string name="restore">SD karttan geri yükle</string>
+  <string name="no_sd_card">Hata: SD kart takılı değil, yedekleme/geri yükleme mümkün değildir!</string>
+  <string name="backup_warning">Uyarı! Smart Keyboard PRO ayarlarıanı ve sözlükleri yedeklemek üzeresiniz.  Bu /sdcard/smartkeyboardpro/backup.zip üzerine yazacaktır. Devam etmek istiyor musunuz?</string>
+  <string name="restore_warning">Uyarı! Smart Keyboard PRO ayarlarını ve sözlüklerini geri yüklemek üzeresiniz.  Bu, geçerli ayarlarınızın üzerine yazar. Klavye değişiklikleri dikkate almanız için yeniden başlatılacaktır.  Devam etmek istiyor musunuz?</string>
+  <string name="backup_complete">Yedekleme tamamlandı</string>
+  <string name="slide_popup">Açılır pencere klavye slaytı</string>
+  <string name="slide_popup_summary">Açılır pencere klavyesinde aksanları seçmek için parmağınızı kaydırın</string>
+  <string name="space_preview">Boşluk önizleme</string>
+  <string name="space_preview_summary">Boşluk tuşu için önizleme göster</string>
+  <string name="turkish">Türkçe</string>
+  <string name="hungarian">Macarca</string>
+  <string name="icelandic">İzlanda dili</string>
+  <string name="bosnian">Boşnakça</string>
+  <string name="croatian">Hırvatça</string>
+  <string name="serbian">Sırpça</string>
+  <string name="slovene">Slovence</string>
+  <string name="close">Kapat</string>
+  <string name="arabic">Arapça</string>
+  <string name="layout">Düzen</string>
+  <string name="force_latin">Latin düzenine zorla</string>
+  <string name="force_latin_summary">Düzeni bütün latin dillerinde kullanılmaya zorla</string>
+  <string name="default_latin_lang">&lt;Varsayılan&gt;</string>
+  <string name="korean">Korece</string>
+  <string name="rtl_suggestions">RTL önerileri</string>
+  <string name="rtl_suggestions_summary">Tahmin çubuğundaki ters kelimeler (Arapça/İbranice için)</string>
+  <string name="clean_userdic">Kullanıcı sözlüğünü temizle</string>
+  <string name="warn_clean_userdic">Uyarı! Bu işlem kullanıcı sözlüğünüzdeki tüm kelimeleri siler. Devam etmek istiyor musunuz?</string>
+  <string name="suggest_punctuation">Noktalama öner</string>
+  <string name="key_height">Anahtar yüksekliği</string>
+  <string name="thai">Tay dili</string>
+  <string name="longpress_duration">Uzun basış süresi</string>
+  <string name="longpress_duration_summary">Alternatif semboller için uzun basış süresini özelleştir</string>
+  <string name="learn_new_words">Yeni kelimeler öğren</string>
+  <string name="learn_new_words_summary">Kullanıcı sözlüğüne otomatik olarak yeni kelimeler ekle (akıllı sözlük gerektirir)</string>
+  <string name="enter_sends_sms">Enter mesajı gönderir</string>
+  <string name="enter_sends_sms_summary">Yeni bir satır girmek yerine mesaj göndermek için tuş girin. Uyarı: tüm uygulamalarda çalışmayabilir! (kullanıcı klavuzuna göz at)</string>
+  <string name="slovak">Slovakça</string>
+  <string name="bk_warning">Dikkat! Bu kaplama Better Keyboard içindir. Smart Keyboard ile uyumluluğunun aniden bozulabileceği riskini göze alarak kullanın!</string>
+  <string name="domain_editor">Domain düzenleyici</string>
+  <string name="domain_editor_summary">.com anahtarını düzenle</string>
+  <string name="domain_editor_title">Bir domain düzenlemek için dokunun</string>
+  <string name="edit_domain">Domain düzenle</string>
+  <string name="persistent_domain_key">Kalıcı domain anahtarı</string>
+  <string name="persistent_domain_key_summary">Domain (.com) anahtarını daima görüntüle</string>
+  <string name="no_alt_preview">Alt önizleme yok</string>
+  <string name="no_alt_preview_summary">Eğer tek ise alternatif karakter için açılır pencere önizlemesini gösterme</string>
+  <string name="dynamic_resizing">Dinamik anahtar yeniden boyutlandırma</string>
+  <string name="dynamic_resizing_summary">Anahtarların sanal boyutunu bir sonraki olasılığa bağlı olarak değiştir</string>
+  <string name="japanese">Japonca</string>
+  <string name="double_space_period">Çift boşluk periyodu</string>
+  <string name="double_space_period_summary">Boşluk çubuğuna iki kere basıldığında periyod ekle</string>
+  <string name="arrows_style">Ok Stili</string>
+  <string name="arrows_style_summary">Klavye ok stilini seçin</string>
+  <string name="disable_mt">Çift dokunmayı devre dışı bırak</string>
+  <string name="compound_suggestions">Bileşik öneriler</string>
+  <string name="compound_suggestions_summary">Bileşik sözcükleri önerilerini etkinleştir (başta Almanca olmak üzere)</string>
+  <string name="current_language">Geçerli dil</string>
+  <string name="language_specific_options">Özel dil ayarları</string>
+  <string name="no_lansdcape_fullscreen">Manzara tam ekranı yok</string>
+  <string name="no_lansdcape_fullscreen_summary">Yatay yönde tam ekran moduna geçiş yapma</string>
+  <string name="t9_length_priority">T9 uzunluk önceliği</string>
+  <string name="t9_length_priority_summary">T9 önerileri gösterildiğinde aynı uzunluktaki kelimeler için öncelik ver</string>
+  <string name="t9_next_key">T9 sonraki tuşu</string>
+  <string name="t9_next_key_summary">İleri düğmesini T9 portre modunda görüntüleme</string>
+  <string name="suggest_numbers">Numaraları öner</string>
+  <string name="suggest_numbers_summary">Alfabetik olmayan bir karakter ile başlayan kelimeler için önerileri etkinleştir</string>
+  <string name="trial_popup">Bu deneme sürümüdür. "Smart Keyboard PRO" uygulamasını şimdi destekleyin ve bu sinir bozucu hatırlatma ekranını bir daha görmeyin :)</string>
+  <string name="buy">Satın al</string>
+  <string name="no_thanks">Hayır, Teşekkürler</string>
+  <string name="chinese_simplified">Çince (Basitleştirilmiş)"</string>
+  <string name="yes">Evet</string>
+  <string name="no">Hayır</string>
+  <string name="english_dic">Android Marketten İngilizce öneriler ve oto-düzenlemeyi etkinleştirmek için \"Smart Keyboard için İngilizce\" indirmeniz gerekir. Şimdi yüklemek istiyor musunuz?</string>
+  <string name="physical_kbd">Fiziksel klavye</string>
+  <string name="physical_kbd_summary">Fiziksel klavyeyle anahtar çevirisi ve önerileri etkinleştirir. Dili değiştirmek için Shift+space kullanın.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Ses girişi</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">Ses girişi diliniz için şu anda desteklenmiyor ama İngilizce olarak çalışır.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">Ses girişi, Google ağına bağlı ses tanımlamayı kullanan deneysel bir özelliktir.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">Ses girişini devre dışı bırakmak için klavye ayarlarına gidin.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Şimdi konuşun</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Çalışıyor</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Hata. Lütfen yeniden deneyin.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Bağlanamadı</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Hata, çok fazla konuşma.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Ses sorunu</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Sunucu hatası</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Hiçbir konuşma duyulmadı</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Eşleşme bulunamadı</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Sesli arama yüklü değil</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Tamam</string>
+  <string name="estonian">Estonca</string>
+  <string name="lithuanian">Litvanca</string>
+  <string name="latvian">Letonca</string>
+  <string name="only_one_language">Uyarı! Dil tuşu için yalnızca bir dil seçtiğinizde, bu tuş gösterilmeyecek ama geçerli dil bu dil olarak ayarlanmış olacak.</string>
+  <string name="different_language">Uyarı! Seçilen dil  \"dil seçim tuşu\" ayarlarında tanımlananlardan biri değildir.</string>
+  <string name="hebrew_alt">İbranice alt düzen</string>
+  <string name="hebrew_alt_summary">İbranice düzeninde geri tuşunu sola yerleştir</string>
+  <string name="portrait_fullscreen">Portre tam ekran</string>
+  <string name="portrait_fullscreen_summary">Dikey yönde tam ekran moduna uygun bir şekilde klavyeyi ayarla (çok küçük ekranlarda yararlı olabilir)</string>
+  <string name="czech_full">Çek/Slovak tam düzen</string>
+  <string name="czech_full_summary">Çek ve Slovak düzeninde aksanlı harfleri içeren üst bir sıra ekle</string>
+  <string name="swipe_sensitivity">Geçiş duyarlılığı</string>
+  <string name="swipe_sensitivity_summary">Hareket duyarlılığını ayarla. Uyarı: Eğer duyarlılığı çok artırırsan, çok dokunuşlu yazım bir hareket olarak yorumlanabilir.</string>
+  <string name="catalan">Katalanca</string>
+  <string name="multitap_interval">Multitap aralığı</string>
+  <string name="multitap_interval_summary">Çoklu sekme için maksimum gecikmeyi ayarlar, örneğin T9 ve Korece\'de \"dar ünlüler\" düzenlemesi.</string>
+  <string name="persian">Farsça</string>
+  <string name="calibration">Kalibrasyon</string>
+  <string name="calibration_summary">Doğruluğu artırmak için klavyeyi kalibre edin</string>
+  <string name="calibration_instructions">Klavyenizi kalibre etmek için, aşağıdaki metni yazın:</string>
+  <string name="calibration_done">Kalibrasyon tamamladı! Yeni ayarları kullanmak için \"Kaydet\" tuşuna basın, ya da yeniden denemek için \"İptal\" tuşuna basın. Portre ve manzara modunda daha iyi sonuçlar almak için kalibrasyon çalışması gerektiğini unutmayın.</string>
+  <string name="calibration_profile_is">Kalibre edilmiş profilin:</string>
+  <string name="calibration_reset">Kalibrasyon ayarlarını varsayılan değerlerine sıfırlamak üzeresin. Devam etmek istiyor musun?</string>
+  <string name="reset">Sıfırla</string>
+  <string name="save">Kaydet</string>
+  <string name="get_skins">Daha fazla dış görünüm...</string>
+  <string name="sms_mode">SMS modu</string>
+  <string name="sms_mode_summary">Bir SMS yazarken önerilen kelimelerin genişletilmiş vurgularını kaldırın</string>
+  <string name="key_height_summary">Tuş yüksekliğini özelleştirin</string>
+  <string name="alt_symbols">Alt simge</string>
+  <string name="alt_symbols_summary">Sembol (123) panelindeki alt etiketleri göster</string>
+  <string name="hide_period">Nokta tuşunu gizle</string>
+  <string name="hide_period_summary">Boşluk çubuğunu genişletmek için nokta tuşunu gizle</string>
+  <string name="hide_comma">Virgül gizle</string>
+  <string name="hide_comma_summary">Boşluk çubuğunu genişletmek için virgül (veya mikrofon) tuşunu gizle</string>
+  <string name="bottom_padding">Alt doldurma</string>
+  <string name="bottom_padding_summary">Dikey modda klavyenin altına fazladan boşluk ekle</string>
+  <string name="apostrophe_separator">Kesme işareti ayırıcı</string>
+  <string name="apostrophe_separator_summary">Kelime ayıştırıcı olarak kesme işaretini göz önünde bulundur (örn. İtalyanca için yararlı)</string>
+  <string name="ignore_hard_kbd">Zor klavyeyi yoksay</string>
+  <string name="ignore_hard_kbd_summary">Hassas klavye gösterilse bile manzara modunda zor klavyeyi göster (Droid Pro ile kullanılabilir)</string>
+  <string name="tatar">Tatarca</string>
+  <string name="custom_punctuation">Özel noktalama</string>
+  <string name="custom_punctuation_summary">Öneri çubuğunda görüntülenen noktalama işaretlerini özelleştir</string>
+  <string name="kazakh">Kazakça</string>
+  <string name="azerbaijani">Azeri</string>
+  <string name="armenian">Ermenice</string>
+  <string name="vietnamese">Vietnam dili</string>
+  <string name="no_landscape_suggestions">Manzara önerisi yok</string>
+  <string name="no_landscape_suggestions_summary">Yatay yönlendirmede öneri çubuğunu gösterme</string>
+  <string name="arrows_main">Okları göster</string>
+  <string name="arrows_main_summary">Ana klavyedeki ok tuşları görüntülendiğinde seçin</string>
+  <string name="cursor_volume">İmleç ile birim</string>
+  <string name="cursor_volume_summary">İmleçi ses tuşları ile hareket ettir</string>
+  <string name="export_user_dic">Kullanıcı sözlüğünü çıkart</string>
+  <string name="export_user_dic_summary">Kullanıcı Sözlüğü CSV biçiminde dışa aktar</string>
+  <string name="export_autotext">Otomatik Metini çıkart</string>
+  <string name="export_autotext_summary">Otomatik Metin kısayollarını CSV biçiminde dışa aktar</string>
+  <string name="import_user_dic">Kullanıcı sözlüğünü al</string>
+  <string name="import_autotext">Otomatik Metin Al</string>
+  <string name="export_complete">CVS gönderme tamamlandı</string>
+  <string name="import_complete">CVS alma tamamlandı</string>
+  <string name="export_user_dic_warning">Uyarı! Kullanıcı sözlüğünü CSV biçiminde çıkartmak üzeresiniz. Bu işlem /sdcard/smartkeyboardpro/userdic.csv üzerine yazdıracaktır. Devam etmek istiyor musunuz?</string>
+  <string name="import_user_dic_warning">Uyarı! Kullanıcı sözlüğünü /sdcard/smartkeyboardpro/userdic.csv üzerinden almak üzeresiniz. Bu işlem kullanıcı sözlüğünüzdeki tüm içeriklerin üzerine yazdırır. Devam etmek istiyor musunuz?</string>
+  <string name="export_autotext_warning">Uyarı! Otomatik metin sözlüğünü CSV biçiminde çıkartmak üzeresiniz. Bu işlem /sdcard/smartkeyboardpro/autotext.csv üzerine yazdıracaktır. Devam etmek istiyor musunuz?</string>
+  <string name="import_autotext_warning">Uyarı! Otomatik metin sözlüğünü /sdcard/smartkeyboardpro/autotext.csv üzerinden almak üzeresiniz. Bu işlem otomatik metin sözlüğünüzdeki tüm içeriklerin üzerine yazdırır. Devam etmek istiyor musunuz?</string>
+  <string name="accents_priority">Aksan önceliği</string>
+  <string name="accents_priority_summary">Tuşlara uzun basıldığında semboller yerine aksanlı harfler (ya da çift ünsüzler) için öncelik verir. Sadece bazı dillerde çalışır.</string>
+  <string name="afrikaans">Afrikaanca</string>
+  <string name="mongolian">Moğolca</string>
+  <string name="prefs_enable_recorrection">Sözcükleri düzeltmek için dokun</string>
+  <string name="prefs_enable_recorrection_summary">Girilen sözcükleri düzeltmek için dokun</string>
+  <string name="macedonian">Makedonca</string>
+  <string name="luxembourgish">Lüksemburgca</string>
+  <string name="albanian">Arnavutça</string>
+  <string name="belarusian">Beyaz Rusça</string>
+  <string name="indonesian">Endonezya dili</string>
+  <string name="alt_compact">Genişletilmiş kompakt/T9</string>
+  <string name="alt_compact_summary">Tüm geçerli harfleri görüntülemek için compakt/T9 modunda uzunca basın (sadece İngilizce düzeni)</string>
+  <string name="backup_failed">Yedekleme başarısız!</string>
+  <string name="restore_failed">Geri yükleme başarısız! Yedekleme dosyası büyük olasılıkla hasarlı.</string>
+  <string name="hide_in_portrait">Portrede gizle</string>
+  <string name="hide_in_portrait_summary">Klavyeyi daima portrede gizle (Droid Pro\'da yararlı)</string>
+  <string name="space_alert">Boşluk uyarısı</string>
+  <string name="space_alert_summary">Sadece boşluk çubuğunda titret</string>
+  <string name="hide_lang_key">Dil tuşunu gizle</string>
+  <string name="hide_lang_key_summary">Birkaç dil seçiliyken dil tuşunu gizle</string>
+  <string name="show_language_icon">Dil simgesini göster</string>
+  <string name="show_language_icon_summary">Dil simgesini durum çubuğunda göster</string>
+  <string name="domain_key">Etki alanı anahtarı</string>
+  <string name="domain_key_summary">Etki alanı (.com) anahtar görüntüle</string>
+  <string name="numbers_top">Üst sayı</string>
+  <string name="numbers_top_summary">Ana klavyenin en üstünde gözükecek şekilde numaraların bulundğu ekstra bir sıra seç</string>
+  <string name="kurdish">Kürtçe</string>
+  <string name="hindi">Hintçe</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> uygulamasına hoş geldiniz"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"Hareketle Yazmayı içerir"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Başlayın"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Sonraki adım"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> uygulamasını kurma"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> uygulamasını etkinleştirin"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Lütfen \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" uygulamasını kendi Dil ve giriş ayarlarınızda işaretleyin. Bu işlem, uygulamaya cihazınızda çalışma yetkisi verecektir."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Ayarlarda etkinleştir"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> uygulamasına geçin"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Sonra, \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" uygulamasını etkin metin giriş yönteminiz olarak seçin."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Giriş yöntemini değiştir"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Tebrikler, bitirdiniz!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Artık <xliff:g id="APPLICATION_NAME">%s</xliff:g> ile tüm favori uygulamalarınızda yazabilirsiniz."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Ek dilleri yapılandırın"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Tamamlandı"</string>
+  <string name="legacy_voice">Eski ses girişi</string>
+  <string name="legacy_voice_details">Google Voice yerine eski ses giriş yöntemi kullanın</string>
+  <string name="disable_launch_settings">Kısayol ayarlarını devre dışı bırak</string>
+  <string name="disable_launch_settings_details">"123" tuşuna uzunca basarak ayarlar menüsünün açılmasını engelle</string>
+  <string name="more_symbols">Daha fazla simge</string>
+  <string name="more_symbols_summary">Simge (123) modunda daha fazla alternatif simgeleri görüntüleme</string>
+  <string name="galician">Galiçya lehçesi</string>
+  <string name="mic_above_comma">Virgülü koru</string>
+  <string name="mic_above_comma_summary">Virgül tuşunu saklama</string>
+  </resources>

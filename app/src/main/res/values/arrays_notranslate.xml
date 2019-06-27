@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string-array name="languages">
+        <item>AF</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>BE</item>
+        <item>BG</item>
+        <item>BS</item>
+        <item>BR</item>
+        <item>CA</item>
+        <item>CZ</item>
+        <item>DA</item>
+        <item>DE</item>
+        <item>ET</item>
+        <item>EL</item>
+        <item>EM</item>
+        <item>EN</item>
+        <item>EO</item>
+        <item>ES</item>
+        <item>FA</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GA</item>
+        <item>KO</item>
+        <item>KU</item>
+        <item>HE</item>
+        <item>HI</item>
+        <item>HR</item>
+        <item>HU</item>
+        <item>HY</item>
+        <item>ID</item>
+        <item>IS</item>
+        <item>JP</item>
+        <item>KA</item>
+        <item>KK</item>
+        <item>LB</item>
+        <item>LV</item>
+        <item>LT</item>
+        <item>IT</item>
+        <item>MK</item>
+        <item>MN</item>
+        <item>MR</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>SK</item>
+        <item>SL</item>
+        <item>SQ</item>
+        <item>SR</item>
+        <item>SV</item>
+        <item>TA</item>
+        <item>TH</item>
+        <item>TR</item>
+        <item>TT</item>
+        <item>UK</item>
+        <item>VI</item>
+        <item>ZH</item>
+        <item>PY</item>
+    </string-array>
+    <string-array name="language_choices">
+        <item>Afrikaans</item>
+        <item>العربية</item>
+        <item>Azərbaycanca</item>
+        <item>Беларуская</item>
+        <item>Bosanski</item>
+        <item>Български (БДС)</item>
+        <item>Български (ЯВЕРТ)</item>
+        <item>Български (ЧЯВЕР)</item>
+        <item>Català</item>
+        <item>Čeština (QWERTY)</item>
+        <item>Čeština (QWERTZ)</item>
+        <item>Dansk</item>
+        <item>Deutsch</item>
+        <item>Deutsch (+äöü)</item>
+        <item>Eesti</item>
+        <item>Ελληνικά</item>
+        <item>Emoji</item>
+        <item>English</item>
+        <item>English (UK)</item>
+        <item>English (International)</item>
+        <item>English (Dvorak)</item>
+        <item>English (Colemak)</item>
+        <item>English (AZERTY)</item>
+        <item>Español</item>
+        <item>Esperanto</item>
+        <item>فارسی</item>
+        <item>Français</item>
+        <item>Français (QWERTY)</item>
+        <item>Français (QWERTY+\')</item>
+        <item>Français (QWERTZ)</item>
+        <item>Galego</item>
+        <item>한국어</item>
+        <item>한국어 (단모음키보드)</item>
+        <item>Հայերեն (3 տող)</item>
+        <item>Հայերեն (4 տող)</item>
+        <item>हिन्दी</item>
+        <item>עברית</item>
+        <item>Hrvatski</item>
+        <item>Bahasa Indonesia</item>
+        <item>Íslenska</item>
+        <item>Italiano</item>
+        <item>Italiano (+\')</item>
+        <item>ქართული</item>
+        <item>Қазақша</item>
+        <item>Kurdî</item>
+        <item>کوردی</item>
+        <item>Lëtzebuergesch</item>
+        <item>Latviešu</item>
+        <item>Lietuvių</item>
+        <item>Magyar (QWERTY)</item>
+        <item>Magyar (QWERTZ)</item>
+        <item>Македонски</item>
+        <item>मराठी</item>
+        <item>Монгол</item>
+        <item>Nederlands (QWERTY)</item>
+        <item>Nederlands (AZERTY)</item>
+        <item>日本語</item>
+        <item>Norsk</item>
+        <item>Polski</item>
+        <item>Português (BR)</item>
+        <item>Português (PT)</item>
+        <item>Română</item>
+        <item>Русский (4 ряда)</item>
+        <item>Русский (3 ряда)</item>
+        <item>Русский (ЯШЕРТ)</item>
+        <item>Slovenčina (QWERTY)</item>
+        <item>Slovenčina (QWERTZ)</item>
+        <item>Slovenščina</item>
+        <item>Shqip</item>
+        <item>Srpski</item>
+        <item>Српски</item>
+        <item>Suomi (-å)</item>
+        <item>Suomi</item>
+        <item>Svenska</item>
+        <item>தமிழ்</item>
+        <item>ไทย</item>
+        <item>Татарча</item>
+        <item>Türkçe</item>
+        <item>Українська</item>
+        <item>Tiếng Việt (Telex)</item>
+        <item>中文 (简体)</item>
+        <item>中文 (pīnyīn)</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>AF</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>BE</item>
+        <item>BS</item>
+        <item>BG_BDS</item>
+        <item>BG_YaVERT</item>
+        <item>BG_TchYaVER</item>
+        <item>CA</item>
+        <item>CZ_QWERTY</item>
+        <item>CZ_QWERTZ</item>
+        <item>DA</item>
+        <item>DE</item>
+        <item>DE_FULL</item>
+        <item>ET</item>
+        <item>EL</item>
+        <item>EM</item>
+        <item>EN</item>
+        <item>EN_UK</item>
+        <item>EN_INTL</item>
+        <item>EN_DVORAK</item>
+        <item>EN_COLEMAK</item>
+        <item>EN_AZERTY</item>
+        <item>ES</item>
+        <item>EO</item>
+        <item>FA</item>
+        <item>FR</item>
+        <item>FR_QWERTY</item>
+        <item>FR_QWERTY_FULL</item>
+        <item>FR_QWERTZ</item>
+        <item>GL</item>
+        <item>KO</item>
+        <item>KO_SHORT</item>
+        <item>HY</item>
+        <item>HY_FULL</item>
+        <item>HI</item>
+        <item>HE</item>
+        <item>HR</item>
+        <item>ID</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>IT_FULL</item>
+        <item>KA</item>
+        <item>KK</item>
+        <item>KU_HAWAR</item>
+        <item>KU_SORANI</item>
+        <item>LB</item>
+        <item>LV</item>
+        <item>LT</item>
+        <item>HU_QWERTY</item>
+        <item>HU</item>
+        <item>MK</item>
+        <item>MR</item>
+        <item>MN</item>
+        <item>NL</item>
+        <item>NL_AZERTY</item>
+        <item>JP</item>
+        <item>NO</item>
+        <item>PL</item>
+        <item>BR</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>RU_SMALL</item>
+        <item>RU_YaShERT</item>
+        <item>SK_QWERTY</item>
+        <item>SK_QWERTZ</item>
+        <item>SL</item>
+        <item>SQ</item>
+        <item>SR</item>
+        <item>SR_CYRILLIC</item>
+        <item>FI_SMALL</item>
+        <item>FI</item>
+        <item>SV</item>
+        <item>TA</item>
+        <item>TH</item>
+        <item>TT</item>
+        <item>TR</item>
+        <item>UK</item>
+        <item>VI</item>
+        <item>ZH</item>
+        <item>PY</item>
+        <item>UN</item>
+    </string-array>
+    <string-array name="latin_layouts">
+        <item></item>
+        <item>AF</item>
+        <item>BS</item>
+        <item>CA</item>
+        <item>CZ_QWERTY</item>
+        <item>CZ_QWERTZ</item>
+        <item>DA</item>
+        <item>DE</item>
+        <item>DE_FULL</item>
+        <item>EN</item>
+        <item>EN_INTL</item>
+        <item>EN_DVORAK</item>
+        <item>EN_COLEMAK</item>
+        <item>EN_AZERTY</item>
+        <item>ES</item>
+        <item>EO</item>
+        <item>ET</item>
+        <item>FR</item>
+        <item>FR_QWERTY</item>
+        <item>FR_QWERTY_FULL</item>
+        <item>FR_QWERTZ</item>
+        <item>GL</item>
+        <item>HR</item>
+        <item>KU_HAWAR</item>
+        <item>ID</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>IT_FULL</item>
+        <item>LB</item>
+        <item>LV</item>
+        <item>LT</item>
+        <item>HU</item>
+        <item>HU_QWERTY</item>
+        <item>NL</item>
+        <item>NL_AZERTY</item>
+        <item>NO</item>
+        <item>PL</item>
+        <item>BR</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>SK_QWERTY</item>
+        <item>SK_QWERTZ</item>
+        <item>SL</item>
+        <item>SQ</item>
+        <item>SR</item>
+        <item>FI</item>
+        <item>FI_SMALL</item>
+        <item>SV</item>
+        <item>TR</item>
+    </string-array>
+    <string-array name="swipe_values">
+        <item>None</item>
+        <item>SpeechToText</item>
+        <item>ChangeLang</item>
+        <item>PrevLang</item>
+        <item>ToggleCompact</item>
+        <item>ToggleT9</item>
+        <item>ToggleCompactOrT9</item>
+        <item>Shift</item>
+        <item>Symbols</item>
+        <item>AltSymbols</item>
+        <item>ArrowKeypad</item>
+        <item>SmileyKey</item>
+        <item>Close</item>
+        <item>Backspace</item>
+        <item>UserDic</item>
+        <item>CustomAutoText</item>
+        <item>DeleteWord</item>
+        <item>NextSuggestion</item>
+        <item>CursorRight</item>
+        <item>CursorLeft</item>
+        <item>Space</item>
+        <item>CursorUp</item>
+        <item>CursorDown</item>
+        <item>ChangeIME</item>
+        <item>Emojis</item>
+    </string-array>
+    <string-array name="skin_choices">
+        <item>iPhone</item>
+        <item>Android</item>
+        <item>Gingerbread</item>
+        <item>Galaxy</item>
+        <item>HTC</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="portrait_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="smiley_choices">
+        <item>Auto</item>
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="smiley_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sound_styles">
+        <item>Android</item>
+        <item>iPhone</item>
+        <item>Galaxy</item>
+        <item>Win7</item>
+    </string-array>
+    <string-array name="arrows_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="arrows_main_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="language_icon_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="emoji">
+        <item>\u1F601\u1F602\u1F603\u1F604\u1F605\u1F606\u1F609\u1F60A\u1F60B\u1F60C\u1F60D\u1F60F\u1F612\u1F613\u1F614\u1F616\u1F618\u1F61A\u1F61C\u1F61D\u1F61E\u1F620\u1F621\u1F622\u1F623\u1F624\u1F625\u1F628\u1F629\u1F62A\u1F62B\u1F62D</item>
+        <item>\u1F630\u1F631\u1F632\u1F633\u1F635\u1F637\u1F638\u1F639\u1F63A\u1F63B\u1F63C\u1F63D\u1F63E\u1F63F\u1F640\u1F645\u1F646\u1F647\u1F648\u1F649\u1F64A\u1F64B\u1F64C\u1F64D\u1F64E\u1F64F\u2702\u2705\u2708\u2709\u270A\u270B</item>
+        <item>\u270C\u270F\u2712\u2714\u2716\u2728\u2733\u2734\u2744\u2747\u274C\u274E\u2753\u2754\u2755\u2757\u2764\u2795\u2796\u2797\u27A1\u27B0\u1F680\u1F683\u1F684\u1F685\u1F687\u1F689\u1F68C\u1F68F\u1F691\u1F692</item>
+        <item>\u1F693\u1F695\u1F697\u1F699\u1F69A\u1F6A2\u1F6A4\u1F6A5\u1F6A7\u1F6A8\u1F6A9\u1F6AA\u1F6AB\u1F6AC\u1F6AD\u1F6B2\u1F6B6\u1F6B9\u1F6BA\u1F6BB\u1F6BC\u1F6BD\u1F6BE\u1F6C0\u00A9\u00AE\u203C\u2049\u2122\u2139\u2194\u2195</item>
+        <item>\u2196\u2197\u2198\u2199\u21A9\u21AA\u231A\u231B\u23E9\u23EA\u23EB\u23EC\u23F0\u23F3\u25AA\u25AB\u25B6\u25C0\u25FB\u25FC\u25FD\u25FE\u2600\u2601\u260E\u2611\u2614\u2615\u261D\u263A\u2648\u2649</item>
+        <item>\u264A\u264B\u264C\u264D\u264E\u264F\u2650\u2651\u2652\u2653\u2660\u2663\u2665\u2666\u2668\u267B\u267F\u2693\u26A0\u26A1\u26AA\u26AB\u26BD\u26BE\u26C4\u26C5\u26CE\u26D4\u26EA\u26F2\u26F3\u26F5</item>
+        <item>\u26FA\u26FD\u2934\u2935\u2B05\u2B06\u2B07\u2B1B\u2B1C\u2B50\u2B55\u3030\u303D\u3297\u3299\u1F004\u1F0CF\u1F300\u1F301\u1F302\u1F303\u1F304\u1F305\u1F306\u1F307\u1F308\u1F309\u1F30A\u1F30B\u1F30C\u1F30F\u1F311</item>
+        <item>\u1F313\u1F314\u1F315\u1F319\u1F31B\u1F31F\u1F320\u1F330\u1F331\u1F334\u1F335\u1F337\u1F338\u1F339\u1F33A\u1F33B\u1F33C\u1F33D\u1F33E\u1F33F\u1F340\u1F341\u1F342\u1F343\u1F344\u1F345\u1F346\u1F347\u1F348\u1F349\u1F34A\u1F34C</item>
+        <item>\u1F34D\u1F34E\u1F34F\u1F351\u1F352\u1F353\u1F354\u1F355\u1F356\u1F357\u1F358\u1F359\u1F35A\u1F35B\u1F35C\u1F35D\u1F35E\u1F35F\u1F360\u1F361\u1F362\u1F363\u1F364\u1F365\u1F366\u1F367\u1F368\u1F369\u1F36A\u1F36B\u1F36C\u1F36D</item>
+        <item>\u1F36E\u1F36F\u1F370\u1F371\u1F372\u1F373\u1F374\u1F375\u1F376\u1F377\u1F378\u1F379\u1F37A\u1F37B\u1F380\u1F381\u1F382\u1F383\u1F384\u1F385\u1F386\u1F387\u1F388\u1F389\u1F38A\u1F38B\u1F38C\u1F38D\u1F38E\u1F38F\u1F390\u1F391</item>
+        <item>\u1F392\u1F393\u1F3A0\u1F3A1\u1F3A2\u1F3A3\u1F3A4\u1F3A5\u1F3A6\u1F3A7\u1F3A8\u1F3A9\u1F3AA\u1F3AB\u1F3AC\u1F3AD\u1F3AE\u1F3AF\u1F3B0\u1F3B1\u1F3B2\u1F3B3\u1F3B4\u1F3B5\u1F3B6\u1F3B7\u1F3B8\u1F3B9\u1F3BA\u1F3BB\u1F3BC\u1F3BD</item>
+        <item>\u1F3BE\u1F3BF\u1F3C0\u1F3C1\u1F3C2\u1F3C3\u1F3C4\u1F3C6\u1F3C8\u1F3CA\u1F3E0\u1F3E1\u1F3E2\u1F3E3\u1F3E5\u1F3E6\u1F3E7\u1F3E8\u1F3E9\u1F3EA\u1F3EB\u1F3EC\u1F3ED\u1F3EE\u1F3EF\u1F3F0\u1F40C\u1F40D\u1F40E\u1F411\u1F412\u1F414</item>
+        <item>\u1F417\u1F418\u1F419\u1F41A\u1F41B\u1F41C\u1F41D\u1F41E\u1F41F\u1F420\u1F421\u1F422\u1F423\u1F424\u1F425\u1F426\u1F427\u1F428\u1F429\u1F42B\u1F42C\u1F42D\u1F42E\u1F42F\u1F430\u1F431\u1F432\u1F433\u1F434\u1F435\u1F436\u1F437</item>
+        <item>\u1F438\u1F439\u1F43A\u1F43B\u1F43C\u1F43D\u1F43E\u1F440\u1F442\u1F443\u1F444\u1F445\u1F446\u1F447\u1F448\u1F449\u1F44A\u1F44B\u1F44C\u1F44D\u1F44E\u1F44F\u1F450\u1F451\u1F452\u1F453\u1F454\u1F455\u1F456\u1F457\u1F458\u1F459</item>
+        <item>\u1F45A\u1F45B\u1F45C\u1F45D\u1F45E\u1F45F\u1F460\u1F461\u1F462\u1F463\u1F464\u1F466\u1F467\u1F468\u1F469\u1F46A\u1F46B\u1F46E\u1F46F\u1F470\u1F474\u1F475\u1F476\u1F477\u1F478\u1F479\u1F47A\u1F47B\u1F47C\u1F47D\u1F47E\u1F47F</item>
+        <item>\u1F480\u1F481\u1F482\u1F483\u1F484\u1F485\u1F486\u1F487\u1F488\u1F489\u1F48A\u1F48B\u1F48C\u1F48D\u1F48E\u1F48F\u1F490\u1F491\u1F492\u1F493\u1F494\u1F495\u1F496\u1F497\u1F498\u1F499\u1F49A\u1F49B\u1F49C\u1F49D\u1F49E\u1F49F</item>
+        <item>\u1F4A0\u1F4A1\u1F4A2\u1F4A3\u1F4A4\u1F4A5\u1F4A6\u1F4A7\u1F4A8\u1F4A9\u1F4AA\u1F4AB\u1F4AC\u1F4AE\u1F4AF\u1F4B0\u1F4B1\u1F4B2\u1F4B3\u1F4B4\u1F4B5\u1F4B8\u1F4B9\u1F4BA\u1F4BB\u1F4BC\u1F4BD\u1F4BE\u1F4BF\u1F4C0\u1F4C1\u1F4C2</item>
+        <item>\u1F4C3\u1F4C4\u1F4C5\u1F4C6\u1F4C7\u1F4C8\u1F4C9\u1F4CA\u1F4CB\u1F4CC\u1F4CD\u1F4CE\u1F4CF\u1F4D0\u1F4D1\u1F4D2\u1F4D3\u1F4D4\u1F4D5\u1F4D6\u1F4D7\u1F4D8\u1F4D9\u1F4DA\u1F4DB\u1F4DC\u1F4DD\u1F4DE\u1F4DF\u1F4E0\u1F4E1\u1F4E2</item>
+        <item>\u1F4E3\u1F4E4\u1F4E5\u1F4E6\u1F4E7\u1F4E8\u1F4E9\u1F4EA\u1F4EB\u1F4EE\u1F4F0\u1F4F1\u1F4F2\u1F4F3\u1F4F4\u1F4F6\u1F4F7\u1F4F9\u1F4FA\u1F4FB\u1F4FC\u1F503\u1F50A\u1F50B\u1F50C\u1F50D\u1F50E\u1F50F\u1F510\u1F511\u1F512\u1F513</item>
+        <item>\u1F514\u1F516\u1F517\u1F518\u1F519\u1F51A\u1F51B\u1F51C\u1F51D\u1F51E\u1F51F\u1F520\u1F521\u1F522\u1F523\u1F524\u1F525\u1F526\u1F527\u1F528\u1F529\u1F52A\u1F52B\u1F52E\u1F52F\u1F530\u1F531\u1F532\u1F533\u1F534\u1F535\u1F536</item>
+        <item>\u1F537\u1F538\u1F539\u1F53A\u1F53B\u1F53C\u1F53D\u1F550\u1F551\u1F552\u1F553\u1F554\u1F555\u1F556\u1F557\u1F558\u1F559\u1F55A\u1F55B\u1F5FB\u1F5FC\u1F5FD\u1F5FE\u1F5FF\u24C2\u1F170\u1F171\u1F17E\u1F17F\u1F18E\u1F191\u1F192</item>
+        <item>\u1F193\u1F194\u1F195\u1F196\u1F197\u1F198\u1F199\u1F19A\u1F201\u1F202\u1F21A\u1F22F\u1F232\u1F233\u1F234\u1F235\u1F236\u1F237\u1F238\u1F239\u1F23A\u1F250\u1F251</item>
+    </string-array>
+
+</resources>

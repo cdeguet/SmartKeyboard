@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="28%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+	<Row>
+		<Key android:codes="46,63,33,44" android:keyLabel=".?!," altLabel="1" android:popupCharacters="1" 
+			forceMultitap="true" android:keyEdgeFlags="left"  />
+								<Key android:codes="1491,1492,1493" android:keyLabel="דהו" altLabel="2" android:popupCharacters="2"
+			android:horizontalGap="1%p" />
+								<Key android:codes="1488,1489,1490" android:keyLabel="אבג" altLabel="3" android:popupCharacters="3"
+			android:horizontalGap="1%p" />
+		<Key android:codes="63" android:keyLabel="\?" altLabel="!" android:popupCharacters="!" 
+			android:horizontalGap="1%p" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+								<Key android:codes="1502,1501,1504,1503" android:keyLabel="מנ" altLabel="4" android:popupCharacters="4" 
+			 android:keyEdgeFlags="left"/>
+								<Key android:codes="1497,1499,1498,1500" android:keyLabel="יכל" altLabel="5" android:popupCharacters="5"
+			android:horizontalGap="1%p" />
+								<Key android:codes="1494,1495,1496" android:keyLabel="זחט" altLabel="6" android:popupCharacters="6"
+			android:horizontalGap="1%p" />
+		<Key android:codes="-109" android:keyLabel="T9" android:isModifier="true"
+		 	android:horizontalGap="1%p" android:isSticky="true" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+								<Key android:codes="1512,1513,1514" android:keyLabel="רשת" altLabel="7" android:popupCharacters="7" 
+			android:keyEdgeFlags="left" />
+								<Key android:codes="1510,1509,1511" android:keyLabel="צק" altLabel="8" android:popupCharacters="8"
+			android:horizontalGap="1%p" />
+								<Key android:codes="1505,1506,1508,1507" android:keyLabel="סעפ" altLabel="9" android:popupCharacters="9"
+			android:horizontalGap="1%p" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:horizontalGap="1%p"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" 
+			iconID="@+id/delete_key" android:keyWidth="13%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/t9_bottom"/>
+
+</Keyboard>

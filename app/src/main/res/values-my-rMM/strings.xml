@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="setup_welcome_title" msgid="6112821709832031715">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> မှကြိုဆိုပါသည်"</string>
+    <string name="setup_welcome_additional_description" msgid="8150252008545768953">"အမူယာ ရိုက်ခြင်းဖြင့်"</string>
+    <string name="setup_start_action" msgid="8936036460897347708">"စတင်ပါတော့"</string>
+    <string name="setup_next_action" msgid="371821437915144603">"နောက်တစ်ဆင့်"</string>
+    <string name="setup_steps_title" msgid="6400373034871816182">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> တပ်ဆင်ရန်"</string>
+    <string name="setup_step1_title" msgid="3147967630253462315">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ဖွင့်ရန်"</string>
+    <string name="setup_step1_instruction" msgid="2578631936624637241">"သင့်ဘာသာစကား&amp; စာရိုက်ထည့်မှု ဆက်တင်များတွင် \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" အားစစ်ဆေးပါ။ ဤသည်မှာ သင့်ကိရိယာတွင် ဖွင့်ရန် အခွင့်ပေးပါမည်။"</string>
+    <string name="setup_step1_action" msgid="4366513534999901728">"ဆက်တင်များတွင် ဖွင့်ရန်"</string>
+    <string name="setup_step2_title" msgid="6860725447906690594">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> သို့ပြောင်းမည်"</string>
+    <string name="setup_step2_instruction" msgid="9141481964870023336">"ရှေ့၊ \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" အားသင်၏ ပွင့်နေသည့်ထည့်သွင်းမှု နည်းလမ်းအဖြစ်ရွေးပါ။"</string>
+    <string name="setup_step2_action" msgid="1660330307159824337">"စာရိုက်သွင်းမှုနည်းလမ်း ပြောင်းရန်"</string>
+    <string name="setup_step3_title" msgid="3154757183631490281">"ဝမ်းသာပါသည်၊ သင်အားလုံးသတ်မှတ်ပြီးပါပြီ!"</string>
+    <string name="setup_step3_instruction" msgid="8025981829605426000">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> ဖြင့်သင့် ကြိုက်နှစ်သက်ရာ အပလီကေးရှင်းများအားလုံးအား ရိုက်ထည့်နိုင်ပါပြီ။"</string>
+    <string name="setup_step3_action" msgid="600879797256942259">"ထပ်ပေါင်းဘာသာစကားများ ပြုပြင်မည်"</string>
+    <string name="setup_finish_action" msgid="276559243409465389">"ပြီးဆုံးသွားပြီ"</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="24%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+	<Row>
+		<Key android:codes="45" android:keyLabel="-" altLabel="&quot;" android:popupCharacters="&quot;" 
+			android:keyWidth="13%p" android:keyEdgeFlags="left" />
+		<Key android:codes="33,63,46,44" android:keyLabel="!?.," altLabel="1" android:popupCharacters="1"
+			forceMultitap="true" android:horizontalGap="0.5%p"/>
+		<Key android:codes="945,946,947" android:keyLabel="&#945;&#946;&#947;" altLabel="2" android:popupCharacters="2ά"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="948,949,950" android:keyLabel="&#948;&#949;&#950;" altLabel="3" android:popupCharacters="έ3"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="59" android:keyLabel=";" altLabel="!" android:popupCharacters="\?!"
+			android:horizontalGap="0.5%p" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="-109" android:keyLabel="T9" android:isModifier="true"
+		 	android:isSticky="true" android:keyWidth="13%p" android:keyEdgeFlags="left" />
+		<Key android:codes="951,952,953" android:keyLabel="&#951;&#952;&#953;" altLabel="4" android:popupCharacters="4ήίϊΐ"
+			android:horizontalGap="0.5%p"/>
+		<Key android:codes="954,955,956" android:keyLabel="&#954;&#955;&#956;" altLabel="5" android:popupCharacters="5"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="957,958,959" android:keyLabel="&#957;&#958;&#959;" altLabel="6" android:popupCharacters="ό6"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="46" android:keyLabel="."  altLabel="," android:popupCharacters=","
+			android:horizontalGap="0.5%p" android:keyWidth="13%p" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_shift" iconID="@+id/shift_key"
+			android:keyWidth="13%p" android:isModifier="true" android:isSticky="true"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="960,961,963,962" android:keyLabel="&#960;&#961;&#963;&#962;" altLabel="7" android:popupCharacters="7" 
+			android:horizontalGap="0.5%p"/>
+		<Key android:codes="964,965,966" android:keyLabel="&#964;&#965;&#966;" altLabel="8" android:popupCharacters="8ύϋΰ"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="967,968,969" android:keyLabel="&#967;&#968;&#969;" altLabel="9" android:popupCharacters="ώ9"
+			android:horizontalGap="0.5%p" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:horizontalGap="0.5%p"
+			android:iconPreview="@drawable/sym_keyboard_feedback_delete" 
+			iconID="@+id/delete_key" android:keyWidth="13%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/t9_bottom"/>
+</Keyboard>

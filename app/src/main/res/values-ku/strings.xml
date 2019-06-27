@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">یارمەتی</string>
+  <string name="about">دەربارەی...</string>
+  <string name="auto_cap">ڕاستکردنەوەی خۆکاری</string>
+  <string name="auto_cap_summary">ڕاستکردنەوەی یەکەم ووشە</string>
+  <string name="keyboard_settings">ڕێکخستنەکانی Smart Keyboard Pro</string>
+  <string name="settings">ڕێکخستنەکان</string>
+  <string name="general_settings">هەڵبژاردنی گشتی</string>
+  <string name="text_prediction">پێشنیارکردنی ووشە</string>
+  <string name="sound_vibrate">دەنگ و لەرزین</string>
+  <string name="language">زمان</string>
+  <string name="language_summary">گۆڕینی زمانی تەختەکلیل و بەرنامە</string>
+  <string name="lang_key">هەڵبژاردنی زمانی نووسین</string>
+  <string name="lang_key_summary">دیاریکردنی زمان</string>
+  <string name="english">ئینگلیزی</string>
+  <string name="english_intl">(ئینگلیزی (نێودەوڵەتی</string>
+  <string name="english_dvorak">ئینگلیزی (Dvorak)</string>
+  <string name="english_azerty">ئینگلیزی (AZERTY)</string>
+  <string name="french">فەڕەنسی</string>
+  <string name="romanian">ڕۆمانی</string>
+  <string name="bulgarian">بولگاری</string>
+  <string name="russian">ڕووسی</string>
+  <string name="russian_phonetic">(ڕووسی (ئاسایی</string>
+  <string name="spanish">ئیسپانی</string>
+  <string name="italian">ئیتاڵی</string>
+  <string name="german">ئەڵمانی</string>
+  <string name="portuguese">پۆرتوگالی</string>
+  <string name="danish">دانیمارکی</string>
+  <string name="finnish">فینلەندی</string>
+  <string name="hebrew">عیبری</string>
+  <string name="norwegian">نەرویجی</string>
+  <string name="swedish">سویدی</string>
+  <string name="georgian">جۆرجیایی</string>
+  <string name="czech_qwerty">چیکی (QWERTY)</string>
+  <string name="czech_qwertz">چیکی (QWERTZ)</string>
+  <string name="greek">یۆنانی</string>
+  <string name="dutch">هۆڵەندی</string>
+  <string name="polish">پۆڵەندی</string>
+  <string name="ukrainian">ئۆکرانی</string>
+  <string name="vibrate">لەرزین</string>
+  <string name="vibrate_summary">لەرزین لەکاتی نووسیندا</string>
+  <string name="vibrate_duration">هێزی لەرینەوە</string>
+  <string name="label_go_key">بڕۆ</string>
+  <string name="label_next_key">دواتر</string>
+  <string name="label_done_key">تەواو</string>
+  <string name="label_send_key">ناردن</string>
+  <string name="advanced_settings">هەڵبژاردنی پەرەسەندوو</string>
+  <string name="sound_on_keypress">دەنگ لەکاتی نووسیندا</string>
+  <string name="gestures">نیشانەکان</string>
+  <string name="swipe_left">جوڵاندن بۆلای چەپ</string>
+  <string name="swipe_right">جوڵاندن بۆلای ڕاست</string>
+  <string name="swipe_up">جوڵاندن بۆسەرەوە</string>
+  <string name="swipe_down">جوڵاندن بۆخوارەوە</string>
+  <string name="saved">پارێزرا</string>
+  <string name="quick_fixes">ڕاستکردنەوەی خێرا</string>
+  <string name="quick_fixes_summary">ڕاستکردنەوەی هەڵەکانی بەخێرایی نووسین</string>
+  <string name="show_suggestions">پیشاندانی پێشنیارەکان</string>
+  <string name="show_suggestions_summary">پیشاندانی ووشە پێشنیارکراوەکان لەکاتی نووسیندا</string>
+  <string name="auto_complete">تەواوکردنی خۆکاری</string>
+  <string name="auto_complete_summary">دانانی بۆشایی و خاڵ و هێماکان بەخۆکاری لە ڕستەدا</string>
+  <string name="contact_dic">فەرهەنگی ناوەکان</string>
+  <string name="contact_dic_summary">(پیشاندانی ناوەکان لە پێشنیارکردندا (پێویستی بە ئەندرۆیدی  ٢.٠ یان بەرزترە</string>
+  <string name="show_preview">پیشاندانی پیت لەکاتی نووسیندا</string>
+  <string name="show_preview_summary">پیشاندانی پیتەکان لەکاتی پەنجەنان بە دوگمەی پیتدا</string>
+  <string name="skin_selection">ڕووکار</string>
+  <string name="skin_summary">گۆڕینی ڕووکاری تەختەکلیل</string>
+  <string name="transparency">ڕوونی</string>
+  <string name="opacity">ڕێکخستنی ڕێژە</string>
+  <string name="transparency_summary">ڕێکخستنی ڕێژەی ڕوونی تەختەکلیل</string>
+  <string name="volume">دەنگ</string>
+  <string name="volume_summary">ڕێکخستنی ئاستی دەنگ لەکاتی نووسیندا</string>
+  <string name="debug_logs">چالاککردنی لیستی تۆمارەکان</string>
+  <string name="always_suggest">هەمیشە پێشنیارکردن</string>
+  <string name="always_suggest_summary">هەروەها پیشاندانی پێشنیار لەکاتی گەڕاندا</string>
+  <string name="custom_autotext">دەقی خۆکاری تایبەت</string>
+  <string name="custom_autotext_summary">دەستکاریکردن</string>
+  <string name="add_autotext">...زیادکردنی دەقی تایبەت</string>
+  <string name="edit_autotext">دەستکاریکردنی دەقی تایبەت</string>
+  <string name="autotext_key">ئەم ووشانە:</string>
+  <string name="autotext_value">ئەگۆڕدڕین بە:</string>
+  <string name="autotext_context_edit">دەستکاریکردن</string>
+  <string name="autotext_context_delete">سڕینەوە</string>
+  <string name="enable_arrows">چالاککردنی ئاڕاستەکان</string>
+  <string name="enable_arrows_summary">پیشاندان لەگەڵ دوگمەی ١٢٣</string>
+  <string name="always_caps">هەمیشە بەگەورەیی</string>
+  <string name="always_caps_summary">پیشاندانی پیتەکان بەشێوەی گەورە (کاپیتەڵ) هەمیشە</string>
+  <string name="display_alt_labels">پیشاندانی دوگمەی alt</string>
+  <string name="display_alt_labels_summary">لەسەرەوە alt پیشاندانی دوگمەکانی خشتە</string>
+  <string name="user_dictionary">فەرهەنگی بەکارهێنەر</string>
+  <string name="user_dictionary_summary">دەستکاریکردنی ووشە لە فەرهەنگی بەکارهێنەردا</string>
+  <string name="add_word">زیادکردنی ووشە</string>
+  <string name="edit_word">دەستکاریکردنی ووشە</string>
+  <string name="delete_word">سڕینەوەی ووشە</string>
+  <string name="word">ووشە</string>
+  <string name="forum">کوڕگە</string>
+  <string name="download_dic">داگرتنی فەرهەنگ</string>
+  <string name="download_dic_summary">داگرتنی فەرهەنگەکان لە فرۆشگاوە</string>
+  <string name="mic_button">دوگمەی مایک</string>
+  <string name="mic_button_summary">پیشاندانی دوگمەی گەڕانی دەنگی مایک ئەگەر گونجاو بوو</string>
+  <string name="voice_input">گەڕانی دەنگی</string>
+  <string name="cancel">پاشەگەزبونەوە</string>
+  <string name="retry">هەوڵدانەوە</string>
+  <string name="restart_voice">ئیشپێکردنەوەی گەڕانی دەنگی</string>
+  <string name="restart_voice_summary">ئیشپێکردنەوەی گەڕانی دەنگی هەمیشە هەتا هەڵدەوەشێنرێتەوە</string>
+  <string name="voice_best">هەڵبژاردنی باشترین دەنگ لەکاتی گەڕانی دەنگیدا</string>
+  <string name="voice_best_summary">هەڵبژاردنی باشترین دەنگ بەخۆکاری</string>
+  <string name="touch_points">پیشاندانی شوێنی دەستلێدان</string>
+  <string name="portrait_mode">شێوازی ستوونی</string>
+  <string name="portrait_mode_summary"> یان بچووککراوە دیاریبکە لەکاتی ستوونیداT9 ،شێوازی ئاسایی</string>
+  <string name="candidate_color">ڕەنگی دەق</string>
+  <string name="candidate_color_summary">ڕەنگی ووشە پێشنیارکراوەکان</string>
+  <string name="welcome">سوپاس بۆ دابەزاندنی تەختەکلیلی \@!\n\nبۆ چالاککردنی ئەم تەختەکلیلە بچۆ بۆ ڕێکخستنەکانی \"زمان و تەختەکلیل\" 
+	(یان \"ناوچە و نووسین\") و تەختەکلیلی \"\@\" چالاکبکە، و دواتر \@، بکەرە تەختەکلیلی سەرەکی وە پێویستە کەمێک دەست ڕابگریت لەسەر نووسین و دەقەدا بۆ هەڵبژاردنی \"شێوازی نووسین\"، تەختەکلیلی \@ هەڵبژێریت لە لیستەکەدا. ئەتوانی زیاتر پەنجە ڕابگریت لەسەر دوگمەی \"123\" بۆ کردنەوەی ڕێکخستنەکانی تەختەکلیل. \n\nئێستا بچۆ بۆ رێکخستنەکان (ئەتوانی پەنجە بنێیت بەو دوگمەی خوارەوەدا) بەکاری بهێنیت!\n\nتێبینی: ئەتوانی ئایکۆنی بەرنامەکە بشاریتەوە لە ڕێکخستنەکانی بەرنامەدا</string>
+  <string name="disable_launcher">ناچالاککردنی ئایکۆنی بەرنامە</string>
+  <string name="disable_launcher_warning">ئاگاداربە! ئەمە ئەبێتە هۆی شاردنەوە ئایکۆنی تەختەکلیلەکە، وە هەروەها دوگمەی \"کردنەوە\" ئەشرێتەوە لە فرۆشگادا!\nپێویستە کە دووبارە ئامێرەکەت ئیش پێبکەیتەوە
+	بۆ پیشاندانەوەی ئایکۆن.</string>
+  <string name="space_when_pick">دانانی بۆشایی دوای هەڵبژاردن</string>
+  <string name="space_when_pick_summary">زیادکردنی بۆشایی لەڕستە دوای هەڵبژاردنی ووشەیەک لە شریتی پێشنیارکردندا</string>
+  <string name="swap_punctuation_space">گۆڕینی خاڵبەندی</string>
+  <string name="swap_punctuation_space_summary">گۆڕینی خاڵبەندی و هێما بەخۆکاری دوای دانانی بۆشایی</string>
+  <string name="smiley_key">دوگمەی خەندەکان</string>
+  <string name="smiley_key_summary">پیشاندانی خەندەکان لەجیاتی ئینتەرکردن</string>
+  <string name="toggle_smiley_key">پیشاندانی دوگمەی خەندەکان</string>
+  <string name="select_sound">جۆری دەنگ دیاریبکە</string>
+  <string name="smiley_editor">دەستکاریکەری خەندەکان</string>
+  <string name="smiley_editor_summary">دەستکاریکردنی خەندەکانت</string>
+  <string name="smiley_editor_title">پەنجەی پێدابنێ بۆ دەستکاریکردن</string>
+  <string name="edit_smiley">دەستکاریکردنی خەندە</string>
+  <string name="smart_dictionary">فەرهەنگی زیرەک</string>
+  <string name="smart_dictionary_summary">فەرهەنگی پاراستنی ئەو ووشانەی کە ئەینووسیت بۆ باشترکردنی پێشنیارکردن</string>
+  <string name="backup">ڕێکخستنەکانی پاشەکەوتکردن</string>
+  <string name="backup_to_sd">پاشەکەوتکردن بۆ کارتی درەکی SD </string>
+  <string name="restore">گێڕانەوە لە کارتی دەرەکیەوە SD</string>
+  <string name="no_sd_card">هەڵەهەیە: کارتی دەرەکیت لەکاردا نیە یان تێنەکراوە، پاشەکەوتکردن و گێڕانەوە ئەنجام نادرێت!</string>
+  <string name="backup_warning">ئاگاداربە! تۆ  ئایا ئەتەوێ بەردەوامبیت؟ /sdcard/smartkeyboardpro/backup.zip. پاشەکەوت بکەیت ئەمە ئەبێتە هۆی لابردنی Smart Keyboard PRO ئەتەوێ ڕێکخستنەکان و فەرهەنگەکانی تەختەکلیلی</string>
+  <string name="restore_warning"> Smart Keyboard PRO ئاگاداربە! تۆ ئەتەوێ ڕێکخستن و فەرهەنگەکانی ئێستای تەختەکلیلی  بگێڕیتەوە کە پێویستە ئەم تەختەکلیلە دووبارە ئیشپێبکەیتەوە، بۆ جێبەجێکردنی گۆڕانکارییەکان، ئایا ئەتەوێ بەردەوامبیت؟</string>
+  <string name="backup_complete">پاشەکەوتکردن تەواو بوو</string>
+  <string name="slide_popup">تەختەکلیلی بچووکراوە</string>
+  <string name="slide_popup_summary">ڕاکێشانی پەنجە بۆ پیشاندانی ووشەکانی بەشی دووەم</string>
+  <string name="space_preview">پیشاندانی بۆشایی</string>
+  <string name="space_preview_summary">پیشاندانی دوگمەی بۆشایی</string>
+  <string name="turkish">تورکی</string>
+  <string name="hungarian">هەنگاری</string>
+  <string name="icelandic">ئایسلەندی</string>
+  <string name="bosnian">بۆسنی</string>
+  <string name="croatian">کرواتی</string>
+  <string name="serbian">سڕبی</string>
+  <string name="slovene">سلۆڤینی</string>
+  <string name="close">داخستن</string>
+  <string name="arabic">عەرەبی</string>
+  <string name="layout">تەختەکلیل</string>
+  <string name="force_latin">تەختەکلیلی ناچاری لاتینی</string>
+  <string name="force_latin_summary">تەختەکلیلی ناچاری بەکاردێت بۆ هەموو زمانە لاتینییەکان</string>
+  <string name="default_latin_lang">&lt;سەرەکی&gt;</string>
+  <string name="korean">کۆری</string>
+  <string name="rtl_suggestions">پێشنیارکردنی ڕاست بۆ چەپ RTL</string>
+  <string name="rtl_suggestions_summary">(پێچەوانەکردنەوەی ووشەکانی پێشنیارکردن بۆ زمانەکانی(عەرەبی/عیبری</string>
+  <string name="clean_userdic">سڕینەوەی فەرهەنگی بەکارهێنەر</string>
+  <string name="warn_clean_userdic">ئاگاداربە! ئەمە ئەبێتە هۆی سڕینەوەی هەموو ووشەکانت لە فەرهەنگی تایبەتیدا، ئایا دڵنیایت لە بەردەوامبون؟</string>
+  <string name="suggest_punctuation">پێشنیارکردنی خاڵبەندی</string>
+  <string name="key_height">بەرزی دوگمە</string>
+  <string name="thai">تایلەندی</string>
+  <string name="longpress_duration">ماوەی دەست ڕاگرتن</string>
+  <string name="longpress_duration_summary">ماوەی دەست ڕاگرتن بۆ هێماکانی بەشی دووەم</string>
+  <string name="learn_new_words">پاراستنی ووشە نوێیەکان</string>
+  <string name="learn_new_words_summary">(زیادکردنی ووشە نوێیەکان بۆ فەرهەنگی بەکارهێنەر بەخۆکاری (پێویستی بە فەرهەنگی زیرەکە</string>
+  <string name="enter_sends_sms">ناردنی پەیام</string>
+  <string name="enter_sends_sms_summary">دوگمەی ئینتەر پەیام ئەنێرێتلە جیاتی زیادکردنی دێڕی (نوێ، ئاگاداربە: لە هەموو بەرنامەکاندا کار ناکات! (سەیری فێرکاری بەکارهێنەر بکە</string>
+  <string name="slovak">سلۆڤاکی</string>
+  <string name="bk_warning">ئاگاداربە! ئەم ڕووکارە هی تەختەکلیلێکی ترە لەوانەیە نەگونجێت لەگەڵم ئەم تەختەکیلەدا و ببێتە هۆی لەکارکەوتن و تێکچوونی</string>
+  <string name="domain_editor">دەستکاریکەری دومەین</string>
+  <string name="domain_editor_summary">دەستکاریکردنی دوگمەی .com</string>
+  <string name="domain_editor_title">پەنجەی پێدابنێ بۆ دەستکاریکردنی دومەین</string>
+  <string name="edit_domain">دەستکاریکردن دومەین</string>
+  <string name="persistent_domain_key">دوگمەی دومەین</string>
+  <string name="persistent_domain_key_summary">پیشاندانی دوگمەی دومەین هەمیشە(.com)</string>
+  <string name="no_alt_preview">alt دەرنەکەوتنی</string>
+  <string name="no_alt_preview_summary">پیشان نەدانی دوگمە شاراوەکان ئەگەر تەنیا یەک دانەیی بوو</string>
+  <string name="dynamic_resizing">گۆڕینی قەبارەی دوگمە</string>
+  <string name="dynamic_resizing_summary">گۆڕینی قەبارەی دوگمە بەهۆی نووسینی وشەی دواترەوە</string>
+  <string name="esperanto">ئیسپێرانتۆی</string>
+  <string name="japanese">ژاپۆنی</string>
+  <string name="double_space_period">زیادکردنی ماوە</string>
+  <string name="double_space_period_summary">زیادکردنی ماوە لەنێوان ووشەکاندا لەکاتی دووجار پەنجەنان بە دوگمەی بۆشاییدا</string>
+  <string name="arrows_style">شێوازی ئاڕاستەکان</string>
+  <string name="arrows_style_summary">شێوازی ئاڕاستەکانی ناو تەختەکلیل دیاریبکە</string>
+  <string name="disable_mt">ناچالاککردنی فرە دەستلێدان</string>
+  <string name="compound_suggestions">پێشنیاری ئاڵۆز</string>
+  <string name="compound_suggestions_summary">چالاککردنی پێشنیارکردن بۆ ووشە (ئاڵۆزەکان (زیاتر بۆ زمانی ئەڵمانی</string>
+  <string name="current_language">زمانی ئێستا</string>
+  <string name="language_specific_options">هەڵبژاردنەکانی دیاریکردنی زمان</string>
+  <string name="no_lansdcape_fullscreen">باری ئاسۆیی لە شێوازی پڕ بەشاشە</string>
+  <string name="no_lansdcape_fullscreen_summary">نە گۆڕین بۆ شێوازی پڕ بەشاشە لە باری ئاسۆییدا (لەسەر لا)</string>
+  <string name="t9_length_priority">ڕێژەی درێژی T9</string>
+  <string name="t9_length_priority_summary">دا لەکاتی پێشنیارکردنی ووشەدا T9 ڕێژەی نێوان ووشەکان لە شێوازی</string>
+  <string name="t9_next_key">دوگمەی دواتری T9</string>
+  <string name="t9_next_key_summary">پیشاندانی لە باری ستوونیدا T9 دوگمەی دواتری</string>
+  <string name="suggest_numbers">پێشنیارکردنی ژمارەکان</string>
+  <string name="suggest_numbers_summary">چالاککردنی پێشنیارکردن بۆ ئەو پیتانەی کە ئەبجەدی نین</string>
+  <string name="trial_popup">ئەمە وەشانی تاقیکردنەوەیە، "Smart Keyboard PRO" ئێستا وەشانی پارەدان بکڕە و ئاگاداری و ڕیکلامە بێزارکەراکان لاببە :)</string>
+  <string name="buy">کڕین</string>
+  <string name="no_thanks">نەخێر، سوپاس</string>
+  <string name="chinese_simplified">(چینی (سادە"</string>
+  <string name="yes">بەڵێ</string>
+  <string name="no">نەخێر</string>
+  <string name="english_dic">پێویستە کە فەرهەنگی زمانی \"ئینگلیزی دابگریت\" لە فرۆشگای گۆگڵ بۆ ڕاستکردنەوە و پێشنیارکردنی ووشە ئینگلیزییەکان، ئەتەوێ ئێستا دایگریت؟</string>
+  <string name="physical_kbd">تەختەکلیلی فیزیکی</string>
+  <string name="physical_kbd_summary">چالاککردنی دوگمەی پێشنیارکردن و وەرگێڕان، shift+space  دوگمەی شێفت و بۆشایی بەکاربهێنە بۆ گۆڕینی زمانەکان.</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">گەڕانی دەنگی</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">گەڕانی دەنگی لە ئێستادا پشگیری زمانەکەی تۆ ناکات، بەڵام پشگیری زمانی ئینگلیزی ئەکات.</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">گەڕانی دەنگی خزمەتگوزارییەکی ئەزموونی گۆگڵە کە بەکاردێت بۆ ناسینەوەی دەنگ.</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">بۆ ناچالاککردنی گەڕانی دەنگی، بڕۆ بۆ ڕێکخستنەکانی تەختەکلیل.</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">ئێستا قسە بکە</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">دەگەڕێت</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">هەڵە ڕوویدا، تکایە دووبارە هەوڵبدەرەوە.</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">ناتوانرێ پەیوەندی بکرێت بە تۆڕەوە</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">هەڵە ڕوویدا، قسەکردنە زۆرە.</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">کێشەی دەنگ</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">هەڵە هەیە لە ڕاژەکاردا</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">قسەکردن نەبیسترا</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">هیچ ئەنجامێک نەدۆزرایەوە</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">گەڕانی دەنگی دانەبەزێنراوە</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">باشە</string>
+  <string name="estonian">ئەستۆنی</string>
+  <string name="lithuanian">لیتوانی</string>
+  <string name="latvian">لاتیڤی</string>
+  <string name="only_one_language">ئاگاداربە! لەبەر ئەوەی تەنیا یەک زمانت هەڵبژاردوە بۆ دوگمەی زمان، ئەم دوگمەیە پیشان نادرێت، بەڵام ئەم زمانە ڕێکدەخرێت بۆ تەختەکلیل.</string>
+  <string name="different_language">ئاگاداربە! ئەم زمانەی هەڵتبژاردووە هەمان ئەو زمانە نیە کە لە لیستی \"هەڵبژاردنی زمان\" دیاریکراوە!</string>
+  <string name="hebrew_alt">تەختەکلیلی عیبری شێوەی alt</string>
+  <string name="hebrew_alt_summary">گواستنەوەی دوگمەی سڕینەوە بۆلای چەپ لە تەختەکلیلی عیبریدا</string>
+  <string name="portrait_fullscreen">پڕ بەشاشە لە باری ستوونیدا</string>
+  <string name="portrait_fullscreen_summary">پیشاندانی تەختەکلیل پڕ بەشاشە لە باری ستوونیدا (گونجاوە بۆ مۆبایلە شاشە بچووکەکان)</string>
+  <string name="czech_full">تەختەکلیلی تەواوەتی سلۆڤاکی/چیکی</string>
+  <string name="czech_full_summary">پیشاندانی هێڵی سەرەوە لەگەڵ سەرجەم پیتەکانی زمانەکانی سلۆڤاکی و چیکی </string>
+  <string name="swipe_sensitivity">هەستیاری نیشانەکان</string>
+  <string name="swipe_sensitivity_summary">ڕێکخستنی ئاستی هەستیاری نیشانەکان، ئاگاداربە! ئەگەر ئاستی هەستیاری زۆر کەمبکرێتەوە ئەوا فرە دەستلێدانیش وەکو نیشانەی لێدێت.</string>
+  <string name="catalan">کەتەلۆنی</string>
+  <string name="multitap_interval">ماوەی دەست پێدانان</string>
+  <string name="multitap_interval_summary">ڕێکخستنی ماوەی پەنجە پێدانان لە شێوازی خێرا و زمانی کۆریدا  \"پیتە بزوێنەکان\" لە تەختەکلیلی بچووکراوەدا.</string>
+  <string name="persian">فارسی</string>
+  <string name="calibration">هاوسەنگکردن</string>
+  <string name="calibration_summary">هاوسەنگکردنی تەختەکلیل بۆ باشترکردنی ڕاستی و دروستی لەکاتی نووسیندا</string>
+  <string name="calibration_instructions">بۆ باشترکردن و هاوسەنگکردنی تەختەکلیل، ئەم ووشانەی خوارەوە بنوسەرەوە:</string>
+  <string name="calibration_done">هاوسەنگکردن تەواو بوو! پەنجە بنێ بە \"پاراستن\" دا بۆ بەکارهێنانی ڕێکخستنی نوێ، یان \"پاشگەزبونەوە\" بۆ دووبارەکردنەوە. تێبینی: پێویستە کە تەختەکلیل لە هەردوو باری ئاسۆیی و ستووندا هاوسەنگ بکەیتبۆ باشترین ئەنجامی نووسین.</string>
+  <string name="calibration_profile_is">پڕۆفایلی هاوسەنگکردنت بریتیە لە:</string>
+  <string name="calibration_reset">وادیارە ئەتەوێ هاوسەنگکردن ڕێکبخەیتەوە بۆ شێوازی سەرەکی، ئایا دڵنیایت لە بەردەوامبون؟</string>
+  <string name="reset">ڕێکخستنەوە</string>
+  <string name="save">پاراستن</string>
+  <string name="get_skins">دابەزاندنی ڕووکاری زیاتر...</string>
+  <string name="sms_mode">شێوازی کورتەنامە SMS</string>
+  <string name="sms_mode_summary">لابردنی ووشە پێشنیارکراوە زیادەکان لەکاتی نووسینی کورتەنامەدا SMS</string>
+  <string name="key_height_summary">ڕێکخستنی بەرزی دوگمە</string>
+  <string name="alt_symbols">هێماکانی Alt</string>
+  <string name="alt_symbols_summary">لە پەنجەرەی (123) دا alt پیشاندانی ژمارە و هێماکانی</string>
+  <string name="hide_period">شاردنەوەی ماوە</string>
+  <string name="hide_period_summary">شاردنەوەی ماوەی نێوان دوگمە بۆ گەورەکردنی دوگمەی بۆشایی</string>
+  <string name="hide_comma">شاردنەوەی بۆر (فاریزە)</string>
+  <string name="hide_comma_summary">شاردنەوەی دوگمەکانی مایک و فاریزە بۆ گەورەکردنی دوگمەی بۆشایی</string>
+  <string name="bottom_padding">فروانکردنی بەشی خوارەوە</string>
+  <string name="bottom_padding_summary">زیادکردنی قەبارەی بەشی خوارەوەی تەختەکلیل لە باری ستوونیدا</string>
+  <string name="apostrophe_separator">جیاکەرەوەی بانگکردن</string>
+  <string name="apostrophe_separator_summary">ئەژمارکردنی بانگکردن بۆ جیاکردنەوەی ووشەکان (گونجاوە بۆ شێوازی خێرای زمانی ئیتاڵی)</string>
+  <string name="ignore_hard_kbd">فەرامۆشکردنی تەختەکلیلی دژوار</string>
+  <string name="ignore_hard_kbd_summary">پیشاندانی تەختەکلیلی ئاسایی لەباری ئاسۆییدا تەنانەت (Droid Pro ئەگەر تەختەکلیلی دژوار سەرەکیش بوو (ئەگونجێت لەگەڵ مۆبایلی</string>
+  <string name="pinyin">پینین</string>
+  <string name="tatar">تاتاری</string>
+  <string name="custom_punctuation">خاڵبەندی تایبەت</string>
+  <string name="custom_punctuation_summary">دەستکاریکردنی خاڵبەندییەکانی شریتی پێشنیارکردن</string>
+  <string name="kazakh">کازاخی</string>
+  <string name="azerbaijani">ئازەری</string>
+  <string name="armenian">ئەرمینی</string>
+  <string name="vietnamese">ڤێتنامی</string>
+  <string name="no_landscape_suggestions">پێشنیار نەکردنی ووشە</string>
+  <string name="no_landscape_suggestions_summary">پێشنیار نەکردنی ووشە لەباری ئاسۆییدا</string>
+  <string name="arrows_main">پیشاندانی ئاڕاستەکان</string>
+  <string name="arrows_main_summary">ڕێکخستنی پیشاندانی ئاڕاستەکان لە تەختەکلیلی سەرەکیدا</string>
+  <string name="cursor_volume">کارسەر</string>
+  <string name="cursor_volume_summary">جوڵاندنی کارسەر بەهۆی دوگمەکانی دەنگەوە</string>
+  <string name="export_user_dic">ناردنی فەرهەنگی بەکارهێنەر</string>
+  <string name="export_user_dic_summary">ناردنی فەرهەنگی بەکارهێنەری بەشێوەی فایلی CSV</string>
+  <string name="export_autotext">ناردنی دەقی خۆکاری</string>
+  <string name="export_autotext_summary">ناردنی دەقی کورتی خۆکاری بەشێوەی فایلی CSV</string>
+  <string name="import_user_dic">هێنانی فەرهەنگی بەکارهێنەر</string>
+  <string name="import_autotext">هێنانی دەقی خۆکاری</string>
+  <string name="export_complete">تەواو بوو CVS ناردنی</string>
+  <string name="import_complete">تەواو بوو CVS هێنانی</string>
+  <string name="export_user_dic_warning">ئاگاداربە! وادیارە ئەتەوێ فەرهەنگی تایبەتی بنێریت لە ڕێی فایلی CSV ـەوە.
+	ئەمە ئەبێتە هۆی لابردنی/sdcard/smartkeyboardpro/userdic.csv. ئایا ئەتەوێ بەردەوامبیت؟</string>
+  <string name="import_user_dic_warning">ئاگاداربە! وادیارە ئەتەوێ فەرهەنگی بەکارهێنەر بهێنیت لەڕێی فایلی CSV ـەوە /sdcard/smartkeyboardpro/userdic.csv. 
+	ئەمە ئەبێتە هۆی لادانی سەرجەم ناوەڕۆکەکانی ناو فەرهەنگی تایبەتیت، ئایا ئەتەوێ بەردەوامبیت؟ 
+	</string>
+  <string name="export_autotext_warning">ئاگاداربە! وادیارە ئەتەوێ دەقی تایبەتی بنێریت لەڕێی فایلی CSV ـەوە.
+	ئەمە ئەبێتە هۆی لادانی /sdcard/smartkeyboardpro/autotext.csv. ئایا ئەتەوێ بەردەوامبیت؟</string>
+  <string name="import_autotext_warning">ئاگاداربە! وادیارە ئەتەوێ دەقی تایبەتی بهێنیت لەڕێی فایلی CSV ـەوە /sdcard/smartkeyboardpro/autotext.csv. 
+	ئەمە ئەبێتە هۆی لابردندی سەرخەم ناوەڕۆکەکانی ناو دەقی تایبەتی، ئایا ئەتەوێ بەردەوامبیت؟ 
+	</string>
+  <string name="accents_priority">درێژی شێوەزارەکان</string>
+  <string name="accents_priority_summary">درێژی ماوەی شێوەزارەکان لەکاتی پیشاندانی شاشەی دووەمدا، تەنیا بۆ هەندێ زمان ئەگونجێت.</string>
+  <string name="afrikaans">ئەفریقی</string>
+  <string name="mongolian">مەنگۆلی</string>
+  <string name="prefs_enable_recorrection">دەستلێدان بۆ ڕاستکردنەوە</string>
+  <string name="prefs_enable_recorrection_summary">دەسلێدان لە ووشە نوسراوەکان بۆ ڕاستکردنەوەیان</string>
+  <string name="macedonian">مەکدۆنی</string>
+  <string name="luxembourgish">لۆکسەمبۆرگی</string>
+  <string name="albanian">ئەلبانی</string>
+  <string name="belarusian">بیلاڕووسی</string>
+  <string name="indonesian">ئەندەنوسی</string>
+  <string name="alt_compact">درێژکردنەوە لە شێوازی بچووککراوە/T9</string>
+  <string name="alt_compact_summary">دا بۆ پیشاندانی هەموو ووشەکان T9/دەست ڕاگرتن بۆ ماوەیەک لە شێوازی بچووککراوە (تەنیا تەختەکلیلی ئینگلیزی)ـ</string>
+  <string name="backup_failed">پاشەکەوتکردن سەرکەوتو نەبوو!</string>
+  <string name="restore_failed">گێڕانەوە سەرکەوتو نەبوو! فایلی پاشەکەوتکراو تێکچووە.</string>
+  <string name="hide_in_portrait">شاردنەوە لەباری ستوونیدا</string>
+  <string name="hide_in_portrait_summary">شاردنەوەی تەختەکلیل هەمیشە (گونجاوە لەگەڵ مۆبایلی Droid Pro)</string>
+  <string name="twitter">توویتەر</string>
+  <string name="space_alert">لەرینەوەی دوگمەی بۆشایی</string>
+  <string name="space_alert_summary">لەرینەوە تەنیا بۆ دوگمەی بۆشایی</string>
+  <string name="unicode">یونیکۆد</string>
+  <string name="hide_lang_key">شاردنەوەی ئایکۆنی زمان</string>
+  <string name="hide_lang_key_summary">شاردنەوەی دوگمەی هەڵبژاردنی زمان ئەگەر چەند زمانێک دیاریکرابوو</string>
+  <string name="show_language_icon">ئایکۆنی زمان</string>
+  <string name="show_language_icon_summary">پیشاندانی ئایکۆنی زمان لە شریتی زانیاریدا</string>
+  <string name="emoji">خەندەکان</string>
+  <string name="domain_key">دوگمەی دومەین</string>
+  <string name="domain_key_summary">پیشاندانی دوگمەی دومەین (.com)</string>
+  <string name="numbers_top">ژمارەکان لەسەرەوە</string>
+  <string name="numbers_top_summary">پیشاندانی ژمارەکان لە تەختەکلیلدا</string>
+  <string name="kurdish">کوردی</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Congratulations, you\'re all set!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  </resources>

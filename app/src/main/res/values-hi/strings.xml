@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">मदद</string>
+  <string name="about">के बारे में...</string>
+  <string name="auto_cap">ऑटो-कैपिटलाइज़ेशन</string>
+  <string name="auto_cap_summary">किसी वाक्य के प्रारंभ को कैपिटल में लिखें</string>
+  <string name="keyboard_settings">स्मार्ट कुंजीपटल प्रो सेटिंग्स</string>
+  <string name="settings">सेटिंग्स</string>
+  <string name="general_settings">सामान्य सेटिंग्स</string>
+  <string name="text_prediction">पाठ की भविष्यवाणी</string>
+  <string name="sound_vibrate">ध्वनि और कंपन है</string>
+  <string name="language">भाषा</string>
+  <string name="language_summary">कुंजीपटल भाषा बदलें और लेआउट</string>
+  <string name="lang_key">भाषा चयन कुंजी</string>
+  <string name="lang_key_summary">उपलब्ध भाषाओं का चयन करें</string>
+  <string name="english">अंग्रेज़ी</string>
+  <string name="english_intl">अंग्रेजी (इंटरनेशनल)</string>
+  <string name="english_dvorak">अंग्रेजी (Dvorak)</string>
+  <string name="english_azerty">अंग्रेजी (AZERTY)</string>
+  <string name="french">फ़्रेंच</string>
+  <string name="romanian">रोमानियाई</string>
+  <string name="bulgarian">बल्गारिया</string>
+  <string name="russian">रूसी</string>
+  <string name="russian_phonetic">रूसी (ध्वन्यात्मक)</string>
+  <string name="spanish">स्पैनिश</string>
+  <string name="italian">इटैलियन</string>
+  <string name="german">जर्मन</string>
+  <string name="portuguese">पुर्तगाली</string>
+  <string name="danish">डैनिश</string>
+  <string name="finnish">फ़िनिश</string>
+  <string name="hebrew">हिब्रू</string>
+  <string name="norwegian">नॉर्वेजियन</string>
+  <string name="swedish">स्वीडिश</string>
+  <string name="georgian">जॉर्जियन</string>
+  <string name="czech_qwerty">चैक (QWERTY)</string>
+  <string name="czech_qwertz">चैक (QWERTY)</string>
+  <string name="greek">यूनानी</string>
+  <string name="dutch">डच</string>
+  <string name="polish">पोलिश</string>
+  <string name="ukrainian">यूक्रेनियाई</string>
+  <string name="vibrate">कांपना</string>
+  <string name="vibrate_summary">कुंजी प्रेस पर कांपना</string>
+  <string name="vibrate_duration">थरथानेवाला अवधि</string>
+  <string name="label_go_key">जाओ</string>
+  <string name="label_next_key">अगले</string>
+  <string name="label_done_key">किया</string>
+  <string name="label_send_key">भेजें</string>
+  <string name="advanced_settings">उन्नत सेटिंग्स</string>
+  <string name="sound_on_keypress">केप्रेस पर ध्वनि</string>
+  <string name="gestures">इशारों</string>
+  <string name="swipe_left">ज़ोर से मारना छोड़ दिया</string>
+  <string name="swipe_right">ज़ोर से मारना सही</string>
+  <string name="swipe_up">ऊपर ज़ोर से मारना</string>
+  <string name="swipe_down">नीचे ज़ोर से मारना</string>
+  <string name="saved">सहेजा गया</string>
+  <string name="quick_fixes">जल्दी सुधार</string>
+  <string name="quick_fixes_summary">सामान्यतः टाइप गलतियों को सही</string>
+  <string name="show_suggestions">सुझाव दिखाएँ</string>
+  <string name="show_suggestions_summary">सुझाए गए शब्दों को लिखते समय प्रदर्शित</string>
+  <string name="auto_complete">स्वत: पूर्ण</string>
+  <string name="auto_complete_summary">हाइलाइट किए गए वर्ड स्वचालित रूप से सम्मिलित स्पसबर और विराम चिह्न</string>
+  <string name="contact_dic">संपर्क शब्दकोश</string>
+  <string name="contact_dic_summary">संपर्क नाम सुझाव (जरूरतों एंड्राइड 2.0) में शामिल हैं</string>
+  <string name="show_preview">दिखाएँ पूर्वावलोकन पॉपअप</string>
+  <string name="show_preview_summary">एक पॉपअप प्रदर्शित जब एक कुंजी दबाया जाता है</string>
+  <string name="skin_selection">त्वचा का चयन करें</string>
+  <string name="skin_summary">कुंजीपटल त्वचा परिवर्तन</string>
+  <string name="transparency">पारदर्शिता</string>
+  <string name="opacity">निर्धारित अस्पष्टता</string>
+  <string name="transparency_summary">कुंजीपटल पारदर्शिता सेट</string>
+  <string name="volume">वॉल्यूम</string>
+  <string name="volume_summary">केप्रेस ध्वनि की मात्रा सेट करें</string>
+  <string name="debug_logs">डीबग लॉग सक्षम करें</string>
+  <string name="always_suggest">हमेशा सुझाव कि है</string>
+  <string name="always_suggest_summary">खोजों के लिए सुझाव प्रदर्शित करें</string>
+  <string name="custom_autotext">कस्टम स्वत: पाठ</string>
+  <string name="custom_autotext_summary">अपने ऑटोटेक्स्ट शॉर्टकट संपादित करें</string>
+  <string name="add_autotext">ऑटोटेक्स्ट जोड़ें...</string>
+  <string name="edit_autotext">ऑटोटेक्स्ट संपादन</string>
+  <string name="autotext_key">निम्न शब्द:</string>
+  <string name="autotext_value">द्वारा प्रतिस्थापित किया जाएगा:</string>
+  <string name="autotext_context_edit">संपादित करें</string>
+  <string name="autotext_context_delete">हटाएँ</string>
+  <string name="enable_arrows">तीर कीपैड सक्षम करें</string>
+  <string name="enable_arrows_summary">123 कुंजी के साथ सुलभ</string>
+  <string name="always_caps">हमेशा कैप्स</string>
+  <string name="always_caps_summary">हमेशा उच्च मामले में प्रमुख लेबल प्रदर्शित करें</string>
+  <string name="display_alt_labels">ऑल्ट लेबल दिखाएँ</string>
+  <string name="display_alt_labels_summary">वैकल्पिक लेबल प्रमुख लेबल के ऊपर प्रदर्शित करें</string>
+  <string name="user_dictionary">उपयोगकर्ता शब्दकोश</string>
+  <string name="user_dictionary_summary">उपयोगकर्ता शब्दकोश में शब्दों को संपादित करें</string>
+  <string name="add_word">शब्द जोड़ें</string>
+  <string name="edit_word">शब्द संपादित करें</string>
+  <string name="delete_word">शब्द हटाएँ</string>
+  <string name="word">शब्द</string>
+  <string name="forum">फोरम</string>
+  <string name="download_dic">शब्दकोश डाउनलोड करें</string>
+  <string name="download_dic_summary">शब्दकोशों बाजार से डाउनलोड करें</string>
+  <string name="mic_button">मिस बटन</string>
+  <string name="mic_button_summary">आवाज़ इनपुट कुंजी जब संभव प्रदर्शन</string>
+  <string name="voice_input">आवाज़ इनपुट</string>
+  <string name="cancel">रद्द करें</string>
+  <string name="retry">पुन: प्रयास करें</string>
+  <string name="restart_voice">आवाज़ इनपुट पुनरारंभ करें</string>
+  <string name="restart_voice_summary">जब तक इसे रद्द कर दिया है हमेशा आवाज इनपुट को पुनरारंभ करें</string>
+  <string name="voice_best">वॉयस इनपुट सर्वश्रेष्ठ विकल्प</string>
+  <string name="voice_best_summary">स्वचालित रूप से सबसे अच्छा विकल्प का चयन करें</string>
+  <string name="touch_points">स्पर्श बिंदु दिखाएँ</string>
+  <string name="portrait_mode">पोर्ट्रेट मोड</string>
+  <string name="portrait_mode_summary">चयन करें सामान्य, T9 या चित्र के लिए कॉम्पैक्ट लेआउट</string>
+  <string name="candidate_color">उम्मीदवार रंग</string>
+  <string name="candidate_color_summary">सुझाव पट्टी में अनुशंसित शब्द का रंग</string>
+  <string name="welcome">इस कीबोर्ड को सक्षम, \"भाषा &amp; कीबोर्ड\ करने के लिए जाओ \@!\n\nस्थापित करने के लिए धन्यवाद" (या \"स्थान &amp; टेक्स्ट\") सेटिंग्स, और चेक \ "\ @\" बॉक्स। तब करने के लिए स्विच करने के लिए, \ @, आप की जरूरत लंबे समय में किसी भी पाठ इनपुट बॉक्स दबाएँ, \"इनपुट विधि\ का चयन करने के लिए", और का चयन करें \ @ सूची में। आप लंबे समय पर \"123\ दबा सकते हैं" कुंजी कुंजीपटल सेटिंग्स दर्ज करें। \n\n(आप कर सकते हैं क्लिक करें नीचे) सेटिंग्स मेनू पर जाएँ, और आनंद! \n\nनोट: आप कुंजीपटल सेटिंग में लॉन्चर चिह्न निकालें कर सकते हैं</string>
+  <string name="disable_launcher">लॉन्चर चिह्न को अक्षम करें</string>
+  <string name="disable_launcher_warning">चेतावनी! इस स्मार्ट कुंजीपटल चिह्न लांचर में अक्षम हो जाएगा, लेकिन \"ओपन\" को भी अक्षम कर देगा बाजार अनुप्रयोग में बटन!\nलॉन्चर चिह्न वास्तव में गायब हो के लिए अपने फोन को रिबूट करने की आवश्यकता हो सकती।</string>
+  <string name="space_when_pick">उठा के बाद रिक्ति</string>
+  <string name="space_when_pick_summary">जब उठा सुझाव पट्टी से मैन्युअल रूप से एक शब्द एक रिक्ति सम्मिलित करें</string>
+  <string name="swap_punctuation_space">स्वैप विराम चिह्न</string>
+  <string name="swap_punctuation_space_summary">स्वचालित रूप से विराम चिह्न और स्पेस एक शब्द के बाद स्वैप</string>
+  <string name="smiley_key">स्माइली कुंजी</string>
+  <string name="smiley_key_summary">दिखाएँ स्माइली कुंजी दर्ज करें के बजाय</string>
+  <string name="toggle_smiley_key">टॉगल स्माइली कुंजी</string>
+  <string name="select_sound">ध्वनि शैली का चयन करें</string>
+  <string name="smiley_editor">स्माइली संपादक</string>
+  <string name="smiley_editor_summary">अपने स्माइली कुंजी को अनुकूलित करें</string>
+  <string name="smiley_editor_title">एक स्माइली को संपादित करने के लिए टैप करें</string>
+  <string name="edit_smiley">स्माईली को संपादित करें</string>
+  <string name="smart_dictionary">स्मार्ट शब्दकोश</string>
+  <string name="smart_dictionary_summary">शब्दकोश जो शब्दों की आवृत्ति सीखता है आप सुझाव को बेहतर बनाने के लिए लिखें</string>
+  <string name="backup">बैकअप सेटिंग्स</string>
+  <string name="backup_to_sd">एसडी कार्ड के लिए बैकअप</string>
+  <string name="restore">एसडी कार्ड से पुनर्स्थापित करें</string>
+  <string name="no_sd_card">त्रुटि: अपने एसडी कार्ड माउंट नहीं है, बैकअप/पुनर्स्थापना संभव नहीं है!</string>
+  <string name="backup_warning">चेतावनी! आप के बारे में बैकअप स्मार्ट कुंजीपटल प्रो सेटिंग्स और शब्दकोशों के लिए कर रहे हैं।  यह /sdcard/smartkeyboardpro/backup.zip को अधिलेखित कर देगा। क्या आप जारी रखना चाहते हैं?</string>
+  <string name="restore_warning">चेतावनी! आप स्मार्ट कुंजीपटल प्रो सेटिंग्स और शब्दकोशों के बारे में पुनर्स्थापित करने के लिए कर रहे हैं।  यह आपके सभी वर्तमान सेटिंग्स को अधिलेखित कर देगा। कुंजीपटल लेने के खाते में परिवर्तन करने के लिए पुनरारंभ किया जाएगा।  क्या आप जारी रखना चाहते हैं?</string>
+  <string name="backup_complete">पूर्ण बैकअप</string>
+  <string name="slide_popup">स्लाइड पॉपअप कुंजीपटल</string>
+  <string name="slide_popup_summary">पॉपअप कुंजीपटल पर लहजे का चयन करने के लिए उंगली स्लाइड</string>
+  <string name="space_preview">अंतरिक्ष पूर्वावलोकन</string>
+  <string name="space_preview_summary">अंतरिक्ष कुंजी के लिए पूर्वावलोकन दिखाएँ</string>
+  <string name="turkish">तुर्की</string>
+  <string name="hungarian">हंगेरियन</string>
+  <string name="icelandic">आइसलैंडिक</string>
+  <string name="bosnian">बोस्नियाई</string>
+  <string name="croatian">क्रोएशियाई</string>
+  <string name="serbian">सर्बियन</string>
+  <string name="slovene">स्लोवेनियाई</string>
+  <string name="close">बंद करें</string>
+  <string name="arabic">अरबी</string>
+  <string name="layout">लेआउट</string>
+  <string name="force_latin">बल लैटिन लेआउट</string>
+  <string name="force_latin_summary">सभी लैटिन भाषाओं के साथ इस्तेमाल किया जा करने के लिए लेआउट</string>
+  <string name="default_latin_lang">&lt;डिफ़ॉल्ट&gt;</string>
+  <string name="korean">कोरियाई</string>
+  <string name="rtl_suggestions">RTL सुझाव</string>
+  <string name="rtl_suggestions_summary">शब्द (अरबी/हिब्रू) के लिए भविष्यवाणी के बार में उल्टा</string>
+  <string name="clean_userdic">स्वच्छ उपयोगकर्ता शब्दकोश</string>
+  <string name="warn_clean_userdic">चेतावनी! यह सब आपके उपयोगकर्ता शब्दकोश में शब्दों को हटा देगा। क्या आप जारी रखना चाहते हैं?</string>
+  <string name="suggest_punctuation">विराम चिह्न का सुझाव</string>
+  <string name="key_height">प्रमुख ऊंचाई</string>
+  <string name="thai">थाई</string>
+  <string name="longpress_duration">लंबा प्रेस अवधि</string>
+  <string name="longpress_duration_summary">एक लंबा प्रेस की अवधि के लिए वैकल्पिक प्रतीकों को अनुकूलित करें</string>
+  <string name="learn_new_words">जानें नये शब्द</string>
+  <string name="learn_new_words_summary">स्वचालित रूप से उपयोगकर्ता शब्दकोश (स्मार्ट शब्दकोश की आवश्यकता है) के लिए नए शब्द जोड़े</string>
+  <string name="enter_sends_sms">भेजता है संदेश दर्ज करें</string>
+  <string name="enter_sends_sms_summary">प्रमुख भेजता है एक नई लाइन डालने के बजाय संदेश दर्ज करें। चेतावनी: यह सभी क्षुधा में काम नहीं करता है! (यूजर की मार्गदर्शिका देखें)</string>
+  <string name="slovak">स्लोवाक</string>
+  <string name="bk_warning">चेतावनी! यह एक त्वचा के लिए अच्छा कीबोर्ड है। स्मार्ट कुंजीपटल के साथ संगतता पर किसी भी समय भंग हो सकता है, तो यह आपके अपने जोखिम पर प्रयोग करें!</string>
+  <string name="domain_editor">डोमेन संपादक</string>
+  <string name="domain_editor_summary">.com कुंजी को अनुकूलित करें</string>
+  <string name="domain_editor_title">एक डोमेन को संपादित करने के लिए टैप करें</string>
+  <string name="edit_domain">डोमेन को संपादित करें</string>
+  <string name="persistent_domain_key">लगातार डोमेन कुंजी</string>
+  <string name="persistent_domain_key_summary">हमेशा डोमेन (.com) के लिए महत्वपूर्ण प्रदर्शन</string>
+  <string name="no_alt_preview">कोई ऑल्ट पूर्वावलोकन</string>
+  <string name="no_alt_preview_summary">अगर वहाँ केवल एक दिखाने वैकल्पिक वर्ण के लिए पूर्वावलोकन पॉपअप</string>
+  <string name="dynamic_resizing">गतिशील रीसाइज़िंग कुंजी</string>
+  <string name="dynamic_resizing_summary">अगले पत्र संभाव्यता पर आधारित कुंजियों की आभासी आकार बदलें</string>
+  <string name="esperanto">एस्पेरान्तो</string>
+  <string name="japanese">जापानी</string>
+  <string name="double_space_period">दोहरी रिक्ति पर अवधि</string>
+  <string name="double_space_period_summary">अवधि जब अंतरिक्ष बार दो बार मारा है सम्मिलित करें</string>
+  <string name="arrows_style">तीर शैली</string>
+  <string name="arrows_style_summary">तीर कीपैड की शैली चुनें</string>
+  <string name="disable_mt">मुटिटौच अक्षम करें</string>
+  <string name="compound_suggestions">यौगिक सुझाव</string>
+  <string name="compound_suggestions_summary">(मुख्य रूप से जर्मन) के लिए यौगिक शब्दों का सुझाव सक्षम करें</string>
+  <string name="current_language">वर्तमान भाषा</string>
+  <string name="language_specific_options">भाषा विशिष्ट विकल्प</string>
+  <string name="no_lansdcape_fullscreen">कोई लैंडस्केप फुल्ल्स्क्रीन</string>
+  <string name="no_lansdcape_fullscreen_summary">डु नहीं लैंडस्केप ओरिएंटेशन में फुल्ल्स्क्रीन मोड पर स्विच करें</string>
+  <string name="t9_length_priority">टी9 लंबाई प्राथमिकता</string>
+  <string name="t9_length_priority_summary">दे प्राथमिकता एक ही लंबाई के साथ शब्दों को जब टी9 सुझाव प्रदर्शित करने</string>
+  <string name="t9_next_key">टी9 अगली कुंजी</string>
+  <string name="t9_next_key_summary">एक अगले बटन टी9 पोर्ट्रेट मोड में प्रदर्शित करें</string>
+  <string name="suggest_numbers">संख्याओं का सुझाव</string>
+  <string name="suggest_numbers_summary">एक गैर-वर्णमाला वर्ण के साथ शुरू होने वाले शब्दों के लिए सुझाव सक्षम करें</string>
+  <string name="trial_popup">यह एक परीक्षण संस्करण है। "स्मार्ट कुंजीपटल प्रो" अब आवेदन का समर्थन और कभी नहीं इस कष्टप्रद पॉपअप फिर से देखने को मिलता है :)</string>
+  <string name="buy">खरीदें</string>
+  <string name="no_thanks">नहीं, धन्यवाद</string>
+  <string name="chinese_simplified">चीनी (सरलीकृत)"</string>
+  <string name="yes">हाँ</string>
+  <string name="no">नहीं</string>
+  <string name="english_dic">आप \"स्मार्ट Keyboard के लिए इंग्लिश\" को डाउनलोड करने की आवश्यकता हिंदी सुझावों और स्वत: सुधार को सक्षम करने के लिए एंड्राइड बाजार से। क्या आप इसे अब डाउनलोड करने के लिए चाहते हैं?</string>
+  <string name="physical_kbd">भौतिक कुंजीपटल</string>
+  <string name="physical_kbd_summary">सुझाव तथा भौतिक कुंजीपटल के साथ कुंजी अनुवाद को सक्षम करें। भाषा स्विच करने के लिए शिफ्ट+स्पेस का उपयोग करें।</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">आवाज़ इनपुट</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <string name="voice_warning_locale_not_supported">आवाज़ इनपुट वर्तमान में आपकी भाषा के लिए समर्थित नहीं है, लेकिन अंग्रेजी में काम करता है।</string>
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <string name="voice_warning_may_not_understand">आवाज़ इनपुट एक प्रयोगात्मक Google के नेटवर्क्ड वाक् पहचान का उपयोग करके सुविधा है।</string>
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <string name="voice_warning_how_to_turn_off">आवाज़ इनपुट बंद चालू करने के लिए, कुंजीपटल सेटिंग्स पर जाएँ।</string>
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">अब बोलो</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">काम करना</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">त्रुटि। कृपया पुन: प्रयास करें।</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">नहीं कर सकता कनेक्ट</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">त्रुटि, बहुत ज्यादा भाषण।</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">ऑडियो समस्या</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">सर्वर त्रुटि</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">भाषण सुना नहीं</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">कोई जोड़ नहीं मिला</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">आवाज़ खोज स्थापित नहीं</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">ठीक है</string>
+  <string name="estonian">एस्टोनियाई</string>
+  <string name="lithuanian">लिथुआनियाई</string>
+  <string name="latvian">लातवियाई</string>
+  <string name="only_one_language">चेतावनी! आपके द्वारा चयनित भाषा के लिए महत्वपूर्ण के लिए एक ही भाषा के रूप में, इस कुंजी नहीं प्रदर्शित किया जाएगा, लेकिन वर्तमान भाषा इस भाषा के लिए सेट किया गया है।</string>
+  <string name="different_language">चेतावनी! तुम सिर्फ चयनित भाषा एक ही आप \"भाषा चयन चाबी\" में परिभाषित विकल्प नहीं है!</string>
+  <string name="hebrew_alt">हेब्रियू-ऑल्ट लेआउट</string>
+  <string name="hebrew_alt_summary">बैकस्पेस कुंजी हिब्रू लेआउट में बाईं ओर डाल दिया</string>
+  <string name="portrait_fullscreen">पोर्ट्रेट फुल्ल्स्क्रीन</string>
+  <string name="portrait_fullscreen_summary">कुंजीपटल में फुल्ल्स्क्रीन मोड (बहुत छोटे स्क्रीन पर उपयोगी हो सकते हैं) पोर्ट्रेट ओरिएंटेशन में सेट करें</string>
+  <string name="czech_full">चैक/स्लोवाक भरा लेआउट</string>
+  <string name="czech_full_summary">स्वराघात वर्णों के साथ एक शीर्ष पंक्ति में चेक और स्लोवाक लेआउट शामिल हैं</string>
+  <string name="swipe_sensitivity">ज़ोर से मारना संवेदनशीलता</string>
+  <string name="swipe_sensitivity_summary">इशारों की संवेदनशीलता सेट करें। चेतावनी: यदि आप बहुत अधिक संवेदनशीलता में वृद्धि, मल्टीटॉच टाइपिंग एक संकेत के रूप में व्याख्या की जा सकता है।</string>
+  <string name="catalan">कातलान</string>
+  <string name="multitap_interval">मल्टीटॉप अंतराल</string>
+  <string name="multitap_interval_summary">मल्टीटॉप, टी9 या कोरियाई \"शार्ट वोवेल्स\" में उदाहरण के लिए के लिए सेट अधिकतम देरी लेआउट।</string>
+  <string name="persian">फ़ारसी</string>
+  <string name="calibration">अंशांकन</string>
+  <string name="calibration_summary">अंशांकित सटीकता में सुधार करने के लिए कुंजीपटल</string>
+  <string name="calibration_instructions">अपने कुंजीपटल कैलिब्रेट करने के लिए, निम्न पाठ टाइप करें:</string>
+  <string name="calibration_done">अंशांकन समाप्त हो गया है! \"सेव\" पर क्लिक करें नए सेटिंग्स, या \"कैंसिल\" का उपयोग करने के लिए करने के लिए पुन: प्रयास करें। ध्यान दें कि आप बेहतर परिणामों के लिए दोनों चित्र और परिदृश्य मोड में अंशांकन चलाने चाहिए।</string>
+  <string name="calibration_profile_is">अपने अंशांकन प्रोफ़ाइल है:</string>
+  <string name="calibration_reset">आप के बारे में अंशांकन सेटिंग्स डिफ़ॉल्ट मानों के लिए रीसेट करने के लिए कर रहे हैं। क्या आप जारी रखना चाहते हैं?</string>
+  <string name="reset">रीसेट करें</string>
+  <string name="save">सहेजें</string>
+  <string name="get_skins">अधिक स्किन्स...</string>
+  <string name="sms_mode">एसएमएस मोड</string>
+  <string name="sms_mode_summary">विस्तारित लहजे सुझाए गए शब्दों से कोई एसएमएस लिखते समय निकालें</string>
+  <string name="key_height_summary">प्रमुख ऊंचाई को अनुकूलित करें</string>
+  <string name="alt_symbols">ऑल्ट प्रतीकों</string>
+  <string name="alt_symbols_summary">प्रतीकों (123) पैनल में ऑल्ट लेबल दिखाएँ</string>
+  <string name="hide_period">अवधि छुपाएँ</string>
+  <string name="hide_period_summary">स्पेस बार बड़ा आकार देखने के लिए अवधि महत्वपूर्ण छुपाएँ</string>
+  <string name="hide_comma">अल्पविराम छुपाएँ</string>
+  <string name="hide_comma_summary">स्पेस बार बड़ा करने के लिए अल्पविराम (या मिस) कुंजी को छिपाने</string>
+  <string name="bottom_padding">निचली पेडिंग</string>
+  <string name="bottom_padding_summary">पोर्ट्रेट मोड में कुंजीपटल के तल पर अतिरिक्त स्थान जोड़ें</string>
+  <string name="apostrophe_separator">एपॉस्ट्रॉफ़ी विभाजक</string>
+  <string name="apostrophe_separator_summary">एपॉस्ट्रॉफ़ी एक शब्द विभाजक के रूप में पर विचार (उपयोगी इतालवी के लिए उदाहरण के लिए)</string>
+  <string name="ignore_hard_kbd">मुश्किल कीबोर्ड पर ध्यान न दें</string>
+  <string name="ignore_hard_kbd_summary">प्रदर्शित सॉफ़्ट कुंजीपटल परिदृश्य मोड में भले ही मुश्किल कीबोर्ड मौजूद है (ड्रॉइड प्रो के साथ किया जा सकता है)</string>
+  <string name="pinyin">पिन यिन</string>
+  <string name="tatar">तातार</string>
+  <string name="custom_punctuation">कस्टम विराम चिह्न</string>
+  <string name="custom_punctuation_summary">विराम चिह्न सुझाव पट्टी में प्रदर्शित संकेत को अनुकूलित करें</string>
+  <string name="kazakh">कज़ाख़</string>
+  <string name="azerbaijani">अज़रबैजानी</string>
+  <string name="armenian">आर्मीनियाई</string>
+  <string name="vietnamese">वियतनामी</string>
+  <string name="no_landscape_suggestions">कोई लैंडस्केप सुझाव</string>
+  <string name="no_landscape_suggestions_summary">दू नोट लैंडस्केप ओरिएंटेशन में सुझाव पट्टी प्रदर्शित करें</string>
+  <string name="arrows_main">तीर दिखाएँ</string>
+  <string name="arrows_main_summary">चुनें जब मुख्य कुंजीपटल पर तीर कुंजियाँ प्रदर्शित किए जाते हैं</string>
+  <string name="cursor_volume">कर्सर मात्रा के साथ</string>
+  <string name="cursor_volume_summary">वॉल्यूम कुंजियों के साथ कर्सर ले जाएँ</string>
+  <string name="export_user_dic">निर्यात उपयोगकर्ता शब्दकोश</string>
+  <string name="export_user_dic_summary">उपयोगकर्ता शब्दकोश CSV प्रारूप में निर्यात करें</string>
+  <string name="export_autotext">ऑटोटेक्स्ट निर्यात करें</string>
+  <string name="export_autotext_summary">ऑटोटेक्स्ट शॉर्टकट CSV प्रारूप में निर्यात करें</string>
+  <string name="import_user_dic">निर्यात उपयोगकर्ता शब्दकोश</string>
+  <string name="import_autotext">स्वत: पाठ आयात करें</string>
+  <string name="export_complete">CVS पूर्ण निर्यात करें</string>
+  <string name="import_complete">CVS आयात पूर्ण</string>
+  <string name="export_user_dic_warning">चेतावनी! आप के बारे में उपयोगकर्ता शब्दकोश की फ़ाइल CSV प्रारूप में निर्यात करने के लिए कर रहे हैं।  यह /sdcard/smartkeyboardpro/userdic.csv को अधिलेखित कर देगा। क्या आप जारी रखना चाहते हैं?</string>
+  <string name="import_user_dic_warning">चेतावनी! आप के बारे में उपयोगकर्ता शब्दकोश CSV फ़ाइल /sdcard/smartkeyboardpro/userdic.csv से आयात करने के लिए कर रहे हैं।   यह आपके उपयोगकर्ता शब्दकोश की पूरी सामग्री को अधिलेखित कर देगा। क्या आप जारी रखना चाहते हैं?   </string>
+  <string name="export_autotext_warning">चेतावनी! आप के बारे में उपयोगकर्ता शब्दकोश की फ़ाइल CSV प्रारूप में निर्यात करने के लिए कर रहे हैं।  यह /sdcard/smartkeyboardpro/userdic.csv को अधिलेखित कर देगा। क्या आप जारी रखना चाहते हैं?</string>
+  <string name="import_autotext_warning">चेतावनी! आप के बारे में उपयोगकर्ता शब्दकोश CSV फ़ाइल /sdcard/smartkeyboardpro/userdic.csv से आयात करने के लिए कर रहे हैं।   यह आपके उपयोगकर्ता शब्दकोश की पूरी सामग्री को अधिलेखित कर देगा। क्या आप जारी रखना चाहते हैं?   </string>
+  <string name="accents_priority">लहजे प्राथमिकता</string>
+  <string name="accents_priority_summary">प्राथमिकता स्वराघात वर्णों (या डबल व्यंजन) प्रतीकों के बजाय जब लंबे समय पर कुंजियाँ दबा दे। केवल कुछ भाषाओं के लिए काम करता है।</string>
+  <string name="afrikaans">अफ़्रिकान्स</string>
+  <string name="mongolian">मंगोलियाई</string>
+  <string name="prefs_enable_recorrection">शब्दों को सही करने के लिए स्पर्श</string>
+  <string name="prefs_enable_recorrection_summary">उन्हें सही करने के लिए दर्ज किए गए शब्दों को छूने</string>
+  <string name="macedonian">मासेदोनियन</string>
+  <string name="luxembourgish">लक्ज़म्बर्गिश</string>
+  <string name="albanian">अल्बानियाई</string>
+  <string name="belarusian">बेलारूसी</string>
+  <string name="indonesian">इंडोनेशियाई</string>
+  <string name="alt_compact">विस्तारित कॉम्पेक्ट/टी9</string>
+  <string name="alt_compact_summary">सभी संभव पत्रों (अंग्रेजी केवल लेआउट) लंबा प्रेस कॉम्पेक्ट/टी9 मोड में प्रदर्शित करता है</string>
+  <string name="backup_failed">बैकअप विफल रहा!</string>
+  <string name="restore_failed">पुनर्स्थापना विफल! शायद बैकअप फ़ाइल दूषित हो गया था।</string>
+  <string name="hide_in_portrait">पोर्ट्रेट में छुपाना</string>
+  <string name="hide_in_portrait_summary">कुंजीपटल पोर्ट्रेट (ड्रॉइड प्रो पर उपयोगी) में हमेशा छुपाएँ</string>
+  <string name="twitter">ट्विटर</string>
+  <string name="space_alert">अंतरिक्ष की चेतावनी</string>
+  <string name="space_alert_summary">केवल के लिए अंतरिक्ष बार कांपना</string>
+  <string name="unicode">यूनिकोड</string>
+  <string name="hide_lang_key">भाषा कुंजी छुपाएँ</string>
+  <string name="hide_lang_key_summary">जब कई भाषाओं में सक्षम हैं की भाषा चयन कुंजी छुपाएँ</string>
+  <string name="show_language_icon">भाषा चिह्न दिखाएँ</string>
+  <string name="show_language_icon_summary">एक भाषा चिह्न स्थिति पट्टी में प्रदर्शित करें</string>
+  <string name="emoji">ईमोजी</string>
+  <string name="domain_key">डोमेन कुंजी</string>
+  <string name="domain_key_summary">डोमेन (.com) के लिए महत्वपूर्ण प्रदर्शित करें</string>
+  <string name="numbers_top">शीर्ष पर संख्या</string>
+  <string name="numbers_top_summary">चुनें जब कोई अतिरिक्त पंक्ति संख्याओं के साथ मुख्य कीबोर्ड के शीर्ष पर प्रदर्शित होता है</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> में आपका स्वागत है"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"हावभाव लेखन के साथ"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"आरंभ करें"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"अगला चरण"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> सेट करना"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> को सक्षम करें"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"कृपया अपनी भाषा और अक्षर सेटिंग में \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" को चेक करें. इससे वह आपके डिवाइस पर चलने के लिए अधिकृत हो जाएगा."</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"सेटिंग में सक्षम करें"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"<xliff:g id="APPLICATION_NAME">%s</xliff:g> पर स्विच करें"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"इसके बाद, \"<xliff:g id="APPLICATION_NAME">%s</xliff:g>\" को अपनी सक्रिय लेख-इनपुट पद्धति के रूप में चुनें."</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"इनपुट पद्धतियां स्विच करें"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"बधाई हो, आप बिल्कुल तैयार हैं!"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"अब आप <xliff:g id="APPLICATION_NAME">%s</xliff:g> के साथ अपने सभी पसंदीदा ऐप्स  में लिख सकते हैं."</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"अतिरिक्त भाषाएं कॉन्फ़िगर करना"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"समाप्त"</string>
+  </resources>

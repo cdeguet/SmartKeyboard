@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+  <string name="help">Օգնություն</string>
+  <string name="about">Մասին...</string>
+  <string name="auto_cap">Ավտոմեծատառում</string>
+  <string name="auto_cap_summary">Մեծատառել նախադասության սկիզբը</string>
+  <string name="keyboard_settings">Smart Keyboard Pro Կայանքներ</string>
+  <string name="settings">Կարգավորումներ</string>
+  <string name="general_settings">Հիմնական կայանքներ</string>
+  <string name="text_prediction">Տեքստի կանխագուշակում</string>
+  <string name="sound_vibrate">Ձայն և թրթռում</string>
+  <string name="language">Լեզու</string>
+  <string name="language_summary">Փոխել ստեղնաշարի լեզուն և շերտը</string>
+  <string name="lang_key">Լեզվի ընտրության կոճակ</string>
+  <string name="lang_key_summary">Ընտրել հասանելի լեզու</string>
+  <string name="english">Անգլերեն</string>
+  <string name="english_intl">Անգլերեն (International)</string>
+  <string name="english_dvorak">Անգլերեն (Dvorak)</string>
+  <string name="english_azerty">Անգլերեն (AZERTY)</string>
+  <string name="french">Ֆրանսերեն</string>
+  <string name="romanian">Ռումիներեն</string>
+  <string name="bulgarian">Բուլղարերեն</string>
+  <string name="russian">Ռուսերեն</string>
+  <string name="russian_phonetic">Ռուսերեն (phonetic)</string>
+  <string name="spanish">Իսպաներեն</string>
+  <string name="italian">Իտալերեն</string>
+  <string name="german">Գերմաներեն</string>
+  <string name="portuguese">Պորտուգալերեն</string>
+  <string name="danish">Դանիերեն</string>
+  <string name="finnish">Ֆիններեն</string>
+  <string name="hebrew">Եբրայերեն</string>
+  <string name="norwegian">Նորվեգերեն</string>
+  <string name="swedish">Շվեդերեն</string>
+  <string name="georgian">Վրացերեն</string>
+  <string name="czech_qwerty">Չեխերեն (QWERTY)</string>
+  <string name="czech_qwertz">Չեխերեն (QWERTZ)</string>
+  <string name="greek">Հունարեն</string>
+  <string name="dutch">Հոլանդերեն</string>
+  <string name="polish">Լեհերեն</string>
+  <string name="ukrainian">Ուկրաիներեն</string>
+  <string name="vibrate">Թրթռացնել</string>
+  <string name="vibrate_summary">Թրթռացնել կոճակի սեղմամբ</string>
+  <string name="vibrate_duration">Թրթռման տևողությունը</string>
+  <string name="label_next_key">Հաջորդ</string>
+  <string name="label_done_key">Պատրաստ է</string>
+  <string name="label_send_key">Ուղարկել</string>
+  <string name="advanced_settings">Ընդլայնված կայանքներ</string>
+  <string name="sound_on_keypress">Հպման ձայնը</string>
+  <string name="gestures">Ժեստեր</string>
+  <string name="swipe_left">Քաշել ձախ</string>
+  <string name="swipe_right">Քաշել աջ</string>
+  <string name="swipe_up">Քաշել վեր</string>
+  <string name="swipe_down">Քաշել վար</string>
+  <string name="saved">Պահպանված է</string>
+  <string name="quick_fixes">Արագ ուղղում</string>
+  <string name="quick_fixes_summary">Ուղղել տիպային սխալները</string>
+  <string name="show_suggestions">Ցուցադրել առաջարկությունները</string>
+  <string name="show_suggestions_summary">Ցուցադրել առաջարկվող բառերը գրելու ընթացքում</string>
+  <string name="auto_complete">Ինքնաավարտում</string>
+  <string name="contact_dic">Կոնտակտների բառարան</string>
+  <string name="contact_dic_summary">Առաջարկել անուններ հեռախոսագրքից (Android 2.0+)</string>
+  <string name="show_preview">Ցուցադրել դիտման պատուհանը</string>
+  <string name="show_preview_summary">Ցուցադրել պատուհանը, երբ կաճակը սեղմված է</string>
+  <string name="skin_selection">Ընտրել ոճը</string>
+  <string name="skin_summary">Փոխել ստեղնաշարի շապիկը</string>
+  <string name="transparency">Թափանցիկ</string>
+  <string name="opacity">Թափանցիկությունը</string>
+  <string name="transparency_summary">Սահմանել ստեղնաշարի թափանցիկությունը</string>
+  <string name="volume">Ձայնի բարձրությունը</string>
+  <string name="volume_summary">Սահմանել կոճակի ձայնի բարձրությունը</string>
+  <string name="debug_logs">Միացնել մշակման լոգերը</string>
+  <string name="always_suggest">Միշտ առաջարկել բառեր</string>
+  <string name="custom_autotext">Անհատական Ինքնատեքստ</string>
+  <string name="add_autotext">Ավելացնել Ինքնատեսքտը...</string>
+  <string name="edit_autotext">Խմբագրել ԻնքնաՏեքստը</string>
+  <string name="autotext_key">Փոխարինել բառը.</string>
+  <string name="autotext_context_edit">Խմբագրել</string>
+  <string name="autotext_context_delete">Ջնջել</string>
+  <string name="enable_arrows">Միացնել սլաքները</string>
+  <string name="enable_arrows_summary">Մատչելի 123 կոճակով</string>
+  <string name="always_caps">Միշտ մեծատառ</string>
+  <string name="display_alt_labels">Ցուցադրել այլ պիտակներ</string>
+  <string name="user_dictionary">Օգտատիրոջ բառարան</string>
+  <string name="add_word">Ավելացնել բառ</string>
+  <string name="edit_word">Խմբագրել բառը</string>
+  <string name="delete_word">Ջնջել բառը</string>
+  <string name="word">Բառ</string>
+  <string name="forum">Ֆորում</string>
+  <string name="download_dic">Ներբեռնել բառարան</string>
+  <string name="download_dic_summary">Ներբեռնել բառարաններ Google Play-ից</string>
+  <string name="mic_button">Խոսափողի կոճակ</string>
+  <string name="voice_input">Ձայնային մուտքագրում</string>
+  <string name="cancel">Չեղարկել</string>
+  <string name="retry">Կրկնել</string>
+  <string name="restart_voice">Վերամեկնարկել ձայնային մուտքագրումը</string>
+  <string name="voice_best">Ձայնային մուտքագրման լավագույն ընտրություն</string>
+  <string name="voice_best_summary">Ինքնուրույն ընտրել լավագույն ընտրությունը</string>
+  <string name="touch_points">Ցուցադրել հպման կետերը</string>
+  <string name="portrait_mode">Ուղղահայաց ռեժիմ</string>
+  <string name="portrait_mode_summary">Ընտրել նորմալ, T9 կամ կոմպակտ շերտը ուղղահայացի համար</string>
+  <string name="candidate_color">Թեկնածու գույն</string>
+  <string name="candidate_color_summary">Առաջարկվող բառի գույնը առաջարկման վահանակում</string>
+  <string name="welcome">Շնորհակալություն տեղակայման համար \@!\n\nՍտեղնաշարը միացնելու համար մտեք \"Language &amp; keyboards\" 
+	(կամ \"Locale &amp; text\") կարգավորումներում, և ընտրեք \"\@\" նշումը: 
+Այնուհետև, \@-ին անցելու համար, անհրաժեշտ է երկար սեղմել ցանկացած տեքստի վրա
+	պատուհանում, ընտրեք \"Input method\", և ընտրեք \@ ցանկում: Կարող եք երկար սեղմել \"123\" նիշի վրա, որպեսզի մուտք գործեք
+	ստեղնաշարի կարգավորումներ: \n\nԱյժմ մտեք Settings (you can click below), և վայելեք!\n\nՀուշում. դուք կարող եք հեռացնել մեկնարկչի
+	պատկերակը ստեղնաշարի կարգավորումներից</string>
+  <string name="disable_launcher">Անջատել մեկնարկչի պատկերակը</string>
+  <string name="space_when_pick">Բացակ բառի ընտրությունից հետո</string>
+  <string name="smiley_key">Սմայլի կոճակը</string>
+  <string name="select_sound">Ընտրեք ձյնի ոճը</string>
+  <string name="smiley_editor">Սմայլի խմբագրիչ</string>
+  <string name="edit_smiley">Խմբագրել սմայլ</string>
+  <string name="smart_dictionary">Smart Բառարան</string>
+  <string name="backup">Արխիվացման կարգավորումներ</string>
+  <string name="backup_to_sd">Արխիվացնել SD քարտում</string>
+  <string name="restore">Վերականգնել SD քարտից</string>
+  <string name="backup_complete">Արխիվացումն ավարտվեց</string>
+  <string name="space_preview">Բացակի նախադիտում</string>
+  <string name="space_preview_summary">Ցուցադրել նախադիտում բացակ կոճակի համար</string>
+  <string name="turkish">Թուրքերեն</string>
+  <string name="hungarian">Հունգարերեն</string>
+  <string name="icelandic">Իսլանդերեն</string>
+  <string name="bosnian">Բոսներեն</string>
+  <string name="croatian">Հորվաթերեն</string>
+  <string name="serbian">Սերբերեն</string>
+  <string name="slovene">Սլովեներեն</string>
+  <string name="close">Փակել</string>
+  <string name="arabic">Արաբերեն</string>
+  <string name="layout">Շերտ</string>
+  <string name="default_latin_lang">&lt;Լռելայն&gt;</string>
+  <string name="korean">Կորերեն</string>
+  <string name="rtl_suggestions">RTL առաջարկություններ</string>
+  <string name="clean_userdic">Մաքրել օգտատիրոջ բառարանը</string>
+  <string name="warn_clean_userdic">Ուշադրություն! Այժմ կմաքրվեն ձեր օգտատիրոջ բառարանի ԲՈԼՈՐ բառերը: Իրոք շարունակե՞լ:</string>
+  <string name="suggest_punctuation">Առաջարկել կետադրություն</string>
+  <string name="key_height">Կոճակի բարձրութ.</string>
+  <string name="thai">Թայլանդերեն</string>
+  <string name="longpress_duration">Երկար սեղմման տևողությունը</string>
+  <string name="learn_new_words">Սովորել նոր բառեր</string>
+  <string name="slovak">Սլովակերեն</string>
+  <string name="domain_editor">Դոմենի խմբագրիչ</string>
+  <string name="domain_editor_title">Հպվեք դոմենը խմբագրելու համար</string>
+  <string name="edit_domain">Փոխել դոմենը</string>
+  <string name="esperanto">Էսպերսնտո</string>
+  <string name="japanese">Ճապոներեն</string>
+  <string name="arrows_style">Սլաքների ոճը</string>
+  <string name="current_language">Ընթացիկ լեզուն</string>
+  <string name="language_specific_options">Լեզվի հատուկ կայանք</string>
+  <string name="no_lansdcape_fullscreen">Հորիզոնական դիրքում էկրանը լիաէկրան չէ</string>
+  <string name="t9_length_priority">T9 երկարույթունը</string>
+  <string name="t9_next_key">T9 Հաջորդ կոճակ</string>
+  <string name="suggest_numbers">Առաջարկել թվեր</string>
+  <string name="buy">Գնել</string>
+  <string name="no_thanks">Ոչ, շնորհակալություն</string>
+  <string name="chinese_simplified">Չինարեն (Simpl)"</string>
+  <string name="yes">Այո</string>
+  <string name="no">Ոչ</string>
+  <string name="english_dic">Ձեզ ԱՆՀՐԱԺԵՇՏ է ներբեռնել \"English for Smart Keyboard\"-ի համար Android Market-ից, որպեսզի միացնեք English-ի հուշումները և ինքնաուղղումը: Ցանկանու՞մ եք ներբեռնել այն:</string>
+  <string name="physical_kbd">Ֆիզիկական ստեղնաշար</string>
+  <!-- Voice related labels -->
+  <!-- Title of the warning dialog that shows when a user initiates voice input for
+         the first time. -->
+  <string name="voice_warning_title">Ձայնային մուտքագրում</string>
+  <!-- Message that gets put at the top of the warning dialog if the user is attempting to use
+         voice input in a currently unsupported locale. Voice input will work for such a user,
+         but it will only recognize them in English. -->
+  <!-- Message of the warning dialog that shows when a user initiates voice input for
+         the first time, or turns it on in settings. -->
+  <!-- An additional part of the warning dialog for voice input that only shows when the user
+         actually initiates voice input, rather than just turning it on in settings. -->
+  <!-- Short message to tell the user the system is ready for them to speak. -->
+  <string name="voice_listening">Խոսեք</string>
+  <!-- Short message shown after the user finishes speaking. -->
+  <string name="voice_working">Մշակում</string>
+  <!-- Short message shown when a generic error occurs. -->
+  <string name="voice_error">Սխալ: Փորձեք կրկին:</string>
+  <!-- Short message shown for a network error. -->
+  <string name="voice_network_error">Միացված չէ</string>
+  <!-- Short message shown for a network error where the utterance was really long,
+         in which case we should suggest that the user speak less. -->
+  <string name="voice_too_much_speech">Սխալ, ամուկ է:</string>
+  <!-- Short message shown for an audio error. -->
+  <string name="voice_audio_error">Ձայնի խնդիր</string>
+  <!-- Short message shown for an error with the voice server. -->
+  <string name="voice_server_error">Սերվերի սխալ</string>
+  <!-- Short message shown when no speech is heard. -->
+  <string name="voice_speech_timeout">Ձայն չլսվեց</string>
+  <!-- Short message shown when the server couldn't parse any speech. -->
+  <string name="voice_no_match">Համընկնումներ չգտնվեցին</string>
+  <!-- Short message shown when the user initiates voice and voice
+        search is not installed. -->
+  <string name="voice_not_installed">Ձայնային որոնումը տեղակայված չէ</string>
+  <!-- Label on button when an error occurs -->
+  <string name="ok">Լավ</string>
+  <string name="estonian">Էստոներեն</string>
+  <string name="lithuanian">Լիտվերեն</string>
+  <string name="latvian">Լատվիերեն</string>
+  <string name="hebrew_alt">Եբրայերենի այլ շերտ</string>
+  <string name="portrait_fullscreen">Ուղղահայաց լիաէկրան</string>
+  <string name="czech_full">Czech/Slovak լիարժեք շերտ</string>
+  <string name="swipe_sensitivity">Սահեցման հպազգայունությունը</string>
+  <string name="catalan">Կատալոներեն</string>
+  <string name="multitap_interval">Սովորական տևողությունը</string>
+  <string name="persian">Պարսկերեն</string>
+  <string name="calibration">Կարգավորում</string>
+  <string name="calibration_summary">Կարգավորեք ստեղնաշարը, որպեսզի մուտքագրումը հարմար լինի</string>
+  <string name="reset">Ետակայել</string>
+  <string name="save">Պահպանել</string>
+  <string name="get_skins">Ստացեք այլ շապիկներ...</string>
+  <string name="sms_mode">SMS ռեժիմ</string>
+  <string name="key_height_summary">Փոխել կոճակի բարձրությունը</string>
+  <string name="alt_symbols">Այլ սիմվոլներ</string>
+  <string name="hide_period">Թաքցնել տևողությունը</string>
+  <string name="apostrophe_separator">Ապաթարցի բաժաննիչ</string>
+  <string name="tatar">Թաթարերեն</string>
+  <string name="kazakh">Ղազախերեն</string>
+  <string name="azerbaijani">Ադրբեջաներեն</string>
+  <string name="armenian">Հայերեն</string>
+  <string name="vietnamese">Վիետնամերեն</string>
+  <string name="arrows_main">Ցուցադրել սլաքները</string>
+  <string name="cursor_volume">Կուրսորը ձայնի ստեղնով</string>
+  <string name="export_user_dic">Արտահանել օգտատիրոջ բառարանը</string>
+  <string name="export_user_dic_summary">Արտահանել օգտատիրոջ բառարանը CSV ձևաչափով</string>
+  <string name="export_autotext">Արտահանել ԻնքնաՏեքստ</string>
+  <string name="export_complete">CVS-ի արտահանումն ավարտվեց</string>
+  <string name="import_complete">CVS-ի ներմուծումն ավարտվեց</string>
+  <string name="export_user_dic_warning">Ուշադրություն! Դուք արտահանելու եք օգտատիրոջ բառարանի ֆայլը CSV ձևաչափով:
+	Դա կվերագրի /sdcard/smartkeyboardpro/userdic.csv-ը: Շարունակե՞լ:</string>
+  <string name="import_user_dic_warning">Ուշադրություն! Դուք ներմուծելու եք օգտատիրոջ բառարանի ֆայլը CSV ձևաչափով /sdcard/smartkeyboardpro/userdic.csv-ը: 
+	Դա կվերագրի օգտատիրոջ բառարանի բոլոր տարրերը: Շարունակե՞լ: 
+	</string>
+  <string name="export_autotext_warning">Ուշադրություն! Դուք արտահանելու եք ԻնքնաՏեքստ բառարանի ֆայլը CSV ձևաչափով:
+	Դա կվերագրի /sdcard/smartkeyboardpro/userdic.csv-ը: Շարունակե՞լ:</string>
+  <string name="import_autotext_warning">Ուշադրություն! Դուք ներմուծելու եք ԻնքնաՏեքստ բառարանի ֆայլը CSV ձևաչափով /sdcard/smartkeyboardpro/userdic.csv-ը: 
+	Դա կվերագրի օգտատիրոջ բառարանի բոլոր տարրերը: Շարունակե՞լ: 
+	</string>
+  <string name="afrikaans">Աֆրիկաանս</string>
+  <string name="mongolian">Մոնղոլերեն</string>
+  <string name="prefs_enable_recorrection">Ուղղել բառին հպումով</string>
+  <string name="macedonian">Մակեդոներեն</string>
+  <string name="luxembourgish">Լյուքսեմբուրգերեն</string>
+  <string name="albanian">Ալբաներեն</string>
+  <string name="belarusian">Բելառուսերեն</string>
+  <string name="indonesian">Ինդոնեզերեն</string>
+  <string name="backup_failed">Ետարկել չհաջողվեց</string>
+  <string name="hide_in_portrait">Թաքցնել ուղղահայացի դեպքում</string>
+  <string name="hide_in_portrait_summary">Միշտ թաքցնել ստեղնաշարը ուղղահայացի դեպքում (կիրառելի է հատկապես Droid Pro-ում)</string>
+  <string name="twitter">Թվիթեր</string>
+  <string name="space_alert">Բացակի ռեակցիան</string>
+  <string name="space_alert_summary">Թրթռալ միայն բացակ կոճակի համար</string>
+  <string name="unicode">Յունիկոդ</string>
+  <string name="hide_lang_key">Թաքցնել լեզվի կոճակը</string>
+  <string name="hide_lang_key_summary">Թաքցնել լեզվի ընտրման կոճակը, երբ մի քանի լեզուներ միացված են</string>
+  <string name="show_language_icon">Ցուցադրել լեզվի պատկերակը</string>
+  <string name="show_language_icon_summary">Ցուցադրել լեզվի պատկերակը վիճակի վահանակում</string>
+  <string name="domain_key">Դոմենի կոճակը</string>
+  <string name="domain_key_summary">Ցուցադրել դոմենի (.com) կոճակը</string>
+  <string name="numbers_top">Թվերը վերևում</string>
+  <string name="numbers_top_summary">Ընտրել, երբ հավելյալ թվային տողը ցուցադրվում է վերևում` հիմնական ստեղնաշարում</string>
+  <string name="kurdish">Քրդերեն</string>
+  <string name="hindi">Հինդի</string>
+  <string name="marathi">Մարաթի</string>
+  <!-- Title of the setup wizard welcome screen. [CHAR LIMT=40] -->
+  <string name="setup_welcome_title">"Բարի գալուստ <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+  <!-- Additional title of the setup wizard welcome screen, just below the setup_welcome_title. [CHAR_LIMIT=64] -->
+  <string name="setup_welcome_additional_description">"Ժեստային մուտքագրմամբ"</string>
+  <!-- The label of the button that starts the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_start_action">"Սկսել"</string>
+  <!-- The label of the button that navigates the user to the next step of the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_next_action">"Հաջորդ քայլը"</string>
+  <!-- Title of the setup wizard. [CHAR LIMT=40] -->
+  <string name="setup_steps_title">"Տեղադրվում է <xliff:g id="APPLICATION_NAME">%s</xliff:g>-ը"</string>
+  <!-- Ordinal number of the 1st step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 1st step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step1_title">"Միացնել <xliff:g id="APPLICATION_NAME">%s</xliff:g>-ը"</string>
+  <!-- Detailed instruction of the 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step1_instruction">"Խնդրում ենք ստուգել «<xliff:g id="APPLICATION_NAME">%s</xliff:g>»-ը ձեր Լեզվի &amp; մուտքագրման կարգավորումներում: Դա կլիազորի նրան գործարկվել ձեր սարքում:"</string>
+  <!-- Detailed instruction of the already finished 1st step in the setup wizard. [CHAR LIMIT=120] -->
+  <!-- The label of the button that triggers the Language & input settings in order to enable the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step1_action">"Միացնել կարգավորումներից"</string>
+  <!-- Ordinal number of the 2nd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 2nd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step2_title">"Փոխարկել <xliff:g id="APPLICATION_NAME">%s</xliff:g>-ին"</string>
+  <!-- Detailed instruction of the 2nd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step2_instruction">"Հաջորդիվ, ընտրեք «<xliff:g id="APPLICATION_NAME">%s</xliff:g>»-ը որպես ձեր ակտիվ տեքստային մուտքագրման եղանակ:"</string>
+  <!-- The label of the button that triggers the choose input method dialog in order to select the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step2_action">"Փոխարկել մուտքագրման եղանակները"</string>
+  <!-- Ordinal number of the 3rd step in the setup wizard. [CHAR LIMIT=5] -->
+  <!-- Title of the 3rd step in the setup wizard. [CHAR LIMIT=64] -->
+  <string name="setup_step3_title">"Շնորհավորում ենք, դուք տեղադրեցիք բոլորը:"</string>
+  <!-- Detailed instruction of the 3rd step in the setup wizard. [CHAR LIMIT=120] -->
+  <string name="setup_step3_instruction">"Այժմ դուք կարող եք մուտքագրել ձեր բոլոր սիրելի հավելվածներում <xliff:g id="APPLICATION_NAME">%s</xliff:g>-ով:"</string>
+  <!-- The label of the button that triggers the screen for configuaring additional languages of the keyboard. [CHAR_LIMIT=64] -->
+  <string name="setup_step3_action">"Կարգավորել լրացուցիչ լեզուները"</string>
+  <!-- The label of the button that finishes the setup wizard. [CHAR_LIMIT=64] -->
+  <string name="setup_finish_action">"Ավարտված"</string>
+  <string name="more_symbols">Ավելի շատ սիմվոլնեչ</string>
+  <string name="more_symbols_summary">Ցուցադրել ավելի շատ այլ սիմվոլներ սիմվոլներում (123) ռեժիմում</string>
+  <string name="galician">Գալիցերեն</string>
+  </resources>

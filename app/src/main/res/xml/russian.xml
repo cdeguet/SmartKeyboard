@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="10%" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/small_key_height">
+
+    <Include xml="@xml/numbers_top"/>
+	<Row>
+		<Key android:codes="1081" android:keyLabel="й" altLabel="1" android:popupCharacters="1"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="1094" android:keyLabel="ц" altLabel="2" android:popupCharacters="2"/>
+		<Key android:codes="1091" android:keyLabel="у" altLabel="3" android:popupCharacters="3"/>
+		<Key android:codes="1082" android:keyLabel="к" altLabel="4" android:popupCharacters="4"/>
+		<Key android:codes="1077" android:keyLabel="е" altLabel="5" android:popupCharacters="5"/>
+		<Key android:codes="1085" android:keyLabel="н" altLabel="6" android:popupCharacters="6"/>
+		<Key android:codes="1075" android:keyLabel="г" altLabel="7" android:popupCharacters="7"/>
+		<Key android:codes="1096" android:keyLabel="ш" altLabel="8" android:popupCharacters="8"/>
+		<Key android:codes="1097" android:keyLabel="щ" altLabel="9" android:popupCharacters="9"/>
+		<Key android:codes="1079" android:keyLabel="з" altLabel="0" android:popupCharacters="0" android:keyEdgeFlags="right" />
+		
+	</Row>
+	<Row>
+		<Key android:codes="1092" android:keyLabel="ф" altLabel="\@" android:popupCharacters="\@"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="1099" android:keyLabel="ы" altLabel="\#" android:popupCharacters="\#"/>
+		<Key android:codes="1074" android:keyLabel="в" altLabel="$" android:popupCharacters="$₽"/>
+		<Key android:codes="1072" android:keyLabel="а" altLabel="%" android:popupCharacters="%"/>
+		<Key android:codes="1087" android:keyLabel="п" altLabel="&amp;" android:popupCharacters="&amp;"/>
+		<Key android:codes="1088" android:keyLabel="р" altLabel="*" android:popupCharacters="*"/>
+		<Key android:codes="1086" android:keyLabel="о" altLabel="=" android:popupCharacters="="/>
+		<Key android:codes="1083" android:keyLabel="л" altLabel="+" android:popupCharacters="+"/>
+		<Key android:codes="1076" android:keyLabel="д" altLabel="(" android:popupCharacters="("/>
+		<Key android:codes="1078" android:keyLabel="ж" altLabel=")" android:popupCharacters=")" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.6%p">
+		<Key android:codes="1103" android:keyLabel="я" altLabel="{" android:popupCharacters="{" android:horizontalGap="2.3%" android:keyEdgeFlags="left" />
+		<Key android:codes="1095" android:keyLabel="ч" altLabel="}" android:popupCharacters="}"/>
+		<Key android:codes="1089" android:keyLabel="с" altLabel="&quot;" android:popupCharacters="&quot;"/>
+		<Key android:codes="1084" android:keyLabel="м" altLabel="'" android:popupCharacters="'"/>
+		<Key android:codes="1080" android:keyLabel="и" altLabel=":" android:popupCharacters=":"/>
+		<Key android:codes="1090" android:keyLabel="т" altLabel=";" android:popupCharacters=";"/>
+		<Key android:codes="1100" android:keyLabel="ь" altLabel="/" android:popupCharacters="/"/>
+		<Key android:codes="1073" android:keyLabel="б" altLabel="[" android:popupCharacters="["/>
+		<Key android:codes="1102" android:keyLabel="ю" altLabel="]" android:popupCharacters="]" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.2%p">
+		<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift" 
+			android:iconPreview="@drawable/sym_keyboard_feedback_shift" 
+			iconID="@+id/shift_key" android:isModifier="true"
+			android:isSticky="true" android:keyWidth="12.6%p" android:keyEdgeFlags="left" />
+		<Key android:codes="1105" android:keyLabel="ё" android:horizontalGap="1.4%" />
+		<Key android:codes="33" android:keyLabel="!" />
+		<Key android:codes="63" android:keyLabel="\?" />
+		<Key android:codes="45" android:keyLabel="-" />
+		<Key android:codes="1101" android:keyLabel="э" />
+		<Key android:codes="1093" android:keyLabel="х" />
+		<Key android:codes="1098" android:keyLabel="ъ" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" iconID="@+id/delete_key" 
+			android:horizontalGap="1.4%" android:keyWidth="12.7%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

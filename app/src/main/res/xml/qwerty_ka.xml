@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2010-2017 Cyril Deguet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:keyWidth="10%p" android:horizontalGap="0px"
+	android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+
+    <Include xml="@xml/numbers_top"/>
+	<Row>
+		<Key android:codes="4325" android:keyLabel="ქ" altLabel="1"
+			android:popupCharacters="1" android:keyEdgeFlags="left" />
+		<Key android:codes="4332,4333" android:keyLabel="წ" altLabel="2"
+			android:popupCharacters="ჭ2" />
+		<Key android:codes="4308" android:keyLabel="ე" altLabel="3" android:popupCharacters="3" />
+		<Key android:codes="4320,4326" android:keyLabel="რ" altLabel="4"
+			android:popupCharacters="ღ4" />
+		<Key android:codes="4322,4311" android:keyLabel="ტ" altLabel="5"
+			android:popupCharacters="თ5" />
+		<Key android:codes="4327" android:keyLabel="ყ" altLabel="6" android:popupCharacters="6" />
+		<Key android:codes="4323" android:keyLabel="უ" altLabel="7" android:popupCharacters="7" />
+		<Key android:codes="4312" android:keyLabel="ი" altLabel="8" android:popupCharacters="8" />
+		<Key android:codes="4317" android:keyLabel="ო" altLabel="9" android:popupCharacters="9" />
+		<Key android:codes="4318" android:keyLabel="პ" altLabel="0"
+			android:popupCharacters="0" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.2%p">
+		<Key android:codes="4304" android:keyLabel="ა" altLabel="\@"
+			android:popupCharacters="\@" android:keyEdgeFlags="left" android:horizontalGap="3.55%p" />
+		<Key android:codes="4321,4328" android:keyLabel="ს" altLabel="\#"
+			android:popupCharacters="შ\#" />
+		<Key android:codes="4307" android:keyLabel="დ" altLabel="$" android:popupCharacters="$" />
+		<Key android:codes="4324" android:keyLabel="ფ" altLabel="&amp;" android:popupCharacters="&amp;" />
+		<Key android:codes="4306" android:keyLabel="გ" altLabel="*" android:popupCharacters="*" />
+		<Key android:codes="4336" android:keyLabel="ჰ" altLabel="-" android:popupCharacters="-" />
+		<Key android:codes="4335,4319" android:keyLabel="ჯ" altLabel="+"
+			android:popupCharacters="ჟ+" />
+		<Key android:codes="4313" android:keyLabel="კ" altLabel="("
+			android:popupCharacters="(" />
+		<Key android:codes="4314" android:keyLabel="ლ" altLabel=")"
+			android:popupCharacters=")" android:keyEdgeFlags="right" />
+	</Row>
+	<Row android:keyWidth="10.2%p">
+		<Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift"
+			android:keyWidth="12.6%p" android:isModifier="true" android:isSticky="true"
+			iconID="@+id/shift_key" android:iconPreview="@drawable/sym_keyboard_feedback_shift"
+			android:keyEdgeFlags="left" />
+		<Key android:codes="4310,4331" android:keyLabel="ზ"
+			android:horizontalGap="1.4%" altLabel="!" android:popupCharacters="ძ!" />
+		<Key android:codes="4334" android:keyLabel="ხ" altLabel="&quot;" android:popupCharacters="&quot;"/>
+		<Key android:codes="4330,4329" android:keyLabel="ც" altLabel="'"
+			android:popupCharacters="ჩ'" />
+		<Key android:codes="4309" android:keyLabel="ვ" altLabel=":"
+			android:popupCharacters=":" />
+		<Key android:codes="4305" android:keyLabel="ბ" altLabel=";"
+			android:popupCharacters=";" />
+		<Key android:codes="4316" android:keyLabel="ნ" altLabel="/"
+			android:popupCharacters="/" />
+		<Key android:codes="4315" android:keyLabel="მ" altLabel="\?"
+			android:popupCharacters="\?" />
+		<Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"
+			android:horizontalGap="1.4%" android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+			iconID="@+id/delete_key" android:keyWidth="12.7%p"
+			android:keyEdgeFlags="right" android:isRepeatable="true" />
+	</Row>
+	<Include xml="@xml/bottom_mic"/>
+
+</Keyboard>

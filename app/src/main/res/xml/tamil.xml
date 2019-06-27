@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          android:keyWidth="10%p" android:horizontalGap="0px"
+          android:verticalGap="@dimen/vertical_gap" android:keyHeight="@dimen/key_height">
+    <Include xml="@xml/numbers_top"/>
+    <Row android:keyWidth="9.1%p">
+        <Key android:codes="2950" android:keyLabel="\u0b86" altLabel="\u0bb8" android:popupCharacters="\u0bb8\u0bb6"
+             android:keyEdgeFlags="left" />
+        <Key android:codes="2952" android:keyLabel="\u0b88" altLabel="\u0bb7" android:popupCharacters="\u0bb7" />
+        <Key android:codes="2954" android:keyLabel="\u0b8a" altLabel="\u0b9c" android:popupCharacters="\u0b9c" />
+        <Key android:codes="2960" android:keyLabel="\u0b90" altLabel="\u0bb9" android:popupCharacters="\u0bb9" />
+        <Key android:codes="2959" android:keyLabel="\u0b8f" altLabel="\u0bb6\u0bcd\u0bb0\u0bc0" android:popupCharacters="\u0b84" />
+        <Key android:codes="2995" android:keyLabel="\u0bb3" altLabel="\u0b95\u0bcd\u0bb7" android:popupCharacters="\u0b98" />
+        <Key android:codes="2993" android:keyLabel="\u0bb1" altLabel="1" android:popupCharacters="\u0be71" />
+        <Key android:codes="2985" android:keyLabel="\u0ba9" altLabel="2" android:popupCharacters="\u0be82" />
+        <Key android:codes="2975" android:keyLabel="\u0b9f" altLabel="3" android:popupCharacters="\u0be93" />
+        <Key android:codes="2979" android:keyLabel="\u0ba3" altLabel="4" android:popupCharacters="\u0bea4" />
+        <Key android:codes="2970" android:keyLabel="\u0b9a" altLabel="5" android:popupCharacters="\u0beb5"
+             android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyWidth="9.1%p">
+        <Key android:codes="2949" android:keyLabel="\u0b85" altLabel="\u0bf9" android:popupCharacters="\u0bf9"
+             android:keyEdgeFlags="left" />
+        <Key android:codes="2951" android:keyLabel="\u0b87" altLabel="\u0bfa" android:popupCharacters="\u0bfa" />
+        <Key android:codes="2953" android:keyLabel="\u0b89" altLabel="\u0bf8" android:popupCharacters="\u0bf8" />
+        <Key android:codes="3021" android:keyLabel="\u0bcd" altLabel="\u0b83" android:popupCharacters="\u0b83" />
+        <Key android:codes="2958" android:keyLabel="\u0b8e" altLabel="(" android:popupCharacters="(" />
+        <Key android:codes="2965" android:keyLabel="\u0b95" altLabel=")" android:popupCharacters=")" />
+        <Key android:codes="2986" android:keyLabel="\u0baa" altLabel="6" android:popupCharacters="\u0bec6" />
+        <Key android:codes="2990" android:keyLabel="\u0bae" altLabel="7" android:popupCharacters="\u0bed7" />
+        <Key android:codes="2980" android:keyLabel="\u0ba4" altLabel="8" android:popupCharacters="\u0bee8" />
+        <Key android:codes="2984" android:keyLabel="\u0ba8" altLabel="9" android:popupCharacters="\u0bef9" />
+        <Key android:codes="2991" android:keyLabel="\u0baf" altLabel="0" android:popupCharacters="\u0bf2\u0bf1\u0be60"
+             android:keyEdgeFlags="right" />
+    </Row>
+    <Row android:keyWidth="9.1%p">
+        <Key android:codes="2964" android:keyLabel="\u0b94" altLabel="\u0bf3" android:horizontalGap="4.5%p"
+             android:popupCharacters="\u0bf3\u0bd7" android:keyEdgeFlags="left" />
+        <Key android:codes="2963" android:keyLabel="\u0b93" altLabel="\u0bf4" android:popupCharacters="\u0bf4" />
+        <Key android:codes="2962" android:keyLabel="\u0b92" altLabel="\u0bf5" android:popupCharacters="\u0bf5\u0bd0" />
+        <Key android:codes="2997" android:keyLabel="\u0bb5" altLabel="\u0bf6" android:popupCharacters="\u0bf6" />
+        <Key android:codes="2969" android:keyLabel="\u0b99" altLabel="\u0bf7" android:popupCharacters="\u0bf7" />
+        <Key android:codes="2994" android:keyLabel="\u0bb2" altLabel="&quot;" android:popupCharacters="&quot;" />
+        <Key android:codes="2992" android:keyLabel="\u0bb0" altLabel="-" android:popupCharacters="-" />
+        <Key android:codes="2996" android:keyLabel="\u0bb4" altLabel="/" android:popupCharacters="/" />
+        <Key android:codes="2974" android:keyLabel="\u0b9e" altLabel="\?" android:popupCharacters="\?" />
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete"  android:horizontalGap="0.8%"
+             android:iconPreview="@drawable/sym_keyboard_feedback_delete"
+             iconID="@+id/delete_key" android:keyWidth="12.8%p"
+             android:keyEdgeFlags="right" android:isRepeatable="true" />
+    </Row>
+    <Include xml="@xml/bottom_mic"/>
+
+</Keyboard>
