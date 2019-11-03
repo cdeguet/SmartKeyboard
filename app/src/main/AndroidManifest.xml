@@ -18,7 +18,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:versionCode="5300" android:versionName="4.21.0-beta1"
+    android:versionCode="5400" android:versionName="4.22.0-beta1"
 	package="com.dexilog.smartkeyboard">
 
 	<supports-screens android:anyDensity="true" />

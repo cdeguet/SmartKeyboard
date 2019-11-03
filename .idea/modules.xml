@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmartKeyboard.iml" filepath="$PROJECT_DIR$/SmartKeyboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smartkeyboardpro.iml" filepath="$PROJECT_DIR$/smartkeyboardpro.iml" />
     </modules>
   </component>
 </project>

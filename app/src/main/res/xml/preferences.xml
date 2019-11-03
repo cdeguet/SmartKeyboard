@@ -378,7 +378,7 @@
 		<Preference android:key="download_dic" android:title="@string/download_dic"
 			android:summary="@string/download_dic_summary">
 			<intent android:action="android.intent.action.VIEW"
-				android:data="market://search?q=pub:Dexilog, LLC" />
+				android:data="market://search?q=pub:Dexilog" />
 		</Preference>
 		<PreferenceCategory android:title="@string/language_specific_options"
 			android:key="language_specific_options" >
