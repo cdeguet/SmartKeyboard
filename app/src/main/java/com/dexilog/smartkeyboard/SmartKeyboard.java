@@ -1286,6 +1286,12 @@ public class SmartKeyboard extends InputMethodService implements
 	@Override
 	public void onComputeInsets(InputMethodService.Insets outInsets) {
 		super.onComputeInsets(outInsets);
+		if (mShowSuggestions) {
+			outInsets.visibleTopInsets = mCandidateViewContainer.getTop();
+		} else {
+			final View mKeyboardView = (View) mKeyboardSwitcher.getMainKeyboardView();
+			outInsets.visibleTopInsets = mKeyboardView.getTop();
+		}
 		if (!isFullscreenMode()) {
 			outInsets.contentTopInsets = outInsets.visibleTopInsets;
 		}

@@ -859,12 +859,12 @@ public class MainKeyboardView extends View implements View.OnClickListener, Keyb
 			mKeyboardChanged = false;
 			
 			// Draw background
-			mCanvas.clipRect(0, 0, getWidth(), getHeight(), Op.REPLACE);
+//			mCanvas.clipRect(0, 0, getWidth(), getHeight());
 			mBackground.setBounds(0, 0, getWidth(), getHeight());
 			mBackground.draw(mCanvas);
 		}
 		final Canvas canvas = mCanvas;
-		canvas.clipRect(mDirtyRect, Op.REPLACE);
+//		canvas.clipRect(mDirtyRect);
 
 		if (mKeyboard == null) return;
 
