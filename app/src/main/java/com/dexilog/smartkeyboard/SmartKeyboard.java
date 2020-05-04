@@ -2250,7 +2250,7 @@ public class SmartKeyboard extends InputMethodService implements
 			// Extract the selected or touching text
 			EditingUtil.SelectedWord touching = EditingUtil
 					.getWordAtCursorOrSelection(ic, mInputController.getLastSelectionStart(),
-							mInputController.getLastSelectionEnd(), mInputController.Companion.getWordSeparators());
+							mInputController.getLastSelectionEnd(), mInputController.wordSeparators);
 
 			if (touching != null && touching.word.length() > 1) {
 				ic.beginBatchEdit();
