@@ -6,9 +6,8 @@ import com.dexilog.smartkeyboard.utils.EditingUtil;
 import com.dexilog.smartkeyboard.utils.TextUtils;
 
 public class InputController {
-
-    static final public String wordSeparators = ".\u0020\u00a0,;:!?\n()[]*&@{}/<>_+=|\"\u3002\u3001\u3000\u060c\u061fã€Žã€ï½›ï½ï¼ˆï¼‰ã€Œã€ï¼šï¼›ï¼»ï¼½ï¼ï¼Ÿï½žï¼Šâ€»â™ªâ™¬â€¦ï¼¿ãƒ»â€¢â—¦ã€ã€‘â˜†â˜…â™¥";
-    static final public String sentenceSeparators = ".,;:!?\u060c\u061f\u3002\u3001ï¼šï¼ï¼Ÿâ€¦";
+    static final public String wordSeparators = ".\u0020\u00a0,;:!?\n()[]*&@{}/<>_+=|\"\u3002\u3001\u3000\u060c\u061f『』｛｝（）「」：；［］！？～＊※♪♬…＿・•◦【】☆★♥";
+    static final public String sentenceSeparators = ".,;:!?\u060c\u061f\u3002\u3001：！？…";
     static final int KEYCODE_SPACE = ' ';
     static final int KEYCODE_PERIOD = '.';
     static final int KEYCODE_NON_BREAKABLE_SPACE = '\u00a0';
